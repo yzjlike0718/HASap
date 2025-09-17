@@ -1,0 +1,18 @@
+:root { --gap: 14px; --radius: 14px; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "PingFang SC", "Segoe UI", Roboto, "Noto Sans CJK", sans-serif; color: #111; }
+.site-header, .site-footer { padding: 20px; max-width: 1100px; margin: 0 auto; }
+.toolbar { position: sticky; top: 0; z-index: 10; background: #fff; border-block: 1px solid #eee; padding: 10px 20px; display: flex; gap: 12px; align-items: center; max-width: 1100px; margin: 0 auto; }
+.toolbar input[type="search"] { flex: 1; padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; }
+.toolbar label { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; background: #f6f6f6; padding: 6px 10px; border-radius: 10px; }
+.toolbar button { padding: 8px 12px; border: 1px solid #ddd; background: #fff; border-radius: 10px; cursor: pointer; }
+.grid { max-width: 1100px; padding: 20px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: var(--gap); }
+.card { border: 1px solid #eee; border-radius: var(--radius); padding: 14px; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.03); display: flex; flex-direction: column; gap: 10px; }
+.card .meta { font-size: 13px; color: #666; display: flex; gap: 10px; flex-wrap: wrap; }
+.card .transcript { font-size: 14px; line-height: 1.5; background: #fafafa; border: 1px dashed #eee; padding: 10px; border-radius: 10px; }
+.players { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.player { border: 1px solid #eee; border-radius: 12px; padding: 10px; background: #fcfcfc; }
+.player .label { font-size: 13px; margin-bottom: 6px; display: flex; justify-content: space-between; }
+audio { width: 100%; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: #efefef; }
+.hidden { display: none; }
