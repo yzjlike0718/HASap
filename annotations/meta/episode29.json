@@ -1,0 +1,258 @@
+{
+  "story": {
+    "background": "古代中国汉朝汉武帝时期，宫廷内部，主要地点包括中翠宫、昭阳宫、正殿、钟南山等。世界观为皇权斗争、后宫纷争和家族关系。",
+    "plot": "皇后阿娇因卫子夫生女而愤怒，召韩嫣质问，韩嫣建议阿娇远离汉武帝以图后计。同时，平阳公主丧夫，汉武帝悲伤并安排丧事，计划为平阳公主修建府邸并意图将其许配给卫青。汉武帝召东方朔，明修上林院实为演武场，以强兵对付匈奴。东方朔与卫青讨论公主府建设，卫青困惑于设计意图。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "20多岁",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "果断",
+        "description": "年轻的汉朝皇帝，重情义且富有谋略"
+      },
+      "plot_related_info": {
+        "motivations": "巩固皇权，关心家人，希望强兵对付匈奴",
+        "relationships": {
+          "平阳公主": "姐弟",
+          "卫子夫": "夫妻",
+          "皇后阿娇": "夫妻",
+          "皇太后": "母子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "皇后阿娇",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "皇后",
+        "characteristic": "暴躁",
+        "description": "无子而失宠的皇后，嫉妒心强"
+      },
+      "plot_related_info": {
+        "motivations": "争夺汉武帝的宠爱和抚养子嗣",
+        "relationships": {
+          "汉武帝刘彻": "夫妻",
+          "韩嫣": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "韩嫣",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "后宫协调使",
+        "characteristic": "谨慎",
+        "description": "宫廷官员，夹在皇后和皇帝之间"
+      },
+      "plot_related_info": {
+        "motivations": "调和后宫矛盾，保全自身",
+        "relationships": {
+          "皇后阿娇": "主仆",
+          "汉武帝刘彻": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫子夫",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "夫人",
+        "characteristic": "温和",
+        "description": "汉武帝的夫人，生有小公主"
+      },
+      "plot_related_info": {
+        "motivations": "照顾女儿，维持地位",
+        "relationships": {
+          "汉武帝刘彻": "夫妻",
+          "卫青": "兄妹"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "皇太后",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "皇太后",
+        "characteristic": "慈爱",
+        "description": "汉武帝的母亲，照顾小公主"
+      },
+      "plot_related_info": {
+        "motivations": "家族和谐，照顾孙女",
+        "relationships": {
+          "汉武帝刘彻": "母子",
+          "平阳公主": "母女"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "平阳公主",
+        "age": "23岁",
+        "gender": "女",
+        "identity": "公主",
+        "characteristic": "悲伤",
+        "description": "汉武帝的姐姐，新寡的公主"
+      },
+      "plot_related_info": {
+        "motivations": "度过丧夫之痛，寻找新生活",
+        "relationships": {
+          "汉武帝刘彻": "姐弟",
+          "曹寿": "夫妻",
+          "卫青": "恩主与仆从"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "聪明",
+        "description": "机智的大臣，擅长策划"
+      },
+      "plot_related_info": {
+        "motivations": "执行汉武帝的旨意，巧妙处理事务",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "卫青": "结义兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "26岁",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "忠诚",
+        "description": "卫子夫的哥哥，重情义的将军"
+      },
+      "plot_related_info": {
+        "motivations": "报恩平阳公主，忠于职守",
+        "relationships": {
+          "平阳公主": "恩主与仆从",
+          "东方朔": "结义兄弟",
+          "汉武帝刘彻": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "所忠",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大太监",
+        "characteristic": "尽职",
+        "description": "宫廷太监，负责传旨"
+      },
+      "plot_related_info": {
+        "motivations": "执行皇太后和皇帝的命令",
+        "relationships": {
+          "汉武帝刘彻": "主仆"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["皇后阿娇", "韩嫣"],
+        "description": "在中翠宫，皇后阿娇因卫子夫生女而愤怒，召见韩嫣质问，韩嫣建议阿娇远离汉武帝以调理身体。"
+      },
+      "start": 0,
+      "end": 32,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["韩嫣", "所忠"],
+        "description": "在正殿外，韩嫣想见汉武帝，但被大太监所忠拦住，告知皇太后有旨不准进殿。"
+      },
+      "start": 33,
+      "end": 41,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["皇太后", "平阳公主", "汉武帝刘彻", "卫子夫"],
+        "description": "在正殿内，皇太后抱着小孙女，平阳公主报告曹寿死讯并晕倒，汉武帝和卫子夫前来安慰。"
+      },
+      "start": 42,
+      "end": 61,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["平阳公主", "曹寿"],
+        "description": "叙述平阳公主与曹寿的婚姻背景，曹寿厚道但短命，平阳公主23岁成为寡妇。"
+      },
+      "start": 62,
+      "end": 67,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "卫青", "平阳公主"],
+        "description": "在钟南山送葬队伍中，卫青因感恩曹寿而痛哭，汉武帝也悲伤，安葬曹寿。"
+      },
+      "start": 68,
+      "end": 90,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "东方朔"],
+        "description": "在皇宫内，汉武帝召见东方朔，命令缓修上林院实则修建演武场，并为平阳公主建造府邸 near卫青家。"
+      },
+      "start": 91,
+      "end": 133,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "卫青"],
+        "description": "在东方朔家，卫青疑惑公主府设计占用他的住宅，东方朔暗示但未明说汉武帝的意图，卫青学习八卦。"
+      },
+      "start": 134,
+      "end": 194,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

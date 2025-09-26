@@ -1,0 +1,243 @@
+{
+    "story": {
+        "background": "时间：汉朝时期；地点：长安城及郊外，包括大将军府、街市、酒馆等；世界观：历史现实背景，聚焦于军队纪律、民间疾苦和人物成长。",
+        "plot": "霍去病因军队行为不端被卫青严厉批评， initially 不服并反驳。在平阳公主和卫长公主的劝说下，霍去病同意微服私访调查。霍去病与东方朔、辛苦子同行，目睹士兵横冲直撞、欺压百姓，开始反思。东方朔通过竹简和唱曲人的故事教育霍去病，霍去病最终意识到问题并感慨身世。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "大司马/将军",
+                "characteristic": "倔强",
+                "description": "年轻的大司马将军，性格倔强但能反思"
+            },
+            "plot_related_info": {
+                "motivations": "希望证明自己，但最终意识到军队纪律的重要性",
+                "relationships": {
+                    "卫青": "舅舅",
+                    "东方朔": "干爹",
+                    "卫长公主": "表妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "严厉",
+                "description": "严厉的大将军，霍去病的舅舅"
+            },
+            "plot_related_info": {
+                "motivations": "维护军队纪律和国家形象",
+                "relationships": {
+                    "霍去病": "外甥",
+                    "平阳公主": "妻子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "平阳公主",
+                "age": "中年",
+                "gender": "女",
+                "identity": "公主/卫青妻子",
+                "characteristic": "温柔",
+                "description": "温柔的公主，卫青的妻子，试图调解矛盾"
+            },
+            "plot_related_info": {
+                "motivations": "家庭和谐",
+                "relationships": {
+                    "卫青": "丈夫",
+                    "霍去病": "亲戚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫长公主",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "温柔",
+                "description": "年轻的公主，霍去病的表妹"
+            },
+            "plot_related_info": {
+                "motivations": "希望霍去病认错",
+                "relationships": {
+                    "霍去病": "表哥"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "谋士/霍去病干爹",
+                "characteristic": "聪明",
+                "description": "聪明的谋士，霍去病的干爹，教育者"
+            },
+            "plot_related_info": {
+                "motivations": "教育霍去病，关心民间疾苦",
+                "relationships": {
+                    "霍去病": "干儿子",
+                    "辛苦子": "儿子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "东方朔儿子",
+                "characteristic": "活泼",
+                "description": "活泼的年轻人，东方朔的儿子，霍去病的伙伴"
+            },
+            "plot_related_info": {
+                "motivations": "陪伴霍去病",
+                "relationships": {
+                    "东方朔": "父亲",
+                    "霍去病": "朋友"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["霍去病", "卫青", "平阳公主", "卫长公主"],
+                "description": "在大将军府书房，卫青严厉批评霍去病军队纪律涣散，霍去病 initially 不服，但在平阳公主和卫长公主的劝说下，同意微服私访调查。"
+            },
+            "start": 0,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "辛苦子", "东方朔"],
+                "description": "霍去病换便装后与辛苦子一起找东方朔，东方朔同意陪同，三人骑马出发前往长安郊外。"
+            },
+            "start": 55,
+            "end": 60,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "东方朔", "辛苦子", "卖狗肉的小贩", "士兵"],
+                "description": "在长安郊外道路，霍去病目睹军车横冲直撞和士兵欺压百姓，东方朔指出问题，霍去病开始反思。"
+            },
+            "start": 61,
+            "end": 89,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "东方朔", "辛苦子"],
+                "description": "在街市，东方朔给霍去病竹简，霍去病理解其中寓意，关于人才使用和谦虚。"
+            },
+            "start": 90,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "东方朔", "辛苦子"],
+                "description": "在酒馆，霍去病念竹简内容，讨论霍光的读书和志向，东方朔感到惊讶。"
+            },
+            "start": 104,
+            "end": 125,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "东方朔", "辛苦子", "延年"],
+                "description": "在酒馆，唱曲人延年进来请求唱曲助兴，东方朔同意。"
+            },
+            "start": 126,
+            "end": 135,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "延年", "霍去病", "辛苦子"],
+                "description": "延年唱司马相如的凤求凰，东方朔打断并批评唱得不好。"
+            },
+            "start": 136,
+            "end": 144,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "延年", "霍去病", "辛苦子"],
+                "description": "延年唱李相歌谣关于孤儿苦难，东方朔感动并询问延年身世。"
+            },
+            "start": 145,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "延年", "辛苦子", "霍去病"],
+                "description": "延年请求随东方朔姓，辛苦子赐名辛延年，并收为徒弟。"
+            },
+            "start": 184,
+            "end": 203,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子"],
+                "description": "东方朔问霍去病和辛苦子对歌谣的感受，并开玩笑说自己快没饭吃了，霍去病惊讶。"
+            },
+            "start": 204,
+            "end": 211,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,213 @@
+{
+    "story": {
+        "background": "时间：中国古代汉朝汉武帝时期。地点：皇宫（如建章宫）及周边。世界观：历史宫廷剧，涉及政治、军事和财政问题，以讨伐匈奴为背景。",
+        "plot": "汉武帝刘彻需要军粮讨伐匈奴，张汤和主父衍建议通过卖官鬻爵筹集资金，但东方朔和桑弘阳反对此策。汉武帝坚持执行计划，但初期无人响应，导致汉武帝焦急。主父衍被迫自行想办法，找到牧羊人蒲式献羊，最终带来转机。故事体现了朝廷内部的矛盾、筹粮的困难以及人物的机智与挣扎。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "果断",
+                "description": "中年男性皇帝，果断决策讨伐匈奴但为军粮焦虑"
+            },
+            "plot_related_info": {
+                "motivations": "筹集军粮讨伐匈奴，巩固皇权",
+                "relationships": {
+                    "张汤": "君臣",
+                    "主父衍": "君臣",
+                    "东方朔": "君臣",
+                    "卫青": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "狡诈",
+                "description": "中年男性廷尉，狡诈且善于筹谋"
+            },
+            "plot_related_info": {
+                "motivations": "通过筹粮计划提升官职和影响力",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "同事",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "焦虑",
+                "description": "中年男性官员，焦虑于计划失败和自身安全"
+            },
+            "plot_related_info": {
+                "motivations": "保全性命并通过筹粮计划获得皇帝赏识",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "同事",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "中年男性大臣，机智且直言敢谏"
+            },
+            "plot_related_info": {
+                "motivations": "反对卖官鬻爵，维护朝廷正义",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "敌对",
+                    "主父衍": "敌对",
+                    "桑弘阳": "保护"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "桑弘阳",
+                "age": "少年",
+                "gender": "男",
+                "identity": "神童",
+                "characteristic": "聪明",
+                "description": "少年男性神童，聪明但缺乏经验"
+            },
+            "plot_related_info": {
+                "motivations": "提出生财之道以帮助国家，避免敛财致乱",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "保护",
+                    "张汤": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "稳重",
+                "description": "中年男性大将军，稳重需军粮出征"
+            },
+            "plot_related_info": {
+                "motivations": "获得军粮以讨伐匈奴",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "蒲式",
+                "age": "老年",
+                "gender": "男",
+                "identity": "牧羊人",
+                "characteristic": "务实",
+                "description": "老年男性牧羊人，务实且恨匈奴"
+            },
+            "plot_related_info": {
+                "motivations": "通过献羊获得官职，改善生活",
+                "relationships": {
+                    "主父衍": "合作"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "张汤", "主父衍", "东方朔"],
+                "description": "在皇宫中，汉武帝与大臣讨论讨伐匈奴的军粮问题，张汤和主父衍提出卖官鬻爵的计划，东方朔反对但汉武帝决定执行。"
+            },
+            "start": 0,
+            "end": 45,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["桑弘阳", "张汤", "主父衍", "东方朔", "汉武帝"],
+                "description": "在皇宫中，桑弘阳提出生财之道反对敛财，与张汤和主父衍争论，东方朔支持桑弘阳，但汉武帝不予采纳。"
+            },
+            "start": 46,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "桑弘阳", "卫青"],
+                "description": "在皇宫中，汉武帝决定继续执行筹粮计划，并讨论设立习武学堂等事务，安排桑弘阳和卫青的任务。"
+            },
+            "start": 73,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "东方朔"],
+                "description": "在皇宫中，汉武帝焦急等待筹粮结果，询问张汤进展，主父衍已去河南，汉武帝与东方朔下棋以等待消息。"
+            },
+            "start": 109,
+            "end": 156,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "杨得意"],
+                "description": "在建章宫，汉武帝与东方朔下棋，杨得意报告主父衍带人前来，预示筹粮有进展。"
+            },
+            "start": 157,
+            "end": 176,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "蒲式", "汉武帝", "东方朔"],
+                "description": "在建章宫外，主父衍带牧羊人蒲式和羊群到来，献羊以解决军粮问题，汉武帝看到希望。"
+            },
+            "start": 177,
+            "end": 205,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

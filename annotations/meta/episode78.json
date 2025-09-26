@@ -1,0 +1,134 @@
+{
+    "story": {
+        "background": "古代中国汉武帝时期，皇宫建章宫和炼丹坊，涉及宫廷政治和道家炼丹术。",
+        "plot": "东方朔以辞官为引，通过镜子寓言说服汉武帝召回忠臣汲黯。张汤提及诸侯吝啬捐献，汉武帝未深究。随后君臣移步炼丹坊，李少君献丹论道，东方朔驳斥其虚妄，汉武帝仍痴迷长生之术。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "寻求长生不老，治理国家",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "张汤": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "太中大夫",
+                "characteristic": "机智",
+                "description": "机智的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "劝谏皇帝，维护正义",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "狡猾",
+                "description": "狡猾的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "讨好皇帝，巩固地位",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "道士",
+                "characteristic": "奸诈",
+                "description": "奸诈的道士"
+            },
+            "plot_related_info": {
+                "motivations": "欺骗皇帝，获取利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "顺从的皇宫太监"
+            },
+            "plot_related_info": {
+                "motivations": "伺候皇帝，执行命令",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "张汤"],
+                "description": "在建章宫，东方朔提出辞官，并用镜子比喻劝说汉武帝召回汲黯，汉武帝同意召回。张汤提及诸侯捐献问题，但被汉武帝阻止。"
+            },
+            "start": 0,
+            "end": 124,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "张汤", "杨得意", "小太监"],
+                "description": "在建章宫，小太监报告仙丹炼成，汉武帝高兴地邀请东方朔去看仙丹，张汤自觉离开。"
+            },
+            "start": 125,
+            "end": 133,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "李少君"],
+                "description": "在炼丹坊，李少君展示仙丹，讨论成仙之道，东方朔质疑李少君，汉武帝寻求成仙捷径。"
+            },
+            "start": 134,
+            "end": 215,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,179 @@
+{
+    "story": {
+        "background": "故事发生在汉朝时期，主要地点包括修成君的府邸、东方朔的家中和承明殿。世界观以历史宫廷为背景，融合民间生活，涉及皇帝、皇后、大臣等角色。",
+        "plot": "汉武帝访问修成君府邸，与家人谈论菜地和花生，并得知卫子夫生子的消息后匆忙回宫。东方朔与干儿子霍去病练习剑术并讨论未来志向。东方朔与司马相如讨论上林赋，担心皇上因辞赋大兴土木，导致国库空虚。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "享受家庭乐趣、治理国家、确保子嗣延续",
+                "relationships": {
+                    "俗女": "姐弟",
+                    "皇后阿娇": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇后阿娇",
+                "age": "成年",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "情绪复杂",
+                "description": "情绪复杂的汉朝皇后"
+            },
+            "plot_related_info": {
+                "motivations": "生子巩固地位、获得皇帝宠爱",
+                "relationships": {
+                    "汉武帝": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明",
+                "description": "聪明幽默的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐皇帝、教育后代、关心国事",
+                "relationships": {
+                    "霍去病": "干父子",
+                    "司马相如": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金不换",
+                "age": "成年",
+                "gender": "男",
+                "identity": "修成君丈夫",
+                "characteristic": "朴实",
+                "description": "朴实的修成君丈夫"
+            },
+            "plot_related_info": {
+                "motivations": "讨好皇帝、维持家庭和谐",
+                "relationships": {
+                    "俗女": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "俗女",
+                "age": "成年",
+                "gender": "女",
+                "identity": "修成君",
+                "characteristic": "直率",
+                "description": "直率的汉武帝姐姐"
+            },
+            "plot_related_info": {
+                "motivations": "招待皇帝、分享家庭生活",
+                "relationships": {
+                    "汉武帝": "姐弟",
+                    "金不换": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "13岁",
+                "gender": "男",
+                "identity": "少年将军",
+                "characteristic": "有志气",
+                "description": "有志气的少年将军"
+            },
+            "plot_related_info": {
+                "motivations": "学习武术、保卫汉朝江山、对抗匈奴",
+                "relationships": {
+                    "东方朔": "干父子",
+                    "卫青": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "成年",
+                "gender": "男",
+                "identity": "文人",
+                "characteristic": "有才华",
+                "description": "有才华的汉朝文人"
+            },
+            "plot_related_info": {
+                "motivations": "献赋得宠、提升文学地位",
+                "relationships": {
+                    "东方朔": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "皇后阿娇", "东方朔", "金不换", "俗女"],
+                "description": "在修成君府邸，汉武帝与家人谈论狗咬事件、菜地和花生，并得知卫子夫生子的消息后匆忙回宫。"
+            },
+            "start": 0,
+            "end": 80,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "杨得道"],
+                "description": "在东方朔家中，霍去病练剑并与东方朔讨论习武和打猎的愿望。"
+            },
+            "start": 81,
+            "end": 121,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "杨得道"],
+                "description": "在东方朔家中，司马相如来访，东方朔批评上林赋可能引发皇上大兴土木，导致国库空虚。"
+            },
+            "start": 122,
+            "end": 166,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "众文武大臣"],
+                "description": "在承明殿早朝，东方朔与司马相如继续讨论上林赋，担心皇上反应。"
+            },
+            "start": 167,
+            "end": 187,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

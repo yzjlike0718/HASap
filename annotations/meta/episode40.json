@@ -1,0 +1,279 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期；地点：汉朝金殿、长安城外、酒店、驿站、颍水河边；世界观：汉朝与匈奴的军事冲突，朝堂政治斗争，侠义故事。",
+        "plot": "汉武帝下旨让窦婴和田鼢竞争出征匈奴，窦婴主张和亲而田鼢请战，汉武帝愤怒罢免窦婴并任命田鼢为帅。东方朔、卫青等人寻找大侠郭解，途中讨论战事。郭解在颍水河边遇到女子被调戏，准备行侠仗义。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "汉朝皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，巩固皇权",
+                "relationships": {
+                    "窦婴": "君臣",
+                    "田鼢": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "老年",
+                "gender": "男",
+                "identity": "代丞相/战将",
+                "characteristic": "谨慎",
+                "description": "谨慎的代丞相战将"
+            },
+            "plot_related_info": {
+                "motivations": "避免汉军损失，主张和亲",
+                "relationships": {
+                    "灌夫": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "成年",
+                "gender": "男",
+                "identity": "文臣",
+                "characteristic": "野心勃勃",
+                "description": "野心勃勃的文臣"
+            },
+            "plot_related_info": {
+                "motivations": "封侯拜相，获取权力",
+                "relationships": {
+                    "王辉": "同伙",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "灌夫",
+                "age": "成年",
+                "gender": "男",
+                "identity": "颖阳侯/武将",
+                "characteristic": "暴躁",
+                "description": "暴躁的颖阳侯武将"
+            },
+            "plot_related_info": {
+                "motivations": "主战匈奴，支持窦婴",
+                "relationships": {
+                    "窦婴": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩安国",
+                "age": "成年",
+                "gender": "男",
+                "identity": "大将",
+                "characteristic": "谨慎",
+                "description": "谨慎的大将"
+            },
+            "plot_related_info": {
+                "motivations": "避免战败，承担罪责",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "成年",
+                "gender": "男",
+                "identity": "将军/皇上侍卫",
+                "characteristic": "忠诚",
+                "description": "忠诚的将军侍卫"
+            },
+            "plot_related_info": {
+                "motivations": "为国效力，担忧战事",
+                "relationships": {
+                    "霍去病": "舅舅",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "臣子",
+                "characteristic": "聪明",
+                "description": "聪明的臣子"
+            },
+            "plot_related_info": {
+                "motivations": "避免田鼢误国，寻找郭解",
+                "relationships": {
+                    "卫青": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马迁",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "史官",
+                "characteristic": "好奇",
+                "description": "好奇的史官"
+            },
+            "plot_related_info": {
+                "motivations": "游览学习，记录历史",
+                "relationships": {
+                    "东方朔": "同行"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "卫青外甥",
+                "characteristic": "勇敢",
+                "description": "勇敢的卫青外甥"
+            },
+            "plot_related_info": {
+                "motivations": "上战场杀敌，渴望战斗",
+                "relationships": {
+                    "卫青": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "行侠仗义",
+                "description": "行侠仗义的大侠"
+            },
+            "plot_related_info": {
+                "motivations": "保护母亲，行侠仗义",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "窦婴", "田鼢", "灌夫", "韩安国"],
+                "description": "汉武帝早朝，田鼢请战匈奴，窦婴主张和亲，引发朝堂争论。"
+            },
+            "start": 0,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "窦婴", "田鼢", "王辉"],
+                "description": "汉武帝愤怒罢免窦婴，封田鼢为侯和丞相，命其领兵出征匈奴。"
+            },
+            "start": 39,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "韩安国", "公孙敖", "东方朔", "张汤"],
+                "description": "汉武帝继续任命将领，命令东方朔寻找郭解，并安排军事部署。"
+            },
+            "start": 73,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马迁", "霍去病"],
+                "description": "东方朔召集司马迁和霍去病，打扮成客商，出长安城寻找卫青和郭解。"
+            },
+            "start": 109,
+            "end": 114,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马迁", "霍去病", "卫青"],
+                "description": "三人在酒店找到卫青，告知战事，卫青想回朝，东方朔劝阻。"
+            },
+            "start": 115,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "司马迁", "霍去病"],
+                "description": "卫青和东方朔讨论计划，决定继续寻找郭解，四人入住酒店。"
+            },
+            "start": 142,
+            "end": 172,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "司马迁", "霍去病"],
+                "description": "四人到洛阳驿站打听郭解消息，得知其去向东南。"
+            },
+            "start": 173,
+            "end": 178,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "郭母", "女子", "恶人"],
+                "description": "郭解在颍水河边休息，发现女子被恶人调戏，拔剑准备行侠仗义。"
+            },
+            "start": 179,
+            "end": 202,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        }
+    ],
+    "coverage_check": true
+}

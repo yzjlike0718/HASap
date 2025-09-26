@@ -1,0 +1,239 @@
+{
+    "story": {
+        "background": "时间：汉代；地点：小酒馆、桑园、秦家酒楼；世界观：古代中国历史传奇风格，涉及历史人物如东方朔和霍去病。",
+        "plot": "东方朔与霍去病、辛苦子在酒馆喝酒时遇到唱曲者辛延年，得知秦家美女罗夫女后前往桑园观看。冯子都将军调戏罗夫女，东方朔机智周旋并化解危机，最终护送罗夫女回家，并可能为儿子和霍去病牵线婚姻。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "退休官员/智者",
+                "characteristic": "机智",
+                "description": "机智的退休官员"
+            },
+            "plot_related_info": {
+                "motivations": "帮助他人、维护正义、为儿子谋划",
+                "relationships": {
+                    "辛苦子": "父子",
+                    "霍去病": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "大司马/将军",
+                "characteristic": "魁梧",
+                "description": "年轻魁梧的大司马"
+            },
+            "plot_related_info": {
+                "motivations": "保护百姓、服从东方朔",
+                "relationships": {
+                    "东方朔": "干爹",
+                    "辛苦子": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "东方朔之子",
+                "characteristic": "精神",
+                "description": "精神焕发的年轻人"
+            },
+            "plot_related_info": {
+                "motivations": "对罗夫女感兴趣、表现自己",
+                "relationships": {
+                    "东方朔": "父子",
+                    "霍去病": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛延年",
+                "age": "成年",
+                "gender": "男",
+                "identity": "唱曲者/随从",
+                "characteristic": "机灵",
+                "description": "机灵的唱曲者"
+            },
+            "plot_related_info": {
+                "motivations": "寻求庇护和食物、讨好东方朔",
+                "relationships": {
+                    "东方朔": "主人",
+                    "辛苦子": "师父"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "罗夫",
+                "age": "16岁",
+                "gender": "女",
+                "identity": "秦家女儿",
+                "characteristic": "美丽",
+                "description": "美丽的采桑女"
+            },
+            "plot_related_info": {
+                "motivations": "保护自己、婚姻自主",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "冯子都",
+                "age": "成年",
+                "gender": "男",
+                "identity": "校尉/将军",
+                "characteristic": "傲慢",
+                "description": "傲慢的校尉"
+            },
+            "plot_related_info": {
+                "motivations": "调戏美女、炫耀权力",
+                "relationships": {
+                    "霍去病": "下属"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年"],
+                "description": "在酒馆中，东方朔爷仨喝酒，遇到辛延年，一起吃喝交谈。"
+            },
+            "start": 0,
+            "end": 27,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年", "伙计", "掌柜"],
+                "description": "酒馆外发生混乱，辛延年介绍秦家女儿罗夫女，东方朔决定去桑园观看。"
+            },
+            "start": 28,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年"],
+                "description": "东方朔骑驴，众人前往桑园，途中听到罗夫女的歌声。"
+            },
+            "start": 55,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年", "罗夫", "围观者"],
+                "description": "在桑园外，众人观看罗夫女采桑，围观者被其美貌吸引。"
+            },
+            "start": 73,
+            "end": 97,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年", "围观者"],
+                "description": "围观者争吵，东方朔观察儿子和霍去病被罗夫女吸引。"
+            },
+            "start": 98,
+            "end": 110,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "冯子都", "亲兵"],
+                "description": "冯子都带领亲兵骑马到来桑园。"
+            },
+            "start": 111,
+            "end": 116,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年", "罗夫", "冯子都", "亲兵"],
+                "description": "冯子都调戏罗夫女，东方朔阻止并计划应对。"
+            },
+            "start": 117,
+            "end": 147,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "辛延年", "冯子都", "亲兵"],
+                "description": "东方朔与冯子都周旋，辛延年带冯子都离开去换衣服。"
+            },
+            "start": 148,
+            "end": 188,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年", "罗夫", "姐妹"],
+                "description": "罗夫女感谢东方朔搭救，众人一起回秦家。"
+            },
+            "start": 189,
+            "end": 211,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "辛苦子", "辛延年", "罗夫"],
+                "description": "到达秦家酒楼，描述酒楼热闹景象。"
+            },
+            "start": 212,
+            "end": 215,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

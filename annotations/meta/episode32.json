@@ -1,0 +1,181 @@
+{
+    "story": {
+        "background": "时间：西汉汉武帝建元六年五月（公元前135年）。地点：汉朝宫廷，包括未央宫等场所。世界观：历史古装剧，基于西汉汉武帝时期的历史背景，涉及宫廷礼仪、政治斗争和人物关系。",
+        "plot": "汉武帝试图赐婚平阳公主给卫青，但卫青出于身份差异和声誉考虑坚决拒绝，感动了平阳公主和皇太后。太皇太后去世后，汉武帝命田鼢主持丧事，但丞相许昌反对丧礼规格，引发朝堂争论。汉武帝最终询问东方朔的意见以解决争议。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "27",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "正直",
+                "description": "正直的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "维护自己的尊严和公主的声誉，避免因身份差异被讥笑",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "平阳公主": "前主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "22",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "强势",
+                "description": "强势的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权和处理宫廷事务，包括赐婚和丧礼安排",
+                "relationships": {
+                    "平阳公主": "姐弟",
+                    "卫青": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "平阳公主",
+                "age": "24",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "明智",
+                "description": "明智的汉朝公主"
+            },
+            "plot_related_info": {
+                "motivations": "可能愿意嫁给卫青但保持矜持，维护皇室声誉",
+                "relationships": {
+                    "汉武帝": "姐弟",
+                    "卫青": "前主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "28",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "机智",
+                "description": "机智的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "辅助汉武帝解决问题，提供智慧建议",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "开朗",
+                "description": "开朗的汉朝皇太后"
+            },
+            "plot_related_info": {
+                "motivations": "支持田鼢和卫子夫，维护家族利益",
+                "relationships": {
+                    "汉武帝": "母子",
+                    "田鼢": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇太后弟弟",
+                "characteristic": "能言善辩",
+                "description": "能言善辩的皇亲国戚"
+            },
+            "plot_related_info": {
+                "motivations": "获取权力和地位，主持丧事以提升影响力",
+                "relationships": {
+                    "皇太后": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "许昌",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "传统",
+                "description": "传统的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "维护太皇太后的尊严和礼仪规范",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "魏其侯",
+                "characteristic": "沉稳",
+                "description": "沉稳的汉朝侯爵"
+            },
+            "plot_related_info": {
+                "motivations": "可能涉及政治利益，保持沉默以观望局势",
+                "relationships": {
+                    "太皇太后": "姑侄"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["卫青", "汉武帝", "平阳公主", "东方朔"],
+                "description": "在宫廷中，汉武帝试图赐婚平阳公主给卫青，但卫青坚决拒绝，出于身份差异和声誉考虑。最终汉武帝生气离开。"
+            },
+            "start": 0,
+            "end": 84,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "平阳公主", "瞎老太后", "窦太主", "皇后阿娇"],
+                "description": "卫青拒婚的消息传开，皇太后 initially 不满但后来理解。瞎老太后教训窦太主和阿娇，然后去世。"
+            },
+            "start": 85,
+            "end": 109,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "田鼢", "许昌", "窦婴", "东方朔", "文武大臣"],
+                "description": "在未央宫大殿，汉武帝命田鼢主持太皇太后丧事，许昌反对丧礼规格，田鼢争论，最终汉武帝询问东方朔意见。"
+            },
+            "start": 110,
+            "end": 212,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,116 @@
+{
+  "story": {
+    "background": "时间：汉朝时期，汉武帝当政期间。地点：主要发生在东方朔的家中、朝廷以及上林院。世界观：历史背景，汉朝与匈奴的军事冲突，宫廷权力斗争，军事策略与阴阳八卦的结合。",
+    "plot": "卫青发明了武刚车但担心其效果，向东方朔请教；东方朔用阴阳八卦图演示如何将武刚车排成战阵，增强威力；卫青领悟后请求回家演练。汉武帝关心平阳公主的婚事，希望卫青娶公主但担心拒绝；东方朔建议让卫青训练军队建立功名。卫青秘密训练军队，使用武刚车和八卦阵，同时朝廷内部权力斗争加剧。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "青年",
+        "gender": "男",
+        "identity": "将军/军事发明家",
+        "characteristic": "正直",
+        "description": "正直的汉朝将军，致力于军事创新"
+      },
+      "plot_related_info": {
+        "motivations": "为国家建功立业，不愿靠妹妹的关系获得赏赐",
+        "relationships": {
+          "东方朔": "朋友",
+          "汉武帝": "君臣",
+          "平阳公主": "潜在婚姻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "谋士/学者",
+        "characteristic": "智慧",
+        "description": "智慧的汉朝谋士，精通阴阳八卦"
+      },
+      "plot_related_info": {
+        "motivations": "帮助卫青和汉武帝，推广自己的智慧",
+        "relationships": {
+          "卫青": "朋友",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "青年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "聪明",
+        "description": "年轻的汉朝皇帝，致力于巩固权力"
+      },
+      "plot_related_info": {
+        "motivations": "确保姐姐的婚事，增强军事实力对抗匈奴",
+        "relationships": {
+          "卫青": "君臣",
+          "东方朔": "君臣",
+          "平阳公主": "姐弟"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["卫青", "东方朔"],
+        "description": "在东方朔的家中，卫青向东方朔请教武刚车的改进，东方朔用阴阳八卦图演示战阵变化，卫青领悟后请求回家演练。"
+      },
+      "start": 0,
+      "end": 64,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔"],
+        "description": "在东方朔的家中，东方朔独自吃饮，高兴于卫青的悟性，并思考未来。"
+      },
+      "start": 65,
+      "end": 94,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.85,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔"],
+        "description": "在朝廷上，汉武帝与东方朔讨论平阳公主的婚事和卫青的训练计划，东方朔接受旨意安排卫青训练军队。"
+      },
+      "start": 95,
+      "end": 151,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫青", "公孙敖"],
+        "description": "在上林院和卫青家中，卫青训练军队使用武刚车和八卦阵，朝廷权力斗争加剧，卫青忧虑个人生活。"
+      },
+      "start": 152,
+      "end": 191,
+      "confidence": {
+        "character_assignment": 0.85,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.85
+      }
+    }
+  ],
+  "coverage_check": true
+}

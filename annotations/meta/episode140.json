@@ -1,0 +1,182 @@
+{
+  "story": {
+    "background": "时间：汉朝汉武帝时期；地点：主要在建章宫、东方朔家中；世界观：古代中国汉朝，涉及宫廷政治、经济改革、军事扩张和人物关系。",
+    "plot": "汉武帝与张汤讨论钱币改革，引入白金币和白鹿币以解决财政问题；霍去病和卫长公主请求汉武帝赐婚给辛苦子和罗浮女，但霍去病优先考虑消灭匈奴；东方朔与汲黯争论朝政，东方朔劝汲黯灵活进谏以影响皇帝。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "英明",
+        "description": "中年男性皇帝，英明但好大喜功"
+      },
+      "plot_related_info": {
+        "motivations": "统一天下，解决财政问题以支持军事扩张",
+        "relationships": {
+          "霍去病": "父子般关系",
+          "卫长公主": "父女",
+          "张汤": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "精明",
+        "description": "男性官员，精明且善于策划"
+      },
+      "plot_related_info": {
+        "motivations": "推动钱币改革以巩固朝廷财政权力",
+        "relationships": {
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "大司马/将军",
+        "characteristic": "忠诚",
+        "description": "年轻男性将军，忠诚勇敢"
+      },
+      "plot_related_info": {
+        "motivations": "消灭匈奴，保卫国家，之后再成家",
+        "relationships": {
+          "汉武帝": "君臣",
+          "卫长公主": "恋人"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫长公主",
+        "age": "年轻",
+        "gender": "女",
+        "identity": "公主",
+        "characteristic": "善良",
+        "description": "年轻女性公主，善良且关心他人"
+      },
+      "plot_related_info": {
+        "motivations": "与霍去病成婚，帮助他人成就好事",
+        "relationships": {
+          "汉武帝": "父女",
+          "霍去病": "恋人"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛苦子",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "东方朔之子",
+        "characteristic": "高兴",
+        "description": "年轻男性东方朔之子，高兴且幸运"
+      },
+      "plot_related_info": {
+        "motivations": "迎娶罗浮女，实现婚姻幸福",
+        "relationships": {
+          "东方朔": "父子",
+          "齐鲁女": "母子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "执戟郎",
+        "characteristic": "聪明",
+        "description": "中年男性执戟郎，聪明幽默"
+      },
+      "plot_related_info": {
+        "motivations": "匡正皇帝行为，维护朝廷稳定，帮助朋友",
+        "relationships": {
+          "汲黯": "朋友",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汲黯",
+        "age": "老年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "耿直",
+        "description": "老年男性官员，耿直固执"
+      },
+      "plot_related_info": {
+        "motivations": "直言进谏，纠正朝廷错误政策",
+        "relationships": {
+          "东方朔": "朋友",
+          "汉武帝": "君臣"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝", "张汤"],
+        "description": "在建章宫，汉武帝与张汤讨论钱币改革，计划引入白金币和白鹿币以解决财政问题。"
+      },
+      "start": 0,
+      "end": 62,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "霍去病", "卫长公主", "辛苦子"],
+        "description": "在建章宫，霍去病和卫长公主请求汉武帝赐婚给辛苦子和罗浮女，霍去病表达“匈奴未灭何以家为”的决心。"
+      },
+      "start": 63,
+      "end": 100,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["辛苦子", "东方朔", "齐鲁女"],
+        "description": "在东方朔家中，辛苦子告诉父母皇上赐婚的消息，全家高兴准备婚事。"
+      },
+      "start": 101,
+      "end": 106,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汲黯"],
+        "description": "在东方朔家中，东方朔与汲黯讨论朝政，特别是钱币改革的影响和君臣关系，东方朔劝汲黯灵活进谏。"
+      },
+      "start": 107,
+      "end": 216,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

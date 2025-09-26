@@ -1,0 +1,283 @@
+{
+    "story": {
+        "background": "时间：古代中国汉代；地点：武陵郡深山、衡山王府；世界观：诸侯王家族内部斗争，涉及宫廷阴谋、乱伦和权力争夺。",
+        "plot": "太子刘爽邀请东方朔来衡山国解决家庭矛盾，揭露了母亲被毒死、弟弟妹妹被宠姬徐来拉拢乱伦的丑闻。东方朔劝导衡山王以百姓为重，避免叛乱。在家宴上，乱伦行为公开发生，东方朔假装醉酒观察，徐来调戏刘爽，家庭混乱达到高潮。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "刘爽",
+                "age": "成年",
+                "gender": "男",
+                "identity": "衡山王太子",
+                "characteristic": "愁苦",
+                "description": "愁苦的衡山王太子"
+            },
+            "plot_related_info": {
+                "motivations": "解决家庭问题，保住太子之位",
+                "relationships": {
+                    "衡山王刘赐": "父子",
+                    "刘孝": "兄弟",
+                    "徐来": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "客卿",
+                "characteristic": "聪明机智",
+                "description": "聪明机智的客卿"
+            },
+            "plot_related_info": {
+                "motivations": "帮助衡山王避免灾难，维护朝廷稳定",
+                "relationships": {
+                    "衡山王刘赐": "君臣",
+                    "刘爽": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "衡山王刘赐",
+                "age": "中年或老年",
+                "gender": "男",
+                "identity": "衡山王",
+                "characteristic": "困惑",
+                "description": "困惑的衡山王"
+            },
+            "plot_related_info": {
+                "motivations": "维持权力，避免叛乱",
+                "relationships": {
+                    "刘爽": "父子",
+                    "刘孝": "父子",
+                    "徐来": "夫妻",
+                    "姚姬": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘孝",
+                "age": "23",
+                "gender": "男",
+                "identity": "衡山王次子",
+                "characteristic": "不孝",
+                "description": "不孝的衡山王次子"
+            },
+            "plot_related_info": {
+                "motivations": "争夺太子之位",
+                "relationships": {
+                    "衡山王刘赐": "父子",
+                    "刘爽": "兄弟",
+                    "姚姬": "乱伦"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "徐来",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "衡山王宠姬",
+                "characteristic": "狡猾恶毒",
+                "description": "狡猾恶毒的衡山王宠姬"
+            },
+            "plot_related_info": {
+                "motivations": "让自己儿子刘不宜当太子，争宠",
+                "relationships": {
+                    "衡山王刘赐": "夫妻",
+                    "刘不宜": "母子",
+                    "刘爽": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "姚姬",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "衡山王宠姬",
+                "characteristic": "放荡",
+                "description": "放荡的衡山王宠姬"
+            },
+            "plot_related_info": {
+                "motivations": "争宠",
+                "relationships": {
+                    "衡山王刘赐": "夫妻",
+                    "刘孝": "乱伦"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "吴采",
+                "age": "20",
+                "gender": "女",
+                "identity": "衡山王女儿",
+                "characteristic": "放荡",
+                "description": "放荡的衡山王女儿"
+            },
+            "plot_related_info": {
+                "motivations": "不满婚姻，寻求刺激",
+                "relationships": {
+                    "衡山王刘赐": "父女",
+                    "刘不宜": "乱伦"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘不宜",
+                "age": "22",
+                "gender": "男",
+                "identity": "衡山王幼子",
+                "characteristic": "可疑",
+                "description": "可疑的衡山王幼子"
+            },
+            "plot_related_info": {
+                "motivations": "未知，但被徐来利用",
+                "relationships": {
+                    "衡山王刘赐": "父子",
+                    "徐来": "母子",
+                    "吴采": "乱伦"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["刘爽", "东方朔"],
+                "description": "在车上，太子刘爽向东方朔请教家庭密事，东方朔同意倾听。"
+            },
+            "start": 0,
+            "end": 32,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["刘爽", "东方朔"],
+                "description": "刘爽详细讲述母亲被毒死、弟弟妹妹被徐来拉拢乱伦的丑闻，东方朔表示兴趣。"
+            },
+            "start": 33,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["刘爽", "东方朔", "随从"],
+                "description": "一行人到达衡山王府。"
+            },
+            "start": 73,
+            "end": 74,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["衡山王刘赐", "东方朔", "刘爽", "刘孝", "刘不宜", "相国梅赫", "淮南旧臣陈喜", "宾客白赢"],
+                "description": "衡山王接见东方朔，讨论人才和名字反转的吉兆。"
+            },
+            "start": 75,
+            "end": 112,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["衡山王刘赐", "东方朔"],
+                "description": "衡山王询问天下权势，东方朔警告问鼎是叛乱，强调听皇上的。"
+            },
+            "start": 113,
+            "end": 138,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "刘孝", "衡山王刘赐"],
+                "description": "刘孝反驳东方朔，东方朔斥责他不孝，衡山王道歉。"
+            },
+            "start": 139,
+            "end": 150,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["衡山王刘赐", "东方朔", "刘爽"],
+                "description": "东方朔建议衡山王以百姓为重，避免叛乱，刘爽赞同，衡山王命令家宴。"
+            },
+            "start": 151,
+            "end": 168,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["衡山王刘赐", "东方朔", "仆人"],
+                "description": "衡山王命令准备家宴为东方朔接风。"
+            },
+            "start": 169,
+            "end": 172,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["衡山王刘赐", "东方朔", "徐来", "姚姬", "刘爽", "刘爽夫人叶氏", "刘孝", "刘不宜", "吴采"],
+                "description": "在家宴上，衡山王宣布以衡山为重，但随后乱伦行为发生：吴采和刘不宜离开，刘孝和姚姬离开，衡山王拉走儿媳妇。"
+            },
+            "start": 173,
+            "end": 203,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["徐来", "刘爽", "东方朔"],
+                "description": "徐来调戏太子刘爽，刘爽惊恐，被拉走。"
+            },
+            "start": 204,
+            "end": 206,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

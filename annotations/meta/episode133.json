@@ -1,0 +1,183 @@
+{
+    "story": {
+        "background": "中国古代汉武帝时期，建章宫内宫廷场景。",
+        "plot": "汉武帝让东方朔和郭舍人玩射覆游戏，东方朔两次猜中吊死鬼，郭舍人耍赖受罚。郭舍人被打板子后告状失败，皇上赏赐他们去金库拿金子。东方朔只拿一百两金子，郭舍人贪心拿太多导致重伤死亡。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "喜怒无常",
+                "description": "喜怒无常的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "娱乐和测试臣子",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "郭舍人": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "执戟郎",
+                "characteristic": "机智",
+                "description": "机智的臣子"
+            },
+            "plot_related_info": {
+                "motivations": "赢得赏金并展示智慧",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "郭舍人": "对手"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭舍人",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "贪心",
+                "description": "贪心的太监"
+            },
+            "plot_related_info": {
+                "motivations": "赢赏金、避免受罚并嫉妒东方朔",
+                "relationships": {
+                    "汉武帝": "主仆",
+                    "东方朔": "对手"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的太监"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇帝命令并对郭舍人不满",
+                "relationships": {
+                    "汉武帝": "主仆",
+                    "郭舍人": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "郭舍人", "杨得意", "太监们"],
+                "description": "建章宫亭子，汉武帝让杨得意蒙上东方朔和郭舍人的眼睛，准备进行射覆游戏。"
+            },
+            "start": 0,
+            "end": 17,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "郭舍人", "太监们"],
+                "description": "建章宫亭子，郭舍人和东方朔猜射覆，东方朔猜中吊死鬼，赢得赏金。"
+            },
+            "start": 18,
+            "end": 36,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "郭舍人", "杨得意", "太监们"],
+                "description": "建章宫亭子，郭舍人被打板子，汉武帝和东方朔下棋等待。"
+            },
+            "start": 37,
+            "end": 58,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "郭舍人", "杨得意"],
+                "description": "建章宫亭子，郭舍人告状东方朔骂人，东方朔巧妙辩解，汉武帝转怒为喜。"
+            },
+            "start": 59,
+            "end": 88,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "郭舍人"],
+                "description": "建章宫亭子，郭舍人说隐语为难东方朔，东方朔随机应变解释，汉武帝赞赏。"
+            },
+            "start": 89,
+            "end": 112,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "郭舍人", "杨得意"],
+                "description": "建章宫亭子，汉武帝赏赐东方朔和郭舍人去金库拿金子，并和杨得意对话。"
+            },
+            "start": 113,
+            "end": 132,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭舍人", "东方朔", "总管太监", "太监们"],
+                "description": "建章宫金库，郭舍人贪心拿大量金子，东方朔只拿一百两金子。"
+            },
+            "start": 133,
+            "end": 173,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "杨得意", "郭舍人"],
+                "description": "建章宫大门，东方朔谢恩，郭舍人摔倒受伤死亡，汉武帝和东方朔观看。"
+            },
+            "start": 174,
+            "end": 201,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

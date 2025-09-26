@@ -1,0 +1,158 @@
+{
+    "story": {
+        "background": "时间：古代汉朝时期。地点：河套地区、增山城。世界观：历史战争题材，汉朝与匈奴的冲突，涉及军事策略和政治阴谋。",
+        "plot": "汉大将军卫青击败匈奴右贤王，收复河套地区。卫青派马清和和郭解去增山劝说匈奴太子于禅归降汉朝。于禅被困增山，面临丞相伊秩斜的篡位阴谋。马清和和郭解见到于禅，揭露阴谋并与伊秩正发生冲突。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉大将军",
+                "characteristic": "果断",
+                "description": "汉朝大将军，战略家"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，收复失地，实现汉朝统一",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "马清和",
+                "age": "青年",
+                "gender": "男",
+                "identity": "匈奴驸马/武林高手",
+                "characteristic": "忠诚",
+                "description": "汉人匈奴驸马，武林高手"
+            },
+            "plot_related_info": {
+                "motivations": "归顺汉朝，保护太子于禅，揭露伊秩斜阴谋",
+                "relationships": {
+                    "郭解": "徒孙",
+                    "于禅": "劝说对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "老年",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "正义",
+                "description": "武林大侠，经验丰富"
+            },
+            "plot_related_info": {
+                "motivations": "协助汉朝，保护徒孙马清和，维护正义",
+                "relationships": {
+                    "马清和": "徒孙"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "于禅",
+                "age": "青年",
+                "gender": "男",
+                "identity": "匈奴太子",
+                "characteristic": "优柔寡断",
+                "description": "匈奴太子，被迫害"
+            },
+            "plot_related_info": {
+                "motivations": "生存和继承王位，应对内部阴谋",
+                "relationships": {
+                    "伊秩斜": "叔叔/敌对",
+                    "伊秩正": "堂兄弟/敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "伊秩正",
+                "age": "中年",
+                "gender": "男",
+                "identity": "匈奴大将",
+                "characteristic": "残暴",
+                "description": "匈奴大将，残暴好战"
+            },
+            "plot_related_info": {
+                "motivations": "协助父亲伊秩斜篡位，消灭太子于禅和马清和",
+                "relationships": {
+                    "伊秩斜": "父子",
+                    "于禅": "堂兄弟/敌对",
+                    "马清和": "敌对"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["卫青", "马清和", "郭解"],
+                "description": "在卫青营中，卫青派马清和和郭解去增山劝说于禅归降汉朝，并设宴践行。"
+            },
+            "start": 0,
+            "end": 27,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["于禅", "亲兵"],
+                "description": "于禅在增山城中担忧父亲病情和自身处境，得知右贤王战败和伊秩正即将到来的消息。"
+            },
+            "start": 28,
+            "end": 96,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["于禅", "马清和", "郭解", "亲兵"],
+                "description": "马清和和郭解进入增山，被亲兵引见于禅。"
+            },
+            "start": 97,
+            "end": 104,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["于禅", "马清和", "郭解"],
+                "description": "马清和与于禅对话，回忆身份和往事，于禅因父亲病情和阴谋悲伤落泪。"
+            },
+            "start": 105,
+            "end": 149,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["于禅", "马清和", "郭解", "伊秩正"],
+                "description": "伊秩正进入营帐，与马清和发生冲突，两人拔剑战斗，郭解旁观。"
+            },
+            "start": 150,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        }
+    ],
+    "coverage_check": true
+}

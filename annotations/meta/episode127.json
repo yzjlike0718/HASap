@@ -1,0 +1,367 @@
+{
+    "story": {
+        "background": "汉朝时期，汉武帝刘彻执政，朝廷权力斗争激烈。地点涉及衡山、长安、南阳等地，世界观为古代中国宫廷政治与军事扩张。",
+        "plot": "东方朔被派往衡山劝说衡山王，但目睹其乱伦行为后愤怒离开。张汤在朝廷推动算明告民政策，富国库，并推荐李蔡为丞相，同时排挤义纵去南阳对付豪强宁城。霍去病击败匈奴，修图王归顺。张汤报告衡山王次子刘孝谋反，汉武帝命张汤处理并寻找东方朔。东方朔前往南阳。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "正直",
+                "description": "正直的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "维护正义，反对腐败",
+                "relationships": {
+                    "衡山王": "敌对",
+                    "梅赫": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "奸诈",
+                "description": "奸诈的汉朝廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "巩固权力，排除异己",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "义纵": "敌对",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "治理国家，扩张疆土",
+                "relationships": {
+                    "张汤": "君臣",
+                    "卫青": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "执金吾",
+                "characteristic": "野心",
+                "description": "野心勃勃的执金吾"
+            },
+            "plot_related_info": {
+                "motivations": "晋升官职，对抗张汤",
+                "relationships": {
+                    "张汤": "敌对",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "梅赫",
+                "age": "老",
+                "gender": "男",
+                "identity": "衡山相国",
+                "characteristic": "忠诚",
+                "description": "忠诚的衡山老相国"
+            },
+            "plot_related_info": {
+                "motivations": "完成使命，告老还乡",
+                "relationships": {
+                    "东方朔": "同事",
+                    "衡山王": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李蔡",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "平庸",
+                "description": "平庸的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "无明确动机",
+                "relationships": {
+                    "李广": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "谨慎",
+                "description": "谨慎的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "保持中立，专注军事",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "信使",
+                "characteristic": "勤勉",
+                "description": "勤勉的汉朝信使"
+            },
+            "plot_related_info": {
+                "motivations": "报告军情",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "宁城",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "豪强",
+                "characteristic": "富有",
+                "description": "富有的南阳豪强"
+            },
+            "plot_related_info": {
+                "motivations": "抵抗朝廷政策",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "梅赫"],
+                "description": "在衡山客店，东方朔拒绝接任相印，批评衡山王行为不端，梅赫告老还乡。"
+            },
+            "start": 0,
+            "end": 25,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "道儿"],
+                "description": "东方朔决定连夜离开衡山，与仆人道儿准备马车和毛驴，匆忙出发。"
+            },
+            "start": 26,
+            "end": 31,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤"],
+                "description": "在长安，张汤得知东方朔离开衡山，计划在汉武帝面前弹劾东方朔。"
+            },
+            "start": 32,
+            "end": 36,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "文武官员"],
+                "description": "朝廷上，汉武帝夸张汤的算明告民政策使府库充盈，并询问丞相人选。"
+            },
+            "start": 37,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "汉武帝", "张汤"],
+                "description": "义纵推荐张汤为丞相，称赞其执法严厉和政策成功。"
+            },
+            "start": 49,
+            "end": 57,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝", "李蔡"],
+                "description": "张汤拒绝丞相之位，推荐李蔡为丞相，汉武帝同意任命李蔡。"
+            },
+            "start": 58,
+            "end": 91,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青"],
+                "description": "汉武帝询问卫青关于丞相人选，卫青表示不宜参与朝廷事务。"
+            },
+            "start": 92,
+            "end": 95,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝", "杜周", "赵羽", "杨溥"],
+                "description": "张汤请求任命杜周、赵羽、杨溥为廷尉，汉武帝同意并命张汤统领御史和廷尉。"
+            },
+            "start": 96,
+            "end": 101,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "张汤"],
+                "description": "义纵对廷尉任命不满，张汤观察义纵的反应。"
+            },
+            "start": 102,
+            "end": 112,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝", "义纵"],
+                "description": "张汤报告南阳豪强宁城抵抗算明告民政策，建议派义纵为南阳郡守。"
+            },
+            "start": 113,
+            "end": 124,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵"],
+                "description": "义纵内心不满张汤的安排，但接受旨意前往南阳。"
+            },
+            "start": 125,
+            "end": 139,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "汉武帝"],
+                "description": "义纵请求先斩后奏权以治理南阳，汉武帝批准。"
+            },
+            "start": 140,
+            "end": 147,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["辛苦子", "汉武帝"],
+                "description": "辛苦子报告霍去病击败匈奴，修图王归顺，汉武帝指示小心应对。"
+            },
+            "start": 148,
+            "end": 156,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青"],
+                "description": "汉武帝感叹年轻将军的成就，卫青沉默表示对霍去病滥杀的不满。"
+            },
+            "start": 157,
+            "end": 160,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝"],
+                "description": "张汤报告衡山王次子刘孝谋反，汉武帝命张汤带兵捉拿并寻找东方朔。"
+            },
+            "start": 161,
+            "end": 188,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白", "义纵"],
+                "description": "东方朔前往南阳，义纵到达南阳并准备惩治宁城。"
+            },
+            "start": 189,
+            "end": 200,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

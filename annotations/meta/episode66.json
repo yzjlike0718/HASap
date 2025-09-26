@@ -1,0 +1,277 @@
+{
+  "story": {
+    "background": "故事发生在汉朝时期，主要地点包括郭解的家和长安府衙。世界观融合了侠义精神和宫廷法律，展现了皇权与民间侠义的互动，涉及案件调查和审判。",
+    "plot": "东方朔和卫青拜访郭解，调查金吾子杀人案。李卫虎作为郭解的徒弟卷入案件，想顶罪但金吾子承担罪责。郭解怀疑皇上的公正，决定亲自去长安面圣。汉武帝亲自审判，东方朔巧妙审问，揭示两人争相认罪的真相，最终体现法律的公正和侠义精神。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "成人",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "聪明",
+        "description": "聪明的大臣"
+      },
+      "plot_related_info": {
+        "motivations": "推动案件调查，确保公正审判，维护皇权威信",
+        "relationships": {
+          "卫青": "同事",
+          "郭解": "尊重",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "成人",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "正直",
+        "description": "正直的将军"
+      },
+      "plot_related_info": {
+        "motivations": "协助调查案件，维护法律公正",
+        "relationships": {
+          "东方朔": "同事",
+          "郭解": "尊重",
+          "霍去病": "亲戚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "郭解",
+        "age": "成人",
+        "gender": "男",
+        "identity": "大侠",
+        "characteristic": "侠义",
+        "description": "侠义的大侠"
+      },
+      "plot_related_info": {
+        "motivations": "保护徒弟，怀疑皇权公正，寻求真相",
+        "relationships": {
+          "李卫虎": "师徒",
+          "东方朔": "尊重",
+          "卫青": "尊重"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "李卫虎",
+        "age": "成人",
+        "gender": "男",
+        "identity": "郭解的徒弟",
+        "characteristic": "忠诚",
+        "description": "忠诚的徒弟"
+      },
+      "plot_related_info": {
+        "motivations": "想顶罪拯救金吾子，遵从师门规矩",
+        "relationships": {
+          "郭解": "师徒",
+          "金吾子": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "金吾子",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "皇上的外甥",
+        "characteristic": "义气",
+        "description": "义气的皇亲"
+      },
+      "plot_related_info": {
+        "motivations": "承担杀人罪责，保护李卫虎",
+        "relationships": {
+          "汉武帝": "甥舅",
+          "李卫虎": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "成人",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "公正",
+        "description": "公正的皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "确保案件公正审判，维护法律权威",
+        "relationships": {
+          "东方朔": "君臣",
+          "卫青": "君臣",
+          "金吾子": "甥舅"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "义纵",
+        "age": "成人",
+        "gender": "男",
+        "identity": "执金吾",
+        "characteristic": "严厉",
+        "description": "严厉的官员"
+      },
+      "plot_related_info": {
+        "motivations": "审问案件，展现能力，顺承皇意",
+        "relationships": {
+          "东方朔": "同事",
+          "汉武帝": "君臣"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "卫青", "郭解", "霍云儿"],
+        "description": "在郭解的家，东方朔和卫青拜访郭解，讨论金吾子案件，突然外部报告李卫虎犯案。"
+      },
+      "start": 0,
+      "end": 19,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "报告人", "李卫虎"],
+        "description": "郭解得知李卫虎犯案，命令带李卫虎进来。"
+      },
+      "start": 19,
+      "end": 33,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "李卫虎", "东方朔", "卫青"],
+        "description": "李卫虎被绑来，解释金吾子杀人，自己逃跑的原因。"
+      },
+      "start": 33,
+      "end": 73,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "卫青", "郭解", "李卫虎"],
+        "description": "东方朔和卫青表明为案件而来，李卫虎想顶罪换取金吾子生命。"
+      },
+      "start": 73,
+      "end": 114,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "东方朔", "卫青", "霍云儿", "霍光"],
+        "description": "郭解决定带李卫虎去长安面圣，卫青带走霍光。"
+      },
+      "start": 114,
+      "end": 142,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "卫青", "汉武帝", "霍光"],
+        "description": "到达长安后，东方朔安置众人并报告汉武帝，汉武帝下旨御审。"
+      },
+      "start": 142,
+      "end": 147,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "义纵", "张汤", "杨得意", "卫青", "金不换", "修成君", "郭解", "金吾子", "李卫虎"],
+        "description": "在长安府衙，汉武帝设置御审，各方人物就位，准备审判。"
+      },
+      "start": 147,
+      "end": 162,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["义纵", "金吾子", "李卫虎", "东方朔", "汉武帝"],
+        "description": "义纵开始审问，金吾子和李卫虎争相认罪。"
+      },
+      "start": 162,
+      "end": 178,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["义纵", "金吾子", "李卫虎", "东方朔"],
+        "description": "金吾子和李卫虎都声称杀人，义纵不知所措。"
+      },
+      "start": 178,
+      "end": 195,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["义纵", "东方朔", "金吾子", "李卫虎"],
+        "description": "义纵无法审问，让东方朔接手审问。"
+      },
+      "start": 195,
+      "end": 230,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "李卫虎", "金吾子", "汉武帝", "郭解"],
+        "description": "东方朔巧妙审问李卫虎，揭示宝剑无血迹等矛盾。"
+      },
+      "start": 230,
+      "end": 255,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

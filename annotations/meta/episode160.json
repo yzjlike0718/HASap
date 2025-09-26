@@ -1,0 +1,252 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：长安皇宫、凯旋门、渭水河边、战场等；世界观：古代中国汉朝，涉及战争、宫廷斗争、人物情感与命运。",
+        "plot": "东方朔与汉武帝在对待匈奴问题上存在分歧，东方朔主张和平臣服，而汉武帝想征服匈奴。霍去病在战争中重伤，被匈奴小孩金秘帝所救，但最终身亡。汉武帝准备在凯旋门为霍去病和卫长公主举行婚礼，但霍去病尸体被运回，婚礼变葬礼。汉武帝悲痛不已，为霍去病举行隆重葬礼，故事以死亡和哀悼结束。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "有为但固执",
+                "description": "有为的汉朝皇帝，追求长生和征服匈奴"
+            },
+            "plot_related_info": {
+                "motivations": "征服匈奴、长生不老",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "霍去病": "君臣（如子）",
+                    "卫皇后": "夫妻",
+                    "卫长公主": "父女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明智慧",
+                "description": "智慧的大臣，曾献计策"
+            },
+            "plot_related_info": {
+                "motivations": "为国家和平，劝谏皇帝",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "霍去病": "义父（非血缘）"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "大司马将军",
+                "characteristic": "英勇无敌",
+                "description": "年轻的汉朝将军，战功赫赫"
+            },
+            "plot_related_info": {
+                "motivations": "为汉朝征战匈奴",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "舅舅",
+                    "金秘帝": "救命恩人（被救）"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "忠诚稳重",
+                "description": "忠诚的汉朝大将军，霍去病的舅舅"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐皇帝，照顾霍去病",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "霍去病": "舅舅",
+                    "卫皇后": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫皇后",
+                "age": "中年",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "贤淑",
+                "description": "贤淑的汉朝皇后"
+            },
+            "plot_related_info": {
+                "motivations": "关心家族和女儿",
+                "relationships": {
+                    "汉武帝": "夫妻",
+                    "卫长公主": "母亲",
+                    "卫青": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫长公主",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "天真急切",
+                "description": "汉武帝的女儿，深爱霍去病"
+            },
+            "plot_related_info": {
+                "motivations": "与霍去病结婚",
+                "relationships": {
+                    "汉武帝": "父女",
+                    "霍去病": "恋人",
+                    "卫皇后": "母亲"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金秘帝",
+                "age": "小孩",
+                "gender": "男",
+                "identity": "匈奴小孩",
+                "characteristic": "天真无邪",
+                "description": "天真无邪的匈奴小孩，救了霍去病"
+            },
+            "plot_related_info": {
+                "motivations": "帮助霍去病",
+                "relationships": {
+                    "霍去病": "救命之恩（施救）"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "在长安皇宫内，汉武帝和东方朔讨论匈奴问题和个人烦恼，汉武帝想征服匈奴，而东方朔主张和平臣服。"
+            },
+            "start": 0,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "继续在皇宫内，汉武帝询问霍去病的伤势，东方朔转告霍去病的请求停止打仗，汉武帝答应为霍去病和公主举行婚礼。"
+            },
+            "start": 31,
+            "end": 60,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫皇后", "卫长公主", "修成君", "金娥"],
+                "description": "在卫长公主的卧室，汉武帝宣布霍去病回来的消息，准备婚礼，卫长公主高兴地整理嫁妆。"
+            },
+            "start": 61,
+            "end": 89,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.85,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病", "金秘帝", "霍光"],
+                "description": "在回长安的路上，卫青大军护送霍去病，霍去病情危，嘱咐善待金秘帝后昏迷。"
+            },
+            "start": 90,
+            "end": 116,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病", "金秘帝", "汉军"],
+                "description": "大军在烈日下行军，金秘帝为霍去病祈祷，霍去病幻觉中听到公主歌声。"
+            },
+            "start": 117,
+            "end": 134,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫皇后", "卫长公主", "罗夫", "文武百官", "百姓"],
+                "description": "在渭水河边凯旋门，汉武帝和百官准备迎接大军和婚礼，百姓欢呼，公主期待霍去病归来。"
+            },
+            "start": 135,
+            "end": 155,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "东方朔", "卫皇后", "卫长公主", "汉军"],
+                "description": "大军返回，但霍去病已死，卫青穿着孝服，卫皇后晕倒，汉武帝震惊悲痛。"
+            },
+            "start": 156,
+            "end": 185,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫长公主", "东方朔", "卫青", "文武百官", "百姓"],
+                "description": "在凯旋门，卫长公主扑向霍去病尸体，指责汉武帝，众人痛哭，天降暴雨。"
+            },
+            "start": 186,
+            "end": 211,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "卫青", "公孙贺", "李蔡", "汉军"],
+                "description": "在茂陵旁，汉武帝为霍去病举行葬礼，众人背土安葬，汉武帝表达悔恨，卫青悲伤。"
+            },
+            "start": 212,
+            "end": 237,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        }
+    ],
+    "coverage_check": true
+}

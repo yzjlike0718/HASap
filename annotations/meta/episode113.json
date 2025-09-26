@@ -1,0 +1,210 @@
+{
+    "story": {
+        "background": "故事发生在汉朝汉武帝时期，地点包括长安的廷尉府、建章宫和齐国的临淄。世界观为古代中国官场，涉及军事粮草短缺和朝廷内部决策。",
+        "plot": "张汤因军粮短缺而焦急，吴培龙建议从齐国调粮。张汤派杜周和赵宇执行，但他们认为需要东方朔出马。汉武帝命令东方朔去齐国调粮，东方朔提出免赋税和授权条件。最终东方朔前往齐国，义纵得知消息准备应对。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "焦急",
+                "description": "廷尉，负责军粮筹措，性格焦急"
+            },
+            "plot_related_info": {
+                "motivations": "为军粮短缺着急，希望解决问题",
+                "relationships": {
+                    "吴培龙": "下属",
+                    "杜周": "下属",
+                    "赵宇": "下属",
+                    "汉武帝": "君臣",
+                    "东方朔": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "吴培龙",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "张汤的心腹",
+                "characteristic": "聪明",
+                "description": "张汤的心腹，出谋划策"
+            },
+            "plot_related_info": {
+                "motivations": "帮助张汤解决问题",
+                "relationships": {
+                    "张汤": "上司"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杜周",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "张汤的爱将",
+                "characteristic": "直言",
+                "description": "张汤的爱将，敢于直言"
+            },
+            "plot_related_info": {
+                "motivations": "为张汤出主意，但指出困难",
+                "relationships": {
+                    "张汤": "上司",
+                    "赵宇": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "赵宇",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "张汤的爱将",
+                "characteristic": "附和",
+                "description": "张汤的爱将，常随声附和"
+            },
+            "plot_related_info": {
+                "motivations": "支持杜周的观点，建议东方朔出马",
+                "relationships": {
+                    "张汤": "上司",
+                    "杜周": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "汉朝皇帝，关心军粮问题"
+            },
+            "plot_related_info": {
+                "motivations": "确保军粮供应，维护边疆稳定",
+                "relationships": {
+                    "张汤": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的大臣，被派往调粮"
+            },
+            "plot_related_info": {
+                "motivations": "平衡朝廷和百姓利益，确保调粮成功",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "同僚",
+                    "义纵": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "执金吾",
+                "characteristic": "强悍",
+                "description": "执金吾，监管齐国，性格强悍"
+            },
+            "plot_related_info": {
+                "motivations": "维护自己在齐国的权威",
+                "relationships": {
+                    "东方朔": "同僚"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["张汤", "吴培龙"],
+                "description": "在廷尉府，张汤因军粮短缺焦急，吴培龙建议从齐国调粮。"
+            },
+            "start": 0,
+            "end": 18,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "吴培龙", "杜周", "赵宇"],
+                "description": "在廷尉府，杜周和赵宇进入，讨论调粮困难，建议请东方朔出马。"
+            },
+            "start": 19,
+            "end": 52,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝", "东方朔"],
+                "description": "在建章宫，汉武帝催促军粮，张汤提出从齐国调粮，汉武帝命东方朔前往。"
+            },
+            "start": 53,
+            "end": 180,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "东方朔"],
+                "description": "在廷尉府外，张汤调集车辆，东方朔辞别夫人，准备前往齐国。"
+            },
+            "start": 181,
+            "end": 184,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵"],
+                "description": "在临淄城墙上，义纵得知东方朔前来调粮的消息。"
+            },
+            "start": 185,
+            "end": 188,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "义纵"],
+                "description": "在临淄宫殿前，义纵迎接东方朔，两人对话。"
+            },
+            "start": 189,
+            "end": 203,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

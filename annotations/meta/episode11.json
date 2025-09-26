@@ -1,0 +1,206 @@
+{
+    "story": {
+        "background": "古代中国汉朝时期，地点包括酒席、酒店、驿站和霸陵等地。世界观为官场社会，注重礼仪和身份，涉及朝廷官员、文人和民间人物。",
+        "plot": "东方朔和杨得意奉命接司马相如入朝。在酒席上，司马相如拜东方朔为师并感谢杨得意。卓王孙送来财产，司马相如愤怒烧毁。一行人前往长安，途中在霸陵遇到田氏爷孙，东方朔显示箭法。最后，看到朝廷官员，暗示朝中变故。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "朝廷命官",
+                "characteristic": "幽默机智",
+                "description": "幽默机智的朝廷命官"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇命，调节人际关系",
+                "relationships": {
+                    "司马相如": "师徒",
+                    "杨得意": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "文人/布衣",
+                "characteristic": "才华横溢但敏感",
+                "description": "才华横溢但敏感的文人"
+            },
+            "plot_related_info": {
+                "motivations": "入朝为官，证明自己",
+                "relationships": {
+                    "卓文君": "夫妻",
+                    "东方朔": "师徒",
+                    "杨得意": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "卓王孙女儿/司马相如妻子",
+                "characteristic": "聪明机智",
+                "description": "聪明机智的女性"
+            },
+            "plot_related_info": {
+                "motivations": "支持丈夫，维护礼节",
+                "relationships": {
+                    "司马相如": "夫妻",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员/副使臣",
+                "characteristic": "随和",
+                "description": "随和的官员"
+            },
+            "plot_related_info": {
+                "motivations": "帮助司马相如，执行职务",
+                "relationships": {
+                    "司马相如": "兄弟",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王级",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "县令",
+                "characteristic": "趋炎附势",
+                "description": "趋炎附势的县令"
+            },
+            "plot_related_info": {
+                "motivations": "巴结上级",
+                "relationships": {
+                    "司马相如": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田老人",
+                "age": "90开外",
+                "gender": "男",
+                "identity": "护林人",
+                "characteristic": "精神矍铄",
+                "description": "精神矍铄的护林老人"
+            },
+            "plot_related_info": {
+                "motivations": "守护陵寝，教育孙子",
+                "relationships": {
+                    "田千秋": "祖孙"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田千秋",
+                "age": "11-12岁",
+                "gender": "男",
+                "identity": "田老人孙子",
+                "characteristic": "聪明伶俐",
+                "description": "聪明伶俐的少年"
+            },
+            "plot_related_info": {
+                "motivations": "学习知识",
+                "relationships": {
+                    "田老人": "祖孙"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "卓文君", "杨得意", "王级"],
+                "description": "在酒席上，东方朔提醒司马相如注意身份，司马相如拜东方朔为师，并感谢杨得意。"
+            },
+            "start": 0,
+            "end": 32,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "卓文君", "杨得意", "王级", "差役"],
+                "description": "大家继续饮酒，司马相如醉酒打碎酒杯，差役来报卓王孙送来财产和奴仆。"
+            },
+            "start": 33,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "卓文君", "杨得意", "王级", "奴仆"],
+                "description": "司马相如愤怒烧毁卓王孙送来的财产，王级离开，东方朔等人起身前往驿站。"
+            },
+            "start": 57,
+            "end": 96,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "卓文君", "杨得意", "杨得道"],
+                "description": "一行人到达驿站，杨得道加入，旅途开始，大家互动幽默。"
+            },
+            "start": 97,
+            "end": 114,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "卓文君", "杨得意", "杨得道", "田老人", "田千秋"],
+                "description": "到达霸陵，天气寒冷，车坏住护林人家，东方朔与田千秋交谈，感慨知识不足。"
+            },
+            "start": 115,
+            "end": 137,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "卓文君", "杨得意", "杨得道"],
+                "description": "离开霸陵，东方朔射狼显示武功，看到朝廷官员，暗示朝中变故。"
+            },
+            "start": 138,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

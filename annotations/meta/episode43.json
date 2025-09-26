@@ -1,0 +1,313 @@
+{
+    "story": {
+        "background": "故事发生在汉朝汉武帝时期，地点包括长安、洛阳、潼关及边境战场马驿附近，世界观为历史战争与宫廷斗争，涉及汉朝与匈奴的冲突。",
+        "plot": "汉军出征匈奴，丞相田鼢作为统帅故意摔伤并推卸责任，导致王辉指挥失误，汉军惨败。汉武帝怒杀王辉、治罪韩安国、贬公孙敖为庶民。公孙敖遇到东方朔和卫青，讲述战败经过，并透露田鼢受皇太后支持即将娶亲，东方朔和卫青需想办法应对。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "机智",
+                "description": "机智的汉朝谋士"
+            },
+            "plot_related_info": {
+                "motivations": "帮助汉朝应对危机，对付田鼢",
+                "relationships": {
+                    "卫青": "朋友",
+                    "公孙敖": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "沉稳",
+                "description": "沉稳的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "关心战事，希望汉军胜利",
+                "relationships": {
+                    "霍去病": "舅舅",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军/庶民",
+                "characteristic": "老实",
+                "description": "老实的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "忠诚于汉朝，但被冤枉",
+                "relationships": {
+                    "田鼢": "下属",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "狡诈",
+                "description": "狡诈的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "保全丞相之位，避免打仗",
+                "relationships": {
+                    "皇太后": "支持者",
+                    "汉武帝": "臣子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王辉",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军/大行令",
+                "characteristic": "自负",
+                "description": "自负的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "执行田鼢的命令，但无能",
+                "relationships": {
+                    "田鼢": "同伙",
+                    "李广": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "愤怒",
+                "description": "愤怒的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护汉朝国威，惩罚败将",
+                "relationships": {
+                    "田鼢": "臣子",
+                    "皇太后": "母亲"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "太后",
+                "characteristic": "支持田鼢",
+                "description": "支持田鼢的汉朝太后"
+            },
+            "plot_related_info": {
+                "motivations": "支持田鼢，可能涉及政治",
+                "relationships": {
+                    "田鼢": "支持对象",
+                    "汉武帝": "儿子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "单于",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴首领",
+                "characteristic": "狡猾",
+                "description": "狡猾的匈奴首领"
+            },
+            "plot_related_info": {
+                "motivations": "打败汉军，避免埋伏",
+                "relationships": {
+                    "涅伊": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李广",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军/雁门太守",
+                "characteristic": "经验丰富",
+                "description": "经验丰富的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "为汉朝打仗，但不被重用",
+                "relationships": {
+                    "王辉": "同事",
+                    "韩安国": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩安国",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "谨慎",
+                "description": "谨慎的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "避免不必要的战争，但被迫参与",
+                "relationships": {
+                    "王辉": "同事",
+                    "李广": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏建",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "校尉",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉军校尉"
+            },
+            "plot_related_info": {
+                "motivations": "执行命令，但担心汉军失败",
+                "relationships": {
+                    "王辉": "下属"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "朱买臣媳妇"],
+                "description": "东方朔向朱买臣媳妇泼水，要求收回水，媳妇失败，朱买臣离开。"
+            },
+            "start": 0,
+            "end": 16,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "霍去病"],
+                "description": "东方朔、卫青和霍去病在过了洛阳后听到败仗消息，讨论战事。"
+            },
+            "start": 17,
+            "end": 26,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "霍去病", "公孙敖"],
+                "description": "东方朔和卫青看到公孙敖的马和人，认出是公孙敖。"
+            },
+            "start": 27,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢", "公孙敖", "王辉"],
+                "description": "田鼢作为统帅出兵，故意摔伤并推卸责任给公孙敖，王辉带兵前进。"
+            },
+            "start": 31,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["王辉", "李广", "韩安国", "苏建"],
+                "description": "王辉布置埋伏，李广和韩安国分别埋伏左右，王辉赶走老百姓，导致匈奴疑心。"
+            },
+            "start": 57,
+            "end": 89,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["单于", "涅伊", "左贤王", "右贤王"],
+                "description": "匈奴单于发现汉军埋伏，杀死涅伊，布置左右贤王夹攻。"
+            },
+            "start": 90,
+            "end": 125,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["王辉", "苏建", "单于", "李广"],
+                "description": "匈奴进攻，汉军败退，李广救援，但汉军损失惨重。"
+            },
+            "start": 126,
+            "end": 155,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "王辉", "韩安国", "李广", "公孙敖", "皇太后"],
+                "description": "汉武帝怒杀王辉，治罪韩安国，贬公孙敖为庶民，田鼢脱罪。"
+            },
+            "start": 156,
+            "end": 172,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙敖", "东方朔", "卫青"],
+                "description": "公孙敖遇到东方朔和卫青，讲述战败经过，提到田鼢娶亲的事。"
+            },
+            "start": 173,
+            "end": 198,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

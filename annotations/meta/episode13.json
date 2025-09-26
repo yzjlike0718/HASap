@@ -1,0 +1,209 @@
+{
+    "story": {
+        "background": "时间：古代汉朝时期；地点：灞陵；世界观：宫廷政治斗争，太皇太后掌权，官员被赐死，涉及忠诚、生存与欺骗。",
+        "plot": "御史大夫赵绾和郎中令王臧被太皇太后赐死，在灞陵准备上吊自杀；东方朔及其同伴杨得意、司马相如、卓文君暗中观察并救下他们；东方朔想出计策，用死狼和袍子代替尸体，让赵绾和王臧隐姓埋名等待时机；东方朔将责任推给司马相如等人以自保，故事暂停于众人的担忧。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "赵绾",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "御史大夫",
+                "characteristic": "固执",
+                "description": "固执的御史大夫"
+            },
+            "plot_related_info": {
+                "motivations": "最初决心舍生取义，但被救后渴望活下去",
+                "relationships": {
+                    "王臧": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王臧",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "郎中令",
+                "characteristic": "怯懦",
+                "description": "怯懦的郎中令"
+            },
+            "plot_related_info": {
+                "motivations": "怕死，强烈希望生存",
+                "relationships": {
+                    "赵绾": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "智囊/官员",
+                "characteristic": "机智",
+                "description": "机智的智囊"
+            },
+            "plot_related_info": {
+                "motivations": "救人并想出欺瞒计策，同时保护自己",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "随从/助手",
+                "characteristic": "忠诚",
+                "description": "忠诚的随从"
+            },
+            "plot_related_info": {
+                "motivations": "协助东方朔救人，并参与计划",
+                "relationships": {
+                    "东方朔": "上司"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "蜀中才子",
+                "characteristic": "文人",
+                "description": "文人墨客"
+            },
+            "plot_related_info": {
+                "motivations": "参与救人，但担心罪责影响仕途",
+                "relationships": {
+                    "卓文君": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "司马相如之妻",
+                "characteristic": "聪明",
+                "description": "聪明的妻子"
+            },
+            "plot_related_info": {
+                "motivations": "帮助出主意，确保计划成功",
+                "relationships": {
+                    "司马相如": "夫妻"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["赵绾", "王臧", "豆桂"],
+                "description": "在灞陵，豆桂劝赵绾和王臧不要上吊，但失败后离开去向丞相禀报。"
+            },
+            "start": 0,
+            "end": 3,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["赵绾", "王臧"],
+                "description": "赵绾和王臧在树上准备上吊，讨论死亡和告状，东方朔等人在暗中观察。"
+            },
+            "start": 4,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "赵绾", "王臧", "杨得意"],
+                "description": "东方朔现身阻止上吊，砍断绳子救下赵绾和王臧，双方发生争执。"
+            },
+            "start": 34,
+            "end": 52,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "赵绾", "王臧", "杨得意", "司马相如"],
+                "description": "赵绾和王臧求东方朔出主意活命，东方朔调侃他们，并引入司马相如等人。"
+            },
+            "start": 53,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "赵绾", "王臧", "杨得意", "司马相如", "卓文君"],
+                "description": "众人跪下求东方朔出主意，卓文君也参与，东方朔最终答应。"
+            },
+            "start": 129,
+            "end": 156,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "赵绾", "王臧", "杨得意", "司马相如", "卓文君", "杨得道"],
+                "description": "东方朔提出用死狼和袍子代替尸体，大家协助将动物尸体抬到树下，解释计划。"
+            },
+            "start": 157,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "赵绾", "王臧", "杨得意", "司马相如", "卓文君"],
+                "description": "赵绾和王臧明白计划，东方朔推卸责任给司马相如等人，强调欺君之罪。"
+            },
+            "start": 184,
+            "end": 210,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "卓文君", "杨得意"],
+                "description": "司马相如等人担心罪责，东方朔沉默，故事暂停于众人的担忧中。"
+            },
+            "start": 211,
+            "end": 218,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

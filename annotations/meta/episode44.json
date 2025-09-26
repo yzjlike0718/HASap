@@ -1,0 +1,239 @@
+{
+  "story": {
+    "background": "汉朝汉武帝时期，长安皇宫和丞相府。皇太后掌权，田鼢作为丞相通过婚姻巩固权力，朝廷官员纷纷贺喜。",
+    "plot": "公孙敖向东方朔报告田鼢的权势和皇太后的旨意；东方朔决定回长安处理此事；窦婴担心灌夫抗旨而去劝说灌夫一同贺喜；在田鼢的婚礼上，东方朔以脚伤讽刺田鼢并巧妙为公孙敖求情；灌夫愤怒与林汝侯发生冲突；田鼢敬酒时东方朔不起身；张汤出现，东方朔提及往事。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "公孙敖",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "担忧",
+        "description": "被贬庶人的担忧将军"
+      },
+      "plot_related_info": {
+        "motivations": "担心朝廷局势，希望恢复官职",
+        "relationships": {
+          "东方朔": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "朝臣",
+        "characteristic": "机智",
+        "description": "机智的朝臣"
+      },
+      "plot_related_info": {
+        "motivations": "维护正义，讽刺权贵，帮助朋友",
+        "relationships": {
+          "公孙敖": "朋友",
+          "田鼢": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "田鼢",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "丞相",
+        "characteristic": "权势",
+        "description": "权势的丞相"
+      },
+      "plot_related_info": {
+        "motivations": "巩固权力，讨好皇太后",
+        "relationships": {
+          "东方朔": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大将",
+        "characteristic": "老实",
+        "description": "老实的大将"
+      },
+      "plot_related_info": {
+        "motivations": "支持东方朔，忠诚于朝廷",
+        "relationships": {
+          "东方朔": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "窦婴",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "魏其侯",
+        "characteristic": "老成",
+        "description": "老成的魏其侯"
+      },
+      "plot_related_info": {
+        "motivations": "担心灌夫，避免冲突，保全自身",
+        "relationships": {
+          "灌夫": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "灌夫",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "永英侯",
+        "characteristic": "暴躁",
+        "description": "暴躁的永英侯"
+      },
+      "plot_related_info": {
+        "motivations": "反对田鼢，维护尊严",
+        "relationships": {
+          "窦婴": "朋友",
+          "田鼢": "敌对"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["公孙敖", "东方朔", "朱买臣"],
+        "description": "公孙敖向东方朔报告田鼢的权势和皇太后的旨意，东方朔决定回长安处理。"
+      },
+      "start": 0,
+      "end": 15,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔"],
+        "description": "东方朔到达长安，得知皇上病了和田鼢府的喜事准备，朝廷官员纷纷送礼。"
+      },
+      "start": 16,
+      "end": 28,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["窦婴"],
+        "description": "窦婴在家中对田鼢的权势感到不安，担心灌夫会抗旨。"
+      },
+      "start": 29,
+      "end": 46,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["窦婴", "灌夫"],
+        "description": "窦婴到灌夫家劝说他去田鼢府贺喜，灌夫最初拒绝但最终同意。"
+      },
+      "start": 47,
+      "end": 62,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["灌夫", "窦婴", "田鼢", "东方朔", "卫青"],
+        "description": "灌夫和窦婴到达田鼢府，东方朔和卫青也在场，东方朔用脚伤讽刺田鼢，并为公孙敖求情。"
+      },
+      "start": 63,
+      "end": 95,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["田鼢", "窦婴", "灌夫", "东方朔", "卫青"],
+        "description": "田鼢正式迎接窦婴和灌夫，灌夫生气，窦婴圆场，他们进入席间。"
+      },
+      "start": 96,
+      "end": 122,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["灌夫", "东方朔", "卫青"],
+        "description": "灌夫询问东方朔的脚伤，东方朔调侃并暗示灌夫家乡的事情。"
+      },
+      "start": 123,
+      "end": 138,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["灌夫", "林汝侯", "东方朔"],
+        "description": "林汝侯灌贤到来，坐在灌夫旁边，两人发生口角冲突。"
+      },
+      "start": 139,
+      "end": 155,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["田鼢", "众大臣"],
+        "description": "田鼢向所有宾客敬酒，大家响应，东方朔因脚伤未起身。"
+      },
+      "start": 156,
+      "end": 162,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "卫青", "灌夫", "张汤"],
+        "description": "宾客饮酒，张汤向东方朔敬酒，东方朔提及张汤的往事。"
+      },
+      "start": 163,
+      "end": 181,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

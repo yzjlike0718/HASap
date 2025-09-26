@@ -1,0 +1,262 @@
+{
+  "story": {
+    "background": "时间：汉武帝时期；地点：长安城，包括秦家酒楼和建章宫；世界观：历史背景，宫廷与民间生活交织，涉及军队纪律和民间纠纷。",
+    "plot": "东方朔、霍去病和辛苦子送罗浮回家，在秦家酒楼遇到冯子都强行提亲，霍去病出面制服冯子都。随后，东方朔被召入宫，在建章宫用驴车故事幽默地讽刺军队纪律问题，促使卫青和霍去病自省请罪。故事展现了权力与民间的冲突，以及智慧讽刺带来的改变。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员/智慧之星",
+        "characteristic": "幽默智慧",
+        "description": "幽默智慧的朝廷官员"
+      },
+      "plot_related_info": {
+        "motivations": "维护正义，通过幽默方式讽刺时弊",
+        "relationships": {
+          "辛苦子": "父子",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "20岁左右",
+        "gender": "男",
+        "identity": "大将军/大司马",
+        "characteristic": "英勇但治军不严",
+        "description": "年轻英勇的大将军"
+      },
+      "plot_related_info": {
+        "motivations": "维护军队荣誉，自责治军无方",
+        "relationships": {
+          "卫青": "舅舅",
+          "冯子都": "上下级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛苦子",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "东方朔之子/侍卫",
+        "characteristic": "幽默",
+        "description": "幽默的侍卫"
+      },
+      "plot_related_info": {
+        "motivations": "辅助父亲，追求罗浮",
+        "relationships": {
+          "东方朔": "父子",
+          "辛延年": "师徒"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "罗浮",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "酒楼店主之女",
+        "characteristic": "漂亮",
+        "description": "漂亮的酒楼店主女儿"
+      },
+      "plot_related_info": {
+        "motivations": "寻找缘分，拒绝强迫婚姻",
+        "relationships": {
+          "秦全宝": "父女",
+          "秦胡适": "母女"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "秦全宝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "酒楼店主",
+        "characteristic": "谨慎",
+        "description": "谨慎的酒楼店主"
+      },
+      "plot_related_info": {
+        "motivations": "保护女儿，维护家庭",
+        "relationships": {
+          "罗浮": "父女",
+          "秦胡适": "夫妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "秦胡适",
+        "age": "中年",
+        "gender": "女",
+        "identity": "酒楼店主之妻",
+        "characteristic": "聪明泼辣",
+        "description": "聪明泼辣的酒楼店主妻子"
+      },
+      "plot_related_info": {
+        "motivations": "捍卫女儿，对抗冯子都",
+        "relationships": {
+          "秦全宝": "夫妻",
+          "罗浮": "母女"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "冯子都",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "霍去病属下/将军",
+        "characteristic": "嚣张霸道",
+        "description": "嚣张霸道的将军"
+      },
+      "plot_related_info": {
+        "motivations": "强娶罗浮，显示权力",
+        "relationships": {
+          "霍去病": "上下级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "权威",
+        "description": "权威的皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "治理国家，欣赏智慧",
+        "relationships": {
+          "东方朔": "君臣",
+          "卫皇后": "夫妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫皇后",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "皇后",
+        "characteristic": "高贵",
+        "description": "高贵的皇后"
+      },
+      "plot_related_info": {
+        "motivations": "陪伴皇帝，参与宫廷活动",
+        "relationships": {
+          "汉武帝": "夫妻",
+          "卫长公主": "母女"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大将军",
+        "characteristic": "正直",
+        "description": "正直的大将军"
+      },
+      "plot_related_info": {
+        "motivations": "维护军队纪律，自责管理不力",
+        "relationships": {
+          "霍去病": "舅舅",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛延年",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "唱乐辅诗者",
+        "characteristic": "幽默追随",
+        "description": "幽默的唱乐辅诗者"
+      },
+      "plot_related_info": {
+        "motivations": "学习艺术，追随东方朔",
+        "relationships": {
+          "辛苦子": "师徒",
+          "东方朔": "师祖"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "霍去病", "辛苦子", "罗浮", "秦全宝"],
+        "description": "在秦家酒楼楼上，东方朔等人讨论罗浮的婚事，秦全宝感谢东方朔送女回家。"
+      },
+      "start": 0,
+      "end": 31,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["秦全宝", "秦胡适", "冯子都", "东方朔", "霍去病", "辛苦子"],
+        "description": "在秦家酒楼楼下，冯子都强行提亲，与秦胡适发生冲突，霍去病出面制服冯子都。"
+      },
+      "start": 32,
+      "end": 103,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "霍去病", "辛苦子", "辛延年", "秦全宝"],
+        "description": "在秦家酒楼，辛延年出现并讨论姓氏，东方朔幽默回应。"
+      },
+      "start": 104,
+      "end": 115,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "辛苦子"],
+        "description": "在东方朔家中，东方朔整理乐辅诗，辛苦子传达皇帝召见命令。"
+      },
+      "start": 116,
+      "end": 124,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "卫皇后", "东方朔", "辛苦子", "辛延年", "卫青", "霍去病", "张汤"],
+        "description": "在建章宫，汉武帝观看歌舞，东方朔用驴车故事讽刺军队纪律，卫青和霍去病请罪。"
+      },
+      "start": 125,
+      "end": 189,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

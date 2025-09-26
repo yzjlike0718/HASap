@@ -1,0 +1,224 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：未央宫、昭阳宫、上林院等皇宫场所；世界观：古代中国宫廷政治，围绕封侯拜相的制度与权力斗争。",
+        "plot": "汉武帝在未央宫正殿讨论制服匈奴者封侯拜相，东方朔巧妙利用汉代祖制结束争论。皇太后在昭阳宫训斥弟弟田鼢无能，但坚持让他立功封侯，并接受王辉的献计设伏匈奴。皇太后命令东方朔帮助田鼢，并让卫青和公孙敖听从田鼢调遣。田鼢在上林院学习骑马射箭时出丑摔伤，但最终决心继续训练以当丞相。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋臣",
+                "characteristic": "机智",
+                "description": "机智的汉朝谋臣"
+            },
+            "plot_related_info": {
+                "motivations": "为汉武帝出谋划策，维护朝廷制度",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "皇太后": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "果断",
+                "description": "果断的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "选拔人才制服匈奴，巩固皇权",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "皇太后": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "倔强",
+                "description": "倔强的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "支持东方朔，维护正义",
+                "relationships": {
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇太后弟弟",
+                "characteristic": "无能",
+                "description": "无能的皇太后弟弟"
+            },
+            "plot_related_info": {
+                "motivations": "想当丞相，依赖皇太后提拔",
+                "relationships": {
+                    "皇太后": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "太后",
+                "characteristic": "权力欲强",
+                "description": "权力欲强的汉朝太后"
+            },
+            "plot_related_info": {
+                "motivations": "提拔弟弟田鼢，巩固家族权力",
+                "relationships": {
+                    "田鼢": "姐弟",
+                    "汉武帝": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大太监",
+                "characteristic": "机灵",
+                "description": "机灵的汉朝大太监"
+            },
+            "plot_related_info": {
+                "motivations": "侍奉皇太后，传递消息",
+                "relationships": {
+                    "皇太后": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王辉",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大行令",
+                "characteristic": "野心勃勃",
+                "description": "野心勃勃的汉朝大行令"
+            },
+            "plot_related_info": {
+                "motivations": "想往上爬，献计取悦皇太后",
+                "relationships": {
+                    "皇太后": "君臣",
+                    "田鼢": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "厚道",
+                "description": "厚道的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "奉命教田鼢骑马，忠诚执行命令",
+                "relationships": {
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "年轻勇猛",
+                "description": "年轻勇猛的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "辅助训练田鼢，展示骑术",
+                "relationships": {
+                    "东方朔": "义父子"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "汲黯", "所忠"],
+                "description": "在未央宫正殿，汉武帝让窦婴和田鼢上奏折制服匈奴者封侯拜相，东方朔巧妙用祖制结束争论，所忠传旨皇太后召东方朔。"
+            },
+            "start": 0,
+            "end": 9,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "田鼢"],
+                "description": "在昭阳宫，皇太后训斥田鼢无能，但坚持让他领兵打仗立功封侯，田鼢害怕但最终同意。"
+            },
+            "start": 10,
+            "end": 67,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "田鼢", "所忠", "王辉"],
+                "description": "在昭阳宫，王辉献计用聂义骗匈奴单于设伏捉拿，皇太后高兴，承诺封赏，田鼢有了信心。"
+            },
+            "start": 68,
+            "end": 107,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "东方朔", "所忠"],
+                "description": "在昭阳宫，皇太后责备东方朔没有提醒祖制，命令他帮助田鼢，并让卫青和公孙敖听从田鼢调遣，教田鼢骑马射箭。"
+            },
+            "start": 108,
+            "end": 147,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "田鼢", "公孙敖", "霍去病"],
+                "description": "在上林院，东方朔、公孙敖教田鼢骑马，田鼢出丑摔伤腿，但最终决心继续训练以当丞相。"
+            },
+            "start": 148,
+            "end": 205,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

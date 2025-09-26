@@ -1,0 +1,257 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期；地点：长安皇宫、炼丹坊、东方朔家等；世界观：历史武侠风格，涉及朝廷斗争、军事出征和道家炼丹。",
+        "plot": "卫青出征前担心妖道李少君危害朝廷，委托东方朔除掉他。东方朔设计调走庄祝，并让刘陵与李少君共同炼丹以实施计划。武帝为军粮问题焦虑，张汤提出收回铸币权。东方朔家中发生同时生育事件，武帝服药过量出现健康危机，东方朔被求助。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士/官员",
+                "characteristic": "智慧",
+                "description": "智慧的朝廷谋士"
+            },
+            "plot_related_info": {
+                "motivations": "维护朝廷稳定，除掉妖道李少君",
+                "relationships": {
+                    "卫青": "朋友",
+                    "武帝": "君臣",
+                    "李少君": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "谨慎",
+                "description": "谨慎的大将军"
+            },
+            "plot_related_info": {
+                "motivations": "出征匈奴，保护朝廷",
+                "relationships": {
+                    "东方朔": "朋友",
+                    "霍去病": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "英勇",
+                "description": "英勇的年轻将军"
+            },
+            "plot_related_info": {
+                "motivations": "出征立功",
+                "relationships": {
+                    "卫青": "外甥",
+                    "东方朔": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "治理国家，扩张疆土",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "张汤": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "妖道/炼丹师",
+                "characteristic": "狡猾",
+                "description": "狡猾的炼丹妖道"
+            },
+            "plot_related_info": {
+                "motivations": "保持权力，炼丹求仙",
+                "relationships": {
+                    "武帝": "君臣",
+                    "刘陵": "利用"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "庄祝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "护驾侍卫",
+                "characteristic": "忠诚",
+                "description": "忠诚的侍卫"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇上，但与刘陵有关",
+                "relationships": {
+                    "刘陵": "恋人",
+                    "李少君": "推荐"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘陵",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "郡主",
+                "characteristic": "野心",
+                "description": "野心勃勃的郡主"
+            },
+            "plot_related_info": {
+                "motivations": "权力或修炼",
+                "relationships": {
+                    "庄祝": "恋人",
+                    "李少君": "利用"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "务实",
+                "description": "务实的朝廷官员"
+            },
+            "plot_related_info": {
+                "motivations": "管理粮草，维护权力",
+                "relationships": {
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "东方朔的妻子",
+                "characteristic": "直率",
+                "description": "直率的家庭主妇"
+            },
+            "plot_related_info": {
+                "motivations": "处理家庭事务",
+                "relationships": {
+                    "东方朔": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "侍从/太监",
+                "characteristic": "焦急",
+                "description": "焦急的皇宫侍从"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇上",
+                "relationships": {
+                    "武帝": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "霍去病"],
+                "description": "在出征送行地点，卫青委托东方朔除掉妖道李少君，霍去病请求调派辛苦子随军出征。"
+            },
+            "start": 0,
+            "end": 18,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "武帝", "庄祝", "辛苦子"],
+                "description": "在皇宫，东方朔请求武帝调派庄祝和辛苦子出征，讨论守孝期限和军粮问题。"
+            },
+            "start": 19,
+            "end": 89,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "刘陵", "李少君"],
+                "description": "在炼丹坊，东方朔传旨让李少君和刘陵共同炼丹，设计除掉李少君，并离开后听到他们服药。"
+            },
+            "start": 90,
+            "end": 135,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "张汤", "东方朔"],
+                "description": "在皇宫外，东方朔偷听武帝和张汤讨论军粮短缺问题，张汤提出收回铸币权。"
+            },
+            "start": 136,
+            "end": 170,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "云儿", "道儿老婆"],
+                "description": "在东方朔家，齐鲁女报告云儿和道儿老婆同时生育，东方朔建议共享奶水。"
+            },
+            "start": 171,
+            "end": 195,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "在东方朔家，杨得意报告武帝服药过量出现危机，求助东方朔。"
+            },
+            "start": 196,
+            "end": 221,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

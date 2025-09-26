@@ -1,0 +1,344 @@
+{
+    "story": {
+        "background": "时间是中国古代汉武帝时期，地点包括长安、未央宫、建章宫、上林苑、东宫等。世界观是历史古装剧，以宫廷政治、军事筹备和儒家思想为背景，涉及讨伐匈奴的战争准备和朝廷内斗。",
+        "plot": "汉武帝因讨伐匈奴需要粮草，下诏征集但诸侯富商不应。主父衍出主意找蒲式献羊，但被东方朔怀疑。东方朔带来富商东郭咸阳和孔锦献粮，解决了粮草问题。汉武帝封赏富商并派卫青出兵匈奴，同时朝廷上争论不休，太子教育线引入狄山博士。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "中年男性皇帝，威严"
+            },
+            "plot_related_info": {
+                "motivations": "筹集粮草讨伐匈奴，巩固皇权",
+                "relationships": {
+                    "主父衍": "君臣",
+                    "东方朔": "君臣",
+                    "张汤": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "狡猾",
+                "description": "男性官员，狡猾"
+            },
+            "plot_related_info": {
+                "motivations": "通过献粮讨好皇上，避免责罚",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "蒲式": "利用",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "聪明",
+                "description": "男性官员，聪明"
+            },
+            "plot_related_info": {
+                "motivations": "协助皇上征集粮草，维护朝廷利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "机智",
+                "description": "男性官员，机智"
+            },
+            "plot_related_info": {
+                "motivations": "揭露真相，帮助皇上解决粮草问题",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "敌对",
+                    "东郭咸阳": "同乡",
+                    "孔锦": "同乡"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "蒲式",
+                "age": "52",
+                "gender": "男",
+                "identity": "牧羊人",
+                "characteristic": "朴实",
+                "description": "52岁男性牧羊人，朴实"
+            },
+            "plot_related_info": {
+                "motivations": "通过献羊获得官位，保障生活",
+                "relationships": {
+                    "主父衍": "合作",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "保守",
+                "description": "老年男性丞相，保守"
+            },
+            "plot_related_info": {
+                "motivations": "维护儒家思想，反对过度用兵",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "董仲舒": "师徒"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "英勇",
+                "description": "中年男性将军，英勇"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇命，讨伐匈奴",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东郭咸阳",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "盐商",
+                "characteristic": "富有",
+                "description": "男性盐商，富有"
+            },
+            "plot_related_info": {
+                "motivations": "献粮获得官位，保护商业利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "同乡"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "孔锦",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "铁商",
+                "characteristic": "富有",
+                "description": "男性铁商，富有"
+            },
+            "plot_related_info": {
+                "motivations": "献粮获得官位，保护商业利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "同乡"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山博士",
+                "age": "中年",
+                "gender": "男",
+                "identity": "太子老师",
+                "characteristic": "严肃",
+                "description": "中年男性太子老师，严肃"
+            },
+            "plot_related_info": {
+                "motivations": "教育太子，传播儒家思想",
+                "relationships": {
+                    "太子刘骏": "师生",
+                    "公孙弘": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董仲舒",
+                "age": "老年",
+                "gender": "男",
+                "identity": "儒家学者",
+                "characteristic": "智慧",
+                "description": "老年男性儒家学者，智慧"
+            },
+            "plot_related_info": {
+                "motivations": "推广儒家思想，影响朝廷政策",
+                "relationships": {
+                    "公孙弘": "师徒",
+                    "狄山博士": "同道"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["主父衍", "蒲式"],
+                "description": "主父衍与蒲式在长安外相遇，主父衍建议蒲式献羊给皇上以换取官位。"
+            },
+            "start": 0,
+            "end": 10,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "主父衍", "蒲式", "东方朔", "张汤"],
+                "description": "汉武帝在建章宫外接见蒲式，蒲式献上六万多只羊，汉武帝封蒲式为太仆寺羽马郎。"
+            },
+            "start": 11,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "主父衍"],
+                "description": "东方朔质疑主父衍的计谋，主父衍担心被揭穿。"
+            },
+            "start": 40,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "公孙弘", "文武官员"],
+                "description": "第二天在未央宫朝会，汉武帝质问献粮进展，公孙弘劝谏，汉武帝愤怒。"
+            },
+            "start": 52,
+            "end": 87,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝", "公孙弘"],
+                "description": "张汤解释主父衍生病，公孙弘讽刺主父衍，张汤称东方朔能治病。"
+            },
+            "start": 88,
+            "end": 92,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "东郭咸阳", "孔锦"],
+                "description": "东方朔带来富商东郭咸阳和孔锦，他们献上千万钱粮，汉武帝惊喜。"
+            },
+            "start": 98,
+            "end": 126,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "东郭咸阳", "孔锦"],
+                "description": "汉武帝询问封赏标准，张汤计算后建议封官，汉武帝封东郭咸阳和孔锦为大司奴呈。"
+            },
+            "start": 127,
+            "end": 142,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青"],
+                "description": "汉武帝命卫青出兵匈奴，指派将领。"
+            },
+            "start": 145,
+            "end": 149,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝"],
+                "description": "东方朔请求上战场，汉武帝拒绝并命他去给主父衍治病。"
+            },
+            "start": 150,
+            "end": 165,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "杨得意"],
+                "description": "汉武帝退朝后前往东宫看望太子刘骏。"
+            },
+            "start": 167,
+            "end": 169,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "太子刘骏", "公孙弘", "狄山博士", "董仲舒"],
+                "description": "汉武帝在东宫观察狄山博士给太子讲课，董仲舒与公孙弘讨论儒家思想。"
+            },
+            "start": 170,
+            "end": 206,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

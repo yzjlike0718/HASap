@@ -1,0 +1,255 @@
+{
+    "story": {
+        "background": "时间：中国古代汉武帝时期。地点：皇宫、临淄、长安。世界观：历史宫廷剧，涉及政治斗争、家庭关系和社会正义。",
+        "plot": "皇太后病逝前嘱咐武帝成全蒲柳和金娥，并表达对阿娇的愧疚。武帝与东方朔商议赏赐蒲柳山林。主父衍在临淄被义纵处死，临死前发表狂妄言论。蒲柳处理主父衍后事并接回金娥。卫青和霍去病准备出征匈奴，东方朔传达武帝对李广的照顾旨意。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "孝顺",
+                "description": "中年男性皇帝，孝顺果断"
+            },
+            "plot_related_info": {
+                "motivations": "完成母亲遗愿，维护朝廷稳定",
+                "relationships": {
+                    "皇太后": "母子",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "老年",
+                "gender": "女",
+                "identity": "太后",
+                "characteristic": "悔悟",
+                "description": "老年女性太后，临终悔悟"
+            },
+            "plot_related_info": {
+                "motivations": "临终前弥补过错，嘱咐后代",
+                "relationships": {
+                    "武帝": "母子",
+                    "阿娇": "愧疚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "中年男性大臣，机智忠诚"
+            },
+            "plot_related_info": {
+                "motivations": "为儿子蒲柳争取利益，辅助武帝",
+                "relationships": {
+                    "武帝": "君臣",
+                    "蒲柳": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "中年",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "悲伤",
+                "description": "中年女性皇后，悲伤隐忍"
+            },
+            "plot_related_info": {
+                "motivations": "照顾太后，维护后宫稳定",
+                "relationships": {
+                    "皇太后": "婆媳",
+                    "武帝": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "罪臣",
+                "characteristic": "狂妄",
+                "description": "中年男性罪臣，狂妄无耻"
+            },
+            "plot_related_info": {
+                "motivations": "临死前博取名声，讽刺朝廷",
+                "relationships": {
+                    "义纵": "敌对",
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "严厉",
+                "description": "中年男性官员，严厉冷酷"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇命，惩治罪臣",
+                "relationships": {
+                    "主父衍": "敌对",
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "蒲柳",
+                "age": "青年",
+                "gender": "男",
+                "identity": "东方朔之子",
+                "characteristic": "务实",
+                "description": "青年男性东方朔之子，务实孝顺"
+            },
+            "plot_related_info": {
+                "motivations": "处理主父衍后事，接回金娥",
+                "relationships": {
+                    "东方朔": "父子",
+                    "金娥": "恋人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "谨慎",
+                "description": "中年男性将军，谨慎忠诚"
+            },
+            "plot_related_info": {
+                "motivations": "出征匈奴，执行皇命",
+                "relationships": {
+                    "武帝": "君臣",
+                    "霍去病": "甥舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "青年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "勇猛",
+                "description": "青年男性将军，年轻勇猛"
+            },
+            "plot_related_info": {
+                "motivations": "出征杀敌，建立功勋",
+                "relationships": {
+                    "卫青": "甥舅",
+                    "武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["皇太后", "武帝", "卫子夫"],
+                "description": "在皇宫寝室内，皇太后临终前嘱咐武帝成全蒲柳和金娥，并表达对阿娇的愧疚，武帝答应母亲要求。"
+            },
+            "start": 0,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "东方朔"],
+                "description": "在寝室外，武帝与东方朔讨论赏赐蒲柳山林，以归还孔锦的债务，并作为金娥的贺仪。"
+            },
+            "start": 25,
+            "end": 44,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫子夫", "俗女", "武帝", "东方朔"],
+                "description": "在寝室内，皇太后归天，卫子夫和俗女痛哭，武帝和东方朔返回。"
+            },
+            "start": 45,
+            "end": 47,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "主父衍", "吴大赖", "王秃子", "猪烂眼儿"],
+                "description": "在临淄相府门前，义纵准备油烹主父衍，百姓围观，主父衍临死前发表狂妄言论。"
+            },
+            "start": 48,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["蒲柳", "义纵", "阿都"],
+                "description": "在临淄相府门前，蒲柳带三辆车到来，与义纵交涉，处理主父衍后事并准备接回金娥。"
+            },
+            "start": 142,
+            "end": 169,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "文武官员", "老百姓"],
+                "description": "在临淄相府门前，义纵宣读圣旨，废除齐国，设立五郡，百姓欢呼。"
+            },
+            "start": 170,
+            "end": 179,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病", "东方朔"],
+                "description": "在长安城，卫青和霍去病准备出征，东方朔传达武帝旨意，要求照顾李广并试用赵信。"
+            },
+            "start": 180,
+            "end": 205,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

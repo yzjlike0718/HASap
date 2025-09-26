@@ -1,0 +1,239 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期，汉武帝已立太子，卫子夫为皇后。地点：汉朝宫廷，主要在建章宫和未央宫。世界观：汉朝政治与人才选拔，涉及儒家与其他学派的冲突。",
+        "plot": "汉武帝发布诏令举荐孝廉，丞相公孙弘建议罢黜百家独尊儒术，导致众大臣纷纷请辞。东方朔通过一首李象歌谣批评公孙弘不知书、孝廉不孝等现象，揭露朝中问题。汉武帝最终贬斥不孝之臣宁城，并对东方朔的话表示认可。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "聪明",
+                "description": "中年男性皇帝，聪明"
+            },
+            "plot_related_info": {
+                "motivations": "寻求人才，巩固统治，长生不老",
+                "relationships": {
+                    "公孙弘": "君臣",
+                    "东方朔": "君臣",
+                    "杨得意": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "32岁",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "揣摩心思",
+                "description": "32岁男性太监，善于揣摩心思"
+            },
+            "plot_related_info": {
+                "motivations": "服侍皇帝，讨好皇帝",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "固执",
+                "description": "男性丞相，固执"
+            },
+            "plot_related_info": {
+                "motivations": "推广儒术，维护权力",
+                "relationships": {
+                    "董仲舒": "师生",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "男性大臣，机智"
+            },
+            "plot_related_info": {
+                "motivations": "纠正朝政，幽默谏言",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马坛",
+                "age": "年事已高",
+                "gender": "男",
+                "identity": "太史公",
+                "characteristic": "老成",
+                "description": "年迈男性太史公"
+            },
+            "plot_related_info": {
+                "motivations": "维护黄老之学，反对独尊儒术",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "爱出风头",
+                "description": "男性大臣，爱出风头"
+            },
+            "plot_related_info": {
+                "motivations": "表现自己，支持东方朔",
+                "relationships": {
+                    "东方朔": "恩人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "法治",
+                "description": "男性廷尉，法治"
+            },
+            "plot_related_info": {
+                "motivations": "制定法律，维护职位",
+                "relationships": {
+                    "赵宇": "同事",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "赵宇",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "法治",
+                "description": "男性廷尉，法治"
+            },
+            "plot_related_info": {
+                "motivations": "制定法律，维护职位",
+                "relationships": {
+                    "张汤": "同事",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "武将",
+                "characteristic": "谨慎",
+                "description": "男性武将，谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "支持东方朔，维护兵家",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝"],
+                "description": "汉武帝从建章宫回未央宫，途中思考匈奴和封禅之事。"
+            },
+            "start": 0,
+            "end": 12,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "杨得意"],
+                "description": "汉武帝在未央宫前发现砖缝长草，与杨得意对话，决定上朝发布诏令。"
+            },
+            "start": 13,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "杨得意"],
+                "description": "汉武帝在朝堂上，杨得意宣读举荐孝廉的诏令，文武百官听诏。"
+            },
+            "start": 49,
+            "end": 58,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "公孙弘", "司马坛", "主父衍", "张汤", "赵宇", "卫青", "东方朔"],
+                "description": "丞相公孙弘建议独尊儒术，导致众大臣纷纷请辞，朝堂大乱。"
+            },
+            "start": 59,
+            "end": 102,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "公孙弘", "东方朔"],
+                "description": "汉武帝注意到只有公孙弘和东方朔没跪下，询问东方朔，东方朔提起李象歌谣。"
+            },
+            "start": 103,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "公孙弘", "主父衍", "杨得意"],
+                "description": "东方朔详细解释李象歌谣，批评公孙弘不知书和孝廉不孝，汉武帝贬斥宁城。"
+            },
+            "start": 142,
+            "end": 210,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

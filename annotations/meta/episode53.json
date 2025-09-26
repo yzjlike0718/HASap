@@ -1,0 +1,229 @@
+{
+    "story": {
+        "background": "时间：汉朝时期；地点：长安皇宫、东方朔家、长安东郊别墅、点将台；世界观：古代中国宫廷，涉及战争准备、政治阴谋和人物营救。",
+        "plot": "汉武帝准备出征匈奴，卫青请求派文武双全的监军，但汉武帝拒绝让东方朔前往。东方朔与朱买臣发现前朝官员王臧被囚禁在董衍的别墅中，并计划救出他。汉军在点将台集结，汉武帝亲临鼓舞士气，展示军威。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "中年男性皇帝，威严的决策者"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，准备战争出征匈奴",
+                "relationships": {
+                    "卫青": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "忠诚",
+                "description": "中年男性大将军，忠诚的将领"
+            },
+            "plot_related_info": {
+                "motivations": "为国出征，请求监军支持",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "霍去病": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "聪明机智",
+                "description": "中年男性谋士，聪明机智的文臣"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝，救人于危难",
+                "relationships": {
+                    "朱买臣": "朋友",
+                    "王臧": "故人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "小将",
+                "characteristic": "勇猛",
+                "description": "年轻男性小将，勇猛的将军"
+            },
+            "plot_related_info": {
+                "motivations": "支持卫青出征",
+                "relationships": {
+                    "卫青": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "朱买臣",
+                "age": "中年",
+                "gender": "男",
+                "identity": "会计太守",
+                "characteristic": "执着",
+                "description": "中年男性会计太守，执着的官员"
+            },
+            "plot_related_info": {
+                "motivations": "救出故人王臧",
+                "relationships": {
+                    "王臧": "故友",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王臧",
+                "age": "中年",
+                "gender": "男",
+                "identity": "前官员",
+                "characteristic": "悲惨",
+                "description": "中年男性前官员，悲惨的囚犯"
+            },
+            "plot_related_info": {
+                "motivations": "重获自由，与家人团聚",
+                "relationships": {
+                    "朱买臣": "故友",
+                    "东方朔": "恩人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "东方朔", "霍去病"],
+                "description": "在皇宫，汉武帝与卫青、东方朔讨论出征匈奴和监军人选，汉武帝拒绝让东方朔担任监军。"
+            },
+            "start": 0,
+            "end": 20,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔回家，第二天早晨起来练剑。"
+            },
+            "start": 21,
+            "end": 25,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "阿菊姑娘", "杨得道"],
+                "description": "在东方朔家，东方朔练剑，阿菊姑娘跟随学习，杨得道前来下棋，三人互动说笑。"
+            },
+            "start": 26,
+            "end": 40,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "杨得道"],
+                "description": "在东方朔家，朱买臣到来报告王臧的消息，杨得道献茶后退出。"
+            },
+            "start": 41,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣"],
+                "description": "在东方朔家，两人详细讨论王臧被董衍囚禁的情况，并决定立即前往别墅调查。"
+            },
+            "start": 51,
+            "end": 84,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣"],
+                "description": "在长安东郊别墅外，两人打晕家丁，进入院子。"
+            },
+            "start": 85,
+            "end": 94,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "王臧"],
+                "description": "在别墅地下室，通过地道进入，发现王臧在修理古董。"
+            },
+            "start": 95,
+            "end": 104,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "王臧"],
+                "description": "在地下室内，东方朔和朱买臣与王臧相认，了解他被囚禁的经过，并承诺三天内救他出去。"
+            },
+            "start": 105,
+            "end": 174,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "卫青", "霍去病"],
+                "description": "在点将台，汉军集结出征，汉武帝亲临现场，鼓舞士气。"
+            },
+            "start": 175,
+            "end": 188,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,224 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期。地点：长安城受降台及周边地区。世界观：历史战争与政治，汉朝与匈奴的长期冲突，强调皇权与军事胜利。",
+        "plot": "卫青率领汉军大胜匈奴，匈奴太子于禅归降。汉武帝在受降台举行仪式，封赏卫青等众将。主父衍提出让匈奴降兵乘车接受检阅以扬国威，但东方朔反对劳民伤财。汉武帝支持主父衍，导致官兵强行征车，引发民间苦难。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "扬汉朝国威，洗刷白登之辱，巩固统治",
+                "relationships": {
+                    "卫青": "君臣",
+                    "东方朔": "君臣",
+                    "主父衍": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "为国效忠，赢得战争胜利",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "公孙贺": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "劝谏皇帝，避免劳民伤财",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "阿谀",
+                "description": "阿谀的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "讨好皇帝，提升自身地位",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "成年",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "侠义",
+                "description": "侠义的江湖大侠"
+            },
+            "plot_related_info": {
+                "motivations": "谦虚不受封赏，愿散漫江湖",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "成年",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "奸猾",
+                "description": "奸猾的汉朝廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "迎合皇帝，维护自身利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏建",
+                "age": "成年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "为国作战，接受封赏",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙贺",
+                "age": "成年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "劳苦",
+                "description": "劳苦的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "协助卫青，赢得战争",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "苏建"],
+                "description": "在长安城受降台，汉武帝得知卫青胜利归来，命令东方朔布置受降仪式，并派苏建迎接卫青。"
+            },
+            "start": 0,
+            "end": 13,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "百姓", "霍去病"],
+                "description": "汉武帝起驾到受降台，百姓倾城出动迎接将士，卫青率军到达并拜见汉武帝。"
+            },
+            "start": 14,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "东方朔", "郭解", "苏建", "公孙贺"],
+                "description": "汉武帝封赏卫青、苏建、公孙贺和郭解等众将，郭解谦虚推辞但被汉武帝强制接受。"
+            },
+            "start": 25,
+            "end": 78,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "主父衍", "张汤"],
+                "description": "主父衍提出让匈奴降兵乘车接受检阅以扬国威，汉武帝同意并命令张汤和主父衍安排。"
+            },
+            "start": 79,
+            "end": 111,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "主父衍", "汉武帝", "张汤"],
+                "description": "东方朔反对主父衍的主意，认为劳民伤财，但汉武帝支持主父衍，并因东方朔违约而罚他闭嘴。"
+            },
+            "start": 112,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["官兵", "老人", "小孙女"],
+                "description": "官兵在长安郊县强行征车，老人求情但被拒绝，展现征车事件对百姓的苦难。"
+            },
+            "start": 184,
+            "end": 196,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

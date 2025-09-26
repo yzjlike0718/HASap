@@ -1,0 +1,254 @@
+{
+    "story": {
+        "background": "故事发生在汉朝时期，地点主要在颍水河边和周边地区，如虽水、汴水、下坯等，世界观结合历史与武侠元素，涉及江湖侠客、朝廷官员和民间百姓。",
+        "plot": "郭解在颍水河边救下被灌家恶少欺负的女子霍云儿。东方朔、卫青、司马迁和霍去病出现，邀请郭解入朝为官，但郭解因不满灌家恶行而拒绝。郭解决定带母亲和霍云儿姐弟前往峨眉山安顿。东方朔等人与灌家恶奴战斗后，绕路前往长安，途中在荒野休息并到达茶棚。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "江湖大侠",
+                "characteristic": "正义",
+                "description": "正义的江湖大侠"
+            },
+            "plot_related_info": {
+                "motivations": "行侠仗义，保护弱者，孝顺母亲",
+                "relationships": {
+                    "母亲": "母子",
+                    "东方朔": "朋友",
+                    "卫青": "朋友",
+                    "司马迁": "朋友",
+                    "霍去病": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "朝廷官员",
+                "characteristic": "机智",
+                "description": "机智的朝廷官员"
+            },
+            "plot_related_info": {
+                "motivations": "完成皇命，邀请郭解入朝，帮助百姓",
+                "relationships": {
+                    "郭解": "朋友",
+                    "卫青": "同事",
+                    "司马迁": "同事",
+                    "霍去病": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "沉稳",
+                "description": "沉稳的将军"
+            },
+            "plot_related_info": {
+                "motivations": "辅助东方朔，完成皇命，关心军事",
+                "relationships": {
+                    "东方朔": "同事",
+                    "郭解": "朋友",
+                    "霍去病": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马迁",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "史官",
+                "characteristic": "好学",
+                "description": "好学的史官"
+            },
+            "plot_related_info": {
+                "motivations": "记录历史事件，辅助东方朔",
+                "relationships": {
+                    "东方朔": "同事",
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "年轻将军",
+                "characteristic": "活泼",
+                "description": "活泼的年轻将军"
+            },
+            "plot_related_info": {
+                "motivations": "参与冒险，帮助他人，向往战斗",
+                "relationships": {
+                    "东方朔": "干爹",
+                    "卫青": "舅舅",
+                    "霍光": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "被救女子",
+                "characteristic": "感恩",
+                "description": "感恩的被救女子"
+            },
+            "plot_related_info": {
+                "motivations": "寻求保护，照顾弟弟",
+                "relationships": {
+                    "郭解": "恩人",
+                    "霍光": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "读书少年",
+                "characteristic": "文雅",
+                "description": "文雅的读书少年"
+            },
+            "plot_related_info": {
+                "motivations": "读书学习，跟随姐姐",
+                "relationships": {
+                    "霍云儿": "姐弟",
+                    "霍去病": "兄弟"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["郭解", "恶少爷甲", "恶少爷乙", "恶少爷丙", "霍云儿"],
+                "description": "在颍水河边，郭解休息时发现三个恶少爷欺负霍云儿，郭解出手相救，将恶少打跑。"
+            },
+            "start": 0,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍云儿"],
+                "description": "霍云儿请求郭解不要离开，担心灌家报复，郭解犹豫。"
+            },
+            "start": 34,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "东方朔", "卫青", "司马迁", "霍去病", "霍云儿"],
+                "description": "东方朔等人出现，邀请郭解去长安为官，郭解拒绝并讨论灌家恶行，同时处理霍云儿的安置问题。"
+            },
+            "start": 49,
+            "end": 96,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "母亲", "东方朔", "霍云儿", "霍光"],
+                "description": "郭请示母亲，母亲同意带霍云儿姐弟同行，霍云儿和霍光准备加入郭解的旅程。"
+            },
+            "start": 97,
+            "end": 121,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍云儿", "霍光", "霍去病", "东方朔", "司马迁"],
+                "description": "霍光出现，提到颍水浑浊的预言，预示灌家覆灭，司马迁记录此事。"
+            },
+            "start": 122,
+            "end": 137,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "东方朔", "卫青", "霍去病", "司马迁", "灌家恶奴"],
+                "description": "灌家恶奴来袭，东方朔等人战斗，郭解带霍云儿姐弟和母亲离开，东方朔决定处理恶奴。"
+            },
+            "start": 138,
+            "end": 151,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "霍去病", "司马迁", "灌家恶奴"],
+                "description": "东方朔等人与灌家恶奴战斗，获胜后决定绕路前往长安，避免直接返回。"
+            },
+            "start": 152,
+            "end": 167,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "司马迁", "霍去病"],
+                "description": "在荒野墓地草房过夜，讨论当地荒凉历史，第二天继续赶路。"
+            },
+            "start": 168,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "司马迁", "霍去病", "卖茶人"],
+                "description": "到达汴水河边，喝水解渴，然后到茶棚休息，卖茶人行为可疑。"
+            },
+            "start": 184,
+            "end": 199,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

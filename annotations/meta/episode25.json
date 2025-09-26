@@ -1,0 +1,225 @@
+{
+    "story": {
+        "background": "时间：古代中国汉朝时期；地点：长安城、窦太主的别墅、皇宫；世界观：汉朝宫廷，涉及权力斗争、人物关系和宫廷阴谋。",
+        "plot": "东方朔设计计谋，通过打赌让韩嫣暴露窦太主与董衍的私情。汉武帝意外介入，表示支持窦太主，导致窦太主和阿娇皇后陷入尴尬。事件暴露宫廷矛盾，汉武帝可能借此削弱窦太主势力。最后，东方朔安排皇太后与失散女儿俗女相认，进一步推动剧情发展。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "狡猾",
+                "description": "狡猾的汉朝谋士"
+            },
+            "plot_related_info": {
+                "motivations": "设计计谋揭露窦太主的私情，推动剧情发展",
+                "relationships": {
+                    "韩嫣": "敌对",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "自负",
+                "description": "自负的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "被东方朔激将，证明自己的能力",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "窦太主": "同谋"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦太主",
+                "age": "50多岁",
+                "gender": "女",
+                "identity": "长公主",
+                "characteristic": "不安分",
+                "description": "不安分的汉朝长公主"
+            },
+            "plot_related_info": {
+                "motivations": "寻求年轻情人，享受生活",
+                "relationships": {
+                    "汉武帝": "姑妈和岳母",
+                    "阿娇": "母女",
+                    "董衍": "情人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "机智",
+                "description": "机智的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，削弱窦太主势力",
+                "relationships": {
+                    "窦太主": "姑妈和岳母",
+                    "阿娇": "夫妻",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董衍",
+                "age": "20多岁",
+                "gender": "男",
+                "identity": "情人",
+                "characteristic": "英俊",
+                "description": "英俊的窦太主情人"
+            },
+            "plot_related_info": {
+                "motivations": "依附窦太主，寻求安全",
+                "relationships": {
+                    "窦太主": "情人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "阿娇",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "愤怒",
+                "description": "愤怒的汉朝皇后"
+            },
+            "plot_related_info": {
+                "motivations": "维护母亲和自己的尊严",
+                "relationships": {
+                    "窦太主": "母女",
+                    "汉武帝": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "太后",
+                "characteristic": "沉稳",
+                "description": "沉稳的汉朝太后"
+            },
+            "plot_related_info": {
+                "motivations": "与失散女儿相认，解开心结",
+                "relationships": {
+                    "俗女": "母女",
+                    "汉武帝": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "俗女",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇太后之女",
+                "characteristic": "悲伤",
+                "description": "悲伤的皇太后私生女"
+            },
+            "plot_related_info": {
+                "motivations": "与母亲相认，寻找归属",
+                "relationships": {
+                    "皇太后": "母女"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "韩嫣"],
+                "description": "在东方朔家中，两人对坐饮酒，东方朔激将韩嫣，打赌关于窦太主的私情。"
+            },
+            "start": 0,
+            "end": 35,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "韩嫣", "窦太主", "董衍"],
+                "description": "晚上，东方朔和韩嫣来到窦太主的别墅，偷听窦太主与董衍的私密对话。"
+            },
+            "start": 36,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "窦太主", "董衍", "杨得意"],
+                "description": "汉武帝突然出现，窦太主和董衍惊慌失措，汉武帝表示支持他们的关系并赐座。"
+            },
+            "start": 57,
+            "end": 80,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "窦太主", "董衍"],
+                "description": "汉武帝继续与窦太主对话，东方朔被叫进来，韩嫣逃跑，汉武帝宣布册封董衍并留下黄金。"
+            },
+            "start": 81,
+            "end": 123,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["窦太主", "阿娇", "董衍"],
+                "description": "第二天，窦太主带董衍进宫，阿娇皇后发现后愤怒指责母亲，两人发生激烈冲突。"
+            },
+            "start": 124,
+            "end": 162,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "皇太后", "东方朔", "俗女"],
+                "description": "晚上，东方朔安排俗女进宫与皇太后相认，皇太后激动不已，母女团聚。"
+            },
+            "start": 163,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

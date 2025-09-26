@@ -1,0 +1,204 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：霸陵附近的一个小村子；世界观：古代中国宫廷斗争，英雄侠义故事，涉及皇室、贵族和平民的冲突。",
+        "plot": "窦太主派人追赶卫青和卫子夫，东方朔和公孙敖及时救援并击败敌人。卫青想将妹妹许配给东方朔以避免进宫，但东方朔劝说他们不要放弃志向，并揭示卫青的雄心。最终三人结拜为兄弟，共同为汉朝效力，故事以发现外来者悬念结束。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "22",
+                "gender": "男",
+                "identity": "壮士",
+                "characteristic": "勇猛",
+                "description": "勇猛的汉朝壮士"
+            },
+            "plot_related_info": {
+                "motivations": "保护妹妹卫子夫，最初追求荣华富贵但经过挫折后动摇，最终被东方朔说服坚持志向。",
+                "relationships": {
+                    "卫子夫": "兄妹",
+                    "东方朔": "恩人/兄弟",
+                    "公孙敖": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "23",
+                "gender": "男",
+                "identity": "才子/官员",
+                "characteristic": "智慧",
+                "description": "智慧侠义的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "救援卫青兄妹，劝说他们坚持志向并为汉朝效力，避免他们因恐惧而放弃机会。",
+                "relationships": {
+                    "卫青": "兄弟",
+                    "公孙敖": "兄弟",
+                    "卫子夫": "被保护者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "21",
+                "gender": "男",
+                "identity": "将军/侍卫",
+                "characteristic": "武艺高强",
+                "description": "武艺高强的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "协助东方朔救援卫青兄妹，参与战斗并结拜兄弟，共同为汉朝效力。",
+                "relationships": {
+                    "东方朔": "兄弟",
+                    "卫青": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "卫青的妹妹",
+                "characteristic": "胆小",
+                "description": "美丽胆小的汉朝女子"
+            },
+            "plot_related_info": {
+                "motivations": "避免进宫遭受皇后嫉妒，听从哥哥卫青的安排，希望过上平静生活。",
+                "relationships": {
+                    "卫青": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫绍儿",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "卫青的姐姐",
+                "characteristic": "善良",
+                "description": "善良的家庭主妇"
+            },
+            "plot_related_info": {
+                "motivations": "照顾弟妹卫青和卫子夫，感谢恩人救援，维护家庭安全。",
+                "relationships": {
+                    "卫青": "姐弟",
+                    "卫子夫": "姐妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "助手",
+                "characteristic": "胆小",
+                "description": "胆小的助手"
+            },
+            "plot_related_info": {
+                "motivations": "帮忙救援卫青，虽然胆小但最终鼓起勇气参与战斗。",
+                "relationships": {
+                    "东方朔": "同伴"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "杨得道", "卫青", "窦太主的表弟", "家将"],
+                "description": "在霸陵附近，东方朔和公孙敖救援被绑的卫青，与窦太主的家将战斗，杨得道意外勒住表弟。"
+            },
+            "start": 0,
+            "end": 28,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "杨得道", "卫青", "窦太主的表弟", "家将"],
+                "description": "东方朔劝阻卫青杀人，众人捆绑敌人，卫青大笑震落树叶。"
+            },
+            "start": 29,
+            "end": 44,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "公孙敖", "杨得道", "卫绍儿", "卫子夫", "小男孩"],
+                "description": "卫青带东方朔等人到卫绍儿家，介绍恩人，卫子夫躲藏，卫绍儿感谢，小男孩误认东方朔为父。"
+            },
+            "start": 45,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "公孙敖", "卫子夫"],
+                "description": "卫青请求东方朔娶卫子夫，东方朔拒绝，卫青激动掐住东方朔脖子，争执不下。"
+            },
+            "start": 73,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "卫子夫"],
+                "description": "东方朔引用卫子夫唱的歌曲，劝说卫青不要放弃志向，卫青和卫子夫感动。"
+            },
+            "start": 129,
+            "end": 153,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "公孙敖", "卫子夫", "卫绍儿"],
+                "description": "东方朔进一步劝说卫青，三人结拜为兄弟，誓同生死为汉朝效力。"
+            },
+            "start": 154,
+            "end": 216,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["小男孩", "东方朔", "卫青", "公孙敖"],
+                "description": "小男孩发现外面来了一群狗和骑马的人，三人准备应对，故事悬念结束。"
+            },
+            "start": 217,
+            "end": 219,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

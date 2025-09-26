@@ -1,0 +1,473 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：未央宫金殿；世界观：历史现实背景，朝堂政治与思想冲突，儒家与道家的争论。",
+        "plot": "董仲舒提出‘罢黜百家，独尊儒术’，引发朝臣反对和辩论。汉武帝虽不完全赞同董仲舒，但欣赏其引发讨论。汲黯出场批评儒家，得到汉武帝赏识并升职。公孙弘为儒家辩护，提出‘千古一帝’概念，但被司马谈质疑。东方朔带剑上殿，与公孙弘辩论，展示才智，汉武帝对其感兴趣并询问意见。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "睿智",
+                "description": "睿智的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "统一思想，巩固皇权，寻求治国之道",
+                "relationships": {
+                    "董仲舒": "君臣",
+                    "许昌": "君臣",
+                    "汲黯": "君臣",
+                    "公孙弘": "君臣",
+                    "司马谈": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董仲舒",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大儒",
+                "characteristic": "激进",
+                "description": "激进的大儒"
+            },
+            "plot_related_info": {
+                "motivations": "推广儒家思想，实现思想统一",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "公孙弘": "师徒"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "许昌",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "老臣",
+                "characteristic": "保守",
+                "description": "保守的老臣"
+            },
+            "plot_related_info": {
+                "motivations": "维护道家思想，反对儒家独尊",
+                "relationships": {
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "吏部官员",
+                "characteristic": "直率",
+                "description": "直率的吏部官员"
+            },
+            "plot_related_info": {
+                "motivations": "批评儒家，提出务实治国",
+                "relationships": {
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "儒家学者",
+                "characteristic": "狡黠",
+                "description": "狡黠的儒家学者"
+            },
+            "plot_related_info": {
+                "motivations": "为儒家辩护，提升自身地位",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "董仲舒": "师徒",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马谈",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太史公",
+                "characteristic": "博学",
+                "description": "博学的太史公"
+            },
+            "plot_related_info": {
+                "motivations": "维护历史准确性，质疑轻狂言论",
+                "relationships": {
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "22",
+                "gender": "男",
+                "identity": "才子",
+                "characteristic": "机智",
+                "description": "机智的才子"
+            },
+            "plot_related_info": {
+                "motivations": "展示才华，获得皇帝赏识",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "公孙弘": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "顺从的太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝，通报消息",
+                "relationships": {
+                    "汉武帝刘彻": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["董仲舒", "文武官员"],
+                "description": "在未央宫金殿，董仲舒提出‘罢黜百家，独尊儒术’，引发大部分官员不满。"
+            },
+            "start": 0,
+            "end": 2,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["许昌", "汉武帝刘彻"],
+                "description": "许昌反对董仲舒，汉武帝内心认为道家不如儒家，欣赏董仲舒引发讨论。"
+            },
+            "start": 3,
+            "end": 7,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "董仲舒"],
+                "description": "汉武帝回应董仲舒，认为统一人心有道理。"
+            },
+            "start": 8,
+            "end": 9,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["许昌", "汉武帝刘彻"],
+                "description": "许昌再次反对儒家，认为儒家虚伪，汉武帝沉默不语。"
+            },
+            "start": 10,
+            "end": 14,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汲黯", "汉武帝刘彻"],
+                "description": "汲黯出场，发言批评儒家不知兵不懂法，提出治理天下无定法。"
+            },
+            "start": 15,
+            "end": 22,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "汲黯"],
+                "description": "汉武帝欣赏汲黯的言论，询问其身份，汲黯自报家门并被升职。"
+            },
+            "start": 23,
+            "end": 31,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汲黯", "汉武帝刘彻", "董仲舒", "公孙弘"],
+                "description": "汲黯升职但礼节不周，董仲舒和汉武帝感到遗憾，公孙弘借机为儒家辩护。"
+            },
+            "start": 32,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "汉武帝刘彻"],
+                "description": "公孙弘跪地发言，强调儒家对于治世的重要性，提出‘千古一帝’概念。"
+            },
+            "start": 39,
+            "end": 47,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["司马谈", "汉武帝刘彻", "文武官员"],
+                "description": "司马谈质疑公孙弘的言论，认为轻狂，群臣议论纷纷。"
+            },
+            "start": 48,
+            "end": 58,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "文武官员"],
+                "description": "群臣议论，汉武帝发怒要求有高见者直说，无见解者闭嘴。"
+            },
+            "start": 59,
+            "end": 64,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "公孙弘"],
+                "description": "金殿安静，公孙弘自己爬起来。"
+            },
+            "start": 65,
+            "end": 67,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "文武官员"],
+                "description": "东方朔带剑上殿，叩剑声引起注意，杨得意通报东方朔到来。"
+            },
+            "start": 68,
+            "end": 83,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "杨得意"],
+                "description": "汉武帝责备杨得意没有早早禀报，杨得意解释后闪开。"
+            },
+            "start": 84,
+            "end": 88,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "东方朔", "文武官员"],
+                "description": "汉武帝介绍东方朔及其书简，群臣惊讶。"
+            },
+            "start": 89,
+            "end": 97,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝刘彻"],
+                "description": "东方朔请罪带剑上殿，汉武帝恩准并要求其自报家门。"
+            },
+            "start": 98,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "文武官员"],
+                "description": "东方朔自报姓名和字，公孙弘气恼。"
+            },
+            "start": 104,
+            "end": 106,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "东方朔"],
+                "description": "公孙弘质疑东方朔的姓氏和出身，东方朔回应由兄嫂抚养，姓东方含齐卢之意。"
+            },
+            "start": 107,
+            "end": 115,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["司马谈", "东方朔"],
+                "description": "司马谈赞赏东方朔的名字，询问名字由来，东方朔解释生于朔日。"
+            },
+            "start": 116,
+            "end": 119,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "东方朔", "文武官员"],
+                "description": "公孙弘冷笑，再次质疑平原郡的归属，东方朔反驳公孙弘是赵国遗老。"
+            },
+            "start": 120,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "公孙弘", "东方朔"],
+                "description": "汉武帝欣赏东方朔，公孙弘脸红改口，询问东方朔的字。"
+            },
+            "start": 149,
+            "end": 153,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝刘彻", "文武官员"],
+                "description": "东方朔解释字‘漫茜’的含义，表示自己多学善辩。"
+            },
+            "start": 154,
+            "end": 162,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "东方朔"],
+                "description": "公孙弘质疑东方朔自称多学善辩，东方朔炫耀学识，通读诗书和兵法。"
+            },
+            "start": 163,
+            "end": 167,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["灌夫", "东方朔"],
+                "description": "灌夫介入询问东方朔属相，东方朔回答属牛。"
+            },
+            "start": 168,
+            "end": 171,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "东方朔"],
+                "description": "公孙弘设陷阱让东方朔再读三年书，东方朔巧妙回应骂公孙弘是二百五。"
+            },
+            "start": 172,
+            "end": 186,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "东方朔", "公孙弘"],
+                "description": "汉武帝高兴，询问东方朔对于朝堂辩论的意见，东方朔如何回答留悬念。"
+            },
+            "start": 187,
+            "end": 191,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

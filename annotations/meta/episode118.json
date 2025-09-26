@@ -1,0 +1,196 @@
+{
+    "story": {
+        "background": "西汉汉武帝时期，汉朝与匈奴的战争背景下。地点包括军营、未央宫等场景。世界观为古代中国军事王朝体系，强调忠君爱国、军事荣誉和武将责任。",
+        "plot": "苏建将军因战败自责向卫青请罪，卫青宽慰并肯定其英勇。李广因延误军机而深感愧疚，在公孙贺传达卫青的谅解后自刎。其子李敢在朝堂上袭击卫青泄愤，被霍去病阻止。汉武帝处理战后事宜：赦免苏建、封赏霍去病为冠军侯、追责赵信家族，并安抚李敢。卫青拒绝封赏，为苏建求情，展现了忍辱负重的将帅风范。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "40多岁",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "宽厚",
+                "description": "中年大汉大将军，宽厚忍辱负重"
+            },
+            "plot_related_info": {
+                "motivations": "维护军队团结，承担统帅责任，保护部下将领",
+                "relationships": {
+                    "公孙贺": "同事",
+                    "李广": "下属",
+                    "霍去病": "亲属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏建",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "自责",
+                "description": "大汉将军，自责重荣誉"
+            },
+            "plot_related_info": {
+                "motivations": "因战败深感羞愧，担心失去皇帝和家人的尊重",
+                "relationships": {
+                    "卫青": "上下级",
+                    "苏武": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李广",
+                "age": "70多岁",
+                "gender": "男",
+                "identity": "老将军",
+                "characteristic": "倔强",
+                "description": "年迈大汉老将军，倔强重名节"
+            },
+            "plot_related_info": {
+                "motivations": "因不服年轻统帅而延误军机，深感自责无法原谅自己",
+                "relationships": {
+                    "李敢": "父子",
+                    "卫青": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙贺",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大行令/将军",
+                "characteristic": "圆融",
+                "description": "大汉大行令将军，圆融善调解"
+            },
+            "plot_related_info": {
+                "motivations": "作为卫青的姐夫和军中老将，调解矛盾安抚将领",
+                "relationships": {
+                    "卫青": "亲戚同事",
+                    "李广": "朋友同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李敢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军之子",
+                "characteristic": "冲动",
+                "description": "李广之子年轻将领，冲动重孝道"
+            },
+            "plot_related_info": {
+                "motivations": "为父亲之死复仇，认为卫青的宽容导致父亲自刎",
+                "relationships": {
+                    "李广": "父子",
+                    "卫青": "仇视"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "大汉皇帝，威严善决断"
+            },
+            "plot_related_info": {
+                "motivations": "维护朝廷权威，赏罚分明，稳定军心",
+                "relationships": {
+                    "卫青": "君臣",
+                    "霍去病": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "骠骑将军",
+                "characteristic": "英勇",
+                "description": "年轻骠骑将军，英勇战功显赫"
+            },
+            "plot_related_info": {
+                "motivations": "保护舅舅卫青，维护朝廷尊严，争取军功",
+                "relationships": {
+                    "卫青": "亲属",
+                    "李敢": "敌对"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["苏建", "卫青", "公孙贺"],
+                "description": "军营中，苏建因战败绑自己向卫青请罪，卫青和公孙贺安慰苏建，肯定其英勇奋战"
+            },
+            "start": 0,
+            "end": 29,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李希"],
+                "description": "卫青询问李希关于李广将军的消息，得知李广已到鸡路寨但不敢前来"
+            },
+            "start": 30,
+            "end": 44,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李广", "李敢"],
+                "description": "李广军营中，李广因延误军机而自责，与儿子李敢对话表达内心愧疚"
+            },
+            "start": 45,
+            "end": 91,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李广", "公孙贺", "李敢"],
+                "description": "公孙贺来到李广军营传达卫青的谅解，李广因极度愧疚而拔剑自刎"
+            },
+            "start": 92,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "霍去病", "李敢", "苏建", "张骞", "张汤"],
+                "description": "未央宫朝堂上，汉武帝处理战后事宜，李敢袭击卫青被阻止，皇帝进行封赏和处罚"
+            },
+            "start": 142,
+            "end": 231,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.85,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

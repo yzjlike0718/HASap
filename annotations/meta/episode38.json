@@ -1,0 +1,311 @@
+{
+    "story": {
+        "background": "中国古代汉朝，汉武帝时期，皇宫朝廷。故事发生在汉武帝执政期间，涉及朝廷议事、侠客事件和丞相人选讨论，展现了皇权、侠义与政治斗争的交织。",
+        "plot": "汉武帝质问侠客郭解是否反对官府，东方朔巧妙解释郭解的行为符合天意民意，缓解了冲突。郭解拒绝官职，汉武帝愤怒但给予期限。随后，朝廷讨论丞相人选，东方朔建议让田鼢立战功后再封侯任丞相，以避免违背祖制。皇太后在幕后试图影响决策，但东方朔的计策暂时占据了上风。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "汉朝皇帝，威严明智"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，治理国家，确保朝廷稳定",
+                "relationships": {
+                    "郭解": "君臣（试探与冲突）",
+                    "东方朔": "君臣（信任与依赖）",
+                    "皇太后": "母子（政治影响）"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "中年",
+                "gender": "男",
+                "identity": "游侠",
+                "characteristic": "正义",
+                "description": "民间游侠，正义倔强"
+            },
+            "plot_related_info": {
+                "motivations": "行侠仗义，照顾母亲，保持自由身",
+                "relationships": {
+                    "汉武帝": "君臣（被质问与拒绝）",
+                    "东方朔": "被辩护者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "谋臣",
+                "characteristic": "机智",
+                "description": "朝廷谋臣，机智幽默"
+            },
+            "plot_related_info": {
+                "motivations": "调解冲突，维护皇帝利益，巧妙献策",
+                "relationships": {
+                    "汉武帝": "君臣（亲密顾问）",
+                    "郭解": "辩护者",
+                    "司马迁": "同事",
+                    "霍去病": "干父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马迁",
+                "age": "青年",
+                "gender": "男",
+                "identity": "史官",
+                "characteristic": "博学",
+                "description": "历史学家，博学严谨"
+            },
+            "plot_related_info": {
+                "motivations": "收集史料，如实记录历史",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "郭解": "赞赏者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "直率",
+                "description": "朝廷官员，直率敢言"
+            },
+            "plot_related_info": {
+                "motivations": "直言进谏，推举窦婴为丞相",
+                "relationships": {
+                    "公孙弘": "敌对",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "圆滑",
+                "description": "朝廷官员，圆滑世故"
+            },
+            "plot_related_info": {
+                "motivations": "迎合皇太后和皇帝，保全自身",
+                "relationships": {
+                    "汲黯": "敌对",
+                    "皇太后": "受惠者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "中年",
+                "gender": "男",
+                "identity": "辞赋家",
+                "characteristic": "受财影响",
+                "description": "文人辞赋家，受财影响"
+            },
+            "plot_related_info": {
+                "motivations": "接受皇太后钱财，支持田鼢",
+                "relationships": {
+                    "皇太后": "受雇者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "灌夫",
+                "age": "中年",
+                "gender": "男",
+                "identity": "武将",
+                "characteristic": "急性子",
+                "description": "急性武将，支持窦婴"
+            },
+            "plot_related_info": {
+                "motivations": "支持窦婴，直言不讳",
+                "relationships": {
+                    "窦婴": "盟友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "老年",
+                "gender": "女",
+                "identity": "太后",
+                "characteristic": "权势",
+                "description": "汉朝太后，权势强大"
+            },
+            "plot_related_info": {
+                "motivations": "影响丞相人选，维护家族利益",
+                "relationships": {
+                    "汉武帝": "母子",
+                    "所忠": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "老年",
+                "gender": "男",
+                "identity": "大太监",
+                "characteristic": "忠诚",
+                "description": "皇宫太监，忠诚伺候"
+            },
+            "plot_related_info": {
+                "motivations": "伺候皇太后，执行命令",
+                "relationships": {
+                    "皇太后": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "郭解"],
+                "description": "汉武帝在朝廷质问郭解是否反对官府，郭解声称秉天意民意，汉武帝愤怒下令拿下郭解。"
+            },
+            "start": 0,
+            "end": 11,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "郭解"],
+                "description": "东方朔为郭解辩护，解释郭解的话与汉武帝意思一致，缓和气氛。"
+            },
+            "start": 12,
+            "end": 28,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "司马迁", "郭解", "张汤"],
+                "description": "司马迁讲述郭解大义灭亲的故事，证明郭解的正义，汉武帝有所动摇。"
+            },
+            "start": 29,
+            "end": 47,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "郭解", "东方朔"],
+                "description": "郭解拒绝官职，汉武帝愤怒，东方朔劝解，汉武帝给予一个月期限。"
+            },
+            "start": 48,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汲黯", "公孙弘"],
+                "description": "汲黯和公孙弘在成明殿早期相遇，讨论丞相人选，互相试探立场。"
+            },
+            "start": 73,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "所忠"],
+                "description": "皇太后和所忠在宣室准备监听朝廷讨论，所忠伺候皇太后。"
+            },
+            "start": 109,
+            "end": 118,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "汲黯", "公孙弘", "司马相如", "灌夫"],
+                "description": "汉武帝主持丞相人选讨论，灌夫支持窦婴，司马相如支持田鼢，东方朔暗示司马相如受财。"
+            },
+            "start": 119,
+            "end": 142,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汲黯", "公孙弘", "汉武帝"],
+                "description": "汲黯和公孙弘继续争论，公孙弘圆滑应对，汉武帝不满但无奈。"
+            },
+            "start": 143,
+            "end": 173,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "汲黯", "公孙弘", "司马相如", "灌夫"],
+                "description": "东方朔建议让田鼢立战功后再封侯任丞相，汉武帝采纳建议，下令窦婴和田鼢写奏折。"
+            },
+            "start": 174,
+            "end": 197,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "所忠"],
+                "description": "皇太后得知东方朔的计策后愤怒，命令所忠采取措施应对。"
+            },
+            "start": 198,
+            "end": 202,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

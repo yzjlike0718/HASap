@@ -1,0 +1,119 @@
+{
+    "story": {
+        "background": "故事发生在汉朝汉武帝时期，主要地点在皇宫内和东方朔的家中。世界观基于历史宫廷背景，涉及皇室秘密、政治斗争和人物关系。",
+        "plot": "汉武帝从太监所忠处得知自己可能有一个同母异父的姐姐在民间，决心认回她以了解母亲皇太后的心病。东方朔起初劝阻汉武帝，考虑到太皇太后和窦太主的阻力，但最终献策帮助汉武帝。故事还通过东方朔与韩嫣的对话，揭露韩嫣的背景和窦太主的秘密，为后续计划铺垫。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "仁爱果断",
+                "description": "仁爱的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "为母亲皇太后了却心病，认回同母异父的姐姐",
+                "relationships": {
+                    "所忠": "主仆",
+                    "东方朔": "君臣",
+                    "皇太后": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "臣子",
+                "characteristic": "聪明机智",
+                "description": "机智的汉朝臣子"
+            },
+            "plot_related_info": {
+                "motivations": "辅助汉武帝解决难题，维护皇室利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "韩嫣": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "老年",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的老年太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务汉武帝，分担忧虑，保守秘密",
+                "relationships": {
+                    "汉武帝": "主仆",
+                    "皇太后": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "成年",
+                "gender": "男",
+                "identity": "后宫协调使",
+                "characteristic": "献媚孤独",
+                "description": "献媚的后宫协调使"
+            },
+            "plot_related_info": {
+                "motivations": "接近汉武帝，获得认可和地位",
+                "relationships": {
+                    "汉武帝": "主仆",
+                    "窦太主": "利益关系"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "所忠"],
+                "description": "在皇宫卧榻前，汉武帝向所忠透露梦见类似皇太后的女子，所忠惊讶并提及皇太后在民间的女儿秘密，引发汉武帝的思考。"
+            },
+            "start": 0,
+            "end": 42,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "杨得意"],
+                "description": "在皇宫卧榻前，汉武帝与东方朔讨论认回姐姐的事，东方朔起初劝阻但最终同意献策，杨得意短暂出场后离开。"
+            },
+            "start": 43,
+            "end": 119,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "韩嫣"],
+                "description": "在东方朔家中，东方朔设宴招待韩嫣，两人饮酒聊天，东方朔试探韩嫣关于窦太主的事，为后续计划做准备。"
+            },
+            "start": 120,
+            "end": 197,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,205 @@
+{
+    "story": {
+        "background": "古代中国汉朝时期，地点南阳郡。义纵担任南阳郡太守，滥用权力，贪财残忍，百姓穿破衣避祸，世界观呈现官场腐败与民间苦难。",
+        "plot": "义纵受雕姬蛊惑，开始贪财并使用残忍手段折磨囚犯取乐。东方朔途经南阳，从茶馆老掌柜处得知义纵恶行，伪装成老人前往调查。东方朔遇到籍安氏，两人计划报仇。最终东方朔面对义纵，亮出皇上赐剑，准备惩罚其罪行。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "南阳郡太守",
+                "characteristic": "残忍",
+                "description": "残忍贪财的南阳郡太守"
+            },
+            "plot_related_info": {
+                "motivations": "贪财和权力，享受残忍行为",
+                "relationships": {
+                    "雕姬": "同伴",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雕姬",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "义纵的伴侣",
+                "characteristic": "狡猾",
+                "description": "狡猾残忍的义纵伴侣"
+            },
+            "plot_related_info": {
+                "motivations": "获取财富和享受权力",
+                "relationships": {
+                    "义纵": "同伴"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "聪明正义",
+                "description": "聪明正义的官员"
+            },
+            "plot_related_info": {
+                "motivations": "制止义纵的暴行，为郭解报仇",
+                "relationships": {
+                    "义纵": "敌对",
+                    "籍安氏": "长辈关系"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "籍安氏",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "雷大侠弟子",
+                "characteristic": "复仇心切",
+                "description": "复仇心切的雷大侠弟子"
+            },
+            "plot_related_info": {
+                "motivations": "为父师报仇",
+                "relationships": {
+                    "义纵": "敌对",
+                    "东方朔": "晚辈关系"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "江冲",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "义纵的总管",
+                "characteristic": "顺从",
+                "description": "顺从的义纵总管"
+            },
+            "plot_related_info": {
+                "motivations": "服从义纵的命令",
+                "relationships": {
+                    "义纵": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "东方朔的妻子",
+                "characteristic": "关心百姓",
+                "description": "关心百姓的东方朔妻子"
+            },
+            "plot_related_info": {
+                "motivations": "支持东方朔正义行动",
+                "relationships": {
+                    "东方朔": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "东方朔的仆人",
+                "characteristic": "忠诚",
+                "description": "忠诚的东方朔仆人"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔一家",
+                "relationships": {
+                    "东方朔": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "老掌柜",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "茶馆掌柜",
+                "characteristic": "善良",
+                "description": "善良的茶馆掌柜"
+            },
+            "plot_related_info": {
+                "motivations": "帮助他人，生存",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["义纵", "雕姬", "江冲"],
+                "description": "在义纵的屋内，义纵和雕姬讨论贪财方法，命令江冲折磨囚犯，并有人来献宝。"
+            },
+            "start": 0,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "雕姬", "江冲", "东方朔", "籍安氏"],
+                "description": "在义纵的屋内，东方朔和籍安氏献上假古玩，义纵认出东方朔。"
+            },
+            "start": 49,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "杨得道", "老掌柜", "东方之珠", "东方蟹"],
+                "description": "在茶馆，东方朔一家从老掌柜处听说义纵的暴行，东方朔准备伪装去见义纵。"
+            },
+            "start": 55,
+            "end": 140,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "籍安氏"],
+                "description": "在南阳城客店，东方朔遇到籍安氏，两人计划对付义纵。"
+            },
+            "start": 141,
+            "end": 178,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "籍安氏", "义纵", "雕姬", "江冲"],
+                "description": "在义纵的衙门，东方朔和籍安氏对峙义纵，东方朔亮出宝剑准备惩罚义纵。"
+            },
+            "start": 179,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,267 @@
+{
+  "story": {
+    "background": "时间：汉武帝时期；地点：长安未央宫、长乐宫；世界观：汉朝与匈奴的冲突，西域探险，朝堂政治斗争。",
+    "plot": "张骞和堂邑父出使西域13年后返回长安，向汉武帝报告西域各国情况，并献上千里马。汉武帝封赏他们，并决定分兵两路攻打匈奴。朝中同时揭露主父衍的罪行，皇太后病危，汉武帝下令烹杀主父衍。最后汉武帝和东方朔看望皇太后，皇太后嘱托汉武帝重用东方朔。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "果断",
+        "description": "中年的男性皇帝，果断决策"
+      },
+      "plot_related_info": {
+        "motivations": "扩张汉朝疆土，击败匈奴，维护皇权",
+        "relationships": {
+          "东方朔": "君臣",
+          "张骞": "君臣",
+          "堂邑父": "君臣",
+          "皇太后": "母子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "机智",
+        "description": "中年的男性大臣，机智善谋"
+      },
+      "plot_related_info": {
+        "motivations": "辅助汉武帝，推动剧情发展",
+        "relationships": {
+          "汉武帝": "君臣",
+          "张骞": "同僚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张骞",
+        "age": "过四十岁",
+        "gender": "男",
+        "identity": "出使西域使者",
+        "characteristic": "忠诚",
+        "description": "过四十岁的男性出使西域使者，忠诚坚韧"
+      },
+      "plot_related_info": {
+        "motivations": "完成出使使命，返回汉朝报告",
+        "relationships": {
+          "堂邑父": "同事",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "堂邑父",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "匈奴归降者、副使",
+        "characteristic": "坚韧",
+        "description": "男性匈奴归降者兼副使，坚韧不拔"
+      },
+      "plot_related_info": {
+        "motivations": "辅助张骞出使西域，返回汉朝",
+        "relationships": {
+          "张骞": "同事",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大将军",
+        "characteristic": "英勇",
+        "description": "男性大将军，英勇善战"
+      },
+      "plot_related_info": {
+        "motivations": "击败匈奴，保卫汉朝",
+        "relationships": {
+          "汉武帝": "君臣",
+          "张骞": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "热情",
+        "description": "年轻的男性将军，热情勇猛"
+      },
+      "plot_related_info": {
+        "motivations": "领军打仗，立功受赏",
+        "relationships": {
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "精明",
+        "description": "男性官员，精明干练"
+      },
+      "plot_related_info": {
+        "motivations": "筹划钱粮，执行皇帝命令",
+        "relationships": {
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙弘",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "丞相",
+        "characteristic": "谨慎",
+        "description": "男性丞相，谨慎言词"
+      },
+      "plot_related_info": {
+        "motivations": "维护朝纲，除去祸害",
+        "relationships": {
+          "汉武帝": "君臣",
+          "主父衍": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "皇太后",
+        "age": "老年",
+        "gender": "女",
+        "identity": "太后",
+        "characteristic": "慈爱",
+        "description": "老年的女性太后，慈爱嘱托"
+      },
+      "plot_related_info": {
+        "motivations": "关心家族，嘱托儿子",
+        "relationships": {
+          "汉武帝": "母子"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝", "张骞", "堂邑父"],
+        "description": "在未央宫，东方朔带着张骞和堂邑父晋见汉武帝，报告他们从西域返回的消息。"
+      },
+      "start": 0,
+      "end": 11,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张骞", "堂邑父", "东方朔"],
+        "description": "汉武帝认出张骞和堂邑父，询问他们出使西域的经历，两人跪拜汇报。"
+      },
+      "start": 12,
+      "end": 39,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张骞", "汉武帝", "堂邑父"],
+        "description": "张骞详细讲述西域之旅的艰难和返回过程，提到千里马，汉武帝好奇查看。"
+      },
+      "start": 40,
+      "end": 82,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张骞", "堂邑父", "东方朔"],
+        "description": "汉武帝封赏张骞和堂邑父，东方朔建议提升封赏，汉武帝调整官职。"
+      },
+      "start": 83,
+      "end": 103,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫青", "汉武帝", "霍去病", "张汤", "公孙贺"],
+        "description": "卫青提出分兵两路攻打匈奴的策略，汉武帝部署军事任务，命令众将准备出征。"
+      },
+      "start": 104,
+      "end": 125,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["许甲", "汉武帝"],
+        "description": "许甲惊慌报告皇太后病危的消息，提及齐王自尽事件。"
+      },
+      "start": 126,
+      "end": 132,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张汤", "公孙弘", "义纵"],
+        "description": "朝议主父衍的罪行，公孙弘主张严惩，汉武帝下令义纵烹杀主父衍。"
+      },
+      "start": 133,
+      "end": 179,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "皇太后", "俗女", "卫子夫", "太子卫长公主"],
+        "description": "在长乐宫，汉武帝和东方朔看望病危的皇太后，皇太后嘱托汉武帝重用东方朔。"
+      },
+      "start": 180,
+      "end": 199,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

@@ -1,0 +1,176 @@
+{
+    "story": {
+        "background": "时间：西汉汉武帝时期；地点：皇宫朝堂、昭阳宫等；世界观：古代中国宫廷政治，涉及权力斗争和家族势力。",
+        "plot": "汉武帝在太皇太后去世后，暂时让窦婴和田鼢共领朝事，但面临丞相人选之争。皇太后推举弟弟田鼢，而汉武帝倾向于窦婴，双方发生争执。皇太后召见东方朔，试图通过他影响汉武帝的决定。东方朔用幽默故事隐喻当前局势，缓和气氛。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "22岁",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "果断",
+                "description": "年轻果断的西汉皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "希望窦婴担任丞相以应对匈奴战争，维护皇权",
+                "relationships": {
+                    "皇太后": "母子",
+                    "田鼢": "甥舅",
+                    "窦婴": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "太后",
+                "characteristic": "强势",
+                "description": "强势的皇太后"
+            },
+            "plot_related_info": {
+                "motivations": "推举弟弟田鼢为丞相，巩固家族权力，避免窦家掌权",
+                "relationships": {
+                    "汉武帝刘彻": "母子",
+                    "田鼢": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "国舅",
+                "characteristic": "精明",
+                "description": "精明能干的国舅"
+            },
+            "plot_related_info": {
+                "motivations": "渴望成为丞相，展示能力，获得权力",
+                "relationships": {
+                    "皇太后": "姐弟",
+                    "汉武帝刘彻": "甥舅",
+                    "窦婴": "政敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "魏其侯",
+                "characteristic": "谨慎",
+                "description": "谨慎文武的双全侯爵"
+            },
+            "plot_related_info": {
+                "motivations": "以朝廷大事为重，退让以避免冲突，但被汉武帝看重",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "田鼢": "政敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "幽默",
+                "description": "幽默机智的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "通过故事缓和宫廷紧张气氛，间接表达观点",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "皇太后": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "文武大臣", "窦婴", "田鼢"],
+                "description": "在朝堂上，汉武帝宣布窦婴和田鼢共领朝事，并决定改元元光，文武大臣欢呼。"
+            },
+            "start": 0,
+            "end": 19,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢", "窦婴", "汉武帝刘彻"],
+                "description": "散朝后，描述田鼢处理太皇太后丧事的能力，汉武帝担忧田鼢的野心，窦婴退让。"
+            },
+            "start": 20,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后"],
+                "description": "皇太后在宫中自言自语，担心权力问题，决定召见汉武帝。"
+            },
+            "start": 51,
+            "end": 62,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "汉武帝刘彻"],
+                "description": "汉武帝见皇太后，双方争论丞相人选，皇太后坚持田鼢，汉武帝推脱，皇太后召东方朔。"
+            },
+            "start": 63,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "皇太后", "汉武帝刘彻"],
+                "description": "东方朔被召到昭阳宫，皇太后和汉武帝表情不悦，东方朔谨慎就座。"
+            },
+            "start": 129,
+            "end": 149,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "皇太后", "汉武帝刘彻"],
+                "description": "东方朔讲述桃树故事，隐喻生女儿的事，缓和气氛，皇太后和汉武帝逐渐笑纳。"
+            },
+            "start": 150,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

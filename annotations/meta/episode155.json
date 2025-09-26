@@ -1,0 +1,228 @@
+{
+    "story": {
+        "background": "汉朝汉武帝时期，皇宫和匈奴战场。汉朝与匈奴的战争持续中，世界观为古代中国历史背景。",
+        "plot": "武帝得知霍去病突袭匈奴成功，但单于伊稚斜逃跑；武帝命令卫青摧毁赵信城并活捉叛将赵信；李夫人为哥哥李广利求官，武帝让李广利跟随张骞出使西域；张骞接受出使任务；东方朔在赵信城与赵信对峙，赵信城因地基问题塌陷。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "中年男性皇帝，威严"
+            },
+            "plot_related_info": {
+                "motivations": "扩张疆土，击败匈奴，巩固皇权",
+                "relationships": {
+                    "李夫人": "宠妃",
+                    "卫青": "将领",
+                    "霍去病": "将领"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李夫人",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "妃子",
+                "characteristic": "聪明",
+                "description": "年轻女性妃子，聪明"
+            },
+            "plot_related_info": {
+                "motivations": "为家族谋利益，提升兄长地位",
+                "relationships": {
+                    "武帝": "夫君",
+                    "李广利": "哥哥"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李广利",
+                "age": "成年",
+                "gender": "男",
+                "identity": "屠夫",
+                "characteristic": "胆小",
+                "description": "成年男性屠夫，胆小"
+            },
+            "plot_related_info": {
+                "motivations": "避免危险，保全家庭生活",
+                "relationships": {
+                    "李夫人": "妹妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李蔡",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "恭敬",
+                "description": "男性丞相，恭敬"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝，执行命令",
+                "relationships": {
+                    "武帝": "君主"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "勇猛",
+                "description": "年轻男性将军，勇猛"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，立战功",
+                "relationships": {
+                    "武帝": "君主",
+                    "卫青": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "稳重",
+                "description": "中年男性大将军，稳重"
+            },
+            "plot_related_info": {
+                "motivations": "指挥军队，获胜报国",
+                "relationships": {
+                    "武帝": "君主",
+                    "霍去病": "外甥"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "智慧",
+                "description": "中年男性谋士，智慧"
+            },
+            "plot_related_info": {
+                "motivations": "为汉朝出谋划策，击败敌人",
+                "relationships": {
+                    "武帝": "君主"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张骞",
+                "age": "成年",
+                "gender": "男",
+                "identity": "使臣",
+                "characteristic": "忠诚",
+                "description": "成年男性使臣，忠诚"
+            },
+            "plot_related_info": {
+                "motivations": "完成出使任务，探索西域",
+                "relationships": {
+                    "武帝": "君主"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "赵信",
+                "age": "成年",
+                "gender": "男",
+                "identity": "叛将",
+                "characteristic": "无耻",
+                "description": "成年男性叛将，无耻"
+            },
+            "plot_related_info": {
+                "motivations": "保全自己，反抗汉朝",
+                "relationships": {
+                    "武帝": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "冯子都",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "男性太监，顺从"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝，替代杨得意",
+                "relationships": {
+                    "武帝": "君主"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["武帝", "李蔡", "李夫人"],
+                "description": "皇宫内，武帝得知霍去病突袭匈奴成功，但单于逃跑，命令李蔡传旨给卫青摧毁赵信城。"
+            },
+            "start": 0,
+            "end": 31,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "李夫人", "冯子都"],
+                "description": "皇宫内，李夫人为哥哥李广利求情，武帝叫冯子都去传张骞。"
+            },
+            "start": 32,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "张骞", "李广利", "李夫人"],
+                "description": "皇宫内，武帝见张骞和李广利，安排张骞出使西域并让李广利跟随磨练。"
+            },
+            "start": 57,
+            "end": 123,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "赵信", "公孙敖"],
+                "description": "赵信城外，卫青和东方朔与赵信对峙，赵信城因地基问题开始塌陷，汉军准备进攻。"
+            },
+            "start": 124,
+            "end": 220,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

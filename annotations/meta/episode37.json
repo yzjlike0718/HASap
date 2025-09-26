@@ -1,0 +1,190 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期，夜晚至黎明；地点：上林苑、杜县京畿地区；世界观：古代中国皇权社会，有官府、游侠和等级制度。",
+        "plot": "汉武帝刘彻打猎后到达杜县，被县令张风粮和法曹张汤误认为贼人围住。大侠郭解介入冲突，与东方朔和霍去病打斗。张汤调集官兵，御林军到来揭示汉武帝身份。汉武帝赏识张汤的才能，将其带走任用，并质问郭解对抗官府之罪。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大汉天子",
+                "characteristic": "威严",
+                "description": "中年男性大汉天子，威严好奇"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权、赏识人才",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "霍去病": "君臣",
+                    "杨得意": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "30多岁",
+                "gender": "男",
+                "identity": "游侠",
+                "characteristic": "耿直",
+                "description": "30多岁男性游侠，耿直侠义"
+            },
+            "plot_related_info": {
+                "motivations": "行侠仗义、帮助弱者",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "法曹",
+                "characteristic": "狡猾",
+                "description": "年轻男性法曹，狡猾果断"
+            },
+            "plot_related_info": {
+                "motivations": "维护治安、升官",
+                "relationships": {
+                    "张风粮": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "机智",
+                "description": "男性官员，机智幽默"
+            },
+            "plot_related_info": {
+                "motivations": "保护汉武帝、展示智慧",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "霍去病": "干父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "少年",
+                "gender": "男",
+                "identity": "侍卫",
+                "characteristic": "勇敢",
+                "description": "少年男性侍卫，勇敢急躁"
+            },
+            "plot_related_info": {
+                "motivations": "保护干爹、战斗",
+                "relationships": {
+                    "东方朔": "干父子",
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "恭顺",
+                "description": "男性太监，恭顺多嘴"
+            },
+            "plot_related_info": {
+                "motivations": "服务汉武帝",
+                "relationships": {
+                    "汉武帝刘彻": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张风粮",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "杜县县令",
+                "characteristic": "懦弱",
+                "description": "男性杜县县令，懦弱害怕"
+            },
+            "plot_related_info": {
+                "motivations": "保命、护子",
+                "relationships": {
+                    "张汤": "父子"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "张风粮", "官兵", "郭解"],
+                "description": "夜晚，杜县野外，汉武帝一行被县令张风粮带官兵围住，大侠郭解突然出现。"
+            },
+            "start": 0,
+            "end": 7,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "张汤", "汉武帝刘彻", "东方朔", "霍去病", "杨得意", "官兵"],
+                "description": "杜县野外，郭解与张汤对话冲突，官兵畏惧郭解，汉武帝观察局势。"
+            },
+            "start": 8,
+            "end": 55,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "郭解", "霍去病", "汉武帝刘彻", "杨得意"],
+                "description": "杜县野外，东方朔与郭解对话后打斗，霍去病加入，汉武帝观看战斗。"
+            },
+            "start": 56,
+            "end": 99,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "官兵", "御林军", "卫青", "公孙敖", "汉武帝刘彻", "郭解"],
+                "description": "黎明时分，杜县野外，张调集官兵，御林军到来，汉武帝身份被揭示。"
+            },
+            "start": 100,
+            "end": 126,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "张风粮", "张汤", "东方朔", "杨得意", "郭解"],
+                "description": "黎明，杜县野外，汉武帝处理张风粮和张汤，赏识张汤，并质问郭解对抗官府之罪。"
+            },
+            "start": 127,
+            "end": 184,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

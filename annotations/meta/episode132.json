@@ -1,0 +1,196 @@
+{
+  "story": {
+    "background": "时间：汉代；地点：皇宫（如建章宫）；世界观：古代中国宫廷，以猜谜和智慧较量为主要活动。",
+    "plot": "东方朔与郭舍人进行猜谜比赛，东方朔屡次猜中谜语，赢得赏赐。郭舍人不服输，试图难倒东方朔但失败。汉武帝对东方朔的智慧印象深刻，出题测试他，东方朔均成功猜中。最后，汉武帝移驾建章宫进行射覆游戏，东方朔再次展示智慧，猜中壁虎。主要矛盾是郭舍人的不服与东方朔的智慧较量，关键转折是东方朔猜中所有谜题，包括汉武帝的难题。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "执戟郎/智慧臣子",
+        "characteristic": "机智",
+        "description": "机智的汉朝臣子"
+      },
+      "plot_related_info": {
+        "motivations": "赢得赏赐养家，展示智慧，维护尊严",
+        "relationships": {
+          "汉武帝": "君臣",
+          "郭舍人": "对手"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "成年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "好奇",
+        "description": "好奇的汉朝皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "测试东方朔的智慧，寻求娱乐，维护皇家威严",
+        "relationships": {
+          "东方朔": "君臣",
+          "郭舍人": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "郭舍人",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "舍人",
+        "characteristic": "固执",
+        "description": "固执的汉朝舍人"
+      },
+      "plot_related_info": {
+        "motivations": "赢回金子，证明自己，不服输",
+        "relationships": {
+          "东方朔": "对手",
+          "汉武帝": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "友好",
+        "description": "友好的太监"
+      },
+      "plot_related_info": {
+        "motivations": "帮助东方朔，维护友谊，服务皇帝",
+        "relationships": {
+          "东方朔": "朋友",
+          "汉武帝": "主仆"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "郭舍人", "汉武帝"],
+        "description": "在皇宫内，东方朔与郭舍人进行猜谜比赛，东方朔猜中谜语赢得金子，郭舍人不服要求再猜。"
+      },
+      "start": 0,
+      "end": 19,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "郭舍人", "汉武帝"],
+        "description": "继续猜谜，东方朔解释胎儿谜语，郭舍人惊讶，汉武帝大笑。"
+      },
+      "start": 20,
+      "end": 34,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "郭舍人"],
+        "description": "汉武帝介入，提议以谜猜谜，给郭舍人机会赢回金子。"
+      },
+      "start": 35,
+      "end": 43,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭舍人", "东方朔", "汉武帝"],
+        "description": "郭舍人出谜语，东方朔以谜猜谜，成功回答，汉武帝称赞。"
+      },
+      "start": 44,
+      "end": 52,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "郭舍人"],
+        "description": "汉武帝出谜语，东方朔猜中盒中是枣子，汉武帝佩服不已。"
+      },
+      "start": 53,
+      "end": 87,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝"],
+        "description": "东方朔请求回家送赏赐，汉武帝允许，并约定在建章宫继续玩。"
+      },
+      "start": 88,
+      "end": 94,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "杨得意"],
+        "description": "汉武帝移驾建章宫，准备射覆游戏，杨得意准备瓦缶。"
+      },
+      "start": 95,
+      "end": 102,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "杨得意"],
+        "description": "汉武帝与杨得意对话，讨论东方朔的家境，杨得意为东方朔说情，汉武帝计划测试东方朔。"
+      },
+      "start": 103,
+      "end": 122,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "郭舍人", "杨得意"],
+        "description": "在建章宫进行射覆游戏，东方朔猜中壁虎，郭舍人耍赖，汉武帝继续测试。"
+      },
+      "start": 123,
+      "end": 168,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

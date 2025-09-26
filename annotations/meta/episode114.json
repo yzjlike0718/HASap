@@ -1,0 +1,69 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期；地点：齐国临淄；世界观：古代中国宫廷，涉及军事、政治和贪污腐败。",
+        "plot": "东方朔奉汉武帝之命到齐国筹集二十万石军粮。他发现义纵没收了贪官主父衍的巨额财物，意图运回长安请功。东方朔机智地提出用这些黄金购买粮食，与义纵发生冲突，最终用皇上的黄丝腰带制服义纵，成功筹集军粮。故事展现了东方朔的智慧与正义，以及官场的贪婪与斗争。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉武帝的使者",
+                "characteristic": "机智",
+                "description": "机智的汉武帝使者"
+            },
+            "plot_related_info": {
+                "motivations": "完成皇命，帮助齐国百姓度过难关",
+                "relationships": {
+                    "义纵": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐国相国",
+                "characteristic": "贪婪",
+                "description": "贪婪的齐国官员"
+            },
+            "plot_related_info": {
+                "motivations": "升官发财，通过没收财物讨好皇上",
+                "relationships": {
+                    "东方朔": "敌对"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "义纵"],
+                "description": "在齐国临淄相国府，东方朔与义纵讨论主父衍的贪污财物，东方朔提议用黄金购买军粮，最终制服义纵并发布榜文筹粮。"
+            },
+            "start": 0,
+            "end": 187,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "辛苦子"],
+                "description": "在长安宫殿，张汤向汉武帝报告东方朔的行动，辛苦子突然返回报告军情。"
+            },
+            "start": 188,
+            "end": 200,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

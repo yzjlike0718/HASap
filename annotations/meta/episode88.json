@@ -1,0 +1,234 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期。地点：中国长安城及周边道路。世界观：古代中国汉朝，朝廷与江湖侠客的冲突，汉匈战争背景，朝廷内部决策与争论。",
+        "plot": "大侠郭解拒绝回朝为官，汉武帝下令捉拿。东方朔追上郭解劝说，但郭解坚持离开，并在霍光建议下求助东方朔。东方朔放走郭解但要求留下霍光，郭解夫妇逃走。与此同时，汉武帝在长安城门楼接受匈奴太子于禅的投降，并讨论安置降兵，主父衍建议建造新城，汲黯反对 due to cost，引发争论。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "倔强",
+                "description": "倔强的大侠"
+            },
+            "plot_related_info": {
+                "motivations": "追求自由，不愿被朝廷约束，保护家人",
+                "relationships": {
+                    "霍云儿": "夫妻",
+                    "霍光": "姐夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "帮助郭解的同时为朝廷着想，平衡忠义",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "郭解": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，扩张疆土，处理朝政",
+                "relationships": {
+                    "卫青": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "未来大臣",
+                "characteristic": "聪明",
+                "description": "聪明的未来大臣"
+            },
+            "plot_related_info": {
+                "motivations": "寻求出路，保护姐姐，追求前途",
+                "relationships": {
+                    "霍云儿": "姐弟",
+                    "郭解": "姐夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "郭解妻子",
+                "characteristic": "关心家人",
+                "description": "关心家人的妻子"
+            },
+            "plot_related_info": {
+                "motivations": "保护家庭，支持丈夫",
+                "relationships": {
+                    "郭解": "夫妻",
+                    "霍光": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的将军"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇命，维护国家安全",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "文臣",
+                "characteristic": "谋略",
+                "description": "谋略的文臣"
+            },
+            "plot_related_info": {
+                "motivations": "提出政策建议，讨好皇帝",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "中年",
+                "gender": "男",
+                "identity": "谏官",
+                "characteristic": "直谏",
+                "description": "直谏的谏官"
+            },
+            "plot_related_info": {
+                "motivations": "劝谏皇帝，避免浪费国库",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "于禅",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "匈奴太子",
+                "characteristic": "投降",
+                "description": "投降的匈奴太子"
+            },
+            "plot_related_info": {
+                "motivations": "归降汉朝，寻求庇护",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["郭解", "东方朔"],
+                "description": "在路上，东方朔劝说郭解回朝见汉武帝，但郭解拒绝并警告东方朔在皇帝身边要小心。"
+            },
+            "start": 0,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "东方朔", "霍光", "霍云儿"],
+                "description": "霍光建议郭解向东方朔求助，东方朔同意放走郭解但要求留下霍光，郭解为家人求情。"
+            },
+            "start": 31,
+            "end": 68,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "东方朔", "霍光", "霍云儿"],
+                "description": "郭解夫妇与霍光告别，东方朔带走霍光，郭解夫妇继续前行。"
+            },
+            "start": 69,
+            "end": 81,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "公孙弘", "张汤", "主父衍", "卫青", "公孙敖", "苏建"],
+                "description": "汉武帝在长安城门楼设摆仪式，准备接受匈奴降兵，文武官员陪同。"
+            },
+            "start": 82,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "于禅", "杨得意", "卫青"],
+                "description": "匈奴太子于禅投降，汉武帝封他为社安侯，并询问如何安置降兵和家眷。"
+            },
+            "start": 101,
+            "end": 154,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "主父衍", "汲黯", "于禅"],
+                "description": "东方朔出现，主父衍建议在河套建造新城安置降兵，汲黯反对 due to cost，汉武帝权衡决策。"
+            },
+            "start": 155,
+            "end": 217,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

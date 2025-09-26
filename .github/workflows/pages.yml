@@ -1,5 +1,4 @@
 name: Deploy GitHub Pages
-
 on:
   push:
     branches: ["main"]
@@ -12,7 +11,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -24,8 +23,6 @@ jobs:
           lfs: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,321 @@
+{
+  "story": {
+    "background": "时间：汉武帝时期；地点：长安皇宫、风月巷妓院、汉匈战场（如朔方城、赵信城、碑义山）；世界观：古代中国，宫廷斗争与军事冲突并存。",
+    "plot": "武帝被张汤、李少翁等人蛊惑，沉迷美色，李延年献歌引荐李挑儿，武帝纳其为李夫人并宠信李少翁。同时，汉军分兵对抗匈奴，卫青和霍去病执行战略，东方朔在战场智牵匈奴太子。主要矛盾是宫廷内部权力斗争和汉匈战争，关键转折包括武帝的决策变化和战场策略实施。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "汉朝皇帝",
+        "characteristic": "好色",
+        "description": "好色的汉朝皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "追求享乐和成仙，维护皇权",
+        "relationships": {
+          "李延年": "主仆",
+          "李少翁": "宠信",
+          "张汤": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "李延年",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "歌手",
+        "characteristic": "谄媚",
+        "description": "受宫刑的谄媚歌手"
+      },
+      "plot_related_info": {
+        "motivations": "获得富贵和权力，讨好武帝",
+        "relationships": {
+          "武帝": "主仆",
+          "李少翁": "干亲",
+          "李挑儿": "兄妹"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "李少翁",
+        "age": "老年",
+        "gender": "男",
+        "identity": "方士",
+        "characteristic": "狡猾",
+        "description": "狡猾的方士"
+      },
+      "plot_related_info": {
+        "motivations": "获取官职和权力，操纵武帝",
+        "relationships": {
+          "武帝": "宠信",
+          "李延年": "干亲",
+          "李挑儿": "干亲"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "奸诈",
+        "description": "奸诈的汉朝官员"
+      },
+      "plot_related_info": {
+        "motivations": "巩固权力，排除异己",
+        "relationships": {
+          "武帝": "君臣",
+          "杨得意": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "冯子都",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "顺从",
+        "description": "顺从的太监"
+      },
+      "plot_related_info": {
+        "motivations": "服侍武帝，获得信任",
+        "relationships": {
+          "武帝": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "忠诚",
+        "description": "忠诚的太监"
+      },
+      "plot_related_info": {
+        "motivations": "服务武帝，但被诬陷",
+        "relationships": {
+          "武帝": "主仆",
+          "张汤": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "李挑儿",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "妓女",
+        "characteristic": "美丽",
+        "description": "美丽的妓女"
+      },
+      "plot_related_info": {
+        "motivations": "攀附权贵，改变命运",
+        "relationships": {
+          "武帝": "夫妻",
+          "李延年": "兄妹",
+          "李少翁": "干亲"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "谋士",
+        "characteristic": "智慧",
+        "description": "智慧的汉朝谋士"
+      },
+      "plot_related_info": {
+        "motivations": "为汉朝出谋划策，对抗匈奴",
+        "relationships": {
+          "卫青": "同事",
+          "霍去病": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "中年",
+        "gender": "男",
+        "identity": "大将军",
+        "characteristic": "稳健",
+        "description": "稳健的汉朝大将军"
+      },
+      "plot_related_info": {
+        "motivations": "保卫汉朝，击败匈奴",
+        "relationships": {
+          "武帝": "君臣",
+          "霍去病": "亲戚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "大司马",
+        "characteristic": "英勇",
+        "description": "英勇的汉朝大司马"
+      },
+      "plot_related_info": {
+        "motivations": "冲锋陷阵，立战功",
+        "relationships": {
+          "武帝": "君臣",
+          "卫青": "亲戚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "乌维",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "匈奴太子",
+        "characteristic": "聪明",
+        "description": "聪明的匈奴太子"
+      },
+      "plot_related_info": {
+        "motivations": "保卫匈奴，智取汉军",
+        "relationships": {
+          "知冷": "姐夫"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "知冷",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "匈奴驸马",
+        "characteristic": "冲动",
+        "description": "冲动的匈奴驸马"
+      },
+      "plot_related_info": {
+        "motivations": "作战立功，支持匈奴",
+        "relationships": {
+          "乌维": "姐夫"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "狄山",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "博士",
+        "characteristic": "胆小",
+        "description": "胆小的汉朝博士"
+      },
+      "plot_related_info": {
+        "motivations": "完成军命，但缺乏勇气",
+        "relationships": {}
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["武帝", "李延年", "李少翁"],
+        "description": "在长安皇宫，武帝与李延年、李少翁对话，李延年献唱《北方有佳人》，引起武帝兴趣。"
+      },
+      "start": 0,
+      "end": 24,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "李少翁", "张汤", "冯子都", "李延年", "李挑儿", "老鸨子"],
+        "description": "在风月巷妓院，武帝会见李挑儿，李少翁献药，武帝留宿，并决定纳李挑儿为夫人。"
+      },
+      "start": 25,
+      "end": 44,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "张汤", "李少翁", "杨得意", "冯子都", "李延年"],
+        "description": "在皇宫，武帝处理消息泄露事件，贬黜杨得意，并决定正式纳李挑儿为李夫人。"
+      },
+      "start": 45,
+      "end": 91,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["杨得意"],
+        "description": "杨得意内心独白，思念东方朔，担忧长安局势。"
+      },
+      "start": 92,
+      "end": 92,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["旁白"],
+        "description": "介绍汉军布局和匈奴应对策略，卫青和霍去病分兵出击，匈奴单于派兵迎敌。"
+      },
+      "start": 93,
+      "end": 113,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["乌维", "知冷"],
+        "description": "在碑义山，匈奴太子乌维和驸马知冷扎营，讨论军情，派出探马。"
+      },
+      "start": 114,
+      "end": 137,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "任安", "苏武", "狄山"],
+        "description": "在战场山头，东方朔观察敌情，与任安、苏武讨论策略，计划送信给卫青。"
+      },
+      "start": 138,
+      "end": 185,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

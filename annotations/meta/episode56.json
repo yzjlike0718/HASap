@@ -1,0 +1,225 @@
+{
+    "story": {
+        "background": "时间：古代中国汉朝汉武帝时期；地点：汉匈边境战场（如云中、雁门）及宫廷（未央宫、渭水河边）；世界观：历史战争背景，汉朝与匈奴的军事冲突，强调战争策略、赏罚制度及人物关系。",
+        "plot": "卫青使用武钢八卦车阵大胜匈奴，但外甥霍去病违令追击，缴获马匹和羊群却乱杀无辜；战后汉武帝在庆功宴上赏罚将士，卫青谦让功劳，霍去病因英勇受赏，东方朔为李广和公孙敖求情；故事体现了战争胜利、军纪问题及朝堂赏罚的复杂矛盾。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "严谨",
+                "description": "严谨的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "赢得战争胜利并维护军纪",
+                "relationships": {
+                    "霍去病": "甥舅",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "16岁",
+                "gender": "男",
+                "identity": "小将",
+                "characteristic": "英勇冲动",
+                "description": "英勇冲动的汉朝小将"
+            },
+            "plot_related_info": {
+                "motivations": "杀敌立功并证明自己",
+                "relationships": {
+                    "卫青": "甥舅",
+                    "东方朔": "干父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "赏罚分明",
+                "description": "赏罚分明的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "激励将士并维护朝廷权威",
+                "relationships": {
+                    "卫青": "君臣",
+                    "霍去病": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "监军",
+                "characteristic": "有学问",
+                "description": "有学问的汉朝监军"
+            },
+            "plot_related_info": {
+                "motivations": "观察战局并为霍去病求情",
+                "relationships": {
+                    "卫青": "同事",
+                    "霍去病": "赏识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙贺",
+                "age": "老年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "谨慎",
+                "description": "谨慎的汉朝老将军"
+            },
+            "plot_related_info": {
+                "motivations": "牵制敌军并避免损失",
+                "relationships": {
+                    "卫青": "同事",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李广",
+                "age": "老年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "轻敌",
+                "description": "轻敌的汉朝老将军"
+            },
+            "plot_related_info": {
+                "motivations": "立功封侯但因轻敌失败",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "勇猛",
+                "description": "勇猛的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "奋勇杀敌但损失惨重",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "幽默",
+                "description": "幽默的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "为将士求情并维护公正",
+                "relationships": {
+                    "霍去病": "干父子",
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["卫青", "单于", "主父衍"],
+                "description": "战场之上，卫青用车阵大胜匈奴，单于气急败坏，主父衍观察战局但未明阵势。"
+            },
+            "start": 0,
+            "end": 22,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病", "主父衍"],
+                "description": "战后清理战场，汉军发现霍去病失踪，卫青焦急等待。"
+            },
+            "start": 23,
+            "end": 40,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病", "主父衍"],
+                "description": "霍去病返回并缴获马匹羊群，卫青责备其违令乱杀，主父衍求情，卫青最终原谅。"
+            },
+            "start": 41,
+            "end": 71,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["单于", "公孙贺"],
+                "description": "匈奴单于撤退，公孙贺按兵不动，错失战机。"
+            },
+            "start": 72,
+            "end": 89,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "公孙贺", "主父衍", "东方朔"],
+                "description": "汉军回朝，汉武帝在渭水河边迎接将士，准备庆功。"
+            },
+            "start": 90,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "公孙贺", "李广", "公孙敖", "东方朔", "霍去病", "主父衍"],
+                "description": "汉武帝赏罚将士，卫青谦让，霍去病受赏，东方朔为李广和公孙敖求情。"
+            },
+            "start": 109,
+            "end": 195,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

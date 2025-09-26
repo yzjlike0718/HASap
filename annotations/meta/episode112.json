@@ -1,0 +1,215 @@
+{
+    "story": {
+        "background": "古代中国汉朝时期，地点包括长安、东方朔家中、建章宫、河西走廊、居原泽（今内蒙古地区）等。世界观为历史战争与宫廷政治，涉及汉朝与匈奴的战争、家庭生活及朝堂事务。",
+        "plot": "东方朔为郭解之子起名，引发家庭讨论并决定姓氏为东方。霍去病率军攻打匈奴，成功俘虏修图王家属并获取物资，但军粮短缺问题凸显。卫青面临将领不服和军粮危机，派侍从送信求助。张汤为筹措军粮焦急万分，东方朔准备进宫见驾商议军情。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "朝臣",
+                "characteristic": "机智",
+                "description": "机智的汉朝朝臣"
+            },
+            "plot_related_info": {
+                "motivations": "为国家大事操心，帮助卫青解决军粮问题",
+                "relationships": {
+                    "齐鲁女": "夫妻",
+                    "霍云儿": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "中年",
+                "gender": "女",
+                "identity": "东方朔之妻",
+                "characteristic": "直率",
+                "description": "直率的家庭主妇"
+            },
+            "plot_related_info": {
+                "motivations": "维护家庭利益，参与起名讨论",
+                "relationships": {
+                    "东方朔": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "郭解之妻",
+                "characteristic": "谦逊",
+                "description": "谦逊的侠士之妻"
+            },
+            "plot_related_info": {
+                "motivations": "为儿子求名，听从东方朔建议",
+                "relationships": {
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "成年",
+                "gender": "男",
+                "identity": "仆人",
+                "characteristic": "忠诚",
+                "description": "忠诚的仆人"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔，处理家务",
+                "relationships": {
+                    "东方朔": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫鑫",
+                "age": "成年",
+                "gender": "男",
+                "identity": "卫青侍从",
+                "characteristic": "疲惫",
+                "description": "疲惫的军队信使"
+            },
+            "plot_related_info": {
+                "motivations": "传递军情书信，完成任务",
+                "relationships": {
+                    "卫青": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "英勇",
+                "description": "英勇的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "攻打匈奴，扩张汉朝疆土",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "担忧",
+                "description": "担忧的大将军"
+            },
+            "plot_related_info": {
+                "motivations": "指挥军队，应对军粮危机和将领问题",
+                "relationships": {
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "焦急",
+                "description": "焦急的廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "筹措军粮，避免皇上责罚",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇上",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "处理国家大事，听取军情汇报",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "霍云儿"],
+                "description": "在东方朔家中，讨论为郭解之子起名，最终决定姓氏为东方，并取名东方蟹和东方之珠。"
+            },
+            "start": 0,
+            "end": 29,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得道", "卫鑫"],
+                "description": "在东方朔家门外，卫鑫筋疲力尽地到来并昏倒，被扶进屋内。"
+            },
+            "start": 30,
+            "end": 44,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "在东方朔家中，东方朔阅读卫鑫带来的书信，了解霍去病和卫青的前线战况及军粮问题。"
+            },
+            "start": 45,
+            "end": 166,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得道", "卫鑫"],
+                "description": "在东方朔家中，东方朔询问卫鑫战情后安排其休息，并准备进宫见驾。"
+            },
+            "start": 167,
+            "end": 171,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "皇上", "张汤"],
+                "description": "在建章宫，皇上召见东方朔议事，张汤到来汇报军粮筹措情况，众人讨论军情。"
+            },
+            "start": 172,
+            "end": 188,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

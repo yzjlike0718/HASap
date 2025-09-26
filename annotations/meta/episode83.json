@@ -1,0 +1,184 @@
+{
+    "story": {
+        "background": "汉代时期，大将军卫青在边境地区对抗匈奴的军事行动。地点包括中军大帐、沙漠、五元城、增山等。世界观是历史战争背景，涉及军事策略和战斗。",
+        "plot": "卫青在中军大帐部署军队，分兵多路进攻匈奴。卫青亲率部队突袭右贤王，取得胜利但部下李卫虎牺牲。随后卫青南下增山，计划对付匈奴太子于禅，并遇到归降战将马清和，可能用于劝降或间谍活动。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "果断",
+                "description": "汉代大将军，果断谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，保卫汉朝",
+                "relationships": {
+                    "郭解": "同事",
+                    "李举": "同事",
+                    "李卫虎": "部下"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "武功高强",
+                "description": "武功高强的大侠，善用暗器"
+            },
+            "plot_related_info": {
+                "motivations": "辅助卫青，对抗匈奴",
+                "relationships": {
+                    "卫青": "同事",
+                    "李卫虎": "师徒"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李举",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "强弩将军",
+                "characteristic": "勇猛",
+                "description": "勇猛的强弩将军"
+            },
+            "plot_related_info": {
+                "motivations": "执行军令，击败匈奴",
+                "relationships": {
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李卫虎",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "随从",
+                "characteristic": "忠诚",
+                "description": "忠诚的随从，郭解徒弟"
+            },
+            "plot_related_info": {
+                "motivations": "保护卫青，为国效力",
+                "relationships": {
+                    "卫青": "部下",
+                    "郭解": "师徒"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "马清和",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "归降战将",
+                "characteristic": " multilingual",
+                "description": "归降的汉人战将，会匈奴语"
+            },
+            "plot_related_info": {
+                "motivations": "回归汉朝，为国家出力",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["卫青", "苏建", "公孙贺", "袁诚"],
+                "description": "中军大帐中，卫青部署军队分兵多路进攻匈奴，苏建、公孙贺、袁诚接受命令。"
+            },
+            "start": 0,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李举", "郭解"],
+                "description": "沙漠行军，卫青带领军队昼伏夜行到达五元城，准备攻击右贤王。"
+            },
+            "start": 31,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李举", "郭解", "右贤王", "匈奴兵"],
+                "description": "五元城战场，卫青发动突袭，击败右贤王的匈奴军队。"
+            },
+            "start": 57,
+            "end": 80,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李举", "郭解", "李卫虎", "匈奴将领"],
+                "description": "战斗中，卫青等人与匈奴将领交锋，李卫虎为救卫青中毒箭牺牲。"
+            },
+            "start": 81,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李举", "郭解"],
+                "description": "清理战场，卫青分兵留守五元，自己带领部队南下增山。"
+            },
+            "start": 142,
+            "end": 149,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "郭解", "军队"],
+                "description": "南下途中扎营，军队休息，卫青和郭解准备下一步行动。"
+            },
+            "start": 150,
+            "end": 164,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "郭解", "马清和"],
+                "description": "营帐中，卫青会见归降战将马清和，请求他帮忙见于禅劝降。"
+            },
+            "start": 165,
+            "end": 191,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

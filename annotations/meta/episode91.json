@@ -1,0 +1,153 @@
+{
+    "story": {
+        "background": "汉朝汉武帝时期，皇宫朝堂，中央集权与诸侯势力矛盾突出的封建王朝世界观。",
+        "plot": "汉武帝担忧诸侯势力过大威胁中央政权，主父衍提出推恩裂土之计，将诸侯土地分封给所有儿子以削弱势力。汉武帝采纳计策并下诏实施，引起诸侯反应，其中淮南太子刘钦强烈不满并计划谋反，派遣心腹庄祝前往长安打探消息。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "果断",
+                "description": "果断的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "削弱诸侯势力，巩固皇权",
+                "relationships": {
+                    "主父衍": "君臣",
+                    "公孙弘": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明",
+                "description": "聪明的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "献计削弱诸侯，获得皇帝赏识",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "公孙弘": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "保守",
+                "description": "保守的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "维护稳定，避免激进变革",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘钦",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "淮南太子",
+                "characteristic": "野心勃勃",
+                "description": "野心勃勃的淮南太子"
+            },
+            "plot_related_info": {
+                "motivations": "反对推恩裂土，计划谋反夺取皇位",
+                "relationships": {
+                    "左吴": "主仆",
+                    "庄祝": "主仆",
+                    "淮南王": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "左吴",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "足智多谋",
+                "description": "足智多谋的淮南谋士"
+            },
+            "plot_related_info": {
+                "motivations": "辅助刘钦谋反，实现政治野心",
+                "relationships": {
+                    "刘钦": "主仆",
+                    "庄祝": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "庄祝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "武将",
+                "characteristic": "武艺高强",
+                "description": "武艺高强的淮南武将"
+            },
+            "plot_related_info": {
+                "motivations": "服从刘钦命令，参与谋反计划",
+                "relationships": {
+                    "刘钦": "主仆",
+                    "左吴": "同僚"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "主父衍", "公孙弘"],
+                "description": "在皇宫朝堂，汉武帝与大臣讨论削弱诸侯之计，主父衍提出推恩裂土之法，汉武帝采纳并驳回公孙弘的反对。"
+            },
+            "start": 0,
+            "end": 122,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": [],
+                "description": "汉武帝下诏推恩裂土，天下诸侯反应各异，老王爷和新侯爷纷纷议论，淮南太子刘钦极度不满。"
+            },
+            "start": 123,
+            "end": 133,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["刘钦", "左吴", "庄祝"],
+                "description": "在淮南，太子刘钦对诏令不满，与心腹左吴、庄祝讨论谋反计划，决定派遣庄祝前往长安打探消息。"
+            },
+            "start": 134,
+            "end": 233,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

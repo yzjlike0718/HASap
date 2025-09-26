@@ -1,0 +1,314 @@
+{
+    "story": {
+        "background": "时间：汉朝时期；地点：长安城，包括长安县衙、酒楼、皇宫等；世界观：古代中国，汉朝法律严格，社会层级分明，有皇帝、官员、百姓等。",
+        "plot": "长安县令义纵想通过严明执法扬名，但迟迟没有案件；金吾子杀人案发生，义纵兴奋地抓捕金吾子并迅速定案；汉武帝得知后前往刑场，考验义纵的执法决心；义纵坚持依法处斩金吾子，汉武帝赞赏其执法不阿，提升他为长安府尹；东方朔建议审问金吾子，汉武帝让东方朔代审。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "长安县令后升长安府尹",
+                "characteristic": "执法严明",
+                "description": "执法严明的长安官员"
+            },
+            "plot_related_info": {
+                "motivations": "想通过执法扬名，获得皇上赏识",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "金吾子": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护法律，赏识人才",
+                "relationships": {
+                    "金吾子": "舅舅",
+                    "修成君": "弟弟",
+                    "义纵": "君主"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智幽默的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "辅助皇上，维护正义",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "义纵": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金吾子",
+                "age": "20岁",
+                "gender": "男",
+                "identity": "皇上的外甥",
+                "characteristic": "狂妄",
+                "description": "狂妄的皇亲国戚"
+            },
+            "plot_related_info": {
+                "motivations": "仗势欺人，以为没人敢杀他",
+                "relationships": {
+                    "汉武帝": "外甥",
+                    "修成君": "儿子",
+                    "金不换": "儿子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "修成君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇上的姐姐",
+                "characteristic": "悲痛",
+                "description": "悲痛的皇姐"
+            },
+            "plot_related_info": {
+                "motivations": "救儿子金吾子",
+                "relationships": {
+                    "金吾子": "母亲",
+                    "金不换": "妻子",
+                    "汉武帝": "姐姐"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金不换",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "修成君的丈夫",
+                "characteristic": "老实",
+                "description": "老实的农民"
+            },
+            "plot_related_info": {
+                "motivations": "救儿子金吾子",
+                "relationships": {
+                    "金吾子": "父亲",
+                    "修成君": "丈夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "服从",
+                "description": "服从的太监"
+            },
+            "plot_related_info": {
+                "motivations": "服侍皇上",
+                "relationships": {
+                    "汉武帝": "侍从"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["义纵"],
+                "description": "在长安县衙，义纵架鼓希望有冤案，但无人击鼓，他感到失望。"
+            },
+            "start": 0,
+            "end": 5,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "两个击鼓人"],
+                "description": "夜里，县衙外鼓声大作，义纵出门见到两个击鼓人。"
+            },
+            "start": 6,
+            "end": 11,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "两个击鼓人"],
+                "description": "义纵询问冤情，两人告知酒楼杀人案，义纵带人去酒楼。"
+            },
+            "start": 12,
+            "end": 19,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "金吾子", "衙役"],
+                "description": "在酒楼，义纵看到尸体，金吾子承认杀人，被抓获审案画押。"
+            },
+            "start": 20,
+            "end": 27,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "张汤"],
+                "description": "义纵写文书上报廷尉张汤，张汤批准斩案。"
+            },
+            "start": 28,
+            "end": 34,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["修成君", "金不换", "汉武帝", "东方朔", "齐鲁女"],
+                "description": "在东方朔家，修成君夫妇求皇上救金吾子，皇上带东方朔离开。"
+            },
+            "start": 35,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "杨得意"],
+                "description": "夜里到天亮，武帝和东方朔下棋，东方朔睡觉，第二天醒来。"
+            },
+            "start": 49,
+            "end": 61,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "杨得意"],
+                "description": "早上在皇宫，杨得意叫醒皇上，君臣更衣后便服去县衙。"
+            },
+            "start": 62,
+            "end": 68,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "杨得意", "义纵", "金吾子", "修成君", "金不换", "百姓"],
+                "description": "白天在县衙外刑场，君臣到达，看到刑场场景，义纵心理活动。"
+            },
+            "start": 69,
+            "end": 84,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "金吾子", "修成君", "金不换"],
+                "description": "在刑场，金吾子骂义纵，义纵回应，准备斩首。"
+            },
+            "start": 85,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "金吾子", "刽子手", "金不换", "修成君", "东方朔", "汉武帝"],
+                "description": "在刑场，义纵下令斩首，金不换夫妇晕倒，东方朔拔剑阻止。"
+            },
+            "start": 109,
+            "end": 130,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "义纵", "金吾子", "修成君", "金不换", "东方朔", "杨得意"],
+                "description": "在刑台，武帝上台询问，义纵解释案件，武帝赞赏。"
+            },
+            "start": 131,
+            "end": 152,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "义纵", "东方朔"],
+                "description": "在刑台，武帝提升义纵为长安府尹，义纵谢恩。"
+            },
+            "start": 153,
+            "end": 190,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "金吾子", "汉武帝", "义纵"],
+                "description": "在刑台，东方朔评论义纵，武帝让东方朔审问金吾子。"
+            },
+            "start": 191,
+            "end": 211,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

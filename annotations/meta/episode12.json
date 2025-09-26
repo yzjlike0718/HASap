@@ -1,0 +1,293 @@
+{
+  "story": {
+    "background": "故事发生在汉朝汉武帝时期，地点主要包括长安皇宫（如宣室、长乐宫）和灞陵。世界观是古代中国宫廷政治，强调皇权与太后权力的冲突，以及孝道与改革的矛盾。",
+    "plot": "汉武帝刘彻试图推行改革，包括修改立法、清理祠堂和建立学观，但与太皇太后的黄老无为思想发生冲突。年轻大臣赵绾和王臧在讨论中激烈批评太皇太后，言论被近臣许昌和庄青翟窃听并报告，导致太皇太后下令处死他们。宰相窦婴帮助两人逃亡，但他们在灞陵决定自杀以明志。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "犹豫",
+        "description": "年轻的汉朝皇帝，犹豫但意图改革"
+      },
+      "plot_related_info": {
+        "motivations": "推行改革，加强皇权",
+        "relationships": {
+          "太皇太后": "祖孙",
+          "皇太后": "母子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "太皇太后",
+        "age": "老年",
+        "gender": "女",
+        "identity": "太皇太后",
+        "characteristic": "保守",
+        "description": "年老的太皇太后，保守且权力强大"
+      },
+      "plot_related_info": {
+        "motivations": "维护黄老思想，保持自身权威",
+        "relationships": {
+          "汉武帝刘彻": "祖孙",
+          "窦婴": "姑侄"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "窦婴",
+        "age": "中年",
+        "gender": "男",
+        "identity": "宰相",
+        "characteristic": "宽宏大量",
+        "description": "宽宏大量的汉朝宰相"
+      },
+      "plot_related_info": {
+        "motivations": "帮助赵绾和王逃亡，避免冲突升级",
+        "relationships": {
+          "太皇太后": "姑侄",
+          "赵绾": "同事",
+          "王臧": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "田鼢",
+        "age": "中年",
+        "gender": "男",
+        "identity": "太尉",
+        "characteristic": "滑头",
+        "description": "滑头的太尉，善于自保"
+      },
+      "plot_related_info": {
+        "motivations": "自保，避免得罪太皇太后",
+        "relationships": {
+          "皇太后": "姐弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "赵绾",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "御史大夫",
+        "characteristic": "年轻气盛",
+        "description": "年轻气盛的御史大夫"
+      },
+      "plot_related_info": {
+        "motivations": "支持改革，批评太皇太后干政",
+        "relationships": {
+          "王臧": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "王臧",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "郎中令",
+        "characteristic": "年轻气盛",
+        "description": "年轻气盛的郎中令"
+      },
+      "plot_related_info": {
+        "motivations": "支持改革，批评太皇太后干政",
+        "relationships": {
+          "赵绾": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "皇太后",
+        "age": "中年",
+        "gender": "女",
+        "identity": "皇太后",
+        "characteristic": "谨慎",
+        "description": "谨慎的皇太后，汉武帝母亲"
+      },
+      "plot_related_info": {
+        "motivations": "避免冲突，保护儿子刘彻",
+        "relationships": {
+          "汉武帝刘彻": "母子",
+          "田鼢": "姐弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "许昌",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太皇太后近臣",
+        "characteristic": "奸诈",
+        "description": "奸诈的太皇太后近臣"
+      },
+      "plot_related_info": {
+        "motivations": "讨好太皇太后，巩固地位",
+        "relationships": {
+          "太皇太后": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "庄青翟",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太皇太后近臣",
+        "characteristic": "奸诈",
+        "description": "奸诈的太皇太后近臣"
+      },
+      "plot_related_info": {
+        "motivations": "讨好太皇太后，巩固地位",
+        "relationships": {
+          "太皇太后": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "豆桂",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "窦婴家人",
+        "characteristic": "忠诚",
+        "description": "忠诚的窦婴家人"
+      },
+      "plot_related_info": {
+        "motivations": "服从窦婴命令，帮助赵绾和王臧逃亡",
+        "relationships": {
+          "窦婴": "主仆"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": [],
+        "description": "东方朔和杨得意被派往巴蜀迎接司马相如，同时朝廷发生大事。"
+      },
+      "start": 0,
+      "end": 2,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": [],
+        "description": "汉武帝刘彻计划修改立法、清理祠堂和建立学观，与黄老思想发生冲突，遭到许昌、庄青翟等老臣反对。"
+      },
+      "start": 3,
+      "end": 12,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["皇太后"],
+        "description": "皇太后嘱咐刘彻谨慎行事，并警告田鼢不要惹太皇太后生气。"
+      },
+      "start": 13,
+      "end": 16,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "赵绾", "王臧"],
+        "description": "在宣室，汉武帝与赵绾、王臧等讨论改革，赵绾和王臧批评太皇太后干政。"
+      },
+      "start": 17,
+      "end": 42,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": [],
+        "description": "许昌和庄青翟在宣室外窃听到赵绾和王臧的言论，前往长乐宫报告太皇太后。"
+      },
+      "start": 43,
+      "end": 60,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["所忠", "汉武帝刘彻", "窦婴"],
+        "description": "所忠报告许昌和庄青翟去报告太皇太后，窦婴建议赵绾和王臧躲避。"
+      },
+      "start": 61,
+      "end": 74,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["太皇太后", "窦婴"],
+        "description": "太皇太后得知赵绾和王臧的言论，愤怒不已，审讯窦婴和田鼢，下令处死赵绾和王臧。"
+      },
+      "start": 75,
+      "end": 99,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["赵绾", "王臧", "窦婴"],
+        "description": "在窦婴家中，赵绾和王臧得知危险，考虑自杀，窦婴安排豆桂帮助他们逃亡。"
+      },
+      "start": 100,
+      "end": 123,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["赵绾", "王臧", "豆桂"],
+        "description": "赵绾、王臧和豆桂逃亡至灞陵，发现鲜血和歪脖树，决定自杀。"
+      },
+      "start": 124,
+      "end": 190,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

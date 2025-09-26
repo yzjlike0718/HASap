@@ -1,0 +1,243 @@
+{
+    "story": {
+        "background": "故事发生在汉武帝时期，地点包括皇宫（如建章宫、灵霄宫）和边境。世界观基于历史，涉及宫廷斗争、军事冲突和道教迷信元素。",
+        "plot": "东方朔请战对抗匈奴，汉武帝派东方朔和狄山各带三千兵出征。任安和苏武自愿随军，表达为国效命的决心。东方朔提醒汉武帝不要轻信神仙之言。与此同时，唱曲者辛延年与妓女李挑儿密谋通过假神仙李少翁接近汉武帝，以获取荣华富贵。张汤与李少翁勾结，辛延年和冯子都拜李少翁为干爹，策划进一步蒙骗汉武帝。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "多疑",
+                "description": "多疑的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生和权力",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "李少翁": "迷信"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "忠诚",
+                "description": "忠诚的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "为国效忠",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "儒者",
+                "characteristic": "注重名分",
+                "description": "注重名分的儒者"
+            },
+            "plot_related_info": {
+                "motivations": "维护儒家身份",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "任安",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军之子",
+                "characteristic": "勇敢",
+                "description": "勇敢的将军之子"
+            },
+            "plot_related_info": {
+                "motivations": "为国效命",
+                "relationships": {
+                    "任厂": "父子",
+                    "苏武": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏武",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "勇敢",
+                "description": "勇敢的官员"
+            },
+            "plot_related_info": {
+                "motivations": "为国效命",
+                "relationships": {
+                    "任安": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "狡猾",
+                "description": "狡猾的廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "权力和操纵",
+                "relationships": {
+                    "李少翁": "勾结",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少翁",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "假神仙",
+                "characteristic": "欺骗性",
+                "description": "欺骗性的假神仙"
+            },
+            "plot_related_info": {
+                "motivations": "蒙骗皇帝获取利益",
+                "relationships": {
+                    "张汤": "勾结",
+                    "汉武帝": "欺骗"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛延年",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "唱曲者",
+                "characteristic": "投机",
+                "description": "投机的唱曲者"
+            },
+            "plot_related_info": {
+                "motivations": "飞黄腾达",
+                "relationships": {
+                    "李挑儿": "相好",
+                    "李少翁": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李挑儿",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "妓女",
+                "characteristic": "野心",
+                "description": "野心的妓女"
+            },
+            "plot_related_info": {
+                "motivations": "接近皇帝改变命运",
+                "relationships": {
+                    "辛延年": "相好"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "冯子都",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "无奈",
+                "description": "无奈的太监"
+            },
+            "plot_related_info": {
+                "motivations": "寻求出头之日",
+                "relationships": {
+                    "李少翁": "干爹",
+                    "张汤": "依附"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "狄山", "任安", "苏武"],
+                "description": "汉武帝在皇宫中与大臣们讨论出征匈奴的事宜，东方朔和狄山请战，任安和苏武自愿随军出征。"
+            },
+            "start": 0,
+            "end": 26,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "东方朔私下提醒汉武帝不要轻信神仙之言，然后告辞回家。"
+            },
+            "start": 27,
+            "end": 45,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "狄山", "张汤"],
+                "description": "东方朔和狄山点兵离开长安，张汤对此感到高兴。"
+            },
+            "start": 46,
+            "end": 49,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["辛延年", "李挑儿"],
+                "description": "辛延年与李挑儿在妓院对话，密谋通过李少翁接近汉武帝以获取荣华富贵。"
+            },
+            "start": 49,
+            "end": 122,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["辛延年", "冯子都", "张汤", "李少翁"],
+                "description": "辛延年和冯子都找李少翁拜干爹，张汤出现并策划阴谋，三人勾结蒙骗汉武帝。"
+            },
+            "start": 123,
+            "end": 187,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,166 @@
+{
+    "story": {
+        "background": "故事发生在古代中国长安城，汉朝时期，涉及皇宫、侍卫、公车令等制度。世界观结合历史与武侠元素，以比剑决斗为核心场景。",
+        "plot": "东方朔与公孙敖以比剑决定竹简呈交方式，东方朔赢则回平原候旨，公孙敖输则呈交竹简。比剑中东方朔展现高超剑术并留情，公孙敖认输。韩不识加入比剑被击败。最终东方朔接受公孙敖赠马，回平原候旨。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐国平原郡献书者",
+                "characteristic": "剑术高超",
+                "description": "剑术高超的齐国献书者"
+            },
+            "plot_related_info": {
+                "motivations": "希望竹简被呈交皇上，证明自己的价值",
+                "relationships": {
+                    "公孙敖": "对手兼相互尊重",
+                    "韩不识": "互动者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇宫一等侍卫",
+                "characteristic": "骄傲重诺",
+                "description": "武功高强的皇宫侍卫"
+            },
+            "plot_related_info": {
+                "motivations": "维护荣誉，履行比剑诺言",
+                "relationships": {
+                    "东方朔": "对手兼相互尊重",
+                    "韩不识": "同殿称臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩不识",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "公车令",
+                "characteristic": "豪爽",
+                "description": "豪爽的公车令"
+            },
+            "plot_related_info": {
+                "motivations": "参与比剑，见识东方朔剑术",
+                "relationships": {
+                    "公孙敖": "同殿称臣",
+                    "东方朔": "互动者"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "长安城老百姓"],
+                "description": "在长安城，东方朔与公孙敖约定比剑定胜负，输赢条件涉及竹简呈交和去留。"
+            },
+            "start": 0,
+            "end": 2,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["韩不识", "公孙敖", "东方朔"],
+                "description": "韩不识旁观并评论公孙敖和东方朔的剑术背景，认为东方朔是公孙敖的对手。"
+            },
+            "start": 3,
+            "end": 10,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "长安城老百姓"],
+                "description": "比剑开始，公孙敖主动进攻，但东方朔纹丝不动，轻松化解攻击。"
+            },
+            "start": 11,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "韩不识", "长安城老百姓"],
+                "description": "公孙敖使出绝招剑劈万刃，东方朔以长虹贯日应对并留情，避免公孙敖出丑，双方转为表演性比剑。"
+            },
+            "start": 25,
+            "end": 52,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "韩不识", "长安城老百姓"],
+                "description": "韩不识醉酒加入比剑，三人混战，东方朔灵活躲避攻击。"
+            },
+            "start": 53,
+            "end": 92,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "韩不识", "长安城老百姓"],
+                "description": "韩不识使出绝招被东方朔击败，手部受伤，公孙敖弃剑认输，韩不识也甘拜下风。"
+            },
+            "start": 93,
+            "end": 121,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "韩不识", "外地献书者"],
+                "description": "东方朔为韩不识敷药，对话揭示身份和竹简来历，韩不识邀请休息，但东方朔坚持回平原。"
+            },
+            "start": 122,
+            "end": 143,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖"],
+                "description": "东方朔离开时，公孙敖赠马，东方朔激动接受，回平原候旨。"
+            },
+            "start": 144,
+            "end": 151,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

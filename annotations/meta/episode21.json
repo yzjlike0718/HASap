@@ -1,0 +1,223 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：长安，东方朔家、公车府、皇宫；世界观：汉朝宫廷，有文武百官、侏儒作为玩物，粮食分配制度存在不合理之处。",
+        "plot": "东方朔和卫青因粮食不足而烦恼；东方朔在领米时与韩不识讨论粮食分配不公，心生一计；东方朔欺骗侏儒说汉武帝要杀他们，让侏儒去皇宫哭闹；侏儒的哭闹引起汉武帝注意，汉武帝召见东方朔；东方朔向汉武帝进言，指出侏儒和侍卫的粮食分配不合理，引发汉武帝思考。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "机智",
+                "description": "机智的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "解决粮食不足问题，改善粮食分配制度",
+                "relationships": {
+                    "卫青": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "练武之人",
+                "characteristic": "感激",
+                "description": "感激的练武之人"
+            },
+            "plot_related_info": {
+                "motivations": "避免给东方朔添麻烦，希望粮食够吃",
+                "relationships": {
+                    "东方朔": "朋友",
+                    "霍去病": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩不识",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "公车令",
+                "characteristic": "佩服东方朔",
+                "description": "佩服东方朔的公车令"
+            },
+            "plot_related_info": {
+                "motivations": "与东方朔套近乎，讨论粮食分配问题",
+                "relationships": {
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "生气但明智",
+                "description": "生气但明智的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "处理侏儒事件，听取东方朔进言",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "侏儒": "君主与玩物"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "侏儒",
+                "age": "N/A",
+                "gender": "未知",
+                "identity": "宫廷玩物",
+                "characteristic": "恐惧",
+                "description": "恐惧的宫廷侏儒"
+            },
+            "plot_related_info": {
+                "motivations": "保全性命",
+                "relationships": {
+                    "汉武帝": "君主与玩物",
+                    "东方朔": "求助对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "传旨",
+                "description": "传旨的太监"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇帝命令",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "熟人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的大太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "小孩",
+                "gender": "男",
+                "identity": "卫青的外甥、东方朔的干儿子",
+                "characteristic": "活泼",
+                "description": "活泼的小孩子"
+            },
+            "plot_related_info": {
+                "motivations": "玩耍，想当将军",
+                "relationships": {
+                    "卫青": "舅舅",
+                    "东方朔": "干爹"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青"],
+                "description": "在东方朔家中，卫青因粮食不足而每餐少吃，东方朔察觉后心里难过。"
+            },
+            "start": 0,
+            "end": 3,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "韩不识"],
+                "description": "在公车府，东方朔领米时与韩不识讨论粮食分配不公的问题。"
+            },
+            "start": 4,
+            "end": 37,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "侏儒"],
+                "description": "在公车府外，东方朔欺骗侏儒说汉武帝要杀他们，侏儒前往皇宫求助。"
+            },
+            "start": 38,
+            "end": 81,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "霍去病", "杨得意"],
+                "description": "在东方朔家中，东方朔带回粮食，与卫青和霍去病互动，杨得意传旨召东方朔入宫。"
+            },
+            "start": 82,
+            "end": 101,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "所忠", "侏儒"],
+                "description": "在皇宫中，侏儒向汉武帝哭闹，汉武帝生气并威胁要杀他们。"
+            },
+            "start": 102,
+            "end": 131,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "所忠"],
+                "description": "在皇宫中，东方朔向汉武帝进言，解释粮食分配不合理的问题。"
+            },
+            "start": 132,
+            "end": 210,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

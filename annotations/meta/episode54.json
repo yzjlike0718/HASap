@@ -1,0 +1,350 @@
+{
+  "story": {
+    "background": "时间：西汉汉武帝时期；地点：点将台（初始），后转移至塞北沙漠；世界观：历史军事背景，汉武帝刘彻发兵讨伐匈奴，展现古代战争与宫廷斗争。",
+    "plot": "汉武帝在点将台集结大军，任命将领讨伐匈奴，但董衍突然搅局报告私事；东方朔建议斩董衍以祭旗，汉武帝同意并任命主父衍协助卫青；大军出征后面临恶劣环境，公孙贺分兵四路并坚守营寨；匈奴单于识破汉军策略，分兵回防追击卫青军，胜负未卜。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "果断",
+        "description": "中年男性皇帝，果断"
+      },
+      "plot_related_info": {
+        "motivations": "讨伐匈奴，扬大汉国威，巩固皇权",
+        "relationships": {
+          "东方朔": "君臣",
+          "公孙贺": "君臣",
+          "卫青": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "机智",
+        "description": "中年男性大臣，机智"
+      },
+      "plot_related_info": {
+        "motivations": "辅佐汉武帝，维护军纪，铲除奸佞",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "霍去病": "干父子",
+          "董衍": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "韩嫣",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "忠诚",
+        "description": "男性大臣，忠诚"
+      },
+      "plot_related_info": {
+        "motivations": "护卫汉武帝，执行命令",
+        "relationships": {
+          "汉武帝刘彻": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙贺",
+        "age": "中年",
+        "gender": "男",
+        "identity": "大将/三军统帅",
+        "characteristic": "稳重",
+        "description": "中年男性大将，稳重"
+      },
+      "plot_related_info": {
+        "motivations": "指挥大军战胜匈奴，完成皇命",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "卫青": "同事",
+          "苏建": "上下级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "中年",
+        "gender": "男",
+        "identity": "车骑将军",
+        "characteristic": "勇猛",
+        "description": "中年男性车骑将军，勇猛"
+      },
+      "plot_related_info": {
+        "motivations": "领兵深入匈奴腹地，取胜扬威",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "霍去病": "上下级",
+          "主父衍": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "青年",
+        "gender": "男",
+        "identity": "小将",
+        "characteristic": "热血",
+        "description": "青年男性小将，热血"
+      },
+      "plot_related_info": {
+        "motivations": "战场杀敌，立功扬名",
+        "relationships": {
+          "东方朔": "干父子",
+          "卫青": "上下级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "董衍",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "佞臣",
+        "characteristic": "狼狈",
+        "description": "男性佞臣，狼狈"
+      },
+      "plot_related_info": {
+        "motivations": "保全自身利益，报告私事",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "朱买臣": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "朱买臣",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "急切",
+        "description": "男性大臣，急切"
+      },
+      "plot_related_info": {
+        "motivations": "寻得良臣主父衍，向汉武帝报告",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "主父衍": "推荐"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "中大夫",
+        "characteristic": "聪明",
+        "description": "男性中大夫，聪明"
+      },
+      "plot_related_info": {
+        "motivations": "协助卫青参赞军务，证明自身价值",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "卫青": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "匈奴单于",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "匈奴首领",
+        "characteristic": "狡猾",
+        "description": "男性匈奴首领，狡猾"
+      },
+      "plot_related_info": {
+        "motivations": "防御汉军进攻，保全匈奴势力",
+        "relationships": {}
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "东方朔", "韩嫣", "公孙贺", "卫青", "霍去病"],
+        "description": "在点将台，汉武帝集结大军，任命将领讨伐匈奴，士气高昂。"
+      },
+      "start": 0,
+      "end": 38,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["董衍", "汉武帝刘彻", "东方朔"],
+        "description": "董衍突然跑上点将台报告朱买臣抢走主父衍，搅乱出兵仪式。"
+      },
+      "start": 39,
+      "end": 54,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["朱买臣", "主父衍", "汉武帝刘彻", "东方朔", "董衍"],
+        "description": "朱买臣和主父衍上台，汉武帝认出主父衍并开始明白情况。"
+      },
+      "start": 55,
+      "end": 69,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.85,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝刘彻", "董衍"],
+        "description": "东方朔列举董衍的三条大罪，建议斩首以祭旗，汉武帝考虑决定。"
+      },
+      "start": 70,
+      "end": 97,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "霍去病", "董衍"],
+        "description": "东方朔提董衍下台斩首，血溅军旗，将士欢呼。"
+      },
+      "start": 98,
+      "end": 115,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "主父衍"],
+        "description": "汉武帝任命主父衍为中大夫，协助卫青参赞军务。"
+      },
+      "start": 116,
+      "end": 124,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.85,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "公孙贺", "东方朔", "霍去病"],
+        "description": "公孙贺率军出征，汉武帝击鼓送行，霍去病接受东方朔的宝剑。"
+      },
+      "start": 125,
+      "end": 142,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "东方朔", "韩嫣"],
+        "description": "汉武帝带东方朔和韩嫣回宫。"
+      },
+      "start": 143,
+      "end": 145,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫青", "公孙贺", "汉军士兵"],
+        "description": "汉军在塞北沙漠行军，面临恶劣天气，但士气不减。"
+      },
+      "start": 146,
+      "end": 155,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.85,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["公孙贺", "卫青", "李广", "苏建"],
+        "description": "公孙贺分兵四路，部署军事行动，各将领领命出发。"
+      },
+      "start": 156,
+      "end": 168,
+      "confidence": {
+        "character_assignment": 0.85,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["公孙贺", "苏建", "匈奴单于"],
+        "description": "公孙贺命令扎营坚守，以拖住匈奴主力，苏建执行命令。"
+      },
+      "start": 169,
+      "end": 188,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.85,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["匈奴单于", "公孙贺"],
+        "description": "匈奴单于巡视汉军营寨，识破策略，分兵回防追击卫青军。"
+      },
+      "start": 189,
+      "end": 201,
+      "confidence": {
+        "character_assignment": 0.85,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫青", "匈奴单于"],
+        "description": "卫青军 unaware 被追击，匈奴单于快速进军，胜负悬念。"
+      },
+      "start": 202,
+      "end": 210,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.85,
+        "event_accuracy": 0.75
+      }
+    }
+  ],
+  "coverage_check": true
+}

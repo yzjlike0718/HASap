@@ -1,0 +1,226 @@
+{
+    "story": {
+        "background": "时间：西汉汉武帝时期。地点：皇宫、建章宫等宫廷场所。世界观：古代中国宫廷政治，涉及儒家思想、军事策略和权力斗争，世界观以历史事件为背景，强调皇权、官僚制度和外交军事。",
+        "plot": "公孙弘利用主父衍陷害董仲舒，导致武帝大怒欲杀董仲舒，但公孙弘怕落骂名而求情，武帝免董仲舒死罪让其研究阴阳五行。武帝担忧匈奴入侵，与卫青讨论军粮问题，卫青表达担忧但武帝坚持出兵并指派张汤和主父衍负责粮草。东方朔带来神童桑弘阳和儿子东方蒲柳，武帝测试后任命他们为太子侍读。张汤和主父衍提出让诸侯和富商捐献粮草以换取官爵的方案，东方朔质疑这是卖官鬻爵，引发争议。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的西汉皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权、扩张疆土、追求神仙之道",
+                "relationships": {
+                    "公孙弘": "君臣",
+                    "卫青": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "狡猾",
+                "description": "狡猾的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "保住相位、排除异己",
+                "relationships": {
+                    "董仲舒": "师生敌对",
+                    "主父衍": "利用"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董仲舒",
+                "age": "老年",
+                "gender": "男",
+                "identity": "儒家学者",
+                "characteristic": "博学",
+                "description": "博学的儒家学者"
+            },
+            "plot_related_info": {
+                "motivations": "研究学问、宣扬儒家思想",
+                "relationships": {
+                    "公孙弘": "师生敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "投机",
+                "description": "投机的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "攀附权贵、获取利益",
+                "relationships": {
+                    "公孙弘": "利用",
+                    "张汤": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "保卫国家、击败匈奴",
+                "relationships": {
+                    "武帝": "君臣",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "幽默聪明",
+                "description": "幽默聪明的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "辅助武帝、提供智慧",
+                "relationships": {
+                    "武帝": "君臣",
+                    "卫青": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "残酷",
+                "description": "残酷的汉朝廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "严格执行法律、维护秩序",
+                "relationships": {
+                    "主父衍": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "桑弘阳",
+                "age": "少年",
+                "gender": "男",
+                "identity": "商贾之子",
+                "characteristic": "聪明",
+                "description": "聪明的商贾神童"
+            },
+            "plot_related_info": {
+                "motivations": "帮助父亲算账、获得官职",
+                "relationships": {
+                    "东方蒲柳": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方蒲柳",
+                "age": "少年",
+                "gender": "男",
+                "identity": "大臣之子",
+                "characteristic": "老实",
+                "description": "老实的东方朔之子"
+            },
+            "plot_related_info": {
+                "motivations": "跟随父亲、学习为官",
+                "relationships": {
+                    "桑弘阳": "朋友"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["武帝", "公孙弘", "主父衍"],
+                "description": "在皇宫中，武帝因董仲舒的竹简大怒欲杀之，公孙弘求情，武帝最终免董仲舒死罪，让他研究阴阳五行。"
+            },
+            "start": 0,
+            "end": 36,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝"],
+                "description": "武帝在去建章宫的路上，思考匈奴侵犯边境的问题。"
+            },
+            "start": 37,
+            "end": 39,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.85,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "卫青"],
+                "description": "在建章宫，武帝与卫青讨论再次出击匈奴的军粮问题，卫青担忧粮草供应，武帝承诺让张汤和主父衍负责，并解释外朝内廷制度。"
+            },
+            "start": 40,
+            "end": 113,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "东方朔", "桑弘阳", "东方蒲柳"],
+                "description": "在建章宫，东方朔带来桑弘阳和东方蒲柳，武帝测试他们并任命为太子侍读，桑弘阳聪明，东方蒲柳老实。"
+            },
+            "start": 114,
+            "end": 167,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "卫青", "东方朔", "张汤", "主父衍"],
+                "description": "在建章宫，张汤和主父衍提出让诸侯和富商捐献粮草以换官爵的方案，东方朔质疑这是卖官鬻爵，引发争论。"
+            },
+            "start": 168,
+            "end": 220,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        }
+    ],
+    "coverage_check": true
+}

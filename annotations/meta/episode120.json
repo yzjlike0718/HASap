@@ -1,0 +1,180 @@
+{
+    "story": {
+        "background": "时间：西汉汉武帝时期；地点：淮南王府、淮河岸边、长安东方朔家中；世界观：历史背景下的宫廷政治斗争与哲学辩论",
+        "plot": "东方朔奉汉武帝之命前往淮南试探淮南王刘安的忠诚度，双方通过哲学辩论展开心理博弈。淮南王试图套取汉武帝的治国策略，而东方朔则巧妙反击，暗示淮南王可能有谋反之心。辩论中淮南太子刘钦多次失态，暴露家族野心。最终东方朔成功完成任务，获得所谓《枕中秘籍》并带回长安，但途中发现淮南太子派田游暗中跟随。回到家中后，东方朔得知妻子云儿已前往钟南山为郭大侠守墓。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉武帝重臣/谋士",
+                "characteristic": "机智",
+                "description": "中年男性汉武帝谋士，机智善辩"
+            },
+            "plot_related_info": {
+                "motivations": "完成汉武帝使命，试探淮南王忠诚度",
+                "relationships": {
+                    "淮南王刘安": "君臣/政治对手",
+                    "辛苦子": "父子",
+                    "云儿": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "淮南王刘安",
+                "age": "中年",
+                "gender": "男",
+                "identity": "淮南王/汉武帝叔父",
+                "characteristic": "深沉",
+                "description": "中年男性淮南王，汉武帝叔父，深沉有心计"
+            },
+            "plot_related_info": {
+                "motivations": "试探汉武帝治国策略，保全自身地位",
+                "relationships": {
+                    "汉武帝": "叔侄/君臣",
+                    "刘钦": "父子",
+                    "刘陵": "父女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘钦",
+                "age": "青年",
+                "gender": "男",
+                "identity": "淮南太子",
+                "characteristic": "暴躁",
+                "description": "青年男性淮南太子，性格暴躁易怒"
+            },
+            "plot_related_info": {
+                "motivations": "维护家族利益，对抗中央集权",
+                "relationships": {
+                    "淮南王刘安": "父子",
+                    "田游": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雷贝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "忠诚",
+                "description": "成年男性大侠，忠诚可靠"
+            },
+            "plot_related_info": {
+                "motivations": "保护东方朔，为国家效力",
+                "relationships": {
+                    "籍安氏": "师徒",
+                    "朱尚": "表兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "青年",
+                "gender": "男",
+                "identity": "东方朔之子",
+                "characteristic": "聪明",
+                "description": "青年男性东方朔之子，聪明伶俐"
+            },
+            "plot_related_info": {
+                "motivations": "协助父亲完成使命",
+                "relationships": {
+                    "东方朔": "父子",
+                    "籍安氏": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田游",
+                "age": "成年",
+                "gender": "男",
+                "identity": "淮南八骏之一",
+                "characteristic": "狡猾",
+                "description": "成年男性淮南八骏武士，狡猾善变"
+            },
+            "plot_related_info": {
+                "motivations": "奉太子命暗中监视东方朔",
+                "relationships": {
+                    "刘钦": "主仆",
+                    "雷贝": "同僚"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "淮南王刘安", "刘钦"],
+                "description": "在淮南王府花园内，东方朔与淮南王展开哲学辩论，讨论治国之道，太子刘钦多次插话表现出急躁情绪"
+            },
+            "start": 0,
+            "end": 96,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.92
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "淮南王刘安"],
+                "description": "在花园中单独对话，淮南王向东方朔坦白担忧，请教如何应对汉武帝索要《枕中秘籍》的要求"
+            },
+            "start": 97,
+            "end": 159,
+            "confidence": {
+                "character_assignment": 0.98,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.93
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "雷贝", "辛苦子", "籍安氏", "朱尚"],
+                "description": "在淮河岸边，东方朔一行人准备返回长安，与籍安氏和朱尚告别"
+            },
+            "start": 160,
+            "end": 178,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.88,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "雷贝", "辛苦子", "田游"],
+                "description": "田游突然出现要求跟随东方朔前往长安，东方朔看出其可能是太子派来的间谍但仍同意其随行"
+            },
+            "start": 179,
+            "end": 203,
+            "confidence": {
+                "character_assignment": 0.92,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.88
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女"],
+                "description": "东方朔回到长安家中，发现异常安静，从妻子齐鲁女处得知云儿已前往钟南山为郭大侠守墓"
+            },
+            "start": 204,
+            "end": 217,
+            "confidence": {
+                "character_assignment": 0.96,
+                "scene_segmentation": 0.94,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

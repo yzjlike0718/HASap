@@ -1,0 +1,194 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期，地点：从长安到成都途中，经过霸陵、凤翔县，最终到达临邛县，世界观：历史故事，基于东方朔和司马相如的传说，涉及宫廷使命和民间事件。",
+        "plot": "东方朔和杨得意奉旨出京请司马相如，途中杨得意透露宫廷内幕并求东方朔照顾其弟；在凤翔县遇到少年张汤审鼠事件，展现其凶悍性格；到达临邛县后，得知司马相如与王县令打赌要请出卓文君，两人前往乐乐亭观察局势。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "旁白",
+                "age": "N/A",
+                "gender": "未知",
+                "identity": "叙述者",
+                "characteristic": "中立",
+                "description": "叙述故事背景的旁白"
+            },
+            "plot_related_info": {
+                "motivations": "推进故事叙述",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "20多岁",
+                "gender": "男",
+                "identity": "官员/文人",
+                "characteristic": "聪明",
+                "description": "聪明机智的年轻官员"
+            },
+            "plot_related_info": {
+                "motivations": "完成使命并探索途中事件",
+                "relationships": {
+                    "杨得意": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "狗监/钦差",
+                "characteristic": "高兴",
+                "description": "高兴的宫廷狗监"
+            },
+            "plot_related_info": {
+                "motivations": "衣锦还乡并帮助恩师司马相如",
+                "relationships": {
+                    "东方朔": "同事",
+                    "司马相如": "师徒"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "13-14岁",
+                "gender": "男",
+                "identity": "县令公子",
+                "characteristic": "凶恶",
+                "description": "凶恶的少年县令公子"
+            },
+            "plot_related_info": {
+                "motivations": "展示权威和残忍",
+                "relationships": {
+                    "老衙役": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "老衙役",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "衙役",
+                "characteristic": "谨慎",
+                "description": "谨慎的凤翔县衙役"
+            },
+            "plot_related_info": {
+                "motivations": "调解冲突并维护秩序",
+                "relationships": {
+                    "张汤": "上司"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["旁白", "东方朔", "杨得意"],
+                "description": "东方朔和杨得意骑马从长安出发，快速经过霸陵，无心欣赏景色。"
+            },
+            "start": 0,
+            "end": 16,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "两人放慢马速，讨论宫廷内幕和杨得意的弟弟，杨得意求东方朔照顾其弟。"
+            },
+            "start": 17,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "到达凤翔县，在小饭馆吃饭休息，准备继续行程。"
+            },
+            "start": 39,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "张汤", "老衙役"],
+                "description": "两人听到吵闹声，看到张汤审老鼠事件，发生冲突，老衙役调解。"
+            },
+            "start": 49,
+            "end": 97,
+            "confidence": {
+                "character_assignment": 0.85,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "离开凤翔县，继续行程，讨论司马相如的来历和关系。"
+            },
+            "start": 98,
+            "end": 125,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白", "东方朔", "杨得意"],
+                "description": "到达临邛县，住客店休息，东方朔醉酒睡到次日。"
+            },
+            "start": 126,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "杨得意告诉东方朔关于司马相如与王县令打赌请卓文君的事。"
+            },
+            "start": 129,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "两人前往乐乐亭，观察环境，看到司马相如和王县令到来，准备看打赌结果。"
+            },
+            "start": 149,
+            "end": 186,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

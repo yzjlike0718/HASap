@@ -1,0 +1,206 @@
+{
+    "story": {
+        "background": "古代汉朝时期，汉匈边境的沙漠地带，历史战争世界观。",
+        "plot": "公孙贺率军按兵不动，匈奴单于识破计谋回援后方。公孙敖为牵制左贤王而交战，虽损失惨重但达成目标。李广轻敌中被右贤王埋伏俘虏，但机智逃脱。卫青在沙漠中布下武刚车阵，迎战匈奴单于，展现军事智慧。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "单于",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴单于",
+                "characteristic": "狡猾",
+                "description": "狡猾的匈奴首领"
+            },
+            "plot_related_info": {
+                "motivations": "保护后方，击败汉军",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉将军",
+                "characteristic": "急于立功",
+                "description": "急于立功的汉将军"
+            },
+            "plot_related_info": {
+                "motivations": "戴罪立功，牵制敌人",
+                "relationships": {
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "左贤王",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴左贤王",
+                "characteristic": "保持实力",
+                "description": "保持实力的匈奴左贤王"
+            },
+            "plot_related_info": {
+                "motivations": "避免损失，与单于有隙",
+                "relationships": {
+                    "单于": "部下"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李广",
+                "age": "老年",
+                "gender": "男",
+                "identity": "汉飞将军",
+                "characteristic": "勇猛但轻敌",
+                "description": "勇猛但轻敌的汉飞将军"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，立功",
+                "relationships": {
+                    "李敢": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李敢",
+                "age": "青年",
+                "gender": "男",
+                "identity": "先锋官",
+                "characteristic": "勇猛谨慎",
+                "description": "勇猛谨慎的先锋官"
+            },
+            "plot_related_info": {
+                "motivations": "保护父亲，战胜敌人",
+                "relationships": {
+                    "李广": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "右贤王",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴右贤王",
+                "characteristic": "谨慎",
+                "description": "谨慎的匈奴右贤王"
+            },
+            "plot_related_info": {
+                "motivations": "俘虏汉将，请功",
+                "relationships": {
+                    "单于": "部下"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉主将",
+                "characteristic": "智慧",
+                "description": "智慧的汉主将"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，保卫汉朝",
+                "relationships": {
+                    "霍去病": "上下级",
+                    "主父衍": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "青年",
+                "gender": "男",
+                "identity": "小将",
+                "characteristic": "勇猛",
+                "description": "勇猛的汉小将"
+            },
+            "plot_related_info": {
+                "motivations": "辅助卫青，杀敌",
+                "relationships": {
+                    "卫青": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "智慧",
+                "description": "智慧的汉谋士"
+            },
+            "plot_related_info": {
+                "motivations": " advising卫青",
+                "relationships": {
+                    "卫青": "上下级"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "说书人介绍背景，公孙贺按兵不动，匈奴单于回援。"
+            },
+            "start": 0,
+            "end": 1,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙敖", "李希"],
+                "description": "公孙敖与先锋官李希讨论军情，决定与左贤王交战，虽损失惨重但牵制了敌人。"
+            },
+            "start": 2,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李广", "李敢", "右贤王"],
+                "description": "李广与李敢进军，李广轻敌中被右贤王埋伏俘虏，但设计逃脱。"
+            },
+            "start": 25,
+            "end": 110,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病", "主父衍", "单于"],
+                "description": "卫青在沙漠中行军，布下武刚车阵，迎战匈奴单于的进攻。"
+            },
+            "start": 111,
+            "end": 175,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,207 @@
+{
+    "story": {
+        "background": "时间：古代汉朝时期；地点：齐国临淄；世界观：宫廷斗争、人物恩怨，基于历史背景的虚构故事。",
+        "plot": "主父衍逼齐王次昌向金娥公主赔罪，但金娥与东方蒲柳设计吓跑齐王。东方朔与主父衍会面，主父衍揭示自己的扭曲人生观和过去经历。东方朔意识到主父衍的堕落，安排儿子蒲柳子改名换姓以避祸。东方朔返回长安，听到惊人消息。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "二品朝官",
+                "characteristic": "智慧",
+                "description": "智慧的二品朝官"
+            },
+            "plot_related_info": {
+                "motivations": "关心他人，惩治坏人，但担心家族安全",
+                "relationships": {
+                    "蒲柳子": "父子",
+                    "主父衍": "旧识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "齐国相国",
+                "characteristic": "扭曲",
+                "description": "扭曲的齐国相国"
+            },
+            "plot_related_info": {
+                "motivations": "追求遗臭万年，报复社会",
+                "relationships": {
+                    "东方朔": "旧识",
+                    "齐王次昌": "操控"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "蒲柳子",
+                "age": "青年",
+                "gender": "男",
+                "identity": "东方朔之子",
+                "characteristic": "聪明",
+                "description": "聪明的东方朔之子"
+            },
+            "plot_related_info": {
+                "motivations": "喜欢平静生活，教书种树",
+                "relationships": {
+                    "东方朔": "父子",
+                    "金娥公主": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐王次昌",
+                "age": "青年",
+                "gender": "男",
+                "identity": "齐王",
+                "characteristic": "懦弱",
+                "description": "懦弱的齐王"
+            },
+            "plot_related_info": {
+                "motivations": "被主父衍操控，避免冲突",
+                "relationships": {
+                    "主父衍": "臣子",
+                    "金娥公主": "未婚妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金娥公主",
+                "age": "青年",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "机智",
+                "description": "机智的公主"
+            },
+            "plot_related_info": {
+                "motivations": "避免嫁给齐王，与蒲柳子交友",
+                "relationships": {
+                    "蒲柳子": "朋友",
+                    "齐王次昌": "未婚妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "随从",
+                "characteristic": "忠诚",
+                "description": "忠诚的随从"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔，关心安全",
+                "relationships": {
+                    "东方朔": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "管事的太监",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "胆小",
+                "description": "胆小的太监"
+            },
+            "plot_related_info": {
+                "motivations": "服侍公主，避免责罚",
+                "relationships": {
+                    "金娥公主": "仆人",
+                    "齐王次昌": "仆人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["主父衍", "齐王次昌", "管事的太监", "金娥公主", "蒲柳子"],
+                "description": "在宫廷外的树林，主父衍逼齐王向金娥公主赔罪，金娥与蒲柳子设计吓跑齐王。"
+            },
+            "start": 0,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["金娥公主", "蒲柳子"],
+                "description": "金娥和蒲柳子讨论东方朔的主意，成功吓退齐王。"
+            },
+            "start": 34,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "蒲柳子", "杨得道", "道儿"],
+                "description": "东方朔家中夜晚聊天，提醒蒲柳子小心齐国出事，杨得道报告主父衍来访。"
+            },
+            "start": 39,
+            "end": 46,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "主父衍"],
+                "description": "东方朔与主父衍对话，主父衍揭示自己的扭曲人生观和过去经历，东方朔感到震惊。"
+            },
+            "start": 47,
+            "end": 182,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "蒲柳子"],
+                "description": "东方朔安排蒲柳子改名换姓以避祸，蒲柳子同意留在临淄。"
+            },
+            "start": 183,
+            "end": 212,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔返回长安，听到惊人消息。"
+            },
+            "start": 213,
+            "end": 213,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

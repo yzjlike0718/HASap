@@ -1,0 +1,216 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期。地点：长安朝堂、东方朔家中、郭解家中。世界观：古代中国宫廷，涉及政治斗争、江湖游侠和个人反思。",
+        "plot": "东方朔在朝堂上因汉武帝听信主父衍的迁豪强策略而困惑，联想屈原并自我反思。回家后与妻子讨论儿子婚事，并接待司马迁，委托他劝说郭解迁居茂陵。司马迁见郭解，但郭解拒绝迁居，突显了皇权与游侠之间的冲突。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "朝臣",
+                "characteristic": "自我反思",
+                "description": "中年男朝臣，困惑于朝廷事务"
+            },
+            "plot_related_info": {
+                "motivations": "寻求真理和正义，纠正自己的过错",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "主父衍": "敌对",
+                    "汲黯": "同事",
+                    "齐鲁女": "夫妻",
+                    "司马迁": "赏识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "固执",
+                "description": "中年男皇帝，热衷于权力和成就"
+            },
+            "plot_related_info": {
+                "motivations": "巩固皇权，实现千古一帝的抱负",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "主父衍": "宠信",
+                    "李少君": "怀疑"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "狡诈",
+                "description": "男大臣，提出迁豪强策略"
+            },
+            "plot_related_info": {
+                "motivations": "获取皇帝宠信，实现个人野心",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谏臣",
+                "characteristic": "正直",
+                "description": "男谏臣，因直谏险些入狱"
+            },
+            "plot_related_info": {
+                "motivations": "劝谏皇帝，维护正义",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "方士",
+                "characteristic": "欺骗",
+                "description": "男方士，被指责为妖道"
+            },
+            "plot_related_info": {
+                "motivations": "欺骗皇帝，获取利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "中年",
+                "gender": "女",
+                "identity": "东方朔之妻",
+                "characteristic": "关切",
+                "description": "中年女家庭主妇，关心家庭"
+            },
+            "plot_related_info": {
+                "motivations": "照顾家庭，担忧丈夫和儿子",
+                "relationships": {
+                    "东方朔": "夫妻",
+                    "蒲柳": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马迁",
+                "age": "青年",
+                "gender": "男",
+                "identity": "史官",
+                "characteristic": "成熟",
+                "description": "青年男史官，学识渊博"
+            },
+            "plot_related_info": {
+                "motivations": "记录历史，帮助他人",
+                "relationships": {
+                    "东方朔": "赏识",
+                    "郭解": "劝说"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "中年",
+                "gender": "男",
+                "identity": "游侠",
+                "characteristic": "固执",
+                "description": "中年男游侠，拒绝迁居"
+            },
+            "plot_related_info": {
+                "motivations": "维护自由和正义，抵抗皇权",
+                "relationships": {
+                    "汉武帝": "敌对",
+                    "东方朔": "朋友"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "主父衍", "汲黯"],
+                "description": "在朝堂上，东方朔因汉武帝听信主父衍的策略而困惑，朗诵离骚，汉武帝退朝。"
+            },
+            "start": 0,
+            "end": 36,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "李少君", "汲黯"],
+                "description": "李少君上场，与汉武帝和东方朔对峙，东方朔被赶出朝堂。"
+            },
+            "start": 37,
+            "end": 60,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女"],
+                "description": "东方朔在家中逗蛐蛐，与妻子反思自己并讨论儿子婚事。"
+            },
+            "start": 61,
+            "end": 147,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马迁", "齐鲁女"],
+                "description": "司马迁来访，东方朔与他讨论朝政，并委托他劝说郭解迁居。"
+            },
+            "start": 148,
+            "end": 190,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["司马迁", "郭解", "霍云儿"],
+                "description": "司马迁见郭解，劝说迁居茂陵，但郭解拒绝。"
+            },
+            "start": 191,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

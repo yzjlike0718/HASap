@@ -1,0 +1,169 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期。地点：皇宫朝廷和建章宫。世界观：历史背景，带有神话元素，涉及朝廷政务、外交使节和长生不老讨论。",
+        "plot": "狄山建议和亲，却被东方朔嘲讽，武帝取消狄山职务。任厂自愿出使匈奴，带苏建和苏武等人。武帝在建章宫与邢夫人游戏，召东方朔。张汤引入李少翁，声称是仙人，讨论东方朔是太岁星，武帝求长生不老。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "汉朝皇帝，权威且追求长生不老"
+            },
+            "plot_related_info": {
+                "motivations": "维护国家利益和追求长生不老",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "狄山": "君臣",
+                    "任厂": "君臣",
+                    "张汤": "君臣",
+                    "李少翁": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "机智",
+                "description": "机智的汉朝谋士"
+            },
+            "plot_related_info": {
+                "motivations": "嘲讽迂腐之臣和维护朝廷理性",
+                "relationships": {
+                    "武帝": "君臣",
+                    "狄山": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "儒者",
+                "characteristic": "迂腐",
+                "description": "迂腐的古良学派儒者"
+            },
+            "plot_related_info": {
+                "motivations": "建议和亲以保平安",
+                "relationships": {
+                    "武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "任厂",
+                "age": "50出头",
+                "gender": "男",
+                "identity": "大葫芦（负责礼仪和邦交）",
+                "characteristic": "勇敢",
+                "description": "勇敢的邦交官员"
+            },
+            "plot_related_info": {
+                "motivations": "完成出使匈奴的使命",
+                "relationships": {
+                    "武帝": "君臣",
+                    "苏建": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "狡诈",
+                "description": "狡诈的廷尉官员"
+            },
+            "plot_related_info": {
+                "motivations": "讨好武帝和巩固地位",
+                "relationships": {
+                    "武帝": "君臣",
+                    "李少翁": "合作"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少翁",
+                "age": "老年",
+                "gender": "男",
+                "identity": "仙人",
+                "characteristic": "神秘",
+                "description": "神秘的自称仙人"
+            },
+            "plot_related_info": {
+                "motivations": "骗取武帝信任",
+                "relationships": {
+                    "武帝": "君臣",
+                    "张汤": "合作",
+                    "李少君": "叔侄"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["武帝", "东方朔", "狄山"],
+                "description": "在朝廷上，狄山建议和亲，东方朔嘲讽狄山，武帝取消狄山教太子读书的职务。"
+            },
+            "start": 0,
+            "end": 51,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "任厂"],
+                "description": "在朝廷上，武帝询问谁愿出使匈奴，任厂自愿前往，带苏建和苏武等人，武帝批准。"
+            },
+            "start": 52,
+            "end": 90,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "邢夫人", "杨得意", "东方朔"],
+                "description": "在建章宫，武帝与邢夫人游戏，召东方朔前来，东方朔到来时看到张汤和李少翁的背影。"
+            },
+            "start": 91,
+            "end": 107,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "张汤", "李少翁", "邢夫人", "东方朔"],
+                "description": "在建章宫，张汤引入李少翁，李少翁声称是仙人，讨论东方朔是太岁星，武帝求长生不老。"
+            },
+            "start": 108,
+            "end": 232,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

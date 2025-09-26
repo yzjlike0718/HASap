@@ -1,0 +1,270 @@
+{
+    "story": {
+        "background": "故事发生在汉朝汉武帝时期，地点包括长安的东方朔家、宫廷炼丹房等。世界观为历史宫廷剧，涉及道教炼丹、长生不老追求以及地方政治斗争。",
+        "plot": "东方朔家中有喜事，郭解和杨得道家添丁。杨得意带来丽娟病重的消息，汉武帝命东方朔开药方，东方朔揭露李少君的骗局。李少君死亡后，汉武帝要求东方朔寻找不死之书。同时，东方朔收到蒲柳的信，得知义纵在临淄迫害百姓。东方朔与妻子齐鲁女争论，最后为霍云儿的孩子起名。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "臣子/幽默家",
+                "characteristic": "智慧",
+                "description": "幽默智慧的汉朝臣子"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝但保持理智，帮助百姓",
+                "relationships": {
+                    "武帝": "君臣",
+                    "齐鲁女": "夫妻",
+                    "霍云儿": "恩人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "急躁",
+                "description": "急躁的汉朝太监"
+            },
+            "plot_related_info": {
+                "motivations": "服从皇帝命令，关心家族",
+                "relationships": {
+                    "武帝": "主仆",
+                    "杨得道": "兄弟",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "五十四岁",
+                "gender": "男",
+                "identity": "道士",
+                "characteristic": "欺骗",
+                "description": "欺骗性的道士"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生不老，欺骗皇帝",
+                "relationships": {
+                    "武帝": "君臣",
+                    "刘陵": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "沉迷",
+                "description": "沉迷成仙的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生不老",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "李少君": "信任"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "东方朔的妻子",
+                "characteristic": "务实",
+                "description": "务实的家庭主妇"
+            },
+            "plot_related_info": {
+                "motivations": "保护家庭，劝诫东方朔",
+                "relationships": {
+                    "东方朔": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "郭解的夫人",
+                "characteristic": "感恩",
+                "description": "感恩的寡妇"
+            },
+            "plot_related_info": {
+                "motivations": "感恩东方朔，照顾孩子",
+                "relationships": {
+                    "东方朔": "恩人",
+                    "郭解": "夫妻"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": [],
+                "description": "在东方朔家，叙述郭解夫人生女儿，杨得道媳妇生儿子，东方朔高兴。"
+            },
+            "start": 0,
+            "end": 5,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "东方朔"],
+                "description": "在东方朔家，杨得意传达汉武帝命令，东方朔为丽娟开药方，并讨论李少君。"
+            },
+            "start": 6,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "东方朔"],
+                "description": "在东方朔家，杨得意询问兄弟媳妇生孩子性别，东方朔幽默回答。"
+            },
+            "start": 31,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得道", "东方朔"],
+                "description": "在东方朔家，杨得道报告鸽子回来了，东方朔回应。"
+            },
+            "start": 39,
+            "end": 43,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "在东方朔家，东方朔阅读蒲柳的信，得知义纵在临淄迫害百姓，感到担忧。"
+            },
+            "start": 44,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "东方朔"],
+                "description": "在东方朔家，杨得意再次到来，报告丽娟和李少君不省人事，东方朔被迫前往炼丹房。"
+            },
+            "start": 55,
+            "end": 66,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "在途中和炼丹房外，东方朔和杨得意骑马到达李少君的炼丹房，发现大门紧闭，破门而入。"
+            },
+            "start": 67,
+            "end": 74,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "李少君"],
+                "description": "在炼丹房，东方朔质问李少君，李少君承认自己是骗子并求饶，东方朔踢打他。"
+            },
+            "start": 75,
+            "end": 122,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "杨得意", "东方朔", "李少君"],
+                "description": "在炼丹房，武帝赶到，李少君最后几句话后死亡，武帝下令捉拿刘陵。"
+            },
+            "start": 123,
+            "end": 142,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "东方朔"],
+                "description": "在炼丹房，武帝沉迷成仙，要求东方朔寻找淮南王的不死之书，东方朔不知所措。"
+            },
+            "start": 143,
+            "end": 172,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女"],
+                "description": "在东方朔家，东方朔翻找书籍，齐鲁女劝他不要盲目服从皇帝，两人争论。"
+            },
+            "start": 173,
+            "end": 199,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "霍云儿"],
+                "description": "在东方朔家，霍云儿抱孩子进来，请求东方朔起名，东方朔调侃，齐鲁女制止。"
+            },
+            "start": 200,
+            "end": 231,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

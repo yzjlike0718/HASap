@@ -1,0 +1,248 @@
+{
+    "story": {
+        "background": "时间在中国古代汉朝时期，地点为汉匈边境战场，世界观为历史战争背景，涉及军事策略和人物互动。",
+        "plot": "霍光初次参战，克服恐惧指挥战斗，使用火攻阻止匈奴；庄祝英勇作战但受伤，霍去病及时救援；修图王逃跑，霍光醒来后关心军纪；辛苦子向汉武帝报告胜利，但李举突然报告卫青战线危机，赵信叛变，苏建重伤，卫青被围。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "汉朝将军",
+                "characteristic": "英勇",
+                "description": "年轻的汉朝将军，英勇善战"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，保护兄弟霍光",
+                "relationships": {
+                    "霍光": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "汉朝都尉",
+                "characteristic": "成长中",
+                "description": "年轻的汉朝都尉，初次参战但逐渐成熟"
+            },
+            "plot_related_info": {
+                "motivations": "证明自己，辅助哥哥霍去病",
+                "relationships": {
+                    "霍去病": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "庄祝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝将领",
+                "characteristic": "英勇",
+                "description": "英勇的汉朝将领，武艺高强"
+            },
+            "plot_related_info": {
+                "motivations": "忠诚于汉朝，击败敌人",
+                "relationships": {
+                    "霍去病": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "修图王",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴王",
+                "characteristic": "狡猾",
+                "description": "狡猾的匈奴王，敌方首领"
+            },
+            "plot_related_info": {
+                "motivations": "击败汉军，保全自己",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "忧虑",
+                "description": "中年的皇帝，关心战事"
+            },
+            "plot_related_info": {
+                "motivations": "维护汉朝疆土，指挥战事",
+                "relationships": {
+                    "霍去病": "君臣",
+                    "卫青": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝将领",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝将领，传递消息"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝和将军",
+                "relationships": {
+                    "霍去病": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏建",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝将领",
+                "characteristic": "英勇",
+                "description": "英勇的汉朝将领，身受重伤"
+            },
+            "plot_related_info": {
+                "motivations": "忠诚于汉朝，救援同伴",
+                "relationships": {
+                    "卫青": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "赵信",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝叛将",
+                "characteristic": "背叛",
+                "description": "背叛的汉朝将领，归降匈奴"
+            },
+            "plot_related_info": {
+                "motivations": "生存或利益，叛变",
+                "relationships": {
+                    "伊稚斜": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝大将军",
+                "characteristic": "沉稳",
+                "description": "沉稳的汉朝大将军，指挥另一战线"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，保护汉朝",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李举",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝战将",
+                "characteristic": "紧急",
+                "description": "紧急的汉朝战将，报告军情"
+            },
+            "plot_related_info": {
+                "motivations": "传递紧急军情，求援",
+                "relationships": {
+                    "卫青": "上下级"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["霍光", "庄祝", "修图王"],
+                "description": "在战场上，霍光初次指挥战斗，使用火攻阻止匈奴修图王的进攻，庄祝与匈奴兵将交战。"
+            },
+            "start": 0,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["庄祝", "修图王", "霍去病"],
+                "description": "庄祝与修图王激战，受伤倒地，霍去病及时救援，击退修图王。"
+            },
+            "start": 39,
+            "end": 77,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "霍光", "辛苦子"],
+                "description": "霍去病找到霍光并温暖他，霍光醒来，与霍去病对话。"
+            },
+            "start": 78,
+            "end": 85,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "霍光", "辛苦子"],
+                "description": "霍光关心军纪问题，霍去病派遣辛苦子回长安报告军情。"
+            },
+            "start": 86,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["辛苦子", "汉武帝"],
+                "description": "在朝廷，辛苦子向汉武帝报告霍去病战线的胜利，汉武帝表示欣慰。"
+            },
+            "start": 104,
+            "end": 117,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李举", "汉武帝", "辛苦子"],
+                "description": "李举紧急跑进朝廷，报告卫青战线危机，赵信叛变，苏建重伤，卫青被围，汉武帝震惊。"
+            },
+            "start": 118,
+            "end": 215,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

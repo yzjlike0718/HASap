@@ -1,0 +1,333 @@
+{
+  "story": {
+    "background": "时间设定在中国汉朝时期，主要地点包括长安（京城）和齐国（诸侯国）。世界观为封建王朝，涉及宫廷政治、家族恩怨和权力斗争。",
+    "plot": "皇太后将外孙女金娥赐婚给齐王次昌，以巩固家族地位；齐国的纪太后不满皇太后出身低微，表面接受实则威胁；主父衍借机提议自己去齐国当相国，以监视齐王并远离朝廷；东方朔的儿子蒲柳深爱金娥，坚持要跟随去齐国，东方朔安排富商孔锦提供住处，并通过仆人杨得道安排通信。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "皇太后",
+        "age": "老年",
+        "gender": "女",
+        "identity": "汉武帝的母亲",
+        "characteristic": "固执",
+        "description": "老年女性皇帝母亲，固执"
+      },
+      "plot_related_info": {
+        "motivations": "巩固家族地位，保护外孙女金娥",
+        "relationships": {
+          "汉武帝": "母子",
+          "金娥": "外孙女"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "果断",
+        "description": "中年男性皇帝，果断"
+      },
+      "plot_related_info": {
+        "motivations": "治理国家，维护皇权",
+        "relationships": {
+          "皇太后": "母子",
+          "主父衍": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "中年",
+        "gender": "男",
+        "identity": "御史大夫",
+        "characteristic": "狡猾",
+        "description": "中年男性御史大夫，狡猾"
+      },
+      "plot_related_info": {
+        "motivations": "权力欲望，官报私仇，寻求机会远离朝廷",
+        "relationships": {
+          "皇太后": "君臣",
+          "汉武帝": "君臣",
+          "田鼢": "仇人"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "许甲",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "顺从",
+        "description": "男性太监，顺从"
+      },
+      "plot_related_info": {
+        "motivations": "完成传旨使命，讨好皇太后",
+        "relationships": {
+          "皇太后": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "纪太后",
+        "age": "中年",
+        "gender": "女",
+        "identity": "齐国太后",
+        "characteristic": "傲慢",
+        "description": "中年女性齐国太后，傲慢"
+      },
+      "plot_related_info": {
+        "motivations": "维护齐国尊严，看不起皇太后",
+        "relationships": {
+          "齐王次昌": "母子",
+          "皇太后": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "齐王次昌",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "齐王",
+        "characteristic": "顺从",
+        "description": "年轻男性齐王，顺从"
+      },
+      "plot_related_info": {
+        "motivations": "听从母亲纪太后的安排",
+        "relationships": {
+          "纪太后": "母子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "聪明",
+        "description": "中年男性大臣，聪明"
+      },
+      "plot_related_info": {
+        "motivations": "保护儿子蒲柳，安排妥当",
+        "relationships": {
+          "齐鲁女": "夫妻",
+          "蒲柳子": "父子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "齐鲁女",
+        "age": "中年",
+        "gender": "女",
+        "identity": "东方朔的妻子",
+        "characteristic": "急躁",
+        "description": "中年女性东方朔之妻，急躁"
+      },
+      "plot_related_info": {
+        "motivations": "关心儿子蒲柳，阻止他冒险",
+        "relationships": {
+          "东方朔": "夫妻",
+          "蒲柳子": "母子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "蒲柳子",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "东方朔的儿子",
+        "characteristic": "固执",
+        "description": "年轻男性东方朔之子，固执"
+      },
+      "plot_related_info": {
+        "motivations": "跟随金娥去齐国，出于爱情",
+        "relationships": {
+          "东方朔": "父子",
+          "齐鲁女": "母子",
+          "金娥": "恋人"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "金娥",
+        "age": "年轻",
+        "gender": "女",
+        "identity": "修成君的女儿",
+        "characteristic": "被动",
+        "description": "年轻女性修成君之女，被动"
+      },
+      "plot_related_info": {
+        "motivations": "被迫嫁入齐国，但心属蒲柳",
+        "relationships": {
+          "皇太后": "外孙女",
+          "齐王次昌": "未婚夫"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "孔锦",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "齐国富商",
+        "characteristic": "热心",
+        "description": "男性齐国富商，热心"
+      },
+      "plot_related_info": {
+        "motivations": "帮助东方朔，回报举荐之恩",
+        "relationships": {
+          "东方朔": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得道",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "仆人",
+        "characteristic": "忠诚",
+        "description": "男性仆人，忠诚"
+      },
+      "plot_related_info": {
+        "motivations": "服务东方家，安排通信",
+        "relationships": {
+          "东方朔": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "桑弘阳",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员或朋友",
+        "characteristic": "乐于助人",
+        "description": "男性官员或朋友，乐于助人"
+      },
+      "plot_related_info": {
+        "motivations": "帮助东方朔引见孔锦",
+        "relationships": {
+          "东方朔": "朋友"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["许甲", "纪太后", "齐王次昌"],
+        "description": "许甲在齐国传皇太后懿旨，将金娥赐婚给齐王，纪太后表达不满但被迫接受。"
+      },
+      "start": 0,
+      "end": 24,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["许甲", "皇太后", "汉武帝", "主父衍"],
+        "description": "许甲回长安复命，见皇太后和汉武帝正在处理燕王刘定国之事，主父衍在场。"
+      },
+      "start": 25,
+      "end": 58,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["许甲", "皇太后", "汉武帝", "主父衍"],
+        "description": "许甲添油加醋报告纪太后的话，皇太后气恼，主父衍趁机提议自己去齐国当相国。"
+      },
+      "start": 59,
+      "end": 108,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["皇太后", "汉武帝", "主父衍"],
+        "description": "皇太后气昏过去，汉武帝传太医，主父衍等人退出。"
+      },
+      "start": 109,
+      "end": 111,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "齐鲁女", "蒲柳子"],
+        "description": "东方朔家中，齐鲁女和东方朔讨论儿子蒲柳想跟随金娥去齐国的事。"
+      },
+      "start": 112,
+      "end": 131,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "齐鲁女", "蒲柳子"],
+        "description": "蒲柳子坚持要去齐国，东方朔和齐鲁女劝说无效，东方朔无奈安排。"
+      },
+      "start": 132,
+      "end": 174,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "齐鲁女", "蒲柳子", "杨得道", "桑弘阳", "孔锦"],
+        "description": "道儿报告有宫女传信安排，桑弘阳引见富商孔锦，东方朔请求帮助。"
+      },
+      "start": 175,
+      "end": 194,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "孔锦", "蒲柳子", "杨得道"],
+        "description": "东方朔与孔锦详细安排蒲柳子在齐国的住处，靠近齐王宫，并叮嘱蒲柳听话。"
+      },
+      "start": 195,
+      "end": 211,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

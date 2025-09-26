@@ -1,0 +1,239 @@
+{
+    "story": {
+        "background": "故事发生在西汉汉武帝时期，主要地点在未央宫、长门宫和上林苑。世界观以历史宫廷为背景，涉及权力斗争、长生迷信和忠谏冲突，反映了汉武帝追求长生不老和千古一帝地位的欲望。",
+        "plot": "汉武帝刘彻立刘骏为太子和卫子夫为皇后，在未央宫赐宴上林苑。皇太后带走韩嫣，在长门宫发现阿娇皇后已死，逼韩嫣吞金弹子致死。与此同时，在上林苑喜宴上，公孙弘献神仙足迹石头，李少君声称是太上真人徒弟，东方朔质疑其真实性。主父衍献宝鼎，卓文君献司马相如遗书建议封禅泰山。汲黯劝谏汉武帝不要迷信长生和封禅，避免重蹈秦始皇覆辙，被汉武帝逐出长安。故事展现了汉武帝的迷信与忠臣理性劝谏之间的主要矛盾。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "中年男性皇帝，权威而迷信"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生不老和千古一帝地位",
+                "relationships": {
+                    "卫子夫": "夫妻",
+                    "皇太后": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "老年",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "威严",
+                "description": "老年女性皇太后，威严而果断"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇室尊严，报复阿娇之死",
+                "relationships": {
+                    "汉武帝": "母子",
+                    "韩嫣": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "懦弱",
+                "description": "男性太监，懦弱而害怕"
+            },
+            "plot_related_info": {
+                "motivations": "侍奉皇帝，求生",
+                "relationships": {
+                    "汉武帝": "主仆",
+                    "皇太后": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "幽默",
+                "description": "中年男性大臣，幽默机智"
+            },
+            "plot_related_info": {
+                "motivations": "侍奉皇帝，但保持理性",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "谄媚",
+                "description": "老年男性丞相，谄媚逢迎"
+            },
+            "plot_related_info": {
+                "motivations": "讨好皇帝，巩固地位",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "老年",
+                "gender": "男",
+                "identity": "术士",
+                "characteristic": "欺诈",
+                "description": "老年男性术士，欺诈狡猾"
+            },
+            "plot_related_info": {
+                "motivations": "骗取皇帝信任，获得利益",
+                "relationships": {
+                    "东方朔": "虚假前辈"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "奉献",
+                "description": "男性大臣，奉献宝物"
+            },
+            "plot_related_info": {
+                "motivations": "献宝讨好皇帝",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "正直",
+                "description": "男性大臣，正直敢言"
+            },
+            "plot_related_info": {
+                "motivations": "劝谏皇帝，避免错误",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "司马相如夫人",
+                "characteristic": "优雅",
+                "description": "女性司马相如夫人，优雅端庄"
+            },
+            "plot_related_info": {
+                "motivations": "完成丈夫遗愿，献文章",
+                "relationships": {
+                    "司马相如": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "端庄",
+                "description": "女性皇后，端庄典雅"
+            },
+            "plot_related_info": {
+                "motivations": "作为皇后分享喜悦",
+                "relationships": {
+                    "汉武帝": "夫妻"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "皇太后", "韩嫣", "东方朔"],
+                "description": "在未央宫大殿，汉武帝立太子和皇后，并宣布赐宴上林苑。皇太后突然带走韩嫣，汉武帝担心却无法阻止，转而吩咐东方朔去召卓文君。"
+            },
+            "start": 0,
+            "end": 27,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "韩嫣"],
+                "description": "在长门宫，皇太后发现阿娇皇后已死，悲痛之下逼韩嫣吞金弹子致死，以报复过往恩怨。"
+            },
+            "start": 28,
+            "end": 62,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "公孙弘", "东方朔", "李少君", "卫子夫"],
+                "description": "在上林苑喜宴，公孙弘献神仙足迹石头，李少君声称是太上真人徒弟，东方朔调侃神仙足迹像驴脚印，李少君巧妙圆场，汉武帝大喜。"
+            },
+            "start": 63,
+            "end": 138,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.85,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "主父衍", "卓文君", "公孙弘"],
+                "description": "在上林苑喜宴继续，主父衍献宝鼎，卓文君献上司马相如遗书建议封禅泰山，汉武帝喜出望外，认为这是成为千古一帝的吉兆。"
+            },
+            "start": 139,
+            "end": 187,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.85,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "汲黯", "东方朔"],
+                "description": "在上林苑喜宴继续，汲黯劝谏汉武帝不要迷信长生和封禅，避免像秦始皇一样失败，汉武帝愤怒地将汲黯逐出长安。"
+            },
+            "start": 188,
+            "end": 212,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.95
+            }
+        }
+    ],
+    "coverage_check": true
+}

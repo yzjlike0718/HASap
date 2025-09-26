@@ -1,0 +1,234 @@
+{
+    "story": {
+        "background": "汉朝汉武帝时期，朝廷上，太皇太后（窦太后）去世后，围绕丧事安排展开政治斗争，时间在古代中国，地点在皇宫朝堂。",
+        "plot": "太皇太后去世，田鼢主张短丧薄礼，许昌主张厚葬包括活人陪葬，引发朝廷分歧。东方朔通过巧妙提问暴露活人陪葬的荒谬，并暗示许昌应陪葬。许昌求饶，窦婴发言折衷，武帝免去许昌丞相职务，命田鼢负责丧事。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "决策者",
+                "description": "汉朝皇帝，在丧事决策中犹豫但最终果断"
+            },
+            "plot_related_info": {
+                "motivations": "平衡朝廷势力，妥善处理丧事",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的大臣，巧妙解决朝廷分歧"
+            },
+            "plot_related_info": {
+                "motivations": "揭露荒谬，维护理性",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "许昌",
+                "age": "老",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "保守",
+                "description": "年老保守的丞相，主张厚葬并活人陪葬"
+            },
+            "plot_related_info": {
+                "motivations": "维护传统或自身地位",
+                "relationships": {
+                    "窦婴": "同事",
+                    "田鼢": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太皇太后寝陵自治使",
+                "characteristic": "改革派",
+                "description": "主张短丧薄礼的官员"
+            },
+            "plot_related_info": {
+                "motivations": "推行节俭丧礼",
+                "relationships": {
+                    "许昌": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "魏其侯",
+                "characteristic": "谨慎",
+                "description": "太皇太后的侄子，谨慎发言"
+            },
+            "plot_related_info": {
+                "motivations": "折衷处理，避免极端",
+                "relationships": {
+                    "许昌": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的大太监，被卷入陪葬讨论"
+            },
+            "plot_related_info": {
+                "motivations": "保全性命，服务皇帝",
+                "relationships": {
+                    "汉武帝": "仆人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["叙述者"],
+                "description": "朝会上，介绍太皇太后去世后朝廷在丧事上的分歧，田鼢和许昌各执一词，窦婴沉默。"
+            },
+            "start": 0,
+            "end": 9,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "武帝询问东方朔的意见，东方朔建议让许昌详细说明厚葬方法。"
+            },
+            "start": 10,
+            "end": 23,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "许昌"],
+                "description": "许昌提出厚葬建议，包括举国服丧百日。"
+            },
+            "start": 24,
+            "end": 44,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "许昌", "田鼢", "群臣"],
+                "description": "许昌提出用宫人活人陪葬，田鼢反对，群臣哗然，武帝询问细节。"
+            },
+            "start": 45,
+            "end": 74,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "所忠"],
+                "description": "东方朔问所忠是否愿意陪葬，所忠拒绝并求饶，武帝同情所忠。"
+            },
+            "start": 75,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "许昌"],
+                "description": "东方朔建议用大臣陪葬，暗示许昌应该陪葬，武帝明白并质问许昌。"
+            },
+            "start": 104,
+            "end": 129,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["许昌", "所忠", "汉武帝", "群臣"],
+                "description": "所忠指证许昌过去的行为，群臣反应各异，武帝静观。"
+            },
+            "start": 130,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["许昌", "汉武帝", "东方朔", "所忠"],
+                "description": "许昌向武帝、所忠、东方朔求饶，希望保住性命。"
+            },
+            "start": 142,
+            "end": 169,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["窦婴", "汉武帝", "许昌"],
+                "description": "窦婴发言建议折衷处理，认为许昌糊涂，不再提人祭，许昌感谢窦婴。"
+            },
+            "start": 170,
+            "end": 184,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "田鼢", "许昌", "群臣"],
+                "description": "武帝任命田鼢负责丧事，免去许昌丞相职务，许昌谢恩，群臣关注下一步。"
+            },
+            "start": 185,
+            "end": 200,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

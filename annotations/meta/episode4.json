@@ -1,0 +1,105 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期，一个深夜至次日早晨。地点：未央宫正殿和承明殿。世界观：汉朝宫廷，政治与文化交织，汉武帝寻求强国之道，挑战无为而治的传统。",
+        "plot": "汉武帝深夜在未央宫阅读东方朔的竹简，被其才华吸引。与太监杨得意讨论东方朔和董仲舒的奏书，比较两者的价值。汉武帝决定召见东方朔，认为他是治国奇才，并表达以武治国的雄心。最后，次日早晨官员们在承明殿等待召见董仲舒。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "16岁",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "雄心壮志",
+                "description": "年轻的汉朝皇帝，雄心勃勃，寻求强国之道"
+            },
+            "plot_related_info": {
+                "motivations": "强大汉朝，扬眉吐气于匈奴",
+                "relationships": {
+                    "杨得意": "主仆",
+                    "东方朔": "赏识",
+                    "董仲舒": "不满"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "忠诚",
+                "description": "汉武帝的太监，擅长养狗，忠诚但学识浅薄"
+            },
+            "plot_related_info": {
+                "motivations": "伺候好皇上，避免惹祸",
+                "relationships": {
+                    "汉武帝": "主仆",
+                    "司马相如": "师徒"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "奇才",
+                "characteristic": "才华横溢",
+                "description": "自称勇武节廉的奇才，献竹简于汉武帝"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐汉武帝，展示才能",
+                "relationships": {
+                    "汉武帝": "献策者",
+                    "公孙敖": "比剑胜出"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董仲舒",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大儒",
+                "characteristic": "道貌岸然",
+                "description": "广川大儒，献天人三策，但汉武帝不满"
+            },
+            "plot_related_info": {
+                "motivations": "推行儒家思想",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "杨得意"],
+                "description": "深夜，未央宫正殿，汉武帝阅读东方朔的竹简，与杨得意讨论治国之策，决定召见东方朔。"
+            },
+            "start": 0,
+            "end": 152,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["董仲舒", "其他官员"],
+                "description": "次日早晨，承明殿，官员们包括董仲舒等待皇上召见。"
+            },
+            "start": 153,
+            "end": 164,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

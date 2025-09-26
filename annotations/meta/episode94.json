@@ -1,0 +1,179 @@
+{
+    "story": {
+        "background": "汉朝汉武帝时期，朝堂（未央宫大殿）之上，古代中国宫廷政治背景。",
+        "plot": "汉武帝在朝堂上听取主父衍的计策和汲黯的谏言，倾向于主父衍的利己观点，下令将汲黯打入死牢。东方朔挺身而出，通过朗诵屈原的《离骚》警示汉武帝，暗示其像楚怀王一样听信小人。汉武帝震惊，派人传唤方士李少君，而东方朔内心挣扎，反思自己与汉武帝的关系和朝政是非。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大汉天子",
+                "characteristic": "专制",
+                "description": "专制的大汉天子"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，追求对自己有利的政策",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "汲黯": "君臣敌对",
+                    "主父衍": "君臣利用"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智勇敢",
+                "description": "机智勇敢的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "劝谏汉武帝，保护忠臣，表达忧国忧民之情",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "汲黯": "同事",
+                    "主父衍": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "正直敢言",
+                "description": "正直敢言的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "直言进谏，反对不当政策",
+                "relationships": {
+                    "汉武帝": "君臣敌对",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "阴暗无赖",
+                "description": "阴暗无赖的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "献计策取悦皇帝，追求个人利益",
+                "relationships": {
+                    "汉武帝": "君臣利用",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "学问渊博",
+                "description": "学问渊博的丞相"
+            },
+            "plot_related_info": {
+                "motivations": "维护朝纲，理解文学",
+                "relationships": {
+                    "东方朔": "同事",
+                    "主父衍": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "服从",
+                "description": "服从命令的太监"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇帝命令",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "汲黯", "主父衍"],
+                "description": "朝堂之上，汉武帝听取主父衍的计策和汲黯的谏言，汉武帝倾向于主父衍的观点，下令将汲黯打入死牢。"
+            },
+            "start": 0,
+            "end": 20,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "主父衍", "武士"],
+                "description": "东方朔亮剑阻止武士带走汲黯，主父衍试图阻止东方朔说话，东方朔开始行动。"
+            },
+            "start": 21,
+            "end": 34,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "主父衍", "公孙弘", "文武百官"],
+                "description": "东方朔披发舞剑，朗诵屈原的《离骚》，警示汉武帝和朝臣，公孙弘听出是离骚，众人反应震惊。"
+            },
+            "start": 35,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "主父衍", "杨得意"],
+                "description": "汉武帝震惊于东方朔的朗诵，认为东方朔走火入魔，下令传唤方士李少君。"
+            },
+            "start": 101,
+            "end": 132,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔在朝堂上内心独白，反思自己与汉武帝的关系、主父衍的计策以及朝政是非，陷入挣扎。"
+            },
+            "start": 133,
+            "end": 226,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

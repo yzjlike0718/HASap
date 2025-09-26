@@ -1,0 +1,253 @@
+{
+    "story": {
+        "background": "故事发生在古代汉朝汉武帝时期，地点包括南阳、长安的建章宫和未央宫。世界观结合了朝廷官场和江湖侠客的恩怨情仇，涉及官员、侠客、皇帝和匈奴降将等元素。",
+        "plot": "东方朔和籍安氏在南阳杀死作恶多端的义纵，籍安氏为父报仇。东方朔返回长安，通过卫青将义纵的罪证交给汉武帝。张汤报告衡山王谋反已被灭族，并试图诋毁东方朔。汉武帝封赏卫青和霍去病为大司马，并计划召回东方朔劝阻暴政。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "朝廷官员",
+                "characteristic": "聪明正义",
+                "description": "聪明正义的朝廷官员"
+            },
+            "plot_related_info": {
+                "motivations": "惩恶扬善，劝阻皇帝暴政，维护正义",
+                "relationships": {
+                    "卫青": "朋友",
+                    "籍安氏": "盟友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "籍安氏",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "侠客",
+                "characteristic": "勇敢复仇",
+                "description": "勇敢复仇的侠客"
+            },
+            "plot_related_info": {
+                "motivations": "为父亲籍少翁和师父郭解报仇，铲除奸恶",
+                "relationships": {
+                    "义纵": "仇敌",
+                    "东方朔": "盟友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "南阳官员",
+                "characteristic": "作恶多端",
+                "description": "作恶多端的南阳官员"
+            },
+            "plot_related_info": {
+                "motivations": "贪财权力，残害百姓",
+                "relationships": {
+                    "雕姬": "同伙",
+                    "籍安氏": "仇敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雕姬",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "义纵同伙",
+                "characteristic": "贪婪",
+                "description": "贪婪的义纵同伙"
+            },
+            "plot_related_info": {
+                "motivations": "获取钱财，依附义纵",
+                "relationships": {
+                    "义纵": "同伙"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权力强大",
+                "description": "权力强大的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，赏罚分明，扩张疆土",
+                "relationships": {
+                    "卫青": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "酷吏",
+                "characteristic": "残忍狡诈",
+                "description": "残忍狡诈的酷吏"
+            },
+            "plot_related_info": {
+                "motivations": "执法严酷，讨好皇帝，打击异己",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "卫青": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "忠诚稳重",
+                "description": "忠诚稳重的大将军"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐皇帝，支持正义，关心国事",
+                "relationships": {
+                    "东方朔": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "战功赫赫",
+                "description": "战功赫赫的将军"
+            },
+            "plot_related_info": {
+                "motivations": "征战匈奴，为国效力",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "亲戚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "昆邪王",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴降将",
+                "characteristic": "归降",
+                "description": "归降的匈奴降将"
+            },
+            "plot_related_info": {
+                "motivations": "归顺汉朝，寻求赏赐",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "籍安氏", "义纵", "雕姬"],
+                "description": "在南阳，东方朔和籍安氏对峙义纵，杀死义纵和雕姬，籍安氏为父报仇。"
+            },
+            "start": 0,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["籍安氏"],
+                "description": "籍安氏留言为父报仇，然后离开南阳。"
+            },
+            "start": 57,
+            "end": 68,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青"],
+                "description": "在长安，东方朔与卫青对话，安排将义纵的罪证交给汉武帝。"
+            },
+            "start": 69,
+            "end": 98,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "张汤"],
+                "description": "在建章宫，卫青提交证据，张汤报告义纵被杀，汉武帝下令捉拿籍安氏。"
+            },
+            "start": 99,
+            "end": 124,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "卫青"],
+                "description": "张汤报告衡山王谋反处理情况，汉武帝询问东方朔下落。"
+            },
+            "start": 125,
+            "end": 140,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "张汤", "公孙敖", "杨得意"],
+                "description": "汉武帝移驾未央宫，准备封赏霍去病等将领。"
+            },
+            "start": 141,
+            "end": 162,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "霍去病", "昆邪王", "张汤", "卫青"],
+                "description": "在未央宫，汉武帝封赏卫青、霍去病和昆邪王，讨论西域事宜。"
+            },
+            "start": 163,
+            "end": 196,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

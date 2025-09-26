@@ -1,0 +1,197 @@
+{
+    "story": {
+        "background": "古代汉朝时期，地点为下坯郡的茶棚和猪市。故事涉及宫廷隐秘事件和民间生活，世界观基于历史小说风格。",
+        "plot": "东方朔等人在茶棚喝茶时发现卖茶人可疑，最终认出他是七年前被救的赵绾，现化名朱买臣。朱买臣讲述隐姓埋名的悲惨经历，包括被救后娶妻但被休。东方朔告知太皇太后已死，朱买臣可重获自由。众人决定带朱买臣回长安，但在猪市遭遇其前妻阻拦，东方朔以泼水比喻表示无法回头。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "朝中官员/智者",
+                "characteristic": "聪明警觉",
+                "description": "聪明警觉的朝中官员"
+            },
+            "plot_related_info": {
+                "motivations": "帮助朱买臣重获自由，揭露真相",
+                "relationships": {
+                    "朱买臣": "故旧",
+                    "卫青": "朋友",
+                    "霍去病": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军/官员",
+                "characteristic": "礼貌",
+                "description": "礼貌的将军"
+            },
+            "plot_related_info": {
+                "motivations": "陪同东方朔，了解事件经过",
+                "relationships": {
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马迁",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "太史公之子",
+                "characteristic": "好奇",
+                "description": "好奇的太史公之子"
+            },
+            "plot_related_info": {
+                "motivations": "记录历史但承诺不写此事",
+                "relationships": {
+                    "东方朔": "同行者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "将军/东方朔的干儿子",
+                "characteristic": "直率",
+                "description": "直率的年轻将军"
+            },
+            "plot_related_info": {
+                "motivations": "跟随干爹东方朔",
+                "relationships": {
+                    "东方朔": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "朱买臣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "隐姓埋名的前官员",
+                "characteristic": "悲惨感恩",
+                "description": "隐姓埋名的前官员"
+            },
+            "plot_related_info": {
+                "motivations": "重获自由，返回长安",
+                "relationships": {
+                    "东方朔": "恩人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "司马迁", "霍去病", "朱买臣"],
+                "description": "在茶棚中，东方朔等人喝茶休息，东方朔察觉卖茶人行为可疑。"
+            },
+            "start": 0,
+            "end": 22,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "朱买臣"],
+                "description": "东方朔通过观察认出卖茶人是旧识，并摘掉他的斗笠确认身份。"
+            },
+            "start": 23,
+            "end": 34,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "司马迁", "霍去病", "朱买臣"],
+                "description": "朱买臣跪下相认，解释自己化名朱买臣的经历。"
+            },
+            "start": 35,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "卫青", "司马迁", "霍去病", "围观群众"],
+                "description": "朱买臣详细讲述过去七年的隐姓埋名生活，包括被救和娶妻被休。"
+            },
+            "start": 55,
+            "end": 107,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "卫青", "司马迁"],
+                "description": "东方朔告知朱买臣太皇太后已死，他可以安全返回长安。"
+            },
+            "start": 108,
+            "end": 132,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "卫青", "司马迁", "霍去病"],
+                "description": "东方朔和朱买臣讨论回长安后的安排，并让司马迁承诺不将此事件写入正史。"
+            },
+            "start": 133,
+            "end": 151,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "卫青", "司马迁", "霍去病"],
+                "description": "众人用餐后，朱买臣收拾行李，决定一同回长安，并先去猪市告别恩人。"
+            },
+            "start": 152,
+            "end": 157,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "朱买臣", "卫青", "司马迁", "霍去病", "前妻", "老人", "群众"],
+                "description": "在猪市，朱买臣的前妻持刀阻拦，东方朔用泼水比喻表示无法回头，并给老人钱财。"
+            },
+            "start": 158,
+            "end": 200,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

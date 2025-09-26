@@ -1,0 +1,195 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期。地点：皇宫和长安市井。世界观：古代中国宫廷生活与市井百姓，展现宫廷智慧斗争和军队纪律问题。",
+        "plot": "东方朔因迟到和先割祭祀用肉被汉武帝责问，但他机智辩解并反指丞相失职。东方朔通过幽默自责和唱歌表达军队苦难，建议设立乐府收集民歌，汉武帝欣赏其智慧并赋予新职。后来，东方朔与卫青在长安东市目睹御林军欺压百姓，卫青愤怒召见霍去病，霍光坚持要求整顿军纪。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "执戟郎/乐府令",
+                "characteristic": "机智",
+                "description": "机智的宫廷执戟郎"
+            },
+            "plot_related_info": {
+                "motivations": "展现智慧，化解危机，为民请命",
+                "relationships": {
+                    "武帝": "君臣",
+                    "卫青": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，欣赏智慧，平衡朝政",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "李蔡": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "正直",
+                "description": "正直的大将军"
+            },
+            "plot_related_info": {
+                "motivations": "关心军队纪律和民生，维护百姓利益",
+                "relationships": {
+                    "霍去病": "亲属",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大司马",
+                "characteristic": "骄傲",
+                "description": "骄傲的大司马"
+            },
+            "plot_related_info": {
+                "motivations": "维护军队荣誉，但纵容部下，追求战功",
+                "relationships": {
+                    "卫青": "亲属",
+                    "霍光": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "迂腐",
+                "description": "迂腐的官员"
+            },
+            "plot_related_info": {
+                "motivations": "反对东方朔，维护自身利益，讨好皇帝",
+                "relationships": {
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李蔡",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "胆小",
+                "description": "胆小的丞相"
+            },
+            "plot_related_info": {
+                "motivations": "自保，避免得罪皇帝，推卸责任",
+                "relationships": {
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "参军",
+                "characteristic": "正直",
+                "description": "正直的参军"
+            },
+            "plot_related_info": {
+                "motivations": "整顿军纪，尽职尽责，坚持原则",
+                "relationships": {
+                    "霍去病": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "侍从",
+                "characteristic": "忠诚",
+                "description": "忠诚的侍从"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝，传达旨意",
+                "relationships": {
+                    "武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "武帝", "张汤", "李蔡", "杨得意", "文武百官"],
+                "description": "在皇宫中，东方朔因先割肉被汉武帝责问，但机智辩解并反指丞相失职，最后通过幽默自责和唱歌化解危机。"
+            },
+            "start": 0,
+            "end": 88,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "武帝", "卫青", "霍去病"],
+                "description": "东方朔唱匈奴歌曲表达军民苦难，建议设立乐府收集民歌，汉武帝同意并让东方朔负责乐府事宜。"
+            },
+            "start": 89,
+            "end": 123,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "卖瓜老人", "大嫂"],
+                "description": "在长安东市早市，东方朔和卫青目睹御林军军车撞翻小贩货物，士兵白吃瓜果，百姓敢怒不敢言。"
+            },
+            "start": 124,
+            "end": 155,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病", "霍光", "卫新"],
+                "description": "卫青因御林军行为愤怒，召见霍去病，霍光坚持要求整顿军纪，霍去病 initially 纵容但被说服。"
+            },
+            "start": 156,
+            "end": 207,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

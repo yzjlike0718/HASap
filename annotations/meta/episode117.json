@@ -1,0 +1,347 @@
+{
+    "story": {
+        "background": "时间：中国古代汉武帝时期。地点：长安皇宫、沙漠战场、齐国、淮南等地。世界观：历史战争背景，汉武帝对抗匈奴，涉及军事部署、政治斗争和人物关系。",
+        "plot": "李举向汉武帝报告前线战况，卫青被匈奴围困，急需援兵和粮草。汉武帝派遣公孙贺率军增援，张汤调集粮草，并让东方朔去淮南招募雷贝。匈奴伊稚斜单于得知汉军援兵和粮草后撤退，卫青趁机追击，截获匈奴粮草，取得胜利。苏建因赵信叛变而自责，请求卫青按军法处决自己。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "果断",
+                "description": "中年男性皇帝，果断决策"
+            },
+            "plot_related_info": {
+                "motivations": "保卫国家，击败匈奴",
+                "relationships": {
+                    "卫青": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李举",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "男性将军，忠诚报告军情"
+            },
+            "plot_related_info": {
+                "motivations": "向皇帝如实汇报战况",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "英勇",
+                "description": "中年男性大将军，英勇善战"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，洗刷耻辱",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "苏建": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "狡诈",
+                "description": "男性官员，狡诈善辩"
+            },
+            "plot_related_info": {
+                "motivations": "完成皇命，同时暗中针对东方朔",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "聪明",
+                "description": "男性官员，聪明机智"
+            },
+            "plot_related_info": {
+                "motivations": "为皇帝办事，解决难题",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "辛苦子": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "东方朔之子",
+                "characteristic": "聪明",
+                "description": "年轻男性东方朔之子，聪明机智"
+            },
+            "plot_related_info": {
+                "motivations": "帮助父亲东方朔完成使命",
+                "relationships": {
+                    "东方朔": "父子",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "伊稚斜单于",
+                "age": "老年",
+                "gender": "男",
+                "identity": "匈奴首领",
+                "characteristic": "狡猾",
+                "description": "老年男性匈奴首领，狡猾多疑"
+            },
+            "plot_related_info": {
+                "motivations": "击败汉军，保持匈奴势力",
+                "relationships": {
+                    "赵信": "利用"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "赵信",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "降将",
+                "characteristic": "叛变",
+                "description": "男性降将，叛变投敌"
+            },
+            "plot_related_info": {
+                "motivations": "保全自身，获取利益",
+                "relationships": {
+                    "伊稚斜单于": "主仆",
+                    "卫青": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙贺",
+                "age": "老年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "老年男性将军，忠诚可靠"
+            },
+            "plot_related_info": {
+                "motivations": "增援卫青，击败匈奴",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏建",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "自责",
+                "description": "男性将军，因败仗自责"
+            },
+            "plot_related_info": {
+                "motivations": "挽回荣誉，请求军法处置",
+                "relationships": {
+                    "卫青": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "李举"],
+                "description": "在长安皇宫，李举向汉武帝报告前线战况，卫青被匈奴围困，急需援兵和粮草。"
+            },
+            "start": 0,
+            "end": 14,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "公孙贺"],
+                "description": "在长安皇宫，汉武帝派遣公孙贺率十万禁卫军北上增援卫青。"
+            },
+            "start": 15,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤"],
+                "description": "在长安皇宫，汉武帝与张汤讨论粮草运输和东方朔制服义纵的事，张汤试图挑拨但被汉武帝斥责。"
+            },
+            "start": 25,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "辛苦子", "张汤"],
+                "description": "在长安皇宫，汉武帝派遣东方朔去淮南招募雷贝，辛苦子请求同行，张汤准备车辆。"
+            },
+            "start": 73,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "辛苦子"],
+                "description": "张汤准备车辆，与辛苦子前往齐国临淄。"
+            },
+            "start": 101,
+            "end": 104,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "切换到沙漠战场，描述匈奴伊稚斜单于围困卫青军的情况。"
+            },
+            "start": 105,
+            "end": 124,
+            "confidence": {
+                "character_assignment": 0.7,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["伊稚斜单于", "赵信"],
+                "description": "在匈奴大帐，赵信建议伊稚斜单于建城，伊稚斜派赵信去建赵信城。"
+            },
+            "start": 125,
+            "end": 144,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["伊稚斜单于"],
+                "description": "伊稚斜单于得知汉军援兵和西域消息，决定撤退。"
+            },
+            "start": 145,
+            "end": 152,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李希"],
+                "description": "在汉军大帐，卫青得知匈奴撤退，命令李希截击匈奴粮草。"
+            },
+            "start": 153,
+            "end": 163,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李举", "公孙贺"],
+                "description": "李举和公孙贺的援军听到战鼓声，李举率五万精兵追击匈奴。"
+            },
+            "start": 164,
+            "end": 170,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李希"],
+                "description": "李希成功截获匈奴粮草，卫青大军取得胜利。"
+            },
+            "start": 171,
+            "end": 193,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "公孙贺"],
+                "description": "卫青与公孙贺会面，互相祝贺胜利。"
+            },
+            "start": 194,
+            "end": 199,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "苏建", "公孙贺"],
+                "description": "苏建因败仗自责，捆着自己请求卫青按军法处决。"
+            },
+            "start": 200,
+            "end": 224,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

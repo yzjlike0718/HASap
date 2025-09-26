@@ -1,0 +1,196 @@
+{
+    "story": {
+        "background": "时间：古代中国汉武帝时期；地点：东方朔家中、上林苑、建章宫等宫廷地点；世界观：历史现实主义，以宫廷权力、法律与人情冲突为核心，涉及侠客文化和大汉律法。",
+        "plot": "汉武帝来到东方朔家，讨论已故侠客郭解的罪行，强调大汉法律要求诛灭九族，但东方朔试图保护郭解的家人霍云儿和孩子。东方朔声称孩子是自己的以拯救他们，汉武帝测试东方朔，命令他与霍云儿再生一个孩子来证明。齐鲁女理解并支持东方朔，并透露霍云儿已有身孕。同时，主父衍反思自己的处境，与蒲式讨论白鹿和官位之事。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "强势",
+                "description": "强势的汉代皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护大汉法律和皇权权威，同时内心矛盾于人情与法理",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "郭解": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的汉代大臣"
+            },
+            "plot_related_info": {
+                "motivations": "保护朋友郭解的家人，避免他们被法律惩治，同时维护正义",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "郭解": "朋友",
+                    "霍云儿": "保护对象",
+                    "齐鲁女": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "郭解夫人",
+                "characteristic": "勇敢",
+                "description": "勇敢的侠客夫人"
+            },
+            "plot_related_info": {
+                "motivations": "保护儿子郭佳，愿意牺牲自己以保全孩子",
+                "relationships": {
+                    "郭解": "夫妻",
+                    "东方朔": "被保护者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "中年",
+                "gender": "女",
+                "identity": "东方朔妻子",
+                "characteristic": "理解",
+                "description": "理解丈夫的妻子"
+            },
+            "plot_related_info": {
+                "motivations": "支持丈夫东方朔的决定，并帮助解决困境",
+                "relationships": {
+                    "东方朔": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "狡猾",
+                "description": "狡猾的汉代官员"
+            },
+            "plot_related_info": {
+                "motivations": "谋求权力和官位，但后悔得罪东方朔，担心张汤的报复",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "张汤": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "阴险",
+                "description": "阴险的汉代廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "严格执行法律，并伺机铲除异己",
+                "relationships": {
+                    "主父衍": "同事",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "侠客",
+                "characteristic": "正义",
+                "description": "正义的汉代侠客"
+            },
+            "plot_related_info": {
+                "motivations": "行侠仗义，但触犯皇权",
+                "relationships": {
+                    "汉武帝": "敌对",
+                    "东方朔": "朋友"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "众人"],
+                "description": "在东方朔家中，汉武帝讨论郭解的罪行和大汉法律，要求诛灭九族，东方朔试图辩解。"
+            },
+            "start": 0,
+            "end": 34,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "霍云儿", "齐鲁女", "霍光", "霍去病"],
+                "description": "霍云儿出现，东方朔声称孩子是自己的，汉武帝命令东方朔与霍云儿再生孩子以证明，然后起驾回宫。"
+            },
+            "start": 35,
+            "end": 88,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女"],
+                "description": "夜晚在院子中，齐鲁女与东方朔和解，透露霍云儿已有身孕，东方朔欣慰。"
+            },
+            "start": 89,
+            "end": 124,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍"],
+                "description": "主父衍在屋中反思自己的处境，担心皇上和张汤的报复。"
+            },
+            "start": 125,
+            "end": 146,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "蒲式"],
+                "description": "在上林苑鹿院，主父衍与蒲式讨论白鹿和官位之事，涉及张汤和东方朔。"
+            },
+            "start": 147,
+            "end": 206,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

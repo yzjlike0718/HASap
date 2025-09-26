@@ -1,0 +1,197 @@
+{
+    "story": {
+        "background": "时间：古代中国汉武帝时期。地点：汉匈战场、长安建章宫、大农令府。世界观：历史背景，汉朝与匈奴的战争，朝廷政治斗争。",
+        "plot": "东方朔用计伪装天兵天将击败匈奴将领知冷，并刺杀知冷。苏武向汉武帝报告战况，汉武帝赞赏东方朔并封赏桑弘羊。张汤不满封赏，到桑弘羊府传旨时发生冲突，张汤威胁报复。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝谋士/将军",
+                "characteristic": "智慧",
+                "description": "智慧的汉朝谋士"
+            },
+            "plot_related_info": {
+                "motivations": "为汉朝击败匈奴，展示军事才能",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "苏武": "同事",
+                    "任安": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏武",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "报告战况，服从命令",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "治理国家，击败匈奴，赏罚分明",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "苏武": "君臣",
+                    "张汤": "君臣",
+                    "桑弘羊": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "狡猾",
+                "description": "狡猾的汉朝廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "维护权力，打击异己",
+                "relationships": {
+                    "桑弘羊": "敌对",
+                    "严奕": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "桑弘羊",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "大农令",
+                "characteristic": "正直",
+                "description": "年轻的汉朝大农令"
+            },
+            "plot_related_info": {
+                "motivations": "推行税法，管理财政",
+                "relationships": {
+                    "张汤": "敌对",
+                    "严奕": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "任安",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝将军",
+                "characteristic": "服从",
+                "description": "服从的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "协助东方朔，执行军事命令",
+                "relationships": {
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "严奕",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大农令副手",
+                "characteristic": "耿直",
+                "description": "耿直的大农令副手"
+            },
+            "plot_related_info": {
+                "motivations": "支持桑弘羊，反对张汤的酷吏政策",
+                "relationships": {
+                    "桑弘羊": "同事",
+                    "张汤": "敌对"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "任安", "知冷", "匈奴兵将"],
+                "description": "战场上，东方朔用计伪装天兵天将击败匈奴兵将，并刺杀匈奴将领知冷。"
+            },
+            "start": 0,
+            "end": 18,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "任安", "苏武"],
+                "description": "战场后续，东方朔安排苏武检查战场，自己与任安离开去会合卫青。"
+            },
+            "start": 19,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["苏武"],
+                "description": "狄山山头，苏武发现狄山死亡，汉军失踪。"
+            },
+            "start": 34,
+            "end": 37,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["苏武", "汉武帝", "张汤", "李蔡", "冯子都"],
+                "description": "建章宫朝堂，苏武向汉武帝报告战况，汉武帝赞赏东方朔并封赏桑弘羊，张汤不满。"
+            },
+            "start": 38,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "桑弘羊", "严奕", "孔景"],
+                "description": "大农令府，张汤传旨，与桑弘羊和严奕发生冲突，张汤威胁报复。"
+            },
+            "start": 109,
+            "end": 222,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

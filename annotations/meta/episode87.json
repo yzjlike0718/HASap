@@ -1,0 +1,282 @@
+{
+    "story": {
+        "background": "古代中国汉武帝时期，都城长安及附近杜县，朝廷好大喜功压迫百姓，侠客行侠仗义的世界观。",
+        "plot": "郭解因战功被封高雀侯但不愿接受朝廷官职，回归杜县途中目睹官兵欺压百姓后出手相助。郭解不满朝廷征车劳民伤财，决定挂印封金离开长安。汉武帝得知后愤怒，派霍去病、东方朔、卫青追捕郭解。郭解与霍去病对峙时东方朔赶来劝阻，但郭解坚持己见拒绝返回。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "成年",
+                "gender": "男",
+                "identity": "侠客/高雀侯",
+                "characteristic": "正义",
+                "description": "正义的侠客高雀侯"
+            },
+            "plot_related_info": {
+                "motivations": "行侠仗义，保护百姓免受朝廷压迫",
+                "relationships": {
+                    "霍云儿": "夫妻",
+                    "霍光": "妻弟",
+                    "汉武帝": "君臣",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "成年",
+                "gender": "女",
+                "identity": "郭解之妻",
+                "characteristic": "体贴",
+                "description": "体贴的郭解之妻"
+            },
+            "plot_related_info": {
+                "motivations": "支持丈夫决定，保护家庭安全",
+                "relationships": {
+                    "郭解": "夫妻",
+                    "霍光": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "霍云儿之弟",
+                "characteristic": "担忧",
+                "description": "担忧的霍云儿之弟"
+            },
+            "plot_related_info": {
+                "motivations": "避免抗旨风险，寻求平安生活",
+                "relationships": {
+                    "霍云儿": "姐弟",
+                    "郭解": "姐夫",
+                    "霍去病": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "好大喜功",
+                "description": "好大喜功的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，展示国威，打击不服从者",
+                "relationships": {
+                    "郭解": "君臣",
+                    "张汤": "君臣",
+                    "东方朔": "君臣",
+                    "主父衍": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "奸诈",
+                "description": "奸诈的官员"
+            },
+            "plot_related_info": {
+                "motivations": "讨好皇帝，巩固权力，进谗言打击异己",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "郭解": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "谄媚",
+                "description": "谄媚的官员"
+            },
+            "plot_related_info": {
+                "motivations": "支持张汤，讨好皇帝，报告坏消息",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "智慧",
+                "description": "智慧的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "劝和郭解与朝廷，维护稳定",
+                "relationships": {
+                    "郭解": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "勇猛",
+                "description": "勇猛的年轻将军"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇命，忠诚于汉武帝",
+                "relationships": {
+                    "郭解": "敌对",
+                    "霍光": "兄弟"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["郭解", "霍云儿"],
+                "description": "郭解被封高雀侯后，带着妻子霍云儿回归杜县。"
+            },
+            "start": 0,
+            "end": 3,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "胖兵", "瘦兵", "老人", "小女孩"],
+                "description": "在杜县街头，官兵强征老人的车并只给十串钱，老人哀求但官兵威胁。"
+            },
+            "start": 4,
+            "end": 35,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "胖兵", "瘦兵", "老人", "小女孩"],
+                "description": "郭解出手砍断兵鞭，教训官兵并救下老人，给老人银钱后离开。"
+            },
+            "start": 36,
+            "end": 63,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍云儿"],
+                "description": "郭解和霍云儿在路上讨论朝廷腐败，决定挂印封金离开长安。"
+            },
+            "start": 64,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝"],
+                "description": "在建章宫，张汤向汉武帝展示征用的彩车，汉武帝高兴并赞赏。"
+            },
+            "start": 101,
+            "end": 119,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "汉武帝"],
+                "description": "张汤向汉武帝进谗言报告郭解阻拦征车，汉武帝暂时饶恕郭解。"
+            },
+            "start": 120,
+            "end": 131,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "汉武帝", "张汤", "杨得意"],
+                "description": "主父衍报告郭解挂印封金离开，汉武帝愤怒派霍去病、东方朔、卫青追捕。"
+            },
+            "start": 132,
+            "end": 150,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍云儿", "霍光"],
+                "description": "郭解一家在路上，霍光担心抗旨后果，但郭解坚持离开。"
+            },
+            "start": 151,
+            "end": 164,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍去病", "霍光", "霍云儿"],
+                "description": "霍去病带兵拦截郭解，要求回京，双方对峙并准备动手。"
+            },
+            "start": 165,
+            "end": 192,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍去病", "东方朔", "霍光", "霍云儿"],
+                "description": "东方朔赶到劝阻郭解回京，但郭解拒绝并坚持离开。"
+            },
+            "start": 193,
+            "end": 224,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

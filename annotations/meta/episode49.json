@@ -1,0 +1,162 @@
+{
+    "story": {
+        "background": "古代中国汉武帝时期，皇宫内，包括建章宫、朝堂大殿和宣室。世界观是历史宫廷政治斗争，涉及权力争夺和孝道冲突。",
+        "plot": "汉武帝决心除掉权臣田鼢以削弱太后势力，但不想失去孝道。东方朔献策假扮鬼魂计策，让朱买臣假扮已死的赵绾。在朝堂上，田鼢被朱买臣的出现吓晕。在宣室，汉武帝和东方朔等人假扮鬼魂迫使田鼢认罪。田鼢被吓坏逃回家中，计策成功。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "决心",
+                "description": "决心成为明主的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "除掉田鼢，巩固皇权，削弱太后势力",
+                "relationships": {
+                    "田鼢": "舅舅",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智忠诚的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "帮助汉武帝实现明主志向，除掉奸臣",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "田鼢": "政敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "奸诈",
+                "description": "奸诈的丞相"
+            },
+            "plot_related_info": {
+                "motivations": "保持权力，避免罪行暴露",
+                "relationships": {
+                    "汉武帝": "舅舅",
+                    "赵绾": "仇人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "朱买臣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "贤臣",
+                "characteristic": "勇敢",
+                "description": "被假扮赵绾的贤臣"
+            },
+            "plot_related_info": {
+                "motivations": "帮助皇帝，向田鼢报仇",
+                "relationships": {
+                    "田鼢": "仇人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "服从",
+                "description": "服从命令的官员"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝，参与计策",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "侍从",
+                "characteristic": "热情",
+                "description": "参与假扮鬼魂的侍从"
+            },
+            "plot_related_info": {
+                "motivations": "参与计策，吓唬田鼢",
+                "relationships": {
+                    "东方朔": "同伴"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "夜晚在建章宫，汉武帝和东方朔君臣肝胆相照，定下除掉田鼢的绝妙计策。"
+            },
+            "start": 0,
+            "end": 20,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "韩嫣", "田鼢", "东方朔", "朱买臣", "公孙弘", "张汤"],
+                "description": "白天在朝堂大殿，武帝临朝，田鼢提交任用名单，朱买臣假扮赵绾出现，田鼢大惊昏倒，退朝。"
+            },
+            "start": 21,
+            "end": 111,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "韩嫣", "杨得意", "朱买臣", "田鼢"],
+                "description": "在宣室，汉武帝和东方朔等人假扮赵绾、王臧、灌夫、窦婴的鬼魂吓唬田鼢，田鼢认罪后逃跑回家。"
+            },
+            "start": 112,
+            "end": 209,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢"],
+                "description": "田鼢回到家，吓得命令关门上锁，夫人受惊。"
+            },
+            "start": 210,
+            "end": 212,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

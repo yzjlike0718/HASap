@@ -1,0 +1,257 @@
+{
+    "story": {
+        "background": "时间：古代汉朝时期；地点：长安县衙外展台、长安城、郊外道路、郭解住所；世界观：古代中国宫廷与民间社会，涉及法律、侠义和宫廷斗争。",
+        "plot": "金吾子因杀人被捕，义纵坚持立即处决他，汉武帝让东方朔审案。东方朔发现案件有同案犯，建议捉拿后再定案，但义纵不依不饶。汉武帝任命义纵为执金吾，并派东方朔和卫青去找郭解捉拿逃犯。东方朔和卫青出行途中遇到霍光，最终找到郭解夫妇。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护法律公正和皇室权威",
+                "relationships": {
+                    "金吾子": "舅舅",
+                    "东方朔": "君臣",
+                    "义纵": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明",
+                "description": "聪明机智的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "公正审案和维护朝廷稳定",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "义纵": "同僚",
+                    "卫青": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "县令/执金吾",
+                "characteristic": "固执",
+                "description": "固执的执法官员"
+            },
+            "plot_related_info": {
+                "motivations": "严格执法和升官扬名",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "同僚",
+                    "金吾子": "罪犯与执法者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金吾子",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇上的外甥",
+                "characteristic": "狂妄",
+                "description": "狂妄的皇室亲属"
+            },
+            "plot_related_info": {
+                "motivations": "逃避罪责和保全同伙",
+                "relationships": {
+                    "汉武帝": "舅舅",
+                    "东方朔": "审问者",
+                    "义纵": "执法者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "稳重",
+                "description": "稳重的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "协助办案和维护皇室",
+                "relationships": {
+                    "东方朔": "朋友",
+                    "汉武帝": "君臣",
+                    "平阳公主": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "侠义",
+                "description": "侠义的江湖大侠"
+            },
+            "plot_related_info": {
+                "motivations": "行侠仗义和照顾家庭",
+                "relationships": {
+                    "霍云儿": "夫妻",
+                    "霍光": "姐夫与小舅子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "十几岁",
+                "gender": "男",
+                "identity": "读书人/郭解的小舅子",
+                "characteristic": "好学",
+                "description": "好学的年轻人"
+            },
+            "plot_related_info": {
+                "motivations": "求学和为國分忧",
+                "relationships": {
+                    "郭解": "姐夫",
+                    "霍云儿": "姐姐",
+                    "霍去病": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "郭解的妻子",
+                "characteristic": "贤惠",
+                "description": "贤惠的家庭主妇"
+            },
+            "plot_related_info": {
+                "motivations": "支持丈夫和家庭和谐",
+                "relationships": {
+                    "郭解": "夫妻",
+                    "霍光": "姐姐"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["义纵", "金吾子", "汉武帝", "东方朔"],
+                "description": "在长安县衙外展台，义纵准备处决金吾子，汉武帝到来让东方朔审案。"
+            },
+            "start": 0,
+            "end": 60,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "金吾子", "义纵"],
+                "description": "东方朔审问金吾子，金吾子承认杀人但有同案犯，义纵插话争论。"
+            },
+            "start": 61,
+            "end": 120,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "义纵", "汉武帝", "百姓"],
+                "description": "东方朔与义纵继续争论案件，百姓议论，汉武帝介入。"
+            },
+            "start": 121,
+            "end": 139,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "义纵"],
+                "description": "汉武帝决定派东方朔和卫青捉拿逃犯，义纵被任命为执金吾看守金吾子。"
+            },
+            "start": 140,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "汉武帝私下吩咐东方朔先回家，再出发办案。"
+            },
+            "start": 149,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青"],
+                "description": "东方朔和卫青骑马出长安城，边走边聊家常和朝廷事。"
+            },
+            "start": 149,
+            "end": 192,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "霍光"],
+                "description": "东方朔和卫青遇到霍光在树下读书，交谈后得知郭解踪迹。"
+            },
+            "start": 193,
+            "end": 216,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "霍光", "郭解", "霍云儿"],
+                "description": "霍光带路到郭解住所，东方朔和卫青恭喜郭解夫妇，众人进屋交谈。"
+            },
+            "start": 217,
+            "end": 228,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

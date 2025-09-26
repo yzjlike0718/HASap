@@ -1,0 +1,123 @@
+{
+  "story": {
+    "background": "时间：汉武帝时期；地点：上林院和皇宫朝堂；世界观：汉朝帝王统治，注重教育和人才选拔。",
+    "plot": "汉武帝询问霍光关于汲黯和东方朔的区别，霍光直言不讳，得到汉武帝赏识。汉武帝决定建立太学教育子弟，在早朝上命令公孙弘操办。东方朔质疑公孙弘的“有教无类”不切实际，并提出富家子弟多交钱以资助贫家子弟上学的方案，汉武帝赞同。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "成年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "明智",
+        "description": "汉朝皇帝，明智且注重人才"
+      },
+      "plot_related_info": {
+        "motivations": "巩固政权，选拔人才",
+        "relationships": {
+          "霍光": "君臣",
+          "东方朔": "君臣",
+          "公孙弘": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍光",
+        "age": "15岁",
+        "gender": "男",
+        "identity": "伴学博士",
+        "characteristic": "直言",
+        "description": "年轻伴学博士，直言敢谏"
+      },
+      "plot_related_info": {
+        "motivations": "为皇帝提供诚实建议",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "霍去病": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "臣子",
+        "characteristic": "机智",
+        "description": "机智的臣子，常提出巧妙建议"
+      },
+      "plot_related_info": {
+        "motivations": "确保政策公平合理",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "公孙弘": "同僚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙弘",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "丞相",
+        "characteristic": "保守",
+        "description": "丞相，推崇儒术"
+      },
+      "plot_related_info": {
+        "motivations": "推广儒术",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "东方朔": "同僚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "忠诚",
+        "description": "将军，霍光的哥哥"
+      },
+      "plot_related_info": {
+        "motivations": "支持皇帝和弟弟",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "霍光": "兄弟"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "霍光", "霍去病", "东方朔", "卫青"],
+        "description": "在上林院中，汉武帝与霍光讨论汲黯和东方朔的区别，欣赏霍光的直言，并决定建立太学教育子弟。"
+      },
+      "start": 0,
+      "end": 109,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "公孙弘", "东方朔", "百官"],
+        "description": "在早朝上，汉武帝与公孙弘讨论孝廉和太学建立，东方朔质疑公孙弘的“有教无类”并提出平民子弟上学的解决方案。"
+      },
+      "start": 110,
+      "end": 237,
+      "confidence": {
+        "character_assignment": 0.7,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    }
+  ],
+  "coverage_check": true
+}

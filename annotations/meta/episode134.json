@@ -1,0 +1,296 @@
+{
+    "story": {
+        "background": "古代中国汉朝时期，汉武帝统治下，宫廷和官员府邸为主要场景，涉及权力斗争、官员阴谋和家庭生活。",
+        "plot": "郭三因贪污金子被杨得意打板子致死，皇上虽喜欢郭三但看透其为人。张汤通过探子洪海得知消息，安排心腹江冲进入执金吾衙门，并记恨东方朔。东方朔因官复原职无望，家庭经济困难，与妻子争吵。皇上在未央宫赏赐牛肉但迟到，东方朔擅自割肉回家，被皇上传唤，引发后续冲突。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "执戟郎",
+                "characteristic": "机智",
+                "description": "机智的执戟郎"
+            },
+            "plot_related_info": {
+                "motivations": "维持尊严，不愿求皇上，解决家庭经济问题",
+                "relationships": {
+                    "皇上": "敌对",
+                    "张汤": "敌对",
+                    "齐鲁女": "夫妻",
+                    "杨得意": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇上",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "喜怒无常",
+                "description": "喜怒无常的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，享受玩乐",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "杨得意": "主仆",
+                    "张汤": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "阴谋家",
+                "description": "阴谋家的廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "权力斗争，打击对手东方朔",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "杜州": "盟友",
+                    "吴培龙": "下属",
+                    "江冲": "心腹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "中年",
+                "gender": "男",
+                "identity": "内侍",
+                "characteristic": "忠诚",
+                "description": "忠诚的内侍"
+            },
+            "plot_related_info": {
+                "motivations": "伺候皇上，避免麻烦",
+                "relationships": {
+                    "皇上": "主仆",
+                    "东方朔": "朋友",
+                    "郭三": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "中年",
+                "gender": "女",
+                "identity": "东方朔之妻",
+                "characteristic": "泼辣",
+                "description": "泼辣的东方朔之妻"
+            },
+            "plot_related_info": {
+                "motivations": "持家，解决家庭经济问题",
+                "relationships": {
+                    "东方朔": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杜州",
+                "age": "中年",
+                "gender": "男",
+                "identity": "执金吾",
+                "characteristic": "圆滑",
+                "description": "圆滑的执金吾"
+            },
+            "plot_related_info": {
+                "motivations": "巴结张汤，维护地位",
+                "relationships": {
+                    "张汤": "盟友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "洪海",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "内侍探子",
+                "characteristic": "谨慎",
+                "description": "谨慎的内侍探子"
+            },
+            "plot_related_info": {
+                "motivations": "向张汤报告情报",
+                "relationships": {
+                    "张汤": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "吴培龙",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "张汤心腹",
+                "characteristic": "嫉妒",
+                "description": "嫉妒的张汤心腹"
+            },
+            "plot_related_info": {
+                "motivations": "得到张汤重用",
+                "relationships": {
+                    "张汤": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "江冲",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "张汤新心腹",
+                "characteristic": "俊俏",
+                "description": "俊俏的张汤新心腹"
+            },
+            "plot_related_info": {
+                "motivations": "效忠张汤",
+                "relationships": {
+                    "张汤": "心腹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李蔡",
+                "age": "中年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "懦弱",
+                "description": "懦弱的丞相"
+            },
+            "plot_related_info": {
+                "motivations": "避免麻烦，遵守礼法",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["皇上", "杨得意", "洪海"],
+                "description": "在宫廷中，郭三因摔散箱子金子撒地而口中流血死亡，杨得意后悔，皇上看透郭三为人。"
+            },
+            "start": 0,
+            "end": 12,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["洪海", "吴培龙"],
+                "description": "洪海到廷尉府找张汤，但张汤不在，遇到吴培龙，得知张汤去执金吾衙门。"
+            },
+            "start": 13,
+            "end": 18,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "杜州", "江冲"],
+                "description": "在执金吾衙门，张汤安排江冲给杜州，让杜州训导江冲，避免吴培龙嫉妒。"
+            },
+            "start": 19,
+            "end": 60,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "洪海"],
+                "description": "张汤离开执金吾衙门遇到洪海，得知郭三死讯，记恨东方朔，并询问东方朔官职情况。"
+            },
+            "start": 61,
+            "end": 73,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女"],
+                "description": "在东方朔家中，天热，东方朔休息，齐鲁女抱怨家庭经济困难，两人争吵。"
+            },
+            "start": 74,
+            "end": 110,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "皇上", "杨得意", "文武官员"],
+                "description": "在未央宫，东方朔当值，皇上传旨升朝但迟到，赏赐牛肉，太阳晒肉可能变质。"
+            },
+            "start": 111,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "李蔡", "张汤", "杜州", "文武官员"],
+                "description": "在未央宫，大臣们等待分肉，东方朔擅自割肉回家，大臣们不敢动。"
+            },
+            "start": 129,
+            "end": 156,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇上", "杨得意", "李蔡", "张汤", "文武官员"],
+                "description": "皇上终于到来，发现肉少和东方朔缺席，传唤东方朔。"
+            },
+            "start": 157,
+            "end": 184,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "东方朔", "齐鲁女", "东方蟹", "东方之珠"],
+                "description": "在东方朔家中，全家吃牛肉，杨得意传旨，东方朔回宫。"
+            },
+            "start": 185,
+            "end": 209,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

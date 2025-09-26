@@ -1,0 +1,318 @@
+{
+  "story": {
+    "background": "时间：汉朝汉武帝时期；地点：长安城、建章宫、怀里村等；世界观：古代中国宫廷历史，涉及宫廷斗争、外交使命和家庭秘密。",
+    "plot": "汉武帝打猎时在怀里村遇见一个酷似母亲的农家妇女，引发对母亲王美人过往的回忆，包括王美人入宫前的女儿和所忠的忠诚帮助。卫子夫与张骞的旧情在建章宫见驾时暴露，汉武帝在东方朔的建议下派张骞出使西域，以联合西域对抗匈奴。同时，卫子夫怀孕，汉武帝既高兴又因心事而忧郁。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "成年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "果断",
+        "description": "汉朝皇帝，关心国家大事和家庭"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权、扩展疆土、保护家庭",
+        "relationships": {
+          "王太后": "母子",
+          "卫子夫": "夫妻",
+          "东方朔": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "王太后",
+        "age": "中年",
+        "gender": "女",
+        "identity": "太后",
+        "characteristic": "隐忍",
+        "description": "汉武帝的母亲，曾经历宫廷斗争"
+      },
+      "plot_related_info": {
+        "motivations": "保护儿子和自身地位",
+        "relationships": {
+          "汉武帝刘彻": "母子",
+          "所忠": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "所忠",
+        "age": "中年",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "忠诚",
+        "description": "忠诚的太监，照顾王美人和汉武帝"
+      },
+      "plot_related_info": {
+        "motivations": "服务皇室，保护王美人和汉武帝",
+        "relationships": {
+          "王太后": "主仆",
+          "汉武帝刘彻": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "成年",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "聪明",
+        "description": "机智的大臣，为汉武帝出谋划策"
+      },
+      "plot_related_info": {
+        "motivations": "辅助汉武帝，解决朝廷问题",
+        "relationships": {
+          "汉武帝刘彻": "君臣",
+          "卫青": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "成年",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "忠诚",
+        "description": "卫子夫的哥哥，汉武帝的将军"
+      },
+      "plot_related_info": {
+        "motivations": "保护妹妹卫子夫，服务汉武帝",
+        "relationships": {
+          "卫子夫": "兄妹",
+          "张骞": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张骞",
+        "age": "成年",
+        "gender": "男",
+        "identity": "郎官",
+        "characteristic": "勇敢",
+        "description": "探险家，与卫子夫有旧情"
+      },
+      "plot_related_info": {
+        "motivations": "完成出使使命，逃避情感冲突",
+        "relationships": {
+          "卫子夫": "旧情人",
+          "卫青": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫子夫",
+        "age": "年轻",
+        "gender": "女",
+        "identity": "贵妃",
+        "characteristic": "美丽",
+        "description": "汉武帝的妃子，怀孕中"
+      },
+      "plot_related_info": {
+        "motivations": "保护自身地位和孩子",
+        "relationships": {
+          "汉武帝刘彻": "夫妻",
+          "张骞": "旧情人"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "长公主嫖",
+        "age": "中年",
+        "gender": "女",
+        "identity": "窦太主",
+        "characteristic": "权势",
+        "description": "长公主，希望女儿成为皇后"
+      },
+      "plot_related_info": {
+        "motivations": "提升家族地位，让女儿当皇后",
+        "relationships": {
+          "王太后": "亲戚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "丽妃",
+        "age": "成年",
+        "gender": "女",
+        "identity": "妃子",
+        "characteristic": "嫉妒",
+        "description": "汉武帝的妃子，曾与王美人争宠"
+      },
+      "plot_related_info": {
+        "motivations": "争夺皇帝宠幸，打击竞争对手",
+        "relationships": {
+          "王太后": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "成年",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "服务",
+        "description": "太监，伺候汉武帝"
+      },
+      "plot_related_info": {
+        "motivations": "服务皇帝，传递信息",
+        "relationships": {
+          "汉武帝刘彻": "主仆",
+          "所忠": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙敖",
+        "age": "成年",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "忠诚",
+        "description": "将军，卫青的朋友"
+      },
+      "plot_related_info": {
+        "motivations": "辅助卫青，服务汉武帝",
+        "relationships": {
+          "卫青": "朋友",
+          "张骞": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "堂邑父",
+        "age": "成年",
+        "gender": "男",
+        "identity": "翻译",
+        "characteristic": "多语言",
+        "description": "匈奴归降者，懂西域语言"
+      },
+      "plot_related_info": {
+        "motivations": "帮助汉朝沟通西域，报复匈奴",
+        "relationships": {}
+      }
+    },
+    {
+      "basic_info": {
+        "name": "俗女",
+        "age": "成年",
+        "gender": "女",
+        "identity": "农家妇女",
+        "characteristic": "普通",
+        "description": "疑似汉武帝的姐姐"
+      },
+      "plot_related_info": {
+        "motivations": "生活安稳， unaware of her lineage",
+        "relationships": {
+          "王太后": "母女"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "东方朔", "俗女"],
+        "description": "在怀里村打猎时，汉武帝遇见一个酷似母亲的农家妇女俗女，引发对往事的回忆。"
+      },
+      "start": 0,
+      "end": 41,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫青", "公孙敖", "张骞", "东方朔"],
+        "description": "回宫后，卫青安排张骞住宿在公孙敖家，并约定次日叙旧。"
+      },
+      "start": 42,
+      "end": 52,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["杨得意", "东方朔", "卫青", "公孙敖", "张骞"],
+        "description": "第二天早上，杨得意传旨，召见东方朔等人到建章宫见驾。"
+      },
+      "start": 53,
+      "end": 72,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "卫子夫", "东方朔", "卫青", "张骞", "杨得意"],
+        "description": "在建章宫亭子见驾时，卫子夫见到张骞后昏倒，引发汉武帝的愤怒。"
+      },
+      "start": 73,
+      "end": 96,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "张骞", "东方朔", "卫青"],
+        "description": "汉武帝质问张骞，东方朔介入并请求私下谈话，卫青和张骞退下。"
+      },
+      "start": 97,
+      "end": 130,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "东方朔"],
+        "description": "东方朔与汉武帝私下谈话，解释卫子夫和张骞的关系，并建议派张骞出使西域。"
+      },
+      "start": 131,
+      "end": 188,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "所忠", "杨得意"],
+        "description": "汉武帝回宫后忧郁不语，所忠和杨得意讨论皇上的心事，并决定找东方朔解闷。"
+      },
+      "start": 189,
+      "end": 205,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    }
+  ],
+  "coverage_check": true
+}

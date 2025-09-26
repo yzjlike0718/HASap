@@ -1,0 +1,270 @@
+{
+    "story": {
+        "background": "汉代宫廷，汉武帝时期，皇宫如昭阳宫和民间地点，世界观涉及宫廷斗争、家族关系和权力 dynamics。",
+        "plot": "东方朔帮助武帝找到皇太后失散的女儿俗女，使母女团聚。皇太后担心太皇太后的权力干预，但东方朔通过捉奸计策压制窦太主，确保团聚顺利进行。俗女被封为修成君，与丈夫金不换入住皇宫附近，但两人因养猪问题发生争执，东方朔巧妙调解。最终武帝和皇后来访，故事暂停。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "孝心",
+                "description": "孝心重的汉代皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "让母亲高兴，巩固权力",
+                "relationships": {
+                    "皇太后": "母子",
+                    "修成君": "同母异父姐姐",
+                    "阿娇": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "担忧",
+                "description": "担忧权力的皇太后"
+            },
+            "plot_related_info": {
+                "motivations": "与女儿团聚，担心太皇太后追究",
+                "relationships": {
+                    "武帝": "母子",
+                    "修成君": "母女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "修成君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇太后的女儿",
+                "characteristic": "直率",
+                "description": "直率的皇太后之女"
+            },
+            "plot_related_info": {
+                "motivations": "与母亲团聚，适应宫廷生活",
+                "relationships": {
+                    "皇太后": "母女",
+                    "金不换": "夫妻",
+                    "武帝": "同母异父弟弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的汉代大臣"
+            },
+            "plot_related_info": {
+                "motivations": "帮助武帝，解决难题",
+                "relationships": {
+                    "武帝": "君臣",
+                    "修成君": "恩人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金不换",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "农夫",
+                "characteristic": "固执",
+                "description": "朴实的农夫"
+            },
+            "plot_related_info": {
+                "motivations": "保持本色，养猪",
+                "relationships": {
+                    "修成君": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦太主",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "长公主",
+                "characteristic": "傲慢",
+                "description": "傲慢的长公主"
+            },
+            "plot_related_info": {
+                "motivations": "维护地位，但被东方朔设计",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "阿娇",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "嫉妒",
+                "description": "嫉妒的皇后"
+            },
+            "plot_related_info": {
+                "motivations": "争宠，维护地位",
+                "relationships": {
+                    "武帝": "夫妻"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["皇太后", "修成君", "武帝"],
+                "description": "在皇太后的宫殿，皇太后与失散女儿俗女团聚，武帝解释田盛的事。"
+            },
+            "start": 0,
+            "end": 29,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后"],
+                "description": "皇太后内心担忧太皇太后的权力干预和窦太主的威胁。"
+            },
+            "start": 30,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "窦太主"],
+                "description": "窦太主向皇太后贺喜，并告知太皇太后不会追究母女团聚的事。"
+            },
+            "start": 55,
+            "end": 59,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "武帝", "所忠", "东方朔"],
+                "description": "在昭阳宫，皇太后设宴，与武帝讨论安排修成君夫妇，并传旨叫东方朔进宫。"
+            },
+            "start": 63,
+            "end": 93,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "皇太后", "武帝", "修成君", "阿娇"],
+                "description": "东方朔进宫参拜，修成君感激东方朔，阿娇表示不悦。"
+            },
+            "start": 94,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["窦太主", "东方朔", "武帝", "皇太后"],
+                "description": "窦太主到来贺喜，但与东方朔发生冲突，提及捉奸事件。"
+            },
+            "start": 104,
+            "end": 114,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["金不换", "修成君", "阿娇", "武帝", "皇太后"],
+                "description": "金不换进宫参加宴会，因不适应宫廷生活而出丑，宴会进行。"
+            },
+            "start": 115,
+            "end": 129,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "美女"],
+                "description": "东方朔在家中午休，看书和下棋，有美女相伴。"
+            },
+            "start": 130,
+            "end": 134,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得道", "修成君", "金不换"],
+                "description": "杨得道报告修成君夫妇打架，东方朔爬墙观看争执。"
+            },
+            "start": 135,
+            "end": 152,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "修成君", "金不换", "杨得道", "士兵"],
+                "description": "东方朔调解修成君和金不换的养猪争执，建议共享猪圈解决。"
+            },
+            "start": 153,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "阿娇", "修成君", "金不换", "东方朔"],
+                "description": "武帝和皇后突然来访，众人迎接，武帝询问之前的热闹情况。"
+            },
+            "start": 184,
+            "end": 194,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

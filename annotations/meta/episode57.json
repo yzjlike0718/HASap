@@ -1,0 +1,324 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：长安宫廷、卫青府邸、长门宫、窦太主府等；世界观：历史宫廷剧，涉及军事、政治和宫廷斗争，有巫蛊之术等神秘元素。",
+        "plot": "汉武帝赦免李广和公孙敖的罪行，封卫青为关内侯并赐婚平阳公主。卫子夫突发疾病，太医无法医治，皇太后揭示巫蛊之术的往事。汉武帝和东方朔查获阿娇使用巫蛊害卫子夫，阿娇被废后。窦太主临终抱怨皇太后，揭示过往恩怨。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "中年男性皇帝，威严果断"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权和国家稳定",
+                "relationships": {
+                    "卫子夫": "夫妻",
+                    "阿娇": "夫妻（后被废）",
+                    "皇太后": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "谦虚",
+                "description": "年轻男性将军，谦虚忠诚"
+            },
+            "plot_related_info": {
+                "motivations": "忠诚于汉朝，保卫边境",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "平阳公主": "夫妻",
+                    "霍去病": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李广",
+                "age": "老年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "勇猛",
+                "description": "老年男性将军，勇猛但缺乏谋略"
+            },
+            "plot_related_info": {
+                "motivations": "保卫边境，维护荣誉",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "中年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "服从",
+                "description": "中年男性将军，服从命令"
+            },
+            "plot_related_info": {
+                "motivations": "军事服从和忠诚",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "幽默智慧",
+                "description": "中年男性大臣，幽默智慧"
+            },
+            "plot_related_info": {
+                "motivations": "辅助汉武帝，维护正义",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "霍去病": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "小将",
+                "characteristic": "活泼",
+                "description": "年轻男性小将，活泼好战"
+            },
+            "plot_related_info": {
+                "motivations": "追求战斗荣誉和证明自己",
+                "relationships": {
+                    "卫青": "舅舅",
+                    "东方朔": "干儿子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "妃子",
+                "characteristic": "柔弱",
+                "description": "年轻女性妃子，柔弱患病"
+            },
+            "plot_related_info": {
+                "motivations": "生存和保护胎儿",
+                "relationships": {
+                    "汉武帝": "夫妻",
+                    "皇太后": "婆媳"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "阿娇",
+                "age": "中年",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "嫉妒",
+                "description": "中年女性皇后，嫉妒恶毒"
+            },
+            "plot_related_info": {
+                "motivations": "争宠和除掉卫子夫",
+                "relationships": {
+                    "汉武帝": "夫妻（后被废）",
+                    "窦太主": "母女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "老年",
+                "gender": "女",
+                "identity": "太后",
+                "characteristic": "慈祥",
+                "description": "老年女性太后，慈祥护子"
+            },
+            "plot_related_info": {
+                "motivations": "保护皇室血脉和儿子",
+                "relationships": {
+                    "汉武帝": "母子",
+                    "窦太主": "姐妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦太主",
+                "age": "老年",
+                "gender": "女",
+                "identity": "太主",
+                "characteristic": "绝望",
+                "description": "老年女性太主，绝望抱怨"
+            },
+            "plot_related_info": {
+                "motivations": "失去爱人和女儿，寻求补偿",
+                "relationships": {
+                    "皇太后": "姐妹",
+                    "阿娇": "母女"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "李广", "公孙敖", "卫青", "东方朔", "霍去病"],
+                "description": "在朝廷上，汉武帝赦免李广和公孙敖的罪行，命他们服从卫青的指挥。"
+            },
+            "start": 0,
+            "end": 21,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青"],
+                "description": "在朝廷上，卫青推辞大将军职位，最终接受关内侯的封赏。"
+            },
+            "start": 22,
+            "end": 31,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "东方朔", "霍去病", "众人"],
+                "description": "汉武帝宣布封卫青为关内侯并赐婚平阳公主，众人贺喜。"
+            },
+            "start": 32,
+            "end": 39,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍去病", "汉武帝"],
+                "description": "在朝廷附近，东方朔和霍去病关于宝剑的对话，汉武帝听后大笑。"
+            },
+            "start": 40,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫子夫", "太医"],
+                "description": "汉武帝回宫，发现卫子夫突发疾病，传太医诊治。"
+            },
+            "start": 57,
+            "end": 83,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["太医", "汉武帝", "皇太后"],
+                "description": "在宫中，太医诊断卫子夫，提及巫蛊之术可能致病。"
+            },
+            "start": 84,
+            "end": 107,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "汉武帝"],
+                "description": "在宫中，皇太后讲述自己当年遭遇巫蛊的往事，汉武帝决定彻查。"
+            },
+            "start": 108,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "阿娇", "楚福"],
+                "description": "在长门宫，汉武帝和东方朔查获阿娇和女巫楚福使用巫蛊害卫子夫。"
+            },
+            "start": 129,
+            "end": 161,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "阿娇", "东方朔", "韩嫣"],
+                "description": "在长门宫，汉武帝废黜阿娇的皇后之位，将她打入冷宫。"
+            },
+            "start": 162,
+            "end": 179,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫子夫", "皇太后"],
+                "description": "在宫中，卫子夫好转，皇太后放心回宫。"
+            },
+            "start": 180,
+            "end": 181,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "窦太主"],
+                "description": "在窦太主府，皇太后探望临终的窦太主，窦太主抱怨失去爱人和女儿。"
+            },
+            "start": 182,
+            "end": 219,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

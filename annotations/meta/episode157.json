@@ -1,0 +1,176 @@
+{
+    "story": {
+        "background": "汉朝时期，地点包括长安宫殿和狼居胥山，世界观为历史战争背景，汉军与匈奴的长期战争。",
+        "plot": "黄恩浩从长安返回狼居胥山，向霍去病传达汉武帝的旨意，要求彻底消灭匈奴。霍去病决心继续追击，但卫青和东方朔建议班师回朝，引发冲突。霍去病带领御林军深入沙漠追击匈奴，而卫青和东方朔安排部分军队返回长安。最终，东方朔和卫青计划分头行动，以确保霍去病的安全和军队的回归。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "黄恩浩",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "战将",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉军战将"
+            },
+            "plot_related_info": {
+                "motivations": "传达皇上旨意，忠心耿耿地执行命令",
+                "relationships": {
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "彻底消灭匈奴，巩固汉朝江山",
+                "relationships": {
+                    "霍去病": "君臣",
+                    "卫青": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "大司马",
+                "characteristic": "果断",
+                "description": "年轻果断的汉军大司马"
+            },
+            "plot_related_info": {
+                "motivations": "消灭匈奴残部，回报皇恩并迎娶公主",
+                "relationships": {
+                    "卫青": "甥舅",
+                    "东方朔": "干父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "谨慎",
+                "description": "谨慎的汉军大将军"
+            },
+            "plot_related_info": {
+                "motivations": "保护将士，避免不必要的牺牲，确保军队安全返回",
+                "relationships": {
+                    "霍去病": "甥舅",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "智者",
+                "characteristic": "明智",
+                "description": "明智的汉军智者"
+            },
+            "plot_related_info": {
+                "motivations": "劝告霍去病平衡军事行动与人性关怀，确保大局稳定",
+                "relationships": {
+                    "霍去病": "干父子",
+                    "卫青": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "聪明",
+                "description": "聪明的汉军谋士"
+            },
+            "plot_related_info": {
+                "motivations": "辅助霍去病实现战略目标，并处理后续安排",
+                "relationships": {
+                    "霍去病": "兄弟"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["武帝", "黄恩浩"],
+                "description": "在长安宫殿，黄恩浩向武帝汇报霍光文书和辛苦子受伤情况，武帝下令彻底消灭匈奴并准备婚礼。"
+            },
+            "start": 0,
+            "end": 46,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "霍去病"],
+                "description": "在狼居胥山，卫青和东方朔到达与霍去病会合，举行封禅仪式，霍去病发表演讲并内心思考幸福。"
+            },
+            "start": 47,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["黄恩浩", "霍去病", "卫青", "东方朔", "霍光"],
+                "description": "在狼居胥山，黄恩浩到达并传达武帝旨意，要求彻底消灭匈奴，众人震惊。"
+            },
+            "start": 142,
+            "end": 177,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "卫青", "东方朔", "霍光", "黄恩浩"],
+                "description": "在狼居胥山，霍去病下令追击匈奴，卫青反对并下令班师，霍去病带领御林军出发。"
+            },
+            "start": 178,
+            "end": 224,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "霍光", "公孙敖"],
+                "description": "在狼居胥山，东方朔和卫青安排计划，部分军队返回长安，部分留下接应霍去病。"
+            },
+            "start": 225,
+            "end": 248,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

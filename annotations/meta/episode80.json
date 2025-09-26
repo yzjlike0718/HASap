@@ -1,0 +1,262 @@
+{
+    "story": {
+        "background": "时间：汉朝时期，具体为汉武帝时代。地点：主要发生在长安城的上林苑和建章宫。世界观：历史武侠与仙道元素结合，涉及宫廷斗争、侠客文化和个人修行。",
+        "plot": "淮南王刘安奉旨进京见驾，其女刘陵逼迫东方朔传仙气，东方朔承诺寻找仙人。雷贝介入带刘陵回府，并表达想去边关打仗的愿望。廷尉张汤出现挑拨离间，威胁雷贝。汉武帝设宴询问淮南王关于枕中秘籍的事，仙人李少君出场声称见过淮南王，东方朔怀疑李少君身份并计划揭穿。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "朝廷官员/剑客",
+                "characteristic": "精明",
+                "description": "精明的朝廷官员兼剑客"
+            },
+            "plot_related_info": {
+                "motivations": "维护正义，揭穿谎言，帮助他人",
+                "relationships": {
+                    "刘陵": "敌对",
+                    "雷贝": "朋友",
+                    "张汤": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘陵",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "郡主",
+                "characteristic": "任性",
+                "description": "任性的淮南王郡主"
+            },
+            "plot_related_info": {
+                "motivations": "获得仙气，提升自身能力",
+                "relationships": {
+                    "淮南王刘安": "父女",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雷贝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "淮南王大侠",
+                "characteristic": "侠义",
+                "description": "侠义的淮南王大侠"
+            },
+            "plot_related_info": {
+                "motivations": "为国家效力，与郭解比武证明自己",
+                "relationships": {
+                    "淮南王刘安": "主仆",
+                    "东方朔": "朋友",
+                    "郭解": "竞争对手"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "狡猾",
+                "description": "狡猾的廷尉官员"
+            },
+            "plot_related_info": {
+                "motivations": "维护法律，挑拨事端，巩固权力",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "雷贝": "威胁"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "得道成仙，获取枕中秘籍",
+                "relationships": {
+                    "淮南王刘安": "君臣",
+                    "东方朔": "信任"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "淮南王刘安",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "淮南王",
+                "characteristic": "谨慎",
+                "description": "谨慎的淮南王"
+            },
+            "plot_related_info": {
+                "motivations": "维护自身地位，避免卷入斗争",
+                "relationships": {
+                    "刘陵": "父女",
+                    "雷贝": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "仙人",
+                "characteristic": "神秘",
+                "description": "神秘的仙人"
+            },
+            "plot_related_info": {
+                "motivations": "冒充仙人，获取信任",
+                "relationships": {
+                    "淮南王刘安": "欺骗",
+                    "汉武帝": "欺骗"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["刘陵", "东方朔"],
+                "description": "在上林苑，郡主刘陵逼迫东方朔传给她仙气，东方朔承诺为她寻找仙人。"
+            },
+            "start": 0,
+            "end": 6,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["雷贝", "刘陵", "东方朔"],
+                "description": "在上林苑，雷贝出现并传达淮南王的命令，带刘陵回王府。"
+            },
+            "start": 7,
+            "end": 27,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["雷贝", "东方朔"],
+                "description": "在上林苑，雷贝与东方朔讨论郡主的行为和边关打仗的愿望。"
+            },
+            "start": 28,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["雷贝", "东方朔"],
+                "description": "在上林苑，雷贝详细解释想去边关的原因和与郭解的比较。"
+            },
+            "start": 51,
+            "end": 64,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "雷贝", "东方朔", "吴培龙"],
+                "description": "在上林苑，张汤出现并挑拨离间，威胁雷贝，东方朔介入。"
+            },
+            "start": 65,
+            "end": 90,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "雷贝", "东方朔"],
+                "description": "在上林苑，张汤继续挑拨，东方朔发怒，张汤离开。"
+            },
+            "start": 91,
+            "end": 127,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王刘安", "刘陵", "东方朔", "雷贝"],
+                "description": "在建章宫，汉武帝设宴与淮南王对话，询问淮南事务。"
+            },
+            "start": 128,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王刘安"],
+                "description": "在建章宫，汉武帝直接询问枕中秘籍，淮南王否认。"
+            },
+            "start": 149,
+            "end": 164,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王刘安", "李少君", "东方朔", "刘陵"],
+                "description": "在建章宫，李少君出场声称是仙人，并讲述与淮南王的过往。"
+            },
+            "start": 165,
+            "end": 196,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李少君", "淮南王刘安", "汉武帝", "东方朔"],
+                "description": "在建章宫，李少君与淮南王对话，东方朔怀疑李少君身份并计划揭穿。"
+            },
+            "start": 197,
+            "end": 205,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

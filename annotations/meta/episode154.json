@@ -1,0 +1,235 @@
+{
+  "story": {
+    "background": "时间：古代中国汉武帝时期。地点：匈奴领地，包括鱼无水河、狼居胥山、单于庭。世界观：汉朝与匈奴的战争，汉军远征匈奴。",
+    "plot": "霍去病带领汉军昼伏夜行，发现匈奴河流并藏兵山后。他们偷袭匈奴军营，获得地图后确定单于庭位置。霍去病下令攻击单于庭，汉军火箭烧营，大败匈奴。伊稚斜在沃利布保护下逃脱，辛苦子重伤。霍去病报功并打听卫青消息。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "年轻成人",
+        "gender": "男",
+        "identity": "汉军大司马",
+        "characteristic": "英勇",
+        "description": "年轻英勇的汉军大司马"
+      },
+      "plot_related_info": {
+        "motivations": "打败匈奴，捉拿伊稚斜，为汉朝立功",
+        "relationships": {
+          "霍光": "兄弟",
+          "辛苦子": "部将"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍光",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "汉军部将",
+        "characteristic": "聪明",
+        "description": "聪明细致的汉军部将"
+      },
+      "plot_related_info": {
+        "motivations": "辅助霍去病，为汉军出谋划策",
+        "relationships": {
+          "霍去病": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛苦子",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "汉军将领",
+        "characteristic": "忠诚",
+        "description": "忠诚勇敢的汉军将领"
+      },
+      "plot_related_info": {
+        "motivations": "执行霍去病的命令，捉拿伊稚斜",
+        "relationships": {
+          "霍去病": "上级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "伊稚斜",
+        "age": "成人",
+        "gender": "男",
+        "identity": "匈奴单于",
+        "characteristic": "自负",
+        "description": "自负的匈奴单于"
+      },
+      "plot_related_info": {
+        "motivations": "保卫匈奴领土，对抗汉军入侵",
+        "relationships": {
+          "沃利布": "部下"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "沃利布",
+        "age": "成人",
+        "gender": "男",
+        "identity": "匈奴将军",
+        "characteristic": "忠诚",
+        "description": "忠诚勇猛的匈奴将军"
+      },
+      "plot_related_info": {
+        "motivations": "保护伊稚斜单于，为匈奴而战",
+        "relationships": {
+          "伊稚斜": "君主"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["霍去病"],
+        "description": "霍去病发现河流，命令部队藏在山后，昼伏夜行。"
+      },
+      "start": 0,
+      "end": 3,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病"],
+        "description": "霍去病带兵偷袭匈奴军营，杀光匈奴人，发现鱼无水支流，高兴能捉伊稚斜。"
+      },
+      "start": 4,
+      "end": 10,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "霍光", "辛苦子"],
+        "description": "霍去病与霍光、辛苦子商量，发现匈奴地图，确定单于庭位置，定口令“不入虎穴焉得虎子”，汉军出发到达鱼无河边。"
+      },
+      "start": 11,
+      "end": 34,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["伊稚斜", "沃利布", "匈奴战将"],
+        "description": "伊稚斜在单于庭主帐宴饮，谈论战略，认为汉军被拖在赵信城，准备决战。"
+      },
+      "start": 35,
+      "end": 48,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["伊稚斜", "沃利布", "匈奴人"],
+        "description": "沃利布提醒风险，伊稚斜不以为意，匈奴人饮酒醉酒，霍去病带兵到来预告。"
+      },
+      "start": 49,
+      "end": 68,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "霍光", "辛苦子", "汉军"],
+        "description": "霍去病观察单于庭，霍光建议埋伏，辛苦子带兵埋伏西山包，霍去病下令攻击，汉军点火把射火箭。"
+      },
+      "start": 69,
+      "end": 94,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉军", "匈奴兵将"],
+        "description": "汉军攻击单于庭，火箭烧营，厮杀激烈，匈奴死伤惨重，鱼无河水被血染红。"
+      },
+      "start": 95,
+      "end": 124,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["伊稚斜", "沃利布", "匈奴亲兵"],
+        "description": "伊稚斜惊慌，沃利布保护突围，杀出重围往西逃走。"
+      },
+      "start": 125,
+      "end": 134,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["辛苦子", "沃利布", "匈奴战将"],
+        "description": "辛苦子埋伏西山包，与沃利布等战斗，辛苦子受伤落马。"
+      },
+      "start": 135,
+      "end": 170,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "霍光", "辛苦子"],
+        "description": "霍去病救辛苦子，清点人马，损失八千，匈奴死六万，伊稚斜逃脱，霍去病派报功并打听卫青消息。"
+      },
+      "start": 171,
+      "end": 182,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["宋春健", "李蔡", "汉武帝", "李少翁", "李夫人", "李延年"],
+        "description": "宋春健报功给李蔡，李蔡报告汉武帝，汉武帝在建章宫与李夫人等娱乐，赏赐李少翁，李夫人求赏哥哥李广利。"
+      },
+      "start": 183,
+      "end": 207,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    }
+  ],
+  "coverage_check": true
+}

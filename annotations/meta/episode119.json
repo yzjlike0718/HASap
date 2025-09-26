@@ -1,0 +1,177 @@
+{
+    "story": {
+        "background": "时间：西汉汉武帝时期；地点：淮南国及周边地区；世界观：历史武侠背景，围绕朝廷与淮南王势力间的政治博弈展开",
+        "plot": "东方朔奉汉武帝之命前往淮南，旨在调遣大将雷贝赴边关作战并探查淮南王势力动向。途中东方朔与儿子辛苦子讨论庄祝的忠诚问题，暗示政治环境的复杂性。抵达淮南后，东方朔发现雷贝被淮南太子刘钦以人质胁迫参与谋反，同时偶遇郭解徒弟籍安氏并收其为徒。在面见淮南王时，东方朔成功获得雷贝调离的许可，但淮南王刻意转移话题避免提及枕中秘籍，暴露了双方的政治试探与暗中较量。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉武帝特使/剑术大师",
+                "characteristic": "睿智",
+                "description": "中年男性汉武帝特使与剑术大师，性格睿智"
+            },
+            "plot_related_info": {
+                "motivations": "完成皇命调遣雷贝、探查淮南王动向并获得枕中秘籍",
+                "relationships": {
+                    "东方辛苦": "父子",
+                    "雷贝": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方辛苦",
+                "age": "青年",
+                "gender": "男",
+                "identity": "东方朔之子/皇侍卫",
+                "characteristic": "聪颖",
+                "description": "青年男性皇侍卫与东方朔之子，性格聪颖"
+            },
+            "plot_related_info": {
+                "motivations": "协助父亲完成使命并精进剑术",
+                "relationships": {
+                    "东方朔": "父子",
+                    "籍安氏": "师兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雷贝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "淮南大将",
+                "characteristic": "忠义",
+                "description": "中年男性淮南大将，性格忠义"
+            },
+            "plot_related_info": {
+                "motivations": "摆脱刘钦控制赴边关杀敌并保护家人安全",
+                "relationships": {
+                    "刘钦": "敌对",
+                    "籍安氏": "师徒"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "籍安氏",
+                "age": "15岁",
+                "gender": "男",
+                "identity": "郭解徒弟/雷贝学徒",
+                "characteristic": "坚韧",
+                "description": "15岁男性郭解徒弟与雷贝学徒，性格坚韧"
+            },
+            "plot_related_info": {
+                "motivations": "为父师报仇并提升武艺",
+                "relationships": {
+                    "雷贝": "师徒",
+                    "东方辛苦": "师兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "淮南王",
+                "age": "老年",
+                "gender": "男",
+                "identity": "淮南诸侯王",
+                "characteristic": "深藏不露",
+                "description": "老年男性淮南诸侯王，性格深藏不露"
+            },
+            "plot_related_info": {
+                "motivations": "维持势力平衡并避免直接冲突",
+                "relationships": {
+                    "刘钦": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘钦",
+                "age": "中年",
+                "gender": "男",
+                "identity": "淮南太子",
+                "characteristic": "野心勃勃",
+                "description": "中年男性淮南太子，性格野心勃勃"
+            },
+            "plot_related_info": {
+                "motivations": "招兵买马谋反朝廷并控制雷贝",
+                "relationships": {
+                    "淮南王": "父子",
+                    "雷贝": "敌对"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "东方辛苦"],
+                "description": "淮河渡口，父子二人等待渡船时讨论庄祝的忠诚问题与使命的强制性，随后渡河前往淮南"
+            },
+            "start": 8,
+            "end": 43,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "东方辛苦", "雷贝", "籍安氏"],
+                "description": "雷贝家外，东方父子观察雷贝指导籍安氏剑术，辛苦子展示东方家剑法并与籍安氏切磋，雷贝认出东方朔身份"
+            },
+            "start": 44,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "东方辛苦", "雷贝", "籍安氏"],
+                "description": "雷贝家中，籍安氏拜求东方朔传授剑法以报父师之仇，辛苦子被指定为师，随后大人商议正事"
+            },
+            "start": 109,
+            "end": 133,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "雷贝"],
+                "description": "雷贝家客厅，雷贝透露刘钦谋反计划并以人质胁迫自己，东方朔决定面见淮南王探查实情"
+            },
+            "start": 134,
+            "end": 168,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "东方辛苦", "淮南王", "刘钦", "雷贝", "左吴"],
+                "description": "淮南王花园，东方朔成功获得雷贝调离许可，刘钦反对被驳回，淮南王以学术讨论转移枕中秘籍话题"
+            },
+            "start": 169,
+            "end": 223,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

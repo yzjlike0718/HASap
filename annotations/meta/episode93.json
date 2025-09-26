@@ -1,0 +1,142 @@
+{
+    "story": {
+        "background": "中国古代汉武帝时期，皇宫内殿和朝堂，世界观为历史宫廷剧，涉及仙丹、政治斗争和权谋。",
+        "plot": "李少君想报复东方朔，让他在汉武帝面前吃三粒仙丹，意图让他出丑。汉武帝试探东方朔的忠诚，讨论淮南王派人的事情。东方朔吃药后回家，第二天朝堂上主父衍提出迁移富豪到茂陵的计策，以惩治豪强。汲黯反对该计策，认为会破坏经济，张汤支持主父衍，汉武帝犹豫不决。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋臣",
+                "characteristic": "聪明",
+                "description": "聪明的汉武帝谋臣"
+            },
+            "plot_related_info": {
+                "motivations": "忠诚于汉武帝，机智应对挑战，维护朝廷利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "李少君": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "多疑",
+                "description": "多疑的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，测试臣子，巩固统治",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "主父衍": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "方士",
+                "characteristic": "狡猾",
+                "description": "狡猾的方士"
+            },
+            "plot_related_info": {
+                "motivations": "报复东方朔，提升自身地位",
+                "relationships": {
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "提出计策，巩固皇权，获得皇帝赏识",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谏臣",
+                "characteristic": "正直",
+                "description": "正直的谏臣"
+            },
+            "plot_related_info": {
+                "motivations": "反对有害计策，维护百姓利益，直言敢谏",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "支持权谋",
+                "description": "支持权谋的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "支持主父衍的计策，强化中央集权",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "李少君", "杨得意", "内侍"],
+                "description": "时间白天，地点内殿，李少君让东方朔在汉武帝面前吃三粒仙丹，东方朔被迫服用。"
+            },
+            "start": 0,
+            "end": 35,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "时间紧接着，地点内殿，汉武帝和东方朔单独对话，讨论淮南王派人和忠诚问题。"
+            },
+            "start": 36,
+            "end": 57,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "主父衍", "汲黯", "张汤", "东方朔", "文武百官"],
+                "description": "时间第二天早朝，地点朝堂，主父衍提出迁移富豪到茂陵的计策，汲黯反对，张汤支持，汉武帝犹豫不决。"
+            },
+            "start": 58,
+            "end": 194,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        }
+    ],
+    "coverage_check": true
+}

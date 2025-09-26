@@ -1,0 +1,242 @@
+{
+    "story": {
+        "background": "时间在西汉时期，地点在匈奴的赵信城和狼居胥山一带，涉及汉军与匈奴的战争。世界观为古代中国与匈奴的军事冲突。",
+        "plot": "卫青率军围攻赵信城，但叛将赵信坚守不出；东方朔到来后建议用水攻破坏城基，汉军实施计划；同时霍去病绕道袭击匈奴单于庭，经历艰苦行军后成功击败匈奴兵；故事体现汉军与匈奴的矛盾以及策略转折。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉朝大将军",
+                "characteristic": "果断",
+                "description": "汉朝大将军，果断谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "为汉朝消灭匈奴，忠诚于皇上",
+                "relationships": {
+                    "赵信": "敌对",
+                    "东方朔": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "赵信",
+                "age": "中年",
+                "gender": "男",
+                "identity": "匈奴降将",
+                "characteristic": "背叛",
+                "description": "匈奴降将，背叛汉朝"
+            },
+            "plot_related_info": {
+                "motivations": "保命，报复汉朝杀其全家",
+                "relationships": {
+                    "卫青": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉朝先锋官",
+                "characteristic": "忠诚",
+                "description": "汉朝先锋官，忠诚勇敢"
+            },
+            "plot_related_info": {
+                "motivations": "协助卫青攻打匈奴",
+                "relationships": {
+                    "卫青": "部下"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉朝谋士",
+                "characteristic": "足智多谋",
+                "description": "汉朝谋士，足智多谋"
+            },
+            "plot_related_info": {
+                "motivations": "帮助汉军取胜",
+                "relationships": {
+                    "卫青": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李灵",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "汉朝将军",
+                "characteristic": "英勇",
+                "description": "汉朝小将，英勇善战"
+            },
+            "plot_related_info": {
+                "motivations": "立功，证明自己",
+                "relationships": {
+                    "卫青": "部下"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "汉朝大司马",
+                "characteristic": "英勇果断",
+                "description": "汉朝大司马，英勇果断"
+            },
+            "plot_related_info": {
+                "motivations": "袭击匈奴单于庭，为汉朝立功",
+                "relationships": {
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "伊稚斜",
+                "age": "中年",
+                "gender": "男",
+                "identity": "匈奴单于",
+                "characteristic": "老谋深算",
+                "description": "匈奴单于，老谋深算"
+            },
+            "plot_related_info": {
+                "motivations": "消灭汉军，保护匈奴",
+                "relationships": {
+                    "卫青": "敌对",
+                    "霍去病": "敌对"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "开场叙述东方朔胜仗和卫青率军行动，为故事铺垫背景。"
+            },
+            "start": 0,
+            "end": 1,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "公孙敖", "赵信"],
+                "description": "卫青率军到赵信城下，与赵信对话指责其背叛，赵信辩解并拒绝投降。"
+            },
+            "start": 2,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "公孙敖"],
+                "description": "汉军攻城失败，卫青收兵回营，下令围城并严加防范。"
+            },
+            "start": 49,
+            "end": 58,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "公孙敖"],
+                "description": "围城半个月后，卫青与公孙敖商议军情，疑惑赵信城为何不缺粮水。"
+            },
+            "start": 59,
+            "end": 70,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李举", "李灵"],
+                "description": "李举和李灵报告东方朔胜仗和乌维太子增援，卫青部署应对策略。"
+            },
+            "start": 70,
+            "end": 84,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "李举", "李灵"],
+                "description": "卫青派李举布武刚车阵，李灵请求任务，卫青让李灵迎接东方朔。"
+            },
+            "start": 85,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "李灵", "公孙敖"],
+                "description": "东方朔到来，建议水攻赵信城，卫青采纳并下令挖洞引水。"
+            },
+            "start": 100,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白", "霍去病", "霍光", "辛苦子", "匈奴老人"],
+                "description": "转至霍去病故事线，描述其艰苦行军袭击单于庭，击败匈奴兵并刻字纪念。"
+            },
+            "start": 142,
+            "end": 200,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "霍光"],
+                "description": "霍去病决定埋伏在河边，寻找单于庭的位置。"
+            },
+            "start": 201,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

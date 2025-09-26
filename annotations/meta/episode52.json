@@ -1,0 +1,159 @@
+{
+  "story": {
+    "background": "时间：汉朝汉武帝时期；地点：宣室和上林院；世界观：古代中国朝廷，以皇帝和朝臣的政治决策和军事准备为核心。",
+    "plot": "汉武帝在宣室与公孙弘、汲黯和东方朔讨论丞相人选，公孙弘反对董仲舒，东方朔推荐朱买臣但被汉武帝拒绝。东方朔巧妙暗示公孙弘适合做丞相，因其能随圣意变化，汉武帝最终任命公孙弘为丞相。汲黯最初强烈反对但被东方朔说服，接受官职。随后汉武帝移驾上林院，观看卫青排兵布阵，决定出兵匈奴，并安抚将士。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "权威",
+        "description": "权威的汉朝皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "选择合适丞相以治理国家，准备对抗匈奴，维护皇权。",
+        "relationships": {
+          "公孙弘": "君臣",
+          "汲黯": "君臣",
+          "东方朔": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙弘",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "朝臣",
+        "characteristic": "圆滑",
+        "description": "圆滑的汉朝朝臣"
+      },
+      "plot_related_info": {
+        "motivations": "成为丞相，忠于皇帝，维护自身地位和利益。",
+        "relationships": {
+          "汉武帝": "君臣",
+          "汲黯": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汲黯",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "朝臣",
+        "characteristic": "耿直",
+        "description": "耿直的汉朝朝臣"
+      },
+      "plot_related_info": {
+        "motivations": "直言敢谏，避免做丞相以免得罪皇帝，但最终愿意为尽忠而留任。",
+        "relationships": {
+          "汉武帝": "君臣",
+          "公孙弘": "敌对",
+          "东方朔": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "朝臣",
+        "characteristic": "机智",
+        "description": "机智的汉朝朝臣"
+      },
+      "plot_related_info": {
+        "motivations": "帮助汉武帝平衡朝局，选择合适丞相，为国家利益出谋划策。",
+        "relationships": {
+          "汉武帝": "君臣",
+          "汲黯": "朋友",
+          "公孙弘": "冲突"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "军事才能",
+        "description": "军事才能的汉朝将军"
+      },
+      "plot_related_info": {
+        "motivations": "排兵布阵，对抗匈奴，为国立功。",
+        "relationships": {
+          "汉武帝": "君臣",
+          "霍去病": "部下"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "勇猛",
+        "description": "勇猛的汉朝将军"
+      },
+      "plot_related_info": {
+        "motivations": "准备对抗匈奴，效忠皇帝，展现勇猛。",
+        "relationships": {
+          "汉武帝": "君臣",
+          "卫青": "上级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙敖",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "忠诚",
+        "description": "忠诚的汉朝将军"
+      },
+      "plot_related_info": {
+        "motivations": "希望官复原职，为国出征，效忠皇帝。",
+        "relationships": {
+          "汉武帝": "君臣",
+          "卫青": "同事"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝", "公孙弘", "汲黯", "东方朔"],
+        "description": "在宣室里，汉武帝与朝臣讨论丞相人选，东方朔推荐朱买臣但被拒，最终公孙弘被任命为丞相，汲黯和东方朔也被任命官职。"
+      },
+      "start": 0,
+      "end": 155,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.95
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "卫青", "霍去病", "公孙敖"],
+        "description": "在上林院，汉武帝观看卫青排兵布阵，决定出兵匈奴，并安抚将士，卫青请求公孙敖官复原职。"
+      },
+      "start": 156,
+      "end": 211,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

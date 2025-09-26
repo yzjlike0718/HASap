@@ -1,0 +1,224 @@
+{
+    "story": {
+        "background": "时间：古代汉朝时期；地点：汉匈边境的山地战场；世界观：历史战争背景，汉军与匈奴的军事冲突，涉及策略与诡计。",
+        "plot": "东方朔与知冷单挑，利用母马引诱匈奴公马，导致匈奴马匹流失。东方朔设下磁石通道埋伏，吸引匈奴铁甲军并被磁石吸住，汉军趁机攻击。知冷转而攻击狄山头山，狄山在卫律逼迫下投降并杀死替身。东方朔下山救援，用装扮的妖魔鬼怪吓退匈奴兵，汉军获胜。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉军将领",
+                "characteristic": "机智",
+                "description": "机智的汉军将领"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴，保护汉军",
+                "relationships": {
+                    "知冷": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "知冷",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴将军",
+                "characteristic": "勇猛",
+                "description": "勇猛的匈奴将军"
+            },
+            "plot_related_info": {
+                "motivations": "击败汉军，立功",
+                "relationships": {
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "任安",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉军将领",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉军将领"
+            },
+            "plot_related_info": {
+                "motivations": "协助东方朔",
+                "relationships": {
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏武",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉军将领",
+                "characteristic": "果断",
+                "description": "果断的汉军将领"
+            },
+            "plot_related_info": {
+                "motivations": "执行东方朔的命令",
+                "relationships": {
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "儒生博士",
+                "characteristic": "胆小",
+                "description": "胆小的儒生博士"
+            },
+            "plot_related_info": {
+                "motivations": "保命",
+                "relationships": {
+                    "卫律": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫律",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴使臣",
+                "characteristic": "狡猾",
+                "description": "狡猾的匈奴使臣"
+            },
+            "plot_related_info": {
+                "motivations": "促使狄山投降匈奴",
+                "relationships": {
+                    "狄山": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "知冷"],
+                "description": "山地战场，东方朔与知冷约定单打独斗，知冷自信能赢。"
+            },
+            "start": 0,
+            "end": 16,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "知冷"],
+                "description": "东方朔骑马引母马，匈奴公马被引诱，马匹混合。"
+            },
+            "start": 17,
+            "end": 26,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "知冷", "任安"],
+                "description": "东方朔击败知冷，汉军发动攻击，匈奴马匹流失，兵败。"
+            },
+            "start": 27,
+            "end": 49,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "知冷", "任安"],
+                "description": "知冷再次挑战，东方朔提及磁石通道，任安守通道。"
+            },
+            "start": 50,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "任安", "苏武"],
+                "description": "汉军设置磁石通道埋伏，准备应对匈奴进攻。"
+            },
+            "start": 57,
+            "end": 76,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["知冷", "任安", "苏武"],
+                "description": "匈奴铁甲军进入磁石通道被吸住，汉军攻击，匈奴败退。"
+            },
+            "start": 77,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["知冷", "匈奴偏将"],
+                "description": "知冷清点兵力，决定攻击狄山的山头。"
+            },
+            "start": 101,
+            "end": 118,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["狄山", "卫律", "老君"],
+                "description": "狄山害怕匈奴进攻，卫律逼迫狄山杀死替身老君，狄山投降。"
+            },
+            "start": 119,
+            "end": 150,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["知冷", "东方朔", "任安", "苏武"],
+                "description": "东方朔下山救援，用妖魔鬼怪装扮吓退匈奴兵，汉军获胜。"
+            },
+            "start": 151,
+            "end": 177,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,320 @@
+{
+    "story": {
+        "background": "时间：古代中国汉武帝时期（西汉）。地点：长安城、皇宫、旅途中等。世界观：历史宫廷剧，涉及皇帝、大臣、后宫斗争、人物关系等。",
+        "plot": "东方朔、公孙敖和卫青结为生死之交，杨得意奉汉武帝命带回卫子夫。途中东方朔认霍去病为义子，一行人返回长安。汉武帝急切等待卫子夫，与韩嫣讨论后宫事宜并封其为协调使。杨得意带回卫子夫后，汉武帝立即宠幸她，忽略东方朔和卫青。皇后陈阿娇和母亲窦太主嫉妒，计划陷害卫青，韩嫣调解建议阿娇抚养未来太子。窦太主计划暗害卫青，故事暂停。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大汉天子",
+                "characteristic": "急切",
+                "description": "中年男性大汉天子，急切"
+            },
+            "plot_related_info": {
+                "motivations": "寻找可心的女人卫子夫，巩固皇权，生儿育女",
+                "relationships": {
+                    "陈阿娇": "夫妻",
+                    "卫子夫": "宠妃",
+                    "韩嫣": "好友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "中年男性大臣，机智"
+            },
+            "plot_related_info": {
+                "motivations": "帮助汉武帝，保护卫青和霍去病，推动剧情",
+                "relationships": {
+                    "卫青": "结拜兄弟",
+                    "霍去病": "义子",
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "青年",
+                "gender": "男",
+                "identity": "勇士",
+                "characteristic": "勇猛",
+                "description": "青年男性勇士，勇猛"
+            },
+            "plot_related_info": {
+                "motivations": "保护家人，为汉朝效力",
+                "relationships": {
+                    "卫子夫": "兄妹",
+                    "卫少儿": "兄妹",
+                    "东方朔": "结拜兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "儿童",
+                "gender": "男",
+                "identity": "卫少儿之子",
+                "characteristic": "机灵",
+                "description": "儿童男性卫少儿之子，机灵"
+            },
+            "plot_related_info": {
+                "motivations": "渴望被认可，跟随干爹东方朔",
+                "relationships": {
+                    "卫少儿": "母子",
+                    "东方朔": "义父"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "忠诚",
+                "description": "男性太监，忠诚"
+            },
+            "plot_related_info": {
+                "motivations": "奉汉武帝命办事，带回卫子夫",
+                "relationships": {
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "武士",
+                "characteristic": "忠诚",
+                "description": "男性武士，忠诚"
+            },
+            "plot_related_info": {
+                "motivations": "与东方朔、卫青结拜，协助返回长安",
+                "relationships": {
+                    "东方朔": "结拜兄弟",
+                    "卫青": "结拜兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "青年",
+                "gender": "男",
+                "identity": "后宫协调使",
+                "characteristic": "聪慧",
+                "description": "青年男性后宫协调使，聪慧"
+            },
+            "plot_related_info": {
+                "motivations": "陪伴汉武帝，调解后宫矛盾，获得权力",
+                "relationships": {
+                    "汉武帝刘彻": "好友",
+                    "窦太主": "利益关系"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦太主",
+                "age": "年过半百",
+                "gender": "女",
+                "identity": "长公主",
+                "characteristic": "权谋",
+                "description": "年过半百女性长公主，权谋"
+            },
+            "plot_related_info": {
+                "motivations": "保护女儿陈阿娇的地位，维护自身利益，暗害卫青",
+                "relationships": {
+                    "陈阿娇": "母女",
+                    "董衍": "情人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "陈阿娇",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "嫉妒",
+                "description": "女性皇后，嫉妒"
+            },
+            "plot_related_info": {
+                "motivations": "保住皇后地位，生育太子，排斥卫子夫",
+                "relationships": {
+                    "汉武帝刘彻": "夫妻",
+                    "窦太主": "母女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "宠妃",
+                "characteristic": "美貌",
+                "description": "女性宠妃，美貌"
+            },
+            "plot_related_info": {
+                "motivations": "成为汉武帝的宠妃，生存于后宫",
+                "relationships": {
+                    "汉武帝刘彻": "宠妃",
+                    "卫青": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫少儿",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "卫子夫之姐",
+                "characteristic": "N/A",
+                "description": "女性卫子夫之姐"
+            },
+            "plot_related_info": {
+                "motivations": "保护儿子霍去病，跟随返回长安",
+                "relationships": {
+                    "霍去病": "母子",
+                    "卫子夫": "姐妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "老年",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "老年男性太监，顺从"
+            },
+            "plot_related_info": {
+                "motivations": "服务汉武帝，保全性命",
+                "relationships": {
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "卫青", "杨得意", "霍去病", "卫少儿", "卫子夫"],
+                "description": "在旅途中的路上，东方朔、公孙敖和卫青结伴返回长安，东方朔认霍去病为义子，杨得意带队护送。"
+            },
+            "start": 0,
+            "end": 20,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "所忠"],
+                "description": "在皇宫中，汉武帝急切等待杨得意带回卫子夫，与太监所忠对话。"
+            },
+            "start": 21,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "所忠", "韩嫣"],
+                "description": "在皇宫中，汉武帝召见韩嫣，讨论后宫事宜，韩嫣建议汉武帝封自己为协调使。"
+            },
+            "start": 39,
+            "end": 105,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "所忠", "杨得意", "东方朔", "卫青", "霍去病", "卫少儿", "卫子夫"],
+                "description": "在皇宫外，杨得意带回卫子夫，汉武帝立即宠幸她，忽略东方朔和卫青，封卫青为散旗常侍。"
+            },
+            "start": 106,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "在皇宫外，东方朔自言自语，感叹被汉武帝忽略。"
+            },
+            "start": 129,
+            "end": 131,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["陈阿娇", "窦太主"],
+                "description": "在皇后宫殿中，陈阿娇和母亲窦太主讨论汉武帝宠幸卫子夫，计划陷害卫青。"
+            },
+            "start": 132,
+            "end": 156,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["陈阿娇", "窦太主", "韩嫣"],
+                "description": "在皇后宫殿中，韩嫣见陈阿娇和窦太主，调解矛盾，建议阿娇抚养未来太子，窦太主关注情人董衍。"
+            },
+            "start": 157,
+            "end": 211,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "叙述者暂时放下窦太主，提到她计划暗害卫青，为下回铺垫。"
+            },
+            "start": 212,
+            "end": 216,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

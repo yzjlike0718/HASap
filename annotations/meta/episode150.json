@@ -1,0 +1,146 @@
+{
+    "story": {
+        "background": "汉朝时期，汉匈战争背景下，东方朔、苏武和任安在山头防守匈奴军队进攻。地点包括山头、壕沟和匈奴军帐。世界观为历史军事题材，带有奇幻元素（如磁石）。",
+        "plot": "东方朔、苏武和任安发现磁石能吸铁，并利用这一特性智退匈奴军队。匈奴得知汉军只有六千人马，分兵进攻，但东方朔用磁石吸住箭矢，制造神奇效果，迷惑敌军。最终，东方朔部署战术，计划用磁石陷阱对付匈奴骑兵，成功阻敌。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝官员/道人",
+                "characteristic": "机智",
+                "description": "机智的汉朝谋士"
+            },
+            "plot_related_info": {
+                "motivations": "保卫汉军，利用智谋击退匈奴",
+                "relationships": {
+                    "苏武": "同事",
+                    "任安": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏武",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝将领"
+            },
+            "plot_related_info": {
+                "motivations": "协助东方朔防守，执行战术",
+                "relationships": {
+                    "东方朔": "同事",
+                    "任安": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "任安",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝将军",
+                "characteristic": "勇敢",
+                "description": "勇敢的汉朝将领"
+            },
+            "plot_related_info": {
+                "motivations": "参与防守，被磁石所困后协助战术",
+                "relationships": {
+                    "东方朔": "同事",
+                    "苏武": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "知冷",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴单于女婿",
+                "characteristic": "暴躁",
+                "description": "暴躁的匈奴将领"
+            },
+            "plot_related_info": {
+                "motivations": "击败汉军，证明自己",
+                "relationships": {
+                    "乌维": "姻亲"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "乌维",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴太子",
+                "characteristic": "谨慎",
+                "description": "谨慎的匈奴太子"
+            },
+            "plot_related_info": {
+                "motivations": "保护匈奴王庭，避免中计",
+                "relationships": {
+                    "知冷": "姻亲"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "苏武", "任安"],
+                "description": "在山头上，东方朔、苏武和任安发现磁石吸住铁甲，讨论军情，得知匈奴得知汉军虚实。"
+            },
+            "start": 0,
+            "end": 20,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["知冷", "乌维"],
+                "description": "在匈奴军帐中，知冷和乌维讨论军情，知冷收到密信，决定分兵进攻汉军。"
+            },
+            "start": 21,
+            "end": 52,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "苏武", "任安"],
+                "description": "东方朔部署战术，利用磁石挖通道和垒石头，准备应对匈奴进攻。"
+            },
+            "start": 53,
+            "end": 101,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "知冷", "任安", "苏武"],
+                "description": "匈奴军队进攻，东方朔用磁石吸住箭矢，智退敌军，并与知冷对话，约定次日决战。"
+            },
+            "start": 102,
+            "end": 190,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

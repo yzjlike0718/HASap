@@ -1,0 +1,167 @@
+{
+    "story": {
+        "background": "汉朝时期，汉武帝在位，宫廷中儒家学派公羊学和古凉学之间存在学术斗争，地点涉及菜园子、东宫等场所。",
+        "plot": "董仲舒和公孙弘推荐古凉学派狄山担任太子老师，双方在菜园子会面讨论学派差异并达成一致。汉武帝视察东宫课堂，狄山讲解三纲五常，太子虽不理解但汉武帝认可狄山并正式任命。故事后半部分转向东方朔奉旨探望主父衍，主父衍因害怕欺君之罪而焦虑病倒。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "董仲舒",
+                "age": "老年",
+                "gender": "男",
+                "identity": "公羊学派大师",
+                "characteristic": "智慧",
+                "description": "公羊学派的老年儒家大师"
+            },
+            "plot_related_info": {
+                "motivations": "推动儒家发展，实现罢黜百家独尊儒术",
+                "relationships": {
+                    "公孙弘": "师生",
+                    "狄山": "学派对手"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "中年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "圆滑",
+                "description": "身为丞相的公羊学派弟子"
+            },
+            "plot_related_info": {
+                "motivations": "维护政治地位，推动儒家但注重实用利益",
+                "relationships": {
+                    "董仲舒": "师生",
+                    "狄山": "推荐对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山",
+                "age": "30多岁",
+                "gender": "男",
+                "identity": "古凉学派宗师",
+                "characteristic": "坚持",
+                "description": "古凉学派的年轻宗师"
+            },
+            "plot_related_info": {
+                "motivations": "推广古凉学派，教育太子",
+                "relationships": {
+                    "董仲舒": "学派对手",
+                    "公孙弘": "推荐人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "汉朝的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "确保太子教育，维护皇权",
+                "relationships": {
+                    "太子刘骏": "父子",
+                    "公孙弘": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "太子刘骏",
+                "age": "5岁",
+                "gender": "男",
+                "identity": "太子",
+                "characteristic": "天真",
+                "description": "年幼的汉朝太子"
+            },
+            "plot_related_info": {
+                "motivations": "学习但不懂深奥道理",
+                "relationships": {
+                    "汉武帝": "父子",
+                    "狄山": "师生"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "机智",
+                "description": "机智的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇命，帮助他人",
+                "relationships": {
+                    "主父衍": "熟人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "焦虑",
+                "description": "焦虑的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "避免欺君之罪，生存",
+                "relationships": {
+                    "东方朔": "恩人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["董仲舒", "公孙弘", "狄山"],
+                "description": "在菜园子中，董仲舒和公孙弘与狄山会面，讨论儒家学派之争，并推荐狄山担任太子老师，最终狄山接受任命。"
+            },
+            "start": 0,
+            "end": 121,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "狄山", "太子刘骏", "公孙弘"],
+                "description": "汉武帝在东宫视察太子课堂，狄山讲解三纲五常，太子不理解，但汉武帝认可狄山并任命他为太子少傅。"
+            },
+            "start": 122,
+            "end": 185,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "主父衍"],
+                "description": "东方朔奉旨探望主父衍，主父衍因害怕欺君之罪而焦虑病倒，内心反思与东方朔的关系。"
+            },
+            "start": 186,
+            "end": 213,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

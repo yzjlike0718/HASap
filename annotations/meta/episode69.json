@@ -1,0 +1,131 @@
+{
+    "story": {
+        "background": "汉朝汉武帝时期，长安宫廷。世界观以儒家思想为主导，涉及教育政策、政治权谋和权力斗争。",
+        "plot": "东方朔建议汉武帝在长安办太学，让贵族子弟交钱资助贫家子弟读书，汉武帝采纳建议并决定召见神童桑洪阳。主父衍献上董仲舒的书简，引发公孙弘对相位的担忧。公孙弘拜访主父衍，试探并鼓励主父衍，背后是激烈的权力斗争和个人野心。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "果断",
+                "description": "汉朝皇帝，果断决策，重视人才。"
+            },
+            "plot_related_info": {
+                "motivations": "巩固统治，选拔人才，推动政策",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "公孙弘": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "汉朝大臣，机智多谋，善于献策。"
+            },
+            "plot_related_info": {
+                "motivations": "辅助皇帝，推动教育政策，推荐人才",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "桑洪阳": "赏识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "圆滑",
+                "description": "汉朝丞相，圆滑处世，担忧相位。"
+            },
+            "plot_related_info": {
+                "motivations": "保住丞相之位，防止威胁",
+                "relationships": {
+                    "董仲舒": "师生",
+                    "主父衍": "同乡/潜在对手"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "中大夫",
+                "characteristic": "野心勃勃",
+                "description": "中大夫，野心勃勃，渴望晋升。"
+            },
+            "plot_related_info": {
+                "motivations": "晋升官职，获得皇帝信任",
+                "relationships": {
+                    "公孙弘": "同乡",
+                    "东方朔": "恩人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "公孙弘"],
+                "description": "朝堂上，东方朔提出太学建议，让贵族子弟资助贫家子弟读书，汉武帝采纳并决定召见神童桑洪阳。"
+            },
+            "start": 0,
+            "end": 27,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "主父衍"],
+                "description": "朝堂上，主父衍献上董仲舒的书简，汉武帝感到奇怪并询问原因。"
+            },
+            "start": 28,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘"],
+                "description": "公孙弘内心担忧相位，分析威胁并决定拜访主父衍。"
+            },
+            "start": 49,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.7,
+                "scene_segmentation": 0.7,
+                "event_accuracy": 0.7
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "主父衍"],
+                "description": "在主父衍家中，公孙弘与主父衍对话，试探并讨论丞相接班人选。"
+            },
+            "start": 101,
+            "end": 190,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

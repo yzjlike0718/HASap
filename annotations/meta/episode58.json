@@ -1,0 +1,233 @@
+{
+    "story": {
+        "background": "故事发生在汉朝汉武帝时期，主要地点包括宫廷、窦太主府邸和司马相如家中。世界观为古代中国宫廷，涉及权力斗争、个人恩怨和宫廷礼仪。",
+        "plot": "窦太主病危时要求皇太后报复东方朔和韩嫣，但皇太后只同意处理韩嫣。武帝的妃子卫子夫生下太子，武帝立她为皇后。司马相如临终反思自己的生涯和与东方朔的竞争。在太子百日庆典上，武帝改元并晋升东方朔。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "窦太主",
+                "age": "老年",
+                "gender": "女",
+                "identity": "皇亲",
+                "characteristic": "怨恨",
+                "description": "病危的皇亲贵妇"
+            },
+            "plot_related_info": {
+                "motivations": "报复东方朔和韩嫣以泄愤",
+                "relationships": {
+                    "皇太后": "姐妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "中年",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "谨慎",
+                "description": "谨慎的皇太后"
+            },
+            "plot_related_info": {
+                "motivations": "报恩窦太主并维护皇室稳定",
+                "relationships": {
+                    "窦太主": "姐妹",
+                    "武帝": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "兴奋",
+                "description": "兴奋的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "庆祝得子并巩固统治",
+                "relationships": {
+                    "皇太后": "母子",
+                    "卫子夫": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "宠臣",
+                "characteristic": "妖孽",
+                "description": "被厌恶的宠臣"
+            },
+            "plot_related_info": {
+                "motivations": "侍奉武帝并获得宠爱",
+                "relationships": {
+                    "武帝": "侍从"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "服务朝廷并提升自身地位",
+                "relationships": {
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "妃子/皇后",
+                "characteristic": "贤淑",
+                "description": "贤淑的皇后"
+            },
+            "plot_related_info": {
+                "motivations": "养育太子并支持武帝",
+                "relationships": {
+                    "武帝": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "老年",
+                "gender": "男",
+                "identity": "辞赋家",
+                "characteristic": "反思",
+                "description": "反思的辞赋家"
+            },
+            "plot_related_info": {
+                "motivations": "留下文学遗产并保护卓文君",
+                "relationships": {
+                    "卓文君": "夫妻",
+                    "东方朔": "竞争对手"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "妻子",
+                "characteristic": "忠诚",
+                "description": "忠诚的妻子"
+            },
+            "plot_related_info": {
+                "motivations": "照顾司马相如并执行其遗嘱",
+                "relationships": {
+                    "司马相如": "夫妻"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["窦太主", "皇太后"],
+                "description": "在窦太主府邸，窦太主病危，向皇太后提出报复东方朔和韩嫣的请求，皇太后最终只同意处理韩嫣。"
+            },
+            "start": 0,
+            "end": 29,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后"],
+                "description": "皇太后回到宫中，回忆往事并查看卫子夫的情况，得知卫子夫平安无事。"
+            },
+            "start": 30,
+            "end": 31,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "武帝", "韩嫣", "卫子夫"],
+                "description": "在宫中，皇太后与武帝讨论韩嫣的妖孽行为，卫子夫生产，生下太子，武帝兴奋并承诺立卫子夫为皇后。"
+            },
+            "start": 32,
+            "end": 83,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["司马相如", "卓文君"],
+                "description": "在司马相如家中，司马相如临终前与卓文君反思生涯和写作，交代后事，最终去世。"
+            },
+            "start": 84,
+            "end": 187,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卓文君"],
+                "description": "卓文君处理司马相如的丧事，并决定按其遗嘱呈交《大人赋》给皇上。"
+            },
+            "start": 188,
+            "end": 191,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "卫子夫", "皇太后", "公孙弘", "东方朔", "群臣"],
+                "description": "在未央宫大殿，武帝庆祝太子百日，立卫子夫为皇后，并改元元朔，东方朔被晋升。"
+            },
+            "start": 192,
+            "end": 225,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "韩嫣"],
+                "description": "在宫中，皇太后叫韩嫣随她离开，暗示对韩嫣的处理。"
+            },
+            "start": 226,
+            "end": 228,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

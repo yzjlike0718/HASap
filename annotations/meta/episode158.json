@@ -1,0 +1,210 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期；地点：长安皇宫、沙漠、草原、匈奴营地（如鄂比河）；世界观：古代中国，涉及宫廷斗争、战争与家庭伦理。",
+        "plot": "霍去病率军深入沙漠追击匈奴单于伊稚斜，同时武帝在宫中处理张汤查办的童谣案并与家人聚会反思长生不老。公孙敖报告霍去病失踪，引发担忧。霍去病在草原与匈奴残军展开决战，双方死伤惨重。故事围绕汉匈战争矛盾、朝廷权斗和家庭关系展开，关键转折包括霍去病孤军深入、武帝对生死的感悟以及霍去病与伊稚斜的最终对决。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "复杂",
+                "description": "权力至上的汉代皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生不老、维护皇权、享受家庭乐趣",
+                "relationships": {
+                    "卫子夫": "夫妻",
+                    "修成君": "姐弟",
+                    "张汤": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "酷吏",
+                "characteristic": "残酷",
+                "description": "奉旨查案的严厉酷吏"
+            },
+            "plot_related_info": {
+                "motivations": "严格执法、讨好武帝、巩固权力",
+                "relationships": {
+                    "武帝": "君臣",
+                    "汲黯": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "大司马/将军",
+                "characteristic": "英勇",
+                "description": "征战匈奴的年轻将领"
+            },
+            "plot_related_info": {
+                "motivations": "击败匈奴、荣耀归朝",
+                "relationships": {
+                    "武帝": "君臣",
+                    "卫子夫": "亲戚",
+                    "伊稚斜": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "中年",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "温柔",
+                "description": "温柔慈祥的汉代皇后"
+            },
+            "plot_related_info": {
+                "motivations": "维持家庭和谐、关心子女",
+                "relationships": {
+                    "武帝": "夫妻",
+                    "修成君": "亲戚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "修成君",
+                "age": "老年",
+                "gender": "女",
+                "identity": "武帝姐姐",
+                "characteristic": "直率",
+                "description": "直言不讳的老年皇姐"
+            },
+            "plot_related_info": {
+                "motivations": "关怀家庭、表达人生感悟",
+                "relationships": {
+                    "武帝": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "伊稚斜",
+                "age": "老年",
+                "gender": "男",
+                "identity": "匈奴单于",
+                "characteristic": "顽强",
+                "description": "败退中的匈奴首领"
+            },
+            "plot_related_info": {
+                "motivations": "生存、复仇、保护族人",
+                "relationships": {
+                    "霍去病": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "报告军情的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "传递战报、尽职尽责",
+                "relationships": {
+                    "公孙贺": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "黄恩浩",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉军将领",
+                "characteristic": "勇敢",
+                "description": "霍去病部下的勇猛将领"
+            },
+            "plot_related_info": {
+                "motivations": "保护霍去病、杀敌立功",
+                "relationships": {
+                    "霍去病": "上下级"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["霍去病", "卫青", "东方朔"],
+                "description": "在沙漠中，霍去病率军追击匈奴，卫青扎营等候，东方朔前往寻找霍去病。"
+            },
+            "start": 0,
+            "end": 5,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "张汤", "冯子都"],
+                "description": "在长安宫中，武帝与张汤讨论童谣案，处理汲黯和杨得意的事，并关心太史公司马谈的健康。"
+            },
+            "start": 6,
+            "end": 73,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "卫子夫", "修成君", "蒲柳子", "金娥"],
+                "description": "在中翠宫，武帝与皇后、修成君等家人聚会，享受天伦之乐，讨论长生不老和家庭关系。"
+            },
+            "start": 74,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙贺", "卫绍儿", "公孙敖"],
+                "description": "在公孙贺府中，夫妇商议贺礼，公孙敖突然报告霍去病失踪的消息。"
+            },
+            "start": 129,
+            "end": 138,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "黄恩浩", "伊稚斜", "沃利布"],
+                "description": "在草原和鄂比河附近，霍去病率军与匈奴残军激战，双方展开惨烈对决，死伤无数。"
+            },
+            "start": 139,
+            "end": 248,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

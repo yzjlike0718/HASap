@@ -1,0 +1,172 @@
+{
+    "story": {
+        "background": "汉朝时期，汉武帝时代，地点包括平阳公主府、长安城和霸陵。世界观为宫廷斗争和权力 dynamics，涉及皇帝、皇后、公主、大臣等角色。",
+        "plot": "汉武帝在平阳公主家宴上被卫子夫的歌舞吸引，赏赐她黄金三千，引发陈皇后不满离席。汉武帝命令将卫子夫送入宫中，但平阳公主让卫青和卫子夫逃跑。陈皇后派人追杀，卫青被擒，东方朔和公孙敖前去救援。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "成年",
+                "gender": "男",
+                "identity": "大汉天子",
+                "characteristic": "果断",
+                "description": "成年男性大汉天子，果断"
+            },
+            "plot_related_info": {
+                "motivations": "寻求美女和子嗣，维护皇权",
+                "relationships": {
+                    "陈皇后阿娇": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "陈皇后阿娇",
+                "age": "成年",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "嫉妒",
+                "description": "成年女性皇后，嫉妒"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇后地位，防止失宠",
+                "relationships": {
+                    "汉武帝刘彻": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "平阳公主",
+                "age": "成年",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "机智",
+                "description": "成年女性公主，机智"
+            },
+            "plot_related_info": {
+                "motivations": "讨好汉武帝，提升自己地位",
+                "relationships": {
+                    "汉武帝刘彻": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "年轻成年",
+                "gender": "男",
+                "identity": "牧马人",
+                "characteristic": "勇猛",
+                "description": "年轻男性牧马人，勇猛"
+            },
+            "plot_related_info": {
+                "motivations": "保护妹妹，寻求出路",
+                "relationships": {
+                    "卫子夫": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "年轻成年",
+                "gender": "女",
+                "identity": "歌女",
+                "characteristic": "楚楚动人",
+                "description": "年轻女性歌女，楚楚动人"
+            },
+            "plot_related_info": {
+                "motivations": "生存和寻求机遇",
+                "relationships": {
+                    "卫青": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "伴驾侍郎",
+                "characteristic": "聪明",
+                "description": "成年男性伴驾侍郎，聪明"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐汉武帝，识别人才",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "成年",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "谨慎",
+                "description": "成年男性太监，谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "服侍皇帝，避免麻烦",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "成年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "勇猛",
+                "description": "成年男性将军，勇猛"
+            },
+            "plot_related_info": {
+                "motivations": "执行命令，救援",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "陈皇后阿娇", "平阳公主", "卫青", "卫子夫", "东方朔", "杨得意", "司马相如", "卓文君"],
+                "description": "夜晚在平阳公主府的家宴上，汉武帝观看歌舞，卫青和卫子夫表演，汉武帝赏赐卫子夫黄金三千，陈皇后反对并离席，汉武帝命令将卫子夫送入宫中后回宫。"
+            },
+            "start": 0,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "杨得道"],
+                "description": "第二天清晨在东方朔家中，东方朔得知卫青和卫子夫逃跑，安排杨得意和杨得道去追赶，并准备救援。"
+            },
+            "start": 142,
+            "end": 161,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "杨得道", "卫青", "陈家家将"],
+                "description": "白天在霸陵，东方朔和公孙敖追赶至霸陵，发现卫青被陈皇后派来的家将擒获并鞭打，东方朔和公孙敖与家将发生冲突，试图救援卫青。"
+            },
+            "start": 162,
+            "end": 199,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

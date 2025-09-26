@@ -1,0 +1,216 @@
+{
+    "story": {
+        "background": "汉朝景帝和武帝时期，宫廷和平阳公主府。世界观涉及宫廷斗争、政治婚姻和权力争夺。",
+        "plot": "长公主嫖为了女儿陈阿娇的未来，与王美人合作，通过政治手段让刘彻成为太子。刘彻即位后，陈阿娇成为皇后但无子，导致宫廷压力。在平阳公主的宴会上，众人交谈，揭示个人故事和矛盾，包括东方朔的幽默故事和陈皇后的嫉妒。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "聪明",
+                "description": "聪明的大汉天子"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权、享乐",
+                "relationships": {
+                    "陈阿娇": "丈夫",
+                    "王美人": "母亲"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "陈阿娇",
+                "age": "成年",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "骄横",
+                "description": "骄横的汉朝皇后"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇后地位",
+                "relationships": {
+                    "汉武帝刘彻": "丈夫",
+                    "长公主嫖": "母亲"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王美人",
+                "age": "成年",
+                "gender": "女",
+                "identity": "皇后太后",
+                "characteristic": "机智",
+                "description": "机智的汉朝皇后"
+            },
+            "plot_related_info": {
+                "motivations": "让儿子成为皇帝",
+                "relationships": {
+                    "汉武帝刘彻": "儿子",
+                    "长公主嫖": "盟友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "长公主嫖",
+                "age": "成年",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "精明",
+                "description": "精明的汉朝公主"
+            },
+            "plot_related_info": {
+                "motivations": "让女儿成为皇后",
+                "relationships": {
+                    "陈阿娇": "女儿",
+                    "王美人": "盟友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉景帝刘启",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "犹豫",
+                "description": "犹豫的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护朝廷稳定",
+                "relationships": {
+                    "汉武帝刘彻": "儿子",
+                    "丽妃": "丈夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "丽妃",
+                "age": "成年",
+                "gender": "女",
+                "identity": "妃子",
+                "characteristic": "嫉妒",
+                "description": "嫉妒的汉朝妃子"
+            },
+            "plot_related_info": {
+                "motivations": "让儿子成为太子",
+                "relationships": {
+                    "汉景帝刘启": "丈夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "平阳公主",
+                "age": "成年",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "周到",
+                "description": "周到的汉朝公主"
+            },
+            "plot_related_info": {
+                "motivations": "招待皇帝和皇后",
+                "relationships": {
+                    "汉武帝刘彻": "弟弟",
+                    "曹寿": "丈夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "成年",
+                "gender": "女",
+                "identity": "才女",
+                "characteristic": "美丽",
+                "description": "美丽的才女"
+            },
+            "plot_related_info": {
+                "motivations": "陪同丈夫",
+                "relationships": {
+                    "司马相如": "妻子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "成年",
+                "gender": "男",
+                "identity": "才子",
+                "characteristic": "有才",
+                "description": "有才的才子"
+            },
+            "plot_related_info": {
+                "motivations": "展示才华",
+                "relationships": {
+                    "卓文君": "丈夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "才子",
+                "characteristic": "幽默",
+                "description": "幽默的汉朝才子"
+            },
+            "plot_related_info": {
+                "motivations": "娱乐皇帝",
+                "relationships": {
+                    "老妻": "妻子"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["长公主嫖", "王美人", "汉景帝刘启", "丽妃", "汉武帝刘彻", "陈阿娇"],
+                "description": "讲述汉朝时期，长公主嫖和王美人通过政治婚姻让刘彻成为太子的历史背景，包括金屋藏娇的故事和废立太子的过程。"
+            },
+            "start": 0,
+            "end": 51,
+            "confidence": {
+                "character_assignment": 0.6,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["陈阿娇", "平阳公主", "卓文君", "司马相如", "汉武帝刘彻"],
+                "description": "在平阳公主府，陈皇后和平阳公主交谈，卓文君和司马相如到来，准备参加宴会。"
+            },
+            "start": 52,
+            "end": 66,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "陈阿娇", "平阳公主", "卓文君", "司马相如", "东方朔", "曹寿", "杨得意"],
+                "description": "在平阳公主府宴会厅，汉武帝与众人宴会，讨论东方朔的纳妾规矩和其他话题，揭示宫廷矛盾和个人故事。"
+            },
+            "start": 67,
+            "end": 164,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,315 @@
+{
+  "story": {
+    "background": "古代中国汉武帝时期，地点在东方朔家的院子，涉及皇宫和长安城。世界观为历史戏剧，充满权力和智慧较量。",
+    "plot": "汉武帝赐美女给东方朔，齐鲁女机智应对，通过挑选美女并赐给仆人，让汉武帝吃瘪。修成君俗女求情，其子金吾子被长安县令义纵捉拿要问斩。故事引出义纵的背景，他为官严厉，想在京城出人头地。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "威严",
+        "description": "威严的汉朝皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "想测试东方朔的忠诚或娱乐，但被齐鲁女反将一军",
+        "relationships": {
+          "东方朔": "君臣",
+          "齐鲁女": "臣子之妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "臣子",
+        "characteristic": "机智",
+        "description": "机智的汉朝臣子"
+      },
+      "plot_related_info": {
+        "motivations": "避免纳妾，保持家庭和谐",
+        "relationships": {
+          "汉武帝": "君臣",
+          "齐鲁女": "夫妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "齐鲁女",
+        "age": "中年",
+        "gender": "女",
+        "identity": "东方朔之妻",
+        "characteristic": "泼辣",
+        "description": "泼辣的东方朔之妻"
+      },
+      "plot_related_info": {
+        "motivations": "保护家庭，阻止丈夫纳妾，并巧妙应对皇帝",
+        "relationships": {
+          "东方朔": "夫妻",
+          "汉武帝": "君臣之妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得道",
+        "age": "中年",
+        "gender": "男",
+        "identity": "仆人",
+        "characteristic": "忠诚",
+        "description": "忠诚的东方朔家仆人"
+      },
+      "plot_related_info": {
+        "motivations": "服侍主人，意外获得美女为妻",
+        "relationships": {
+          "东方朔": "主仆",
+          "齐鲁女": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "阿都",
+        "age": "五十多岁",
+        "gender": "男",
+        "identity": "长工",
+        "characteristic": "老实",
+        "description": "老实的长工"
+      },
+      "plot_related_info": {
+        "motivations": "打工，意外获得美女为妻",
+        "relationships": {
+          "东方朔": "主仆",
+          "齐鲁女": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "侍从",
+        "characteristic": "顺从",
+        "description": "顺从的汉武帝侍从"
+      },
+      "plot_related_info": {
+        "motivations": "服侍皇帝，执行命令",
+        "relationships": {
+          "汉武帝": "主仆",
+          "杨得道": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "义纵",
+        "age": "成年",
+        "gender": "男",
+        "identity": "长安县令",
+        "characteristic": "严厉",
+        "description": "严厉的长安县令"
+      },
+      "plot_related_info": {
+        "motivations": "想在京城干出成绩，得到皇帝赏识",
+        "relationships": {
+          "张汤": "举荐关系"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "俗女",
+        "age": "成年",
+        "gender": "女",
+        "identity": "汉武帝的姐姐",
+        "characteristic": "焦急",
+        "description": "焦急的汉武帝姐姐"
+      },
+      "plot_related_info": {
+        "motivations": "救儿子金吾子",
+        "relationships": {
+          "汉武帝": "姐弟",
+          "金不换": "夫妻"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "齐鲁女", "杨得意", "杨得道"],
+        "description": "汉武帝在东方朔家院子摆酒宴，命人带来十二名美女，背景介绍。"
+      },
+      "start": 0,
+      "end": 3,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔"],
+        "description": "皇上要求齐鲁女为东方朔挑妾，齐鲁女话中有话，东方朔担心。"
+      },
+      "start": 4,
+      "end": 15,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 1.0,
+        "event_accuracy": 1.0
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔"],
+        "description": "齐鲁女迫使东方朔揭盖头，东方朔紧张地揭了所有盖头。"
+      },
+      "start": 16,
+      "end": 23,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 1.0,
+        "event_accuracy": 1.0
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔"],
+        "description": "齐鲁女和汉武帝惊叹美女如天仙，齐鲁女表示都想娶。"
+      },
+      "start": 24,
+      "end": 30,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 1.0,
+        "event_accuracy": 1.0
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔", "美女"],
+        "description": "美女表演才艺，汉武帝欣赏，齐鲁女观察东方朔反应。"
+      },
+      "start": 31,
+      "end": 44,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔"],
+        "description": "表演结束，汉武帝问挑几个，齐鲁女暗示美女师出同门，汉武帝和东方朔斗嘴。"
+      },
+      "start": 45,
+      "end": 58,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 1.0,
+        "event_accuracy": 1.0
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔", "阿秀"],
+        "description": "齐鲁女挑中阿秀，但汉武帝要求从十二美女中挑，齐鲁女反驳。"
+      },
+      "start": 59,
+      "end": 78,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔"],
+        "description": "齐鲁女挑中皇上的两个美女，汉武帝傻眼。"
+      },
+      "start": 79,
+      "end": 96,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 1.0,
+        "event_accuracy": 1.0
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔"],
+        "description": "汉武帝金口玉言，只得同意但求情不要当丫鬟。"
+      },
+      "start": 97,
+      "end": 115,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 1.0,
+        "event_accuracy": 1.0
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "齐鲁女", "东方朔", "杨得道", "阿都", "美女"],
+        "description": "齐鲁女将两个美女赐给杨得道和阿都为妻，两人谢恩。"
+      },
+      "start": 116,
+      "end": 132,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "美女", "杨得意"],
+        "description": "汉武帝安抚美女并传旨，然后生气离开，怪罪东方朔。"
+      },
+      "start": 133,
+      "end": 148,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "俗女", "金不换"],
+        "description": "俗女和金不换求情，说金吾子被义纵捉拿要问斩。"
+      },
+      "start": 149,
+      "end": 159,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": [],
+        "description": "旁白介绍长安县令义纵的出身、性格和抱负。"
+      },
+      "start": 160,
+      "end": 200,
+      "confidence": {
+        "character_assignment": 0.5,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.7
+      }
+    }
+  ],
+  "coverage_check": true
+}

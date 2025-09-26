@@ -1,0 +1,214 @@
+{
+    "story": {
+        "background": "故事发生在古代中国汉朝时期的蜀中临邛县，涉及朝中官员、地方县令和百姓之间的互动，展现了社会阶级和人情世故。",
+        "plot": "东方朔和杨得意在客店等待时得知司马相如和卓文君开酒店的消息及县令王级的打赌。他们前往酒店喝酒，发现酒菜质量差但价格昂贵。东方朔揭示身份邀请司马相如入朝为官，司马相如和卓文君喜出望外。县令王级闻讯前来贺喜并巴结东方朔，东方朔机智处理杨得意家事并讽刺王级。司马相如心情复杂，故事暂告一段落。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "朝中官员/学士",
+                "characteristic": "机智幽默",
+                "description": "机智幽默的朝中学士"
+            },
+            "plot_related_info": {
+                "motivations": "奉皇命邀请司马相如入朝，同时乐于助人和处理事务",
+                "relationships": {
+                    "杨得意": "同事",
+                    "司马相如": "赏识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "朝中官员/太监",
+                "characteristic": "急躁忠诚",
+                "description": "急躁忠诚的朝中太监"
+            },
+            "plot_related_info": {
+                "motivations": "协助东方朔办公事，但担心家庭事务",
+                "relationships": {
+                    "东方朔": "同事",
+                    "司马相如": "旧识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "穷书生/琴师",
+                "characteristic": "多才但落魄",
+                "description": "多才但落魄的穷书生"
+            },
+            "plot_related_info": {
+                "motivations": "与卓文君相爱，但经济困难，希望改变命运",
+                "relationships": {
+                    "卓文君": "恋人",
+                    "县令王级": "借贷关系"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "卓王孙女儿/酒店老板娘",
+                "characteristic": "大方坚韧",
+                "description": "大方坚韧的酒店老板娘"
+            },
+            "plot_related_info": {
+                "motivations": "支持司马相如，共同经营酒店，希望改善生活",
+                "relationships": {
+                    "司马相如": "恋人",
+                    "卓王孙": "父女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "县令王级",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "临邛县令",
+                "characteristic": "势利圆滑",
+                "description": "势利圆滑的临邛县令"
+            },
+            "plot_related_info": {
+                "motivations": "维护自身利益，巴结朝中官员",
+                "relationships": {
+                    "司马相如": "借贷关系",
+                    "东方朔": "巴结对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "店家",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "客店主人",
+                "characteristic": "热心但贪利",
+                "description": "热心但贪利的客店主人"
+            },
+            "plot_related_info": {
+                "motivations": "吸引客人住宿，传播消息",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "店家"],
+                "description": "在客店内，店家向东方朔和杨得意详细讲述了司马相如和卓文君的爱情故事以及县令王级的打赌。"
+            },
+            "start": 0,
+            "end": 26,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意"],
+                "description": "东方朔和杨得意离开客店，前往县衙前的酒店。"
+            },
+            "start": 27,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "群众"],
+                "description": "酒店外人群拥挤，东方朔和杨得意费力挤进酒店。"
+            },
+            "start": 31,
+            "end": 40,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "卓文君"],
+                "description": "在酒店内，东方朔和杨得意点酒菜，但酒贵菜差，卓文君服务周到。"
+            },
+            "start": 41,
+            "end": 85,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "卓文君", "司马相如"],
+                "description": "司马相如从楼上下来，认出杨得意，双方交谈。"
+            },
+            "start": 86,
+            "end": 102,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "司马相如", "卓文君"],
+                "description": "东方朔表明朝中身份，邀请司马相如入朝见驾，卓文君兴奋上楼。"
+            },
+            "start": 103,
+            "end": 115,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得意", "司马相如", "卓文君", "县令王级"],
+                "description": "县令王级带酒席来贺喜，东方朔巧妙处理杨得意的家事，并讽刺王级。"
+            },
+            "start": 116,
+            "end": 142,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如", "杨得意", "卓文君"],
+                "description": "东方朔与司马相如交谈，司马相如因身份问题心情低落，东方朔有话要说。"
+            },
+            "start": 143,
+            "end": 170,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

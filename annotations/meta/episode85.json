@@ -1,0 +1,225 @@
+{
+    "story": {
+        "background": "古代汉朝时期，匈奴增山城，武侠世界，涉及汉朝与匈奴的冲突，有武林高手、内功、毒镖等元素。",
+        "plot": "伊秩正与马清和战斗，伊秩正使用毒镖使马清和中毒。郭解介入击败伊秩正及其亲兵。马清和临死前劝太子于禅归降汉朝。太子归降，卫青接收降兵并返回长安。太子中途生病，卫青先回长安复命。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝大侠",
+                "characteristic": "武功高强",
+                "description": "武功高强的汉朝大侠"
+            },
+            "plot_related_info": {
+                "motivations": "保护门徒，正义感，为李卫虎报仇",
+                "relationships": {
+                    "马清和": "师徒",
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "马清和",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴驸马、郭解门徒",
+                "characteristic": "忠诚",
+                "description": "忠诚的匈奴驸马暨郭解门徒"
+            },
+            "plot_related_info": {
+                "motivations": "完成卫青的使命，劝太子归降汉朝",
+                "relationships": {
+                    "郭解": "师徒",
+                    "太子于禅": "驸马关系"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "伊秩正",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴武将",
+                "characteristic": "邪恶",
+                "description": "邪恶的匈奴武将"
+            },
+            "plot_related_info": {
+                "motivations": "夺取权力，杀害汉人",
+                "relationships": {
+                    "太子于禅": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "太子于禅",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "匈奴太子",
+                "characteristic": "懦弱但最终果断",
+                "description": "懦弱但最终果断的匈奴太子"
+            },
+            "plot_related_info": {
+                "motivations": "生存，归降汉朝，为父报仇",
+                "relationships": {
+                    "马清和": "驸马关系",
+                    "伊秩正": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉朝大将军",
+                "characteristic": "威严",
+                "description": "威严的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "接收投降，完成汉天子使命",
+                "relationships": {
+                    "郭解": "同事",
+                    "太子于禅": "受降关系"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["伊秩正", "马清和", "郭解"],
+                "description": "在增山城，伊秩正与马清和战斗，伊秩正使用毒镖使马清和中镖受伤。"
+            },
+            "start": 0,
+            "end": 14,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "伊秩正", "伊秩正亲兵"],
+                "description": "郭解与伊秩正及其亲兵战斗，最终捆绑伊秩正和亲兵。"
+            },
+            "start": 15,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "马清和", "太子于禅"],
+                "description": "郭解检查马清和的毒镖伤，马清和放弃生存希望。"
+            },
+            "start": 51,
+            "end": 80,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "伊秩正"],
+                "description": "郭解向伊秩正索要解药无果，一掌杀死伊秩正。"
+            },
+            "start": 81,
+            "end": 104,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["太子于禅", "马清和", "郭解"],
+                "description": "太子于禅询问父亲单于的情况，马清和告知单于已死，太子决定归降汉朝。"
+            },
+            "start": 105,
+            "end": 138,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["太子于禅", "伊秩正亲兵"],
+                "description": "太子于禅惩罚伊秩正的亲兵，削耳割鼻，并送他回去报信。"
+            },
+            "start": 139,
+            "end": 151,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "马清和", "太子于禅"],
+                "description": "马清和安详死亡，郭解离开返回汉营。"
+            },
+            "start": 152,
+            "end": 160,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "卫青"],
+                "description": "郭解返回汉营禀报卫青马清和之死和太子归降。"
+            },
+            "start": 161,
+            "end": 162,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "郭解", "太子于禅", "苏建"],
+                "description": "卫青和郭解在增山城外接收太子于禅的投降，处理降兵事宜。"
+            },
+            "start": 163,
+            "end": 185,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "郭解", "太子于禅", "公孙贺"],
+                "description": "大军返回长安，太子于禅中途生病，卫青先回长安复命。"
+            },
+            "start": 186,
+            "end": 197,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

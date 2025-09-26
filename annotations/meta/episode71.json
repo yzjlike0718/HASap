@@ -1,0 +1,120 @@
+{
+  "story": {
+    "background": "时间：汉朝汉武帝时期；地点：皇宫朝堂和董仲舒的书房；世界观：古代中国宫廷政治，涉及儒家思想、天象灾异说和政治斗争，汉武帝追求富国强兵，重用卫青和东方朔。",
+    "plot": "主父衍从董仲舒处获得竹简，内容指责汉武帝失德导致天灾，建议杀卫青和东方朔。主父衍将竹简呈给汉武帝，引发朝堂争论。汉武帝愤怒，张汤指出董仲舒的罪行，主父衍分析董仲舒一箭三雕的阴谋。公孙弘试图为董仲舒开脱，但汉武帝决定处置董仲舒。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "野心勃勃",
+        "description": "野心勃勃的汉朝官员"
+      },
+      "plot_related_info": {
+        "motivations": "升官发财，接近皇上，利用竹简事件谋取利益",
+        "relationships": {
+          "董仲舒": "敌对",
+          "公孙弘": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "壮年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "威严",
+        "description": "威严的汉朝皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权，富国强兵，打击儒家阴谋",
+        "relationships": {
+          "卫青": "重用",
+          "东方朔": "重用",
+          "董仲舒": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙弘",
+        "age": "老年",
+        "gender": "男",
+        "identity": "丞相",
+        "characteristic": "狡猾",
+        "description": "狡猾的汉朝丞相"
+      },
+      "plot_related_info": {
+        "motivations": "自保，维护师生关系但避免牵连",
+        "relationships": {
+          "董仲舒": "师生",
+          "主父衍": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "廷尉",
+        "characteristic": "严谨",
+        "description": "严谨的汉朝廷尉"
+      },
+      "plot_related_info": {
+        "motivations": "执法，维护汉律，忠于皇上",
+        "relationships": {}
+      }
+    },
+    {
+      "basic_info": {
+        "name": "董仲舒",
+        "age": "老年",
+        "gender": "男",
+        "identity": "大儒",
+        "characteristic": "博学",
+        "description": "博学的儒家学者"
+      },
+      "plot_related_info": {
+        "motivations": "推行儒家思想，罢黜百家，通过天象灾异说影响皇上",
+        "relationships": {
+          "公孙弘": "师生",
+          "汉武帝": "敌对"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["主父衍"],
+        "description": "在董仲舒的书房，主父衍发现竹简，内容指责汉武帝失德，决定呈给皇上以谋取官位。"
+      },
+      "start": 0,
+      "end": 24,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "主父衍", "公孙弘", "张汤"],
+        "description": "在朝堂上，主父衍呈递竹简，汉武帝愤怒，张汤定罪董仲舒，主父衍分析一箭三雕阴谋，公孙弘求情。"
+      },
+      "start": 25,
+      "end": 211,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

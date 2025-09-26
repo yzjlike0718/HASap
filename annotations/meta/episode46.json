@@ -1,0 +1,266 @@
+{
+    "story": {
+        "background": "时间：汉武帝时期；地点：长安宫廷；世界观：古代中国宫廷政治，涉及权力斗争、法律与人情冲突。",
+        "plot": "朱买臣（实为赵绾）死而复生现身宫廷，解释被东方朔所救，汉武帝追究东方朔隐瞒之罪但被说服。朱买臣讲述被妻休弃经历，汉武帝促成其复婚。张汤报告灌夫罪行，建议灭门，汉武帝批准。窦婴探监灌夫，灌夫被毒死，田鼢和皇太后诬陷窦婴，汉武帝怀疑但被迫接受。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权、处理政务、平衡朝堂势力",
+                "relationships": {
+                    "皇太后": "母子",
+                    "田鼢": "甥舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "朱买臣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "求生、效忠皇帝、与妻子团圆",
+                "relationships": {
+                    "东方朔": "救命恩人",
+                    "王臧": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "救人、劝谏皇帝、避免株连",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "朱买臣": "救过"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "廷尉府官员",
+                "characteristic": "严厉",
+                "description": "严厉的廷尉官员"
+            },
+            "plot_related_info": {
+                "motivations": "升官、执法严厉、讨好丞相",
+                "relationships": {
+                    "田鼢": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "权谋",
+                "description": "权谋的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "巩固权力、排除异己、控制朝政",
+                "relationships": {
+                    "皇太后": "姐弟",
+                    "汉武帝": "甥舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "魏其侯",
+                "characteristic": "正直",
+                "description": "正直的汉朝侯爵"
+            },
+            "plot_related_info": {
+                "motivations": "保护朋友、追求正义、洗清冤屈",
+                "relationships": {
+                    "灌夫": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "灌夫",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "暴躁",
+                "description": "暴躁的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "出气、反抗权贵、维护尊严",
+                "relationships": {
+                    "窦婴": "朋友",
+                    "田鼢": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇太后"
+            },
+            "plot_related_info": {
+                "motivations": "保护家族利益、干预朝政、维护弟弟田鼢",
+                "relationships": {
+                    "汉武帝": "母子",
+                    "田鼢": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "顺从的汉朝太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝、传达旨意",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "朱买臣", "东方朔", "所忠"],
+                "description": "在宫廷内，朱买臣现身见汉武帝，解释死而复生经过，东方朔介入说明救援情况，汉武帝让朱买臣讲述被妻休弃经历，并下诏促成其复婚。"
+            },
+            "start": 0,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "所忠"],
+                "description": "在宫廷内，张汤求见汉武帝，报告灌夫的罪行，包括人命案，建议灭门，汉武帝批准但要求证据确凿。"
+            },
+            "start": 54,
+            "end": 78,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "朱买臣", "卫青"],
+                "description": "在宫廷内，东方朔劝谏汉武帝避免株连过多，汉武帝拒绝并表达对匈奴战败的烦恼，随后退朝。"
+            },
+            "start": 78,
+            "end": 98,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "田鼢"],
+                "description": "在相府，张汤向田鼢报告灌夫处理进展，田鼢指示张汤陷害窦婴，承诺升官奖励。"
+            },
+            "start": 98,
+            "end": 110,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["窦婴", "灌夫", "张汤", "吴培龙"],
+                "description": "在廷尉狱中，窦婴探监灌夫，送酒菜安慰，张汤出现并送客，吴培龙下毒，灌夫中毒身亡。"
+            },
+            "start": 110,
+            "end": 140,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢", "皇太后", "所忠"],
+                "description": "在宫廷内，田鼢禀告皇太后灌夫死讯，皇太后传所忠准备见汉武帝。"
+            },
+            "start": 140,
+            "end": 144,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫长公主", "所忠"],
+                "description": "在内宫，汉武帝与女儿卫长公主玩耍，所忠通报皇太后来访。"
+            },
+            "start": 144,
+            "end": 157,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "皇太后", "所忠"],
+                "description": "在内宫，皇太后告诉汉武帝灌夫死讯，诬陷窦婴毒死灌夫，汉武帝怀疑但被迫接受。"
+            },
+            "start": 157,
+            "end": 198,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

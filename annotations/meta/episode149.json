@@ -1,0 +1,159 @@
+{
+    "story": {
+        "background": "时间：汉代汉武帝时期；地点：卑宜山，汉匈边境；世界观：历史军事题材，涉及儒道之争、忠诚与背叛。",
+        "plot": "东方朔和狄山奉皇命到卑宜山牵制匈奴；东方朔谨慎布局并派苏武查看狄山营寨；狄山与卫律密谋，试图保全自己而牺牲东方朔；苏武察觉异常报告东方朔；任安返回时出现异常，故事悬念留待下回。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣/杂家",
+                "characteristic": "智慧",
+                "description": "智慧的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "完成皇帝命令，保护汉军安全",
+                "relationships": {
+                    "狄山": "同事",
+                    "苏武": "上下级"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "儒家博士",
+                "characteristic": "软弱但狡猾",
+                "description": "软弱的儒家博士"
+            },
+            "plot_related_info": {
+                "motivations": "保全性命和名节，避免投降匈奴",
+                "relationships": {
+                    "卫律": "利用关系",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏武",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的年轻将军"
+            },
+            "plot_related_info": {
+                "motivations": "协助东方朔，保护汉军，察觉异常",
+                "relationships": {
+                    "东方朔": "上下级",
+                    "狄山": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫律",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "降匈奴的儒生",
+                "characteristic": "狡猾",
+                "description": "狡猾的降匈奴儒生"
+            },
+            "plot_related_info": {
+                "motivations": "策反狄山，为匈奴服务",
+                "relationships": {
+                    "狄山": "策反对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "任安",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的将军"
+            },
+            "plot_related_info": {
+                "motivations": "送信给卫青，执行军事任务",
+                "relationships": {
+                    "东方朔": "上下级"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "苏武", "任安"],
+                "description": "在东方朔营中，东方朔布置任务，派任安送信给卫青，并让苏武去狄山营寨检查防备。"
+            },
+            "start": 0,
+            "end": 15,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["狄山", "卫律"],
+                "description": "在狄山营中，狄山与卫律对话，卫律试图说服狄山投降匈奴，狄山算计如何保全自己。"
+            },
+            "start": 16,
+            "end": 139,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["狄山", "卫律", "苏武"],
+                "description": "在狄山营中，苏武求见狄山，传达东方朔的提醒，但狄山拒绝帮助并安排后事。"
+            },
+            "start": 140,
+            "end": 159,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "苏武"],
+                "description": "在东方朔营中，苏武报告狄山的异常，东方朔谈论人性和信任。"
+            },
+            "start": 160,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "苏武", "任安"],
+                "description": "在山后，任安返回营地，但突然出现异常无法移动，留下悬念。"
+            },
+            "start": 184,
+            "end": 188,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

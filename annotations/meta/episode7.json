@@ -1,0 +1,293 @@
+{
+  "story": {
+    "background": "汉朝汉武帝时期，未央宫大殿，宫廷环境，涉及儒家思想与皇权的互动。",
+    "plot": "东方朔在殿外听到辩论后面见汉武帝，用鸟类比喻讽刺董仲舒和公孙弘的“罢黜百家，独尊儒术”主张，导致他们受辱辞职。汉武帝欣赏东方朔的才智，封他为伴驾侍郎，但为避免后宫压力，派他去巴蜀迎接司马相如。最终东方朔与杨得意出发前往蜀地。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "才子/伴驾侍郎",
+        "characteristic": "机智",
+        "description": "机智的才子"
+      },
+      "plot_related_info": {
+        "motivations": "展现才智，推动皇帝采用多元思想",
+        "relationships": {
+          "汉武帝": "君臣",
+          "董仲舒": "敌对",
+          "公孙弘": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "明智",
+        "description": "明智的皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "寻求治国之道，平衡朝堂势力",
+        "relationships": {
+          "东方朔": "君臣",
+          "董仲舒": "君臣",
+          "公孙弘": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "董仲舒",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大儒",
+        "characteristic": "固执",
+        "description": "固执的大儒"
+      },
+      "plot_related_info": {
+        "motivations": "推广儒家思想，获得皇帝重用",
+        "relationships": {
+          "汉武帝": "君臣",
+          "公孙弘": "师徒",
+          "东方朔": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙弘",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "儒者/董仲舒学生",
+        "characteristic": "易怒",
+        "description": "易怒的儒者"
+      },
+      "plot_related_info": {
+        "motivations": "支持老师，维护儒家尊严",
+        "relationships": {
+          "董仲舒": "师徒",
+          "汉武帝": "君臣",
+          "东方朔": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汲黯",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "正直",
+        "description": "正直的官员"
+      },
+      "plot_related_info": {
+        "motivations": "维护朝堂正气",
+        "relationships": {
+          "汉武帝": "君臣",
+          "东方朔": "友好"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "窦婴",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "宰相",
+        "characteristic": "聪明",
+        "description": "聪明的宰相"
+      },
+      "plot_related_info": {
+        "motivations": "辅助皇帝，稳定朝局",
+        "relationships": {
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "司马谈",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太史公",
+        "characteristic": "谨慎",
+        "description": "谨慎的太史公"
+      },
+      "plot_related_info": {
+        "motivations": "记录历史，确保公正",
+        "relationships": {}
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "狗监",
+        "characteristic": "忠诚",
+        "description": "忠诚的狗监"
+      },
+      "plot_related_info": {
+        "motivations": "服务皇帝，举荐人才",
+        "relationships": {
+          "汉武帝": "君臣",
+          "东方朔": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "所忠",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大太监",
+        "characteristic": "顺从",
+        "description": "顺从的大太监"
+      },
+      "plot_related_info": {
+        "motivations": "执行皇帝命令",
+        "relationships": {
+          "汉武帝": "君臣"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "文武群臣", "董仲舒", "公孙弘"],
+        "description": "在未央宫大殿外，东方朔听到殿内辩论，准备面见汉武帝。"
+      },
+      "start": 0,
+      "end": 15,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝"],
+        "description": "东方朔面见汉武帝，被封为伴驾侍郎。"
+      },
+      "start": 16,
+      "end": 23,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.95
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝", "文武群臣", "汲黯"],
+        "description": "东方朔用鸟类比喻评论朝臣，将汲黯比作凤凰。"
+      },
+      "start": 24,
+      "end": 58,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝", "文武群臣"],
+        "description": "汉武帝提问如何统一声音，东方朔巧妙回应。"
+      },
+      "start": 59,
+      "end": 85,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝", "董仲舒", "公孙弘", "文武群臣"],
+        "description": "东方朔讽刺董仲舒和公孙弘是乌鸦，引发大笑。"
+      },
+      "start": 86,
+      "end": 105,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.95
+      }
+    },
+    {
+      "scene": {
+        "characters": ["董仲舒", "公孙弘", "汉武帝", "东方朔", "文武群臣"],
+        "description": "董仲舒和公孙弘受辱，请求辞职，汉武帝劝阻。"
+      },
+      "start": 106,
+      "end": 144,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "所忠", "公孙弘", "董仲舒"],
+        "description": "汉武帝封董仲舒为江都相国，公孙弘谢恩。"
+      },
+      "start": 145,
+      "end": 160,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "杨得意", "文武群臣"],
+        "description": "汉武帝安排东方朔去巴蜀迎接司马相如，东方朔遵旨。"
+      },
+      "start": 161,
+      "end": 190,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "杨得意", "东方朔"],
+        "description": "退朝后，汉武帝与杨得意对话，决定让东方朔暂留狩猎后再出发。"
+      },
+      "start": 191,
+      "end": 202,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "杨得意"],
+        "description": "东方朔和杨得意出发前往巴蜀，途经霸陵。"
+      },
+      "start": 203,
+      "end": 215,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

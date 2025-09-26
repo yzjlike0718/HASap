@@ -1,0 +1,164 @@
+{
+    "story": {
+        "background": "古代汉朝时期，长安建章宫，宫廷政治与仙术元素交织的世界观。",
+        "plot": "汉武帝推行推恩裂土政策，导致淮南王太子刘钦不满，派庄祝前往长安卧底。庄祝通过李少君被推荐给汉武帝当侍卫，东方朔察觉阴谋，也让儿子辛苦子当侍卫。李少君试图让东方朔服仙丹恢复记忆，但东方朔机智应对，避免陷入陷阱。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大汉天子",
+                "characteristic": "威严",
+                "description": "威严的大汉天子"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，追求长生不老",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "李少君": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "朝臣",
+                "characteristic": "机智",
+                "description": "机智的朝臣"
+            },
+            "plot_related_info": {
+                "motivations": "保护皇帝，揭露阴谋",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "李少君": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "中年",
+                "gender": "男",
+                "identity": "仙人",
+                "characteristic": "狡猾",
+                "description": "狡猾的仙人"
+            },
+            "plot_related_info": {
+                "motivations": "自保，讨好皇帝",
+                "relationships": {
+                    "刘陵": "暧昧",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "庄祝",
+                "age": "青年",
+                "gender": "男",
+                "identity": "卧底侍卫",
+                "characteristic": "魁梧",
+                "description": "魁梧的卧底侍卫"
+            },
+            "plot_related_info": {
+                "motivations": "完成刘钦的卧底任务",
+                "relationships": {
+                    "刘钦": "主从",
+                    "刘陵": "表亲"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘陵",
+                "age": "青年",
+                "gender": "女",
+                "identity": "淮南郡主",
+                "characteristic": "风韵",
+                "description": "风韵的淮南郡主"
+            },
+            "plot_related_info": {
+                "motivations": "获取仙气，控制李少君",
+                "relationships": {
+                    "李少君": "暧昧",
+                    "庄祝": "表亲"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘钦",
+                "age": "青年",
+                "gender": "男",
+                "identity": "淮南王太子",
+                "characteristic": "急躁",
+                "description": "急躁的淮南王太子"
+            },
+            "plot_related_info": {
+                "motivations": "保住继承权，反对推恩裂土",
+                "relationships": {
+                    "庄祝": "主从"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["叙述者"],
+                "description": "叙述推恩裂土政策的实施和刘钦的激烈反应，派庄祝前往长安卧底。"
+            },
+            "start": 0,
+            "end": 10,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["刘陵", "李少君", "庄祝"],
+                "description": "在炼丹坊，刘陵纠缠李少君传授仙气，庄祝到来，刘陵提出两个条件让李少君推荐庄祝给汉武帝。"
+            },
+            "start": 11,
+            "end": 70,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "李少君", "庄祝", "杨得意"],
+                "description": "建章宫中，李少君向汉武帝进献仙丹，并假借太上老君之言推荐庄祝当侍卫，汉武帝同意。"
+            },
+            "start": 71,
+            "end": 141,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "李少君", "庄祝"],
+                "description": "东方朔觐见汉武帝，讨论美女和仙丹，东方朔让儿子当侍卫，李少君建议东方朔服仙丹恢复记忆，东方朔机智周旋。"
+            },
+            "start": 142,
+            "end": 226,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

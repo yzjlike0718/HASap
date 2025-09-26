@@ -1,0 +1,367 @@
+{
+  "story": {
+    "background": "时间：汉武帝时期；地点：朝堂之上；世界观：古代中国宫廷，涉及政治决策、君臣互动和幽默辩论。",
+    "plot": "主父衍提议在河套建造新城，引发汲黯反对，认为会害民；东方朔通过鼓掌等方式幽默表达反对，推动朝堂辩论；武帝最终决定建城并大赦天下；东方朔巧妙利用大赦为郭解开脱，展示其智慧。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "果决",
+        "description": "中年男性皇帝，果决的决策者"
+      },
+      "plot_related_info": {
+        "motivations": "巩固疆土，推行大计，善于用人",
+        "relationships": {
+          "东方朔": "君臣/赏识",
+          "主父衍": "君臣/重用",
+          "汲黯": "君臣/敬重"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "幽默",
+        "description": "中年男性官员，幽默的智者"
+      },
+      "plot_related_info": {
+        "motivations": "维护百姓利益，以幽默方式劝谏",
+        "relationships": {
+          "武帝": "君臣/被赏识",
+          "主父衍": "敌对/调侃",
+          "汲黯": "盟友/支持"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "中年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "激进",
+        "description": "中年男性官员，激进的献策者"
+      },
+      "plot_related_info": {
+        "motivations": "提升官位，获得皇帝赏识",
+        "relationships": {
+          "武帝": "君臣/效忠",
+          "东方朔": "敌对/被调侃",
+          "汲黯": "敌对/被指责"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汲黯",
+        "age": "中年",
+        "gender": "男",
+        "identity": "忠臣",
+        "characteristic": "正直",
+        "description": "中年男性忠臣，正直的谏官"
+      },
+      "plot_related_info": {
+        "motivations": "保护百姓，直言劝谏",
+        "relationships": {
+          "武帝": "君臣/敬重",
+          "主父衍": "敌对/指责",
+          "东方朔": "盟友/支持"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙弘",
+        "age": "老年",
+        "gender": "男",
+        "identity": "丞相",
+        "characteristic": "圆滑",
+        "description": "老年男性丞相，圆滑的政客"
+      },
+      "plot_related_info": {
+        "motivations": "保持地位，讨好皇帝",
+        "relationships": {
+          "武帝": "君臣/效忠",
+          "东方朔": "被调侃"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "中年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "支持",
+        "description": "中年男性官员，支持建城的官员"
+      },
+      "plot_related_info": {
+        "motivations": "支持皇帝决策，确保钱粮供应",
+        "relationships": {
+          "武帝": "君臣/效忠",
+          "主父衍": "盟友/一唱一和"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "于禅",
+        "age": "青年",
+        "gender": "男",
+        "identity": "太子",
+        "characteristic": "观察",
+        "description": "青年男性太子，观察者"
+      },
+      "plot_related_info": {
+        "motivations": "学习朝政，参与对话",
+        "relationships": {
+          "武帝": "父子"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["主父衍", "汲黯", "东方朔", "武帝", "文武官员"],
+        "description": "朝堂上，主父衍提议在河套建造新城，汲黯反对认为害民，东方朔鼓掌表达支持汲黯。"
+      },
+      "start": 0,
+      "end": 20,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["主父衍", "武帝", "东方朔"],
+        "description": "主父衍向武帝告状，指责东方朔鼓掌闹事，武帝提醒打赌约定只禁止说话不禁止鼓掌。"
+      },
+      "start": 21,
+      "end": 25,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汲黯", "武帝", "主父衍", "东方朔", "文武官员"],
+        "description": "汲黯为东方朔辩护，指责主父衍的计策有害，东方朔再次带头鼓掌。"
+      },
+      "start": 26,
+      "end": 33,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "张汤", "文武官员"],
+        "description": "武帝询问张汤关于建城的钱粮供应，张汤表示支持，武帝征求众臣意见。"
+      },
+      "start": 34,
+      "end": 41,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["公孙弘", "武帝", "东方朔", "文武官员"],
+        "description": "公孙弘圆滑回应建城问题，东方朔捅他 prompting 发言，武帝调侃公孙弘。"
+      },
+      "start": 42,
+      "end": 53,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "公孙弘", "武帝", "文武官员"],
+        "description": "东方朔缓慢鼓掌，公孙弘误以为支持，武帝指出是倒掌，众人笑。"
+      },
+      "start": 54,
+      "end": 58,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["于禅", "武帝", "文武官员"],
+        "description": "太子于禅评论朝堂气氛和谐，武帝提及东方朔的幽默。"
+      },
+      "start": 59,
+      "end": 62,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "主父衍", "东方朔", "文武官员"],
+        "description": "武帝决定建城，主父衍提议命名朔方城，武帝调侃东方朔的名字使用。"
+      },
+      "start": 63,
+      "end": 72,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "东方朔", "主父衍"],
+        "description": "武帝因东方朔鼓掌和倒掌，降其一级，东方朔无奈接受。"
+      },
+      "start": 73,
+      "end": 78,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "文武官员"],
+        "description": "武帝传旨建朔方城，大赦天下，文武官员跪拜称赞。"
+      },
+      "start": 79,
+      "end": 86,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "武帝", "文武官员"],
+        "description": "东方朔不能说话，只能鼓掌表示心意。"
+      },
+      "start": 87,
+      "end": 89,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "主父衍", "汲黯", "东方朔"],
+        "description": "武帝升主父衍官职，东方朔和汲黯不满，东方朔暗示用人不公。"
+      },
+      "start": 90,
+      "end": 103,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汲黯", "武帝", "东方朔", "文武官员"],
+        "description": "汲黯解释东方朔动作为“后来居上”，讽刺用人方式，众人鼓掌笑。"
+      },
+      "start": 104,
+      "end": 110,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "东方朔", "汲黯", "文武官员"],
+        "description": "武帝讲述东方朔的用人哲学，强调用人为能，众人茅塞大开，鼓掌如雷。"
+      },
+      "start": 111,
+      "end": 140,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "主父衍", "武帝", "文武官员"],
+        "description": "东方朔用动作暗示主父衍如火烧，众人笑和鼓掌，武帝开心总结。"
+      },
+      "start": 141,
+      "end": 157,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "主父衍", "公孙弘", "文武官员"],
+        "description": "武帝下令建城安排，文武官员陆续离开。"
+      },
+      "start": 158,
+      "end": 161,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "东方朔"],
+        "description": "武帝留下东方朔，询问郭解之事，东方朔试图溜走。"
+      },
+      "start": 162,
+      "end": 164,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "东方朔"],
+        "description": "东方朔解释郭解已回杜县，武帝生气指责，东方朔利用大赦天下为郭解开脱。"
+      },
+      "start": 165,
+      "end": 201,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

@@ -1,0 +1,266 @@
+{
+  "story": {
+    "background": "时间：汉朝汉武帝时期。地点：建章宫、中翠宫、御花园等皇宫内。世界观：历史宫廷剧，基于汉朝历史事件和人物，涉及军事、政治和爱情。",
+    "plot": "卫青和霍去病在建章宫下达军事命令，严明军纪，处罚违纪者。东方朔安排乐府辛延年演唱反映民生疾苦的歌曲，引发武帝不满，但东方朔坚持己见并请求汲黯复职。卫长公主因爱慕霍去病而嫉妒罗浮女，要求武帝将罗浮女嫁出。武帝与张汤讨论币制改革，计划收回铸币权以控制经济。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "权威",
+        "description": "中年男性皇帝，权威"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权、管理国家事务、关心女儿幸福",
+        "relationships": {
+          "卫子夫": "夫妻",
+          "卫长公主": "父女",
+          "霍去病": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫子夫",
+        "age": "中年",
+        "gender": "女",
+        "identity": "皇后",
+        "characteristic": "忧虑",
+        "description": "中年女性皇后，忧虑"
+      },
+      "plot_related_info": {
+        "motivations": "保护女儿、维护家族利益",
+        "relationships": {
+          "武帝": "夫妻",
+          "卫长公主": "母女",
+          "卫青": "兄妹"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "中年",
+        "gender": "男",
+        "identity": "大将军/大司马",
+        "characteristic": "正直",
+        "description": "中年男性大将军/大司马，正直"
+      },
+      "plot_related_info": {
+        "motivations": "治军严明、维护军纪",
+        "relationships": {
+          "武帝": "君臣",
+          "霍去病": "甥舅"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "青年",
+        "gender": "男",
+        "identity": "大司马/将军",
+        "characteristic": "勇猛",
+        "description": "青年男性大司马/将军，勇猛"
+      },
+      "plot_related_info": {
+        "motivations": "灭匈奴、专一于卫长公主",
+        "relationships": {
+          "武帝": "君臣",
+          "卫长公主": "表兄妹",
+          "卫青": "甥舅"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "执戟郎/监管乐府",
+        "characteristic": "机智",
+        "description": "中年男性执戟郎/监管乐府，机智"
+      },
+      "plot_related_info": {
+        "motivations": "反映民生疾苦、劝谏皇帝",
+        "relationships": {
+          "武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛延年",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "乐府歌手",
+        "characteristic": "有才华",
+        "description": "男性乐府歌手，有才华"
+      },
+      "plot_related_info": {
+        "motivations": "演唱歌曲、娱乐皇帝",
+        "relationships": {}
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛苦子",
+        "age": "青年",
+        "gender": "男",
+        "identity": "御林军军官",
+        "characteristic": "忠诚",
+        "description": "青年男性御林军军官，忠诚"
+      },
+      "plot_related_info": {
+        "motivations": "执行命令、支持霍去病",
+        "relationships": {
+          "霍去病": "上下级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫长公主",
+        "age": "青少年",
+        "gender": "女",
+        "identity": "公主",
+        "characteristic": "任性",
+        "description": "青少年女性公主，任性"
+      },
+      "plot_related_info": {
+        "motivations": "追求霍去病、排除情敌",
+        "relationships": {
+          "武帝": "父女",
+          "卫子夫": "母女",
+          "霍去病": "表兄妹"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "中年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "精明",
+        "description": "中年男性官员，精明"
+      },
+      "plot_related_info": {
+        "motivations": "推动币制改革、巩固皇权",
+        "relationships": {
+          "武帝": "君臣"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["卫青", "公孙敖", "霍去病", "辛苦子", "武帝", "东方朔", "文武大臣"],
+        "description": "在建章宫内，卫青和霍去病下达军事命令，严明军纪，处罚违纪者，东方朔感谢皇上。"
+      },
+      "start": 0,
+      "end": 21,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "东方朔", "辛延年", "霍去病", "辛苦子", "皇后", "太子"],
+        "description": "东方朔安排辛延年演唱乐府新曲，武帝不满厌战歌曲，东方朔请求汲黯复职，霍去病表态支持军纪。"
+      },
+      "start": 22,
+      "end": 58,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["辛延年", "武帝", "霍去病", "辛苦子", "卫长公主", "皇后", "卫青"],
+        "description": "辛延年演唱《羽林郎》，描述冯子都事件，卫长公主因嫉妒而哭泣，反应激烈。"
+      },
+      "start": 59,
+      "end": 72,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "卫子夫"],
+        "description": "武帝和皇后离开建章宫，前往中翠宫，讨论公主和霍去病的婚事，武帝感到高兴。"
+      },
+      "start": 73,
+      "end": 101,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "卫子夫", "卫长公主"],
+        "description": "武帝和皇后到公主房中劝说公主，公主表达对霍去病的爱慕，并要求将罗浮女嫁出。"
+      },
+      "start": 102,
+      "end": 121,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫长公主", "武帝", "卫子夫"],
+        "description": "公主坚持要嫁霍去病，武帝最终答应将罗浮女嫁出，公主高兴。"
+      },
+      "start": 122,
+      "end": 155,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫长公主", "霍去病"],
+        "description": "在御花园，公主和霍去病见面，讨论婚事和罗浮女，决定将罗浮女嫁给辛苦子。"
+      },
+      "start": 156,
+      "end": 187,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "张汤"],
+        "description": "在建章宫，武帝和张汤讨论币制改革，计划收回铸币权并统一货币。"
+      },
+      "start": 188,
+      "end": 217,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

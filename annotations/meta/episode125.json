@@ -1,0 +1,190 @@
+{
+    "story": {
+        "background": "古代中国汉武帝时期，东方朔被贬至武陵郡深山，地点位于洞庭湖西南，与衡山、巴蜀相连。世界观涉及朝廷政治、诸侯王矛盾、经济政策与民生问题。",
+        "plot": "东方朔被贬到武陵郡后与家人定居，但心系国家大事。皇上派辛苦子送信，令东方朔前往衡山而非回长安。东方朔得知张汤的‘算明告民’政策残酷剥削百姓，决定回长安干预。同时，衡山太子刘爽来访邀请东方朔出任相国，以应对朝廷压力，东方朔可能接受邀请。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "被贬官员",
+                "characteristic": "聪明",
+                "description": "聪明的被贬官员"
+            },
+            "plot_related_info": {
+                "motivations": "关心国家大事，想为民请命",
+                "relationships": {
+                    "皇上": "君臣",
+                    "齐鲁女": "夫妻",
+                    "辛苦子": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "中年",
+                "gender": "女",
+                "identity": "东方朔之妻",
+                "characteristic": "直爽",
+                "description": "直爽的家庭主妇"
+            },
+            "plot_related_info": {
+                "motivations": "支持丈夫，家庭团聚",
+                "relationships": {
+                    "东方朔": "夫妻",
+                    "辛苦子": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "青年",
+                "gender": "男",
+                "identity": "仆人",
+                "characteristic": "幽默",
+                "description": "幽默的仆人"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔家庭",
+                "relationships": {
+                    "东方朔": "主仆",
+                    "齐鲁女": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "青年",
+                "gender": "男",
+                "identity": "东方朔之子",
+                "characteristic": "忠诚",
+                "description": "忠诚的儿子"
+            },
+            "plot_related_info": {
+                "motivations": "传递消息，为国效力",
+                "relationships": {
+                    "东方朔": "父子",
+                    "齐鲁女": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘爽",
+                "age": "20多岁",
+                "gender": "男",
+                "identity": "衡山王太子",
+                "characteristic": "谨慎",
+                "description": "谨慎的衡山王太子"
+            },
+            "plot_related_info": {
+                "motivations": "邀请东方朔，保全衡山",
+                "relationships": {
+                    "衡山王": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "白赢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "宾客",
+                "characteristic": "辅助",
+                "description": "辅助的宾客"
+            },
+            "plot_related_info": {
+                "motivations": "协助刘爽",
+                "relationships": {
+                    "刘爽": "主从"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "杨得道", "孩子们"],
+                "description": "东方朔一家旅行到武陵郡深山定居，欣赏风景，谈论驴马和家庭琐事。"
+            },
+            "start": 0,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "辛苦子"],
+                "description": "辛苦子骑马到来，送皇上的信，东方朔读信得知被派往衡山。"
+            },
+            "start": 25,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "辛苦子", "齐鲁女"],
+                "description": "讨论张汤的算明告民政策，东方朔气愤政策残酷，担心民生。"
+            },
+            "start": 51,
+            "end": 101,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "杨得道"],
+                "description": "决定回长安对抗张汤，但需先前往衡山，杨得道准备行程。"
+            },
+            "start": 102,
+            "end": 116,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得道"],
+                "description": "杨得道报告衡山来人了，东方朔责怪他没有及时报告并命令请进来。"
+            },
+            "start": 117,
+            "end": 120,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "刘爽", "白赢", "杨得道"],
+                "description": "刘爽和白赢进屋，邀请东方朔出任衡山相国，讲述衡山王的困境和朝廷压力。"
+            },
+            "start": 121,
+            "end": 199,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

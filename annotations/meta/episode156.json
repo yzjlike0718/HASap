@@ -1,0 +1,254 @@
+{
+  "story": {
+    "background": "时间：古代汉朝汉武帝时期；地点：赵信城（沙漠中的城池）、霍去病军营、长安宫廷；世界观：汉朝与匈奴的战争背景，涉及军事策略和宫廷政治。",
+    "plot": "卫青和东方朔使用水攻策略攻破赵信城，歼灭匈奴大军，但汉军也伤亡惨重。霍去病军中辛苦子重伤苏醒，失去右臂，霍去病愤怒欲杀俘虏，但被霍光劝阻，霍光提议在狼居胥山封禅以告慰天地和稳定军心。在长安，汉武帝因童谣谣言愤怒，张汤指控汲黯、严奕和杨得意，皇上下令查办；同时黄恩浩带来战报，皇上批准封禅但仍想去泰山。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大将军",
+        "characteristic": "果断",
+        "description": "汉朝大将军，果断的军事指挥官"
+      },
+      "plot_related_info": {
+        "motivations": "击败匈奴，保卫汉朝",
+        "relationships": {
+          "东方朔": "同事",
+          "霍去病": "舅舅"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "谋士",
+        "characteristic": "智慧",
+        "description": "汉朝谋士，智慧的策略家"
+      },
+      "plot_related_info": {
+        "motivations": "为汉朝提供策略，辅助军事",
+        "relationships": {
+          "卫青": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大司马",
+        "characteristic": "冲动",
+        "description": "汉朝大司马，冲动的年轻将领"
+      },
+      "plot_related_info": {
+        "motivations": "为兄弟报仇，击败匈奴，与公主成亲",
+        "relationships": {
+          "霍光": "兄弟",
+          "辛苦子": "兄弟",
+          "卫青": "舅舅"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛苦子",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "勇敢",
+        "description": "汉朝将军，勇敢的战士"
+      },
+      "plot_related_info": {
+        "motivations": "为汉朝战斗，挽回荣誉",
+        "relationships": {
+          "霍去病": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍光",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "冷静",
+        "description": "汉朝将军，冷静的谋士"
+      },
+      "plot_related_info": {
+        "motivations": "劝阻霍去病冲动，提议封禅以稳定局势",
+        "relationships": {
+          "霍去病": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "黄恩浩",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将领",
+        "characteristic": "忠诚",
+        "description": "霍去病麾下将领，忠诚的军官"
+      },
+      "plot_related_info": {
+        "motivations": "执行命令，传递消息",
+        "relationships": {
+          "霍去病": "上级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "武帝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "威严",
+        "description": "汉朝皇帝，威严的统治者"
+      },
+      "plot_related_info": {
+        "motivations": "维护声誉，批准军事行动，计划封禅",
+        "relationships": {
+          "张汤": "君臣",
+          "李蔡": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "李蔡",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "丞相",
+        "characteristic": "狡猾",
+        "description": "汉朝丞相，狡猾的政客"
+      },
+      "plot_related_info": {
+        "motivations": "推卸责任，保全自身",
+        "relationships": {
+          "武帝": "君臣",
+          "张汤": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "廷尉",
+        "characteristic": "阴险",
+        "description": "汉朝廷尉，阴险的官员"
+      },
+      "plot_related_info": {
+        "motivations": "利用机会打击政敌，提升权力",
+        "relationships": {
+          "武帝": "君臣",
+          "汲黯": "敌对",
+          "严奕": "敌对",
+          "杨得意": "敌对"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["卫青", "东方朔", "公孙敖", "李灵"],
+        "description": "在赵信城战场，卫青和东方朔攻破城池，赵信自杀，汉军歼灭匈奴但伤亡惨重，卫青下令休整和埋葬尸体。"
+      },
+      "start": 0,
+      "end": 27,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "霍光", "辛苦子", "黄恩浩"],
+        "description": "在霍去病军营，辛苦子苏醒并发现失去右臂，霍去病愤怒欲杀俘虏，但被霍光劝阻。"
+      },
+      "start": 28,
+      "end": 56,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "霍光", "黄恩浩", "军医"],
+        "description": "霍光安排军医照顾辛苦子，并阻止霍去病杀人，双方争执。"
+      },
+      "start": 57,
+      "end": 84,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "霍光"],
+        "description": "霍光和霍去病走出帐篷，上山谈话，霍光提议在狼居胥山封禅，霍去病同意。"
+      },
+      "start": 85,
+      "end": 151,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "李蔡", "张汤"],
+        "description": "在长安宫廷，武帝与李蔡、张汤讨论童谣谣言，张汤指控汲黯、严奕和杨得意。"
+      },
+      "start": 152,
+      "end": 182,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "张汤", "李蔡"],
+        "description": "武帝愤怒下令张汤查办谣言制造者，张汤和李蔡离开。"
+      },
+      "start": 183,
+      "end": 226,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["武帝", "黄恩浩", "冯子都"],
+        "description": "武帝单独时，黄恩浩进见报告战报和封禅提议，皇上批准但仍想去泰山。"
+      },
+      "start": 227,
+      "end": 253,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

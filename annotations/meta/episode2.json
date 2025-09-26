@@ -1,0 +1,190 @@
+{
+    "story": {
+        "background": "汉武帝初期，长安城，朝廷招贤纳士，但太皇太后信奉道教，干预朝政，导致皇权与后宫权力斗争。",
+        "plot": "东方朔来到长安城东市，与泼皮朱三等人发生冲突，动用宝剑伤人。皇家侍卫公孙敖介入，邀请东方朔进宫面圣，但东方朔犹豫不决，提出以比剑决定去留。故事穿插介绍了汉武帝求贤若渴的政策和太皇太后的制衡，最终以公孙敖与东方朔准备比剑结束。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐国贤士",
+                "characteristic": "自信",
+                "description": "齐国贤士，自信的剑客"
+            },
+            "plot_related_info": {
+                "motivations": "献策汉武帝，施展才华",
+                "relationships": {
+                    "公孙敖": "互相尊重"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇家一等侍卫",
+                "characteristic": "正气",
+                "description": "皇家一等侍卫，正气的将军"
+            },
+            "plot_related_info": {
+                "motivations": "为汉武帝招揽人才，维护秩序",
+                "relationships": {
+                    "东方朔": "互相尊重",
+                    "汉武帝": "忠诚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "朱三",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "泼皮",
+                "characteristic": "狡猾",
+                "description": "长安城泼皮，狡猾的闹事者"
+            },
+            "plot_related_info": {
+                "motivations": "欺软怕硬，寻求庇护",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "公孙敖": "求助"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "太皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "文帝正宫娘娘",
+                "characteristic": "威严",
+                "description": "文帝正宫娘娘，威严的干预者"
+            },
+            "plot_related_info": {
+                "motivations": "维护道家思想，制衡汉武帝",
+                "relationships": {
+                    "汉武帝": "祖母",
+                    "窦婴": "亲戚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "16岁",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "求贤若渴",
+                "description": "年轻皇帝，求贤若渴的君主"
+            },
+            "plot_related_info": {
+                "motivations": "治理天下，重用新人",
+                "relationships": {
+                    "太皇太后": "祖母",
+                    "公孙敖": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩不识",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "公车令",
+                "characteristic": "郁闷",
+                "description": "公车令，郁闷的官员"
+            },
+            "plot_related_info": {
+                "motivations": "接待贤士，但受太皇太后压力",
+                "relationships": {
+                    "太皇太后": "下属",
+                    "公孙敖": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "朱三", "张四"],
+                "description": "在长安城东市，东方朔与泼皮朱三和张四发生冲突，东方朔用宝剑伤了他们。"
+            },
+            "start": 0,
+            "end": 1,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙敖", "东方朔", "朱三"],
+                "description": "公孙敖将军带领官兵介入，朱三向公孙敖哭诉，公孙敖与东方朔互相介绍，公孙敖邀请东方朔进宫。"
+            },
+            "start": 2,
+            "end": 16,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "背景介绍汉武帝登基后招贤纳士，任命窦婴、田鼢、赵绾和王臧等官员，以及长安城的反应。"
+            },
+            "start": 17,
+            "end": 81,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["太皇太后", "许昌", "庄青翟", "韩不识"],
+                "description": "太皇太后干预朝政，责骂公车令韩不识，并组建影子内阁，威胁汉武帝。"
+            },
+            "start": 82,
+            "end": 115,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "公孙敖", "朱三"],
+                "description": "东方朔与公孙敖讨论进宫事宜，东方朔犹豫，提出比剑决定去留，公孙敖同意。"
+            },
+            "start": 116,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙敖", "东方朔", "韩不识", "路人甲"],
+                "description": "公孙敖和东方朔准备比剑，韩不识醉酒前来观战，百姓围观。"
+            },
+            "start": 149,
+            "end": 163,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

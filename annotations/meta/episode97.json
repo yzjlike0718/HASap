@@ -1,0 +1,344 @@
+{
+  "story": {
+    "background": "时间：古代汉朝时期；地点：杜县、茂陵、建章宫、临晋关等；世界观：汉朝宫廷与江湖侠客的世界，涉及权力斗争、侠义精神和社会等级。",
+    "plot": "大侠郭解迁居茂陵，途中受到地方官员欢迎，引起汉武帝的怀疑和愤怒。廷尉张汤进谗言，导致武帝下令捉拿郭解。郭解的徒弟打死张汤的手下，郭解被迫逃跑。在临晋关，守将籍少翁敬佩郭解，并请求郭解收其子为徒，最终帮助郭解。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "郭解",
+        "age": "成年",
+        "gender": "男",
+        "identity": "大侠",
+        "characteristic": "光明磊落",
+        "description": "侠义的大侠"
+      },
+      "plot_related_info": {
+        "motivations": "寻求平静生活，但被迫逃避追捕",
+        "relationships": {
+          "张汤": "敌对",
+          "汉武帝": "敌对",
+          "籍少翁": "敬佩"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "成年",
+        "gender": "男",
+        "identity": "廷尉",
+        "characteristic": "奸诈",
+        "description": "奸诈的廷尉"
+      },
+      "plot_related_info": {
+        "motivations": "维护权力，消除潜在威胁",
+        "relationships": {
+          "汉武帝": "臣子",
+          "郭解": "敌对",
+          "吴培龙": "心腹"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "成年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "威严",
+        "description": "威严的皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权，消除任何挑战",
+        "relationships": {
+          "郭解": "敌对",
+          "张汤": "臣子",
+          "东方朔": "忠臣但怀疑"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "丽娟",
+        "age": "年轻",
+        "gender": "女",
+        "identity": "美人",
+        "characteristic": "妩媚",
+        "description": "妩媚的美人"
+      },
+      "plot_related_info": {
+        "motivations": "争宠，保持武帝的喜爱",
+        "relationships": {
+          "汉武帝": "恋人"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "成年",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "谨慎",
+        "description": "谨慎的太监"
+      },
+      "plot_related_info": {
+        "motivations": "服务武帝，避免卷入斗争",
+        "relationships": {
+          "汉武帝": "臣子",
+          "张汤": "警惕"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "成年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "狡猾",
+        "description": "狡猾的官员"
+      },
+      "plot_related_info": {
+        "motivations": "挑拨事端，提升自身地位",
+        "relationships": {
+          "汉武帝": "臣子",
+          "张汤": "同事但竞争",
+          "郭解": "间接敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "义纵",
+        "age": "成年",
+        "gender": "男",
+        "identity": "执金吾",
+        "characteristic": "严厉",
+        "description": "严厉的执金吾"
+      },
+      "plot_related_info": {
+        "motivations": "执行命令，维护法律",
+        "relationships": {
+          "汉武帝": "臣子",
+          "张汤": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "籍少翁",
+        "age": "成年",
+        "gender": "男",
+        "identity": "守将",
+        "characteristic": "敬佩",
+        "description": "敬佩郭解的守将"
+      },
+      "plot_related_info": {
+        "motivations": "帮助郭解，出于侠义敬佩",
+        "relationships": {
+          "郭解": "敬佩",
+          "籍安氏": "父子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "吴培龙",
+        "age": "成年",
+        "gender": "男",
+        "identity": "廷尉心腹",
+        "characteristic": "忠诚",
+        "description": "忠诚的廷尉心腹"
+      },
+      "plot_related_info": {
+        "motivations": "服务张汤，收集情报",
+        "relationships": {
+          "张汤": "心腹",
+          "郭解": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "胡德新",
+        "age": "成年",
+        "gender": "男",
+        "identity": "廷尉心腹",
+        "characteristic": "忠诚",
+        "description": "忠诚的廷尉心腹"
+      },
+      "plot_related_info": {
+        "motivations": "服务张汤，收集情报",
+        "relationships": {
+          "张汤": "心腹",
+          "郭解": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "籍安氏",
+        "age": "12-13岁",
+        "gender": "男",
+        "identity": "籍少翁之子",
+        "characteristic": "崇拜",
+        "description": "崇拜郭解的少年"
+      },
+      "plot_related_info": {
+        "motivations": "拜郭解为师，学习武艺",
+        "relationships": {
+          "籍少翁": "父子",
+          "郭解": "崇拜"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["郭解", "杜县县令", "奉明县县令", "扶风太守"],
+        "description": "在迁居茂陵的路上，郭解拒绝地方官员的礼品，表现出清廉。"
+      },
+      "start": 0,
+      "end": 3,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "吴培龙", "胡德新"],
+        "description": "张汤的心腹报告郭解迁居的情况，张汤计划定罪郭解。"
+      },
+      "start": 4,
+      "end": 9,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "丽娟"],
+        "description": "武帝在建章宫与丽娟享乐，讨论选美之事。"
+      },
+      "start": 10,
+      "end": 28,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["杨得意", "小太监", "张汤"],
+        "description": "杨得意报告张汤求见武帝，武帝允许接见。"
+      },
+      "start": 29,
+      "end": 32,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张汤"],
+        "description": "张汤向武帝报告郭解的威风行为，武帝愤怒，下令捉拿郭解。"
+      },
+      "start": 33,
+      "end": 77,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["主父衍", "汉武帝", "张汤", "杨得意"],
+        "description": "主父衍报告张汤的手下被郭解徒弟打死，武帝进一步下令捉拿郭解并处罚官员。"
+      },
+      "start": 78,
+      "end": 102,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张汤", "主父衍"],
+        "description": "武帝与张汤、主父衍密谈，计划稳住东方朔和卫青，秘密行动 against 郭解。"
+      },
+      "start": 103,
+      "end": 119,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤"],
+        "description": "张汤捉拿相关官员，并下令追捕郭解。"
+      },
+      "start": 120,
+      "end": 126,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["旁白"],
+        "description": "解释事件缘由：主父衍挑拨，郭解徒弟打死张汤手下，郭解逃跑。"
+      },
+      "start": 127,
+      "end": 148,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "籍少翁", "江冲", "晋生"],
+        "description": "郭解到达临晋关，守将籍少翁认出并敬佩郭解，支开士兵与郭解交谈。"
+      },
+      "start": 149,
+      "end": 202,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "籍少翁", "籍安氏"],
+        "description": "在籍少翁家中，籍少翁之子请求拜郭解为师，郭解惊讶但考虑。"
+      },
+      "start": 203,
+      "end": 210,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

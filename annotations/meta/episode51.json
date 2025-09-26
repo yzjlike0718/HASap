@@ -1,0 +1,298 @@
+{
+    "story": {
+        "background": "古代中国汉朝时期，地点包括风月巷、司马相如住所、长门宫、未央宫等宫廷场所。世界观为历史宫廷剧，涉及文学、政治和情感冲突。",
+        "plot": "司马相如和卓文君因经济问题卷入风月巷事件，东方朔替他们付钱解围。皇后阿娇嫉妒卫子夫，通过韩嫣雇佣司马相如撰写《长门赋》以挽回汉武帝的心。汉武帝被赋文打动后访问长门宫，但与阿娇争吵后愤怒离开。汉武帝随后与大臣商议丞相人选，公孙弘和汲黯讨论董仲舒的 suitability，但公孙弘有所保留。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "文学家",
+                "characteristic": "羞愧",
+                "description": "文学才华横溢但经济窘迫的文学家"
+            },
+            "plot_related_info": {
+                "motivations": "获取金钱和皇上的赏识",
+                "relationships": {
+                    "卓文君": "夫妻",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "司马相如之妻",
+                "characteristic": "贤惠",
+                "description": "照顾丈夫的贤惠妻子"
+            },
+            "plot_related_info": {
+                "motivations": "照顾司马相如并维持家庭",
+                "relationships": {
+                    "司马相如": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "幽默",
+                "description": "幽默机智的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "帮助他人并维护正义",
+                "relationships": {
+                    "司马相如": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "老鸨子",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "风月巷老鸨",
+                "characteristic": "贪婪",
+                "description": "贪婪的风月巷老鸨"
+            },
+            "plot_related_info": {
+                "motivations": "索要金钱",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "汉武帝宠臣",
+                "characteristic": "圆滑",
+                "description": "圆滑世故的皇帝宠臣"
+            },
+            "plot_related_info": {
+                "motivations": "讨好皇帝和皇后以获取利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "皇后阿娇": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权和国家稳定",
+                "relationships": {
+                    "皇后阿娇": "夫妻",
+                    "卫子夫": "妃子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇后阿娇",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇后",
+                "characteristic": "嫉妒",
+                "description": "嫉妒心强的皇后"
+            },
+            "plot_related_info": {
+                "motivations": "挽回汉武帝的爱并争夺宠爱",
+                "relationships": {
+                    "汉武帝": "夫妻",
+                    "卫子夫": "情敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "圆滑",
+                "description": "圆滑世故的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "维护自身地位和迎合皇帝",
+                "relationships": {
+                    "董仲舒": "师生"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "直言",
+                "description": "直言不讳的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "推荐贤能并坚持原则",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "老鸨子"],
+                "description": "在风月巷，老鸨子拦住东方朔要求付钱，东方朔无奈付钱后离开。"
+            },
+            "start": 0,
+            "end": 13,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["司马相如", "卓文君"],
+                "description": "司马相如和卓文君回到家中，卓文君照顾司马相如吃药养病。"
+            },
+            "start": 14,
+            "end": 15,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卓文君", "韩嫣"],
+                "description": "在司马相如家，韩嫣突然来访，卓文君感到奇怪。"
+            },
+            "start": 16,
+            "end": 17,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇后阿娇", "韩嫣"],
+                "description": "在长门宫，皇后阿娇叫来韩嫣，讨论如何挽回汉武帝，决定花钱让司马相如写《长门赋》。"
+            },
+            "start": 18,
+            "end": 41,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["韩嫣", "司马相如"],
+                "description": "在司马相如家，韩嫣奉阿娇之命前来，司马相如答应写赋并获得黄金。"
+            },
+            "start": 42,
+            "end": 45,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "韩嫣", "司马相如"],
+                "description": "在宫中，韩嫣和司马相如献上《长门赋》，汉武帝赞赏并赏赐司马相如。"
+            },
+            "start": 46,
+            "end": 78,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "韩嫣"],
+                "description": "汉武帝和韩嫣前往长门宫，途中讨论皇后阿娇的变化。"
+            },
+            "start": 79,
+            "end": 90,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "皇后阿娇"],
+                "description": "在长门宫，汉武帝与阿娇见面，但因卫子夫生子之事争吵，汉武帝愤怒离开。"
+            },
+            "start": 91,
+            "end": 130,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇后阿娇"],
+                "description": "阿娇在长门宫大哭并诅咒卫子夫，宫女和内侍不敢劝阻。"
+            },
+            "start": 131,
+            "end": 143,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝"],
+                "description": "汉武帝回宫后生气，随后冷静下来思考丞相人选。"
+            },
+            "start": 144,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "公孙弘", "汲黯", "东方朔", "韩嫣"],
+                "description": "在未央宫，汉武帝与大臣商议丞相人选，汲黯推荐董仲舒，公孙弘有所保留。"
+            },
+            "start": 149,
+            "end": 214,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

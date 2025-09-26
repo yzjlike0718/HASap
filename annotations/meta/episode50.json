@@ -1,0 +1,293 @@
+{
+    "story": {
+        "background": "故事发生在古代中国汉朝时期，主要地点包括丞相府、皇宫、东方朔的庭院、风月巷等。世界观涉及宫廷政治、家庭伦理和市井生活，体现了当时的社会阶层和文化习俗。",
+        "plot": "丞相田鼢因心病发作，在府中胡言乱语而死亡，皇太后前来探望但无力回天。之后，东方朔帮助卓文君寻找沉迷青楼的司马相如，通过弹琴对决让司马相如悔悟，最终司马相如认错回家。故事展现了家庭矛盾、道德沦丧和 redemption 的过程。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "中年或老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "恐惧",
+                "description": "位高权重的丞相，因心病而恐惧死亡"
+            },
+            "plot_related_info": {
+                "motivations": "可能因过去行为（如迫害他人）而内心恐惧，导致心病发作",
+                "relationships": {
+                    "皇太后": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "中年或老年",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "关心家人",
+                "description": "权力至上的皇太后，关心弟弟田鼢的病情"
+            },
+            "plot_related_info": {
+                "motivations": "作为姐姐，希望拯救弟弟田鼢的生命",
+                "relationships": {
+                    "田鼢": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢的妻子",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "丞相夫人",
+                "characteristic": "无助",
+                "description": "新婚的丞相夫人，担忧丈夫病情"
+            },
+            "plot_related_info": {
+                "motivations": "照顾病重的丈夫，寻求帮助",
+                "relationships": {
+                    "田鼢": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "太医",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太医",
+                "characteristic": "专业",
+                "description": "宫廷太医，负责诊治疾病"
+            },
+            "plot_related_info": {
+                "motivations": "履行医疗职责，诊断病情",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员/智者",
+                "characteristic": "机智",
+                "description": "幽默机智的官员，帮助卓文君解决家庭问题"
+            },
+            "plot_related_info": {
+                "motivations": "帮助朋友卓文君挽回司马相如",
+                "relationships": {
+                    "卓文君": "朋友",
+                    "司马相如": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卓文君",
+                "age": "年过四十",
+                "gender": "女",
+                "identity": "才女/司马相如的妻子",
+                "characteristic": "坚强",
+                "description": "才华横溢的妻子，为丈夫的放纵而悲伤"
+            },
+            "plot_related_info": {
+                "motivations": "挽救婚姻，让司马相如回心转意",
+                "relationships": {
+                    "司马相如": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "中年",
+                "gender": "男",
+                "identity": "才子/官员",
+                "characteristic": "放纵",
+                "description": "才华横溢的官员，因放纵而患病"
+            },
+            "plot_related_info": {
+                "motivations": "寻求刺激和逃避，沉迷青楼",
+                "relationships": {
+                    "卓文君": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "秦诗包",
+                "age": "19岁",
+                "gender": "女",
+                "identity": "青楼女子",
+                "characteristic": "琴艺好",
+                "description": "京城有名的风月女子，擅长琴棋书画"
+            },
+            "plot_related_info": {
+                "motivations": "职业需要，接待客人",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "老鸨子",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "青楼老鸨",
+                "characteristic": "贪财",
+                "description": "风月巷青楼的老鸨，以赚钱为目的"
+            },
+            "plot_related_info": {
+                "motivations": "经营青楼，获取利润",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["田鼢", "田鼢的妻子"],
+                "description": "在丞相府内，田鼢病重卧床，胡言乱语，妻子担忧并守候两天两夜后派人禀报皇太后。"
+            },
+            "start": 0,
+            "end": 14,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "太医", "田鼢的妻子", "田鼢"],
+                "description": "晚上，皇太后带太医到丞相府探望田鼢，太医诊断其为心病，但田鼢恐惧拒绝治疗。"
+            },
+            "start": 15,
+            "end": 40,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "田鼢的妻子"],
+                "description": "皇太后询问田鼢的弟弟田胜的情况，妻子表示田胜不愿做官，只劝田鼢与人为善。"
+            },
+            "start": 41,
+            "end": 53,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "太医", "田鼢的妻子", "田鼢"],
+                "description": "田鼢死亡，皇太后悲痛哭泣，朝局稳定，东方朔轻松生活。"
+            },
+            "start": 54,
+            "end": 61,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卓文君", "杨得道"],
+                "description": "夏天早上，东方朔在院中练剑，卓文君来访，东方朔迎接并引入客厅。"
+            },
+            "start": 62,
+            "end": 73,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卓文君"],
+                "description": "在客厅，卓文君诉说司马相如沉迷青楼并患病，东方朔出主意帮助她。"
+            },
+            "start": 74,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卓文君", "老鸨子"],
+                "description": "卓文君改扮书生，与东方朔来到风月巷，进入青楼，老鸨子迎接。"
+            },
+            "start": 109,
+            "end": 126,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卓文君", "老鸨子"],
+                "description": "东方朔与老鸨子交涉，要求见秦诗包，并用翡翠贿赂，老鸨子同意他们上楼。"
+            },
+            "start": 127,
+            "end": 142,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卓文君", "秦诗包", "司马相如"],
+                "description": "在琴室，东方朔和卓文君弹琴，与秦诗包和司马相如对决，司马相如认出卓文君的琴声。"
+            },
+            "start": 143,
+            "end": 184,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卓文君", "司马相如"],
+                "description": "司马相如悔悟，跪地认错，卓文君愤怒打他，东方朔劝解，三人离开青楼。"
+            },
+            "start": 185,
+            "end": 203,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "老鸨子"],
+                "description": "东方朔与老鸨子争执，老鸨子要求赔偿，东方朔嘲讽后离开。"
+            },
+            "start": 204,
+            "end": 212,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

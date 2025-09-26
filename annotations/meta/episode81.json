@@ -1,0 +1,266 @@
+{
+    "story": {
+        "background": "古代中国，汉武帝时期，建章宫。涉及神仙、转世等奇幻元素。",
+        "plot": "汉武帝在建章宫宴请淮南王，索要枕中秘籍，但淮南王否认拥有。李少君被召来编造东方朔是文曲星下凡的故事，声称东方朔是屈原转世并与司马相如关联，汉武帝相信。东方朔试图反驳但被制止。刘陵提出留在长安，表面陪汉武帝和学习仙功，实则可能与李少君有私情。东方朔决心惩治李少君和刘陵。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "追求长生",
+                "description": "追求长生的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "得道成仙，获得枕中秘籍",
+                "relationships": {
+                    "淮南王": "叔侄",
+                    "刘陵": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "淮南王",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "王爷",
+                "characteristic": "谨慎",
+                "description": "谨慎的王爷"
+            },
+            "plot_related_info": {
+                "motivations": "避免交出枕中秘籍",
+                "relationships": {
+                    "汉武帝": "叔侄",
+                    "刘陵": "父女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明正直",
+                "description": "聪明正直的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "惩治李少君，揭穿谎言",
+                "relationships": {
+                    "李少君": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "妖道",
+                "characteristic": "欺诈",
+                "description": "欺诈的妖道"
+            },
+            "plot_related_info": {
+                "motivations": "欺骗汉武帝，可能贪图美色",
+                "relationships": {
+                    "刘陵": "暧昧"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘陵",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "郡主",
+                "characteristic": "美貌狡猾",
+                "description": "美貌狡猾的郡主"
+            },
+            "plot_related_info": {
+                "motivations": "留在长安，可能与李少君学习仙功或私情",
+                "relationships": {
+                    "淮南王": "父女",
+                    "汉武帝": "兄妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "附和",
+                "description": "附和的太监"
+            },
+            "plot_related_info": {
+                "motivations": "取悦汉武帝",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王", "李少君", "东方朔"],
+                "description": "在建章宫，汉武帝款待淮南王，索要枕中秘籍，但淮南王否认。汉武帝叫来李少君，东方朔气坏并决心惩治李少君。"
+            },
+            "start": 0,
+            "end": 8,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王"],
+                "description": "汉武帝与淮南王对话，讨论好书和道家修养，淮南王谦逊回避。"
+            },
+            "start": 9,
+            "end": 19,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "淮南王", "李少君", "刘陵"],
+                "description": "东方朔插话问淮南王是否记得李少君，李少君转移话题说东方朔是文曲星，刘陵暗示配合。"
+            },
+            "start": 20,
+            "end": 38,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "李少君", "东方朔"],
+                "description": "汉武帝质疑李少君，李少君开始编造东方朔是屈原转世的故事。"
+            },
+            "start": 39,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李少君", "汉武帝", "东方朔"],
+                "description": "李少君继续编故事，解释王母娘娘和司马相如的关系，汉武帝逐渐相信。"
+            },
+            "start": 73,
+            "end": 105,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "李少君"],
+                "description": "汉武帝自己推理东方朔和司马相如的关系，东方朔试图反驳但被李少君打断。"
+            },
+            "start": 106,
+            "end": 119,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "汉武帝", "东方朔"],
+                "description": "杨得意搭茬并添油加醋讲述东方朔和卓文君的事，汉武帝禁止东方朔说话。"
+            },
+            "start": 120,
+            "end": 139,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "汉武帝", "东方朔"],
+                "description": "杨得意建议让卓文君测试东方朔，汉武帝高兴，东方朔气愤。"
+            },
+            "start": 140,
+            "end": 148,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李少君", "汉武帝", "刘陵", "东方朔"],
+                "description": "李少君进一步解释司马相如的死因，汉武帝更信服，刘陵与李少君眼神交流。"
+            },
+            "start": 149,
+            "end": 167,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王", "李少君", "刘陵"],
+                "description": "汉武帝再次索要枕中秘籍，淮南王跪下否认，李少君解围提到淮南八骏。"
+            },
+            "start": 168,
+            "end": 179,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["刘陵", "汉武帝", "淮南王", "李少君"],
+                "description": "刘陵要求留在长安作为人质，汉武帝同意，淮南王无奈。"
+            },
+            "start": 180,
+            "end": 194,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔内心清楚刘陵的意图，决心惩治他们，结束时有人求见皇上。"
+            },
+            "start": 195,
+            "end": 197,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

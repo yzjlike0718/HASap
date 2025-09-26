@@ -1,0 +1,393 @@
+{
+  "story": {
+    "background": "时间：古代中国汉朝时期；地点：长安府衙、午门、上林院等；世界观：帝王制度，涉及皇亲国戚、官员、侠客等社会阶层，强调法治与人情冲突。",
+    "plot": "东方朔替汉武帝审问金吾子杀人一案，揭露李卫虎替罪真相；汉武帝大义灭亲，判处金吾子死刑以儆效尤；郭解和李卫虎被赦免并承诺效忠朝廷；后续汉武帝与东方朔、卫青讨论郭解的任用，并偶遇霍光，霍光提出读书导善的建议。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "成年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "果断",
+        "description": "果断的汉朝皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "维护法治和皇家威严，赢得民心",
+        "relationships": {
+          "金吾子": "甥舅（推断）",
+          "东方朔": "君臣",
+          "郭解": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "成年",
+        "gender": "男",
+        "identity": "大臣",
+        "characteristic": "机智",
+        "description": "机智的汉朝谋臣"
+      },
+      "plot_related_info": {
+        "motivations": "公正审案，辅佐皇上实现正义",
+        "relationships": {
+          "汉武帝": "君臣",
+          "金吾子": "长辈与晚辈（推断）"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "金吾子",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "皇亲国戚",
+        "characteristic": "傲慢",
+        "description": "傲慢的皇亲贵族"
+      },
+      "plot_related_info": {
+        "motivations": "逃避杀人罪责，但最终悔改",
+        "relationships": {
+          "汉武帝": "甥舅（推断）",
+          "俗女": "母子",
+          "金不换": "父子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "郭解",
+        "age": "成年",
+        "gender": "男",
+        "identity": "大侠",
+        "characteristic": "义气",
+        "description": "义气的江湖游侠"
+      },
+      "plot_related_info": {
+        "motivations": "保护徒弟金吾子，但最终效忠朝廷",
+        "relationships": {
+          "李卫虎": "师徒",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "李卫虎",
+        "age": "成年",
+        "gender": "男",
+        "identity": "侠客徒弟",
+        "characteristic": "忠诚",
+        "description": "忠诚的侠客弟子"
+      },
+      "plot_related_info": {
+        "motivations": "替师父顶罪，后感恩效忠",
+        "relationships": {
+          "郭解": "师徒"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "义纵",
+        "age": "成年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "谨慎",
+        "description": "谨慎的朝廷官员"
+      },
+      "plot_related_info": {
+        "motivations": "维护审案程序，执行皇命",
+        "relationships": {
+          "汉武帝": "君臣",
+          "东方朔": "同僚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "英勇",
+        "description": "英勇的年轻将领"
+      },
+      "plot_related_info": {
+        "motivations": "讨论皇命，引导弟弟",
+        "relationships": {
+          "霍光": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍光",
+        "age": "少年",
+        "gender": "男",
+        "identity": "学者",
+        "characteristic": "聪明",
+        "description": "聪明的博学少年"
+      },
+      "plot_related_info": {
+        "motivations": "提出读书导善的建议，赢得皇上赏识",
+        "relationships": {
+          "霍去病": "兄弟"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "李卫虎", "郭解"],
+        "description": "在长安府衙，东方朔开始审问金吾子杀人一案，质疑李卫虎替罪的行为。"
+      },
+      "start": 0,
+      "end": 8,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "金吾子"],
+        "description": "东方朔直接审问金吾子，追问杀人真相，金吾子 initially 狡辩。"
+      },
+      "start": 9,
+      "end": 28,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "金吾子", "义纵"],
+        "description": "义纵指责东方朔诱供，东方朔反驳并继续审问，金吾子心理压力增大。"
+      },
+      "start": 29,
+      "end": 54,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "金吾子"],
+        "description": "东方朔走近金吾子，用情感和道理劝诫，金吾子逐渐崩溃。"
+      },
+      "start": 55,
+      "end": 64,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "金吾子"],
+        "description": "金吾子最终承认杀人，哭泣悔改。"
+      },
+      "start": 65,
+      "end": 79,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝"],
+        "description": "东方朔向汉武帝汇报审案结果，建议大义灭亲以服天下。"
+      },
+      "start": 80,
+      "end": 90,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "郭解"],
+        "description": "汉武帝质问郭解替罪意图，郭解从容回应。"
+      },
+      "start": 91,
+      "end": 108,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "义纵"],
+        "description": "汉武帝判决金吾子死刑，义纵领旨。"
+      },
+      "start": 109,
+      "end": 123,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["俗女", "金不换"],
+        "description": "俗女和金不换闻讯昏倒，场面混乱。"
+      },
+      "start": 124,
+      "end": 125,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔"],
+        "description": "汉武帝命令东方朔传旨，让皇室宗亲观看行刑以儆效尤。"
+      },
+      "start": 126,
+      "end": 131,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["金吾子", "东方朔", "俗女", "金不换"],
+        "description": "金吾子求饶失败，父母哭泣，金吾子昏倒。"
+      },
+      "start": 132,
+      "end": 142,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝"],
+        "description": "汉武帝不忍目睹，离开公堂避免求情。"
+      },
+      "start": 143,
+      "end": 145,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["义纵", "汉武帝"],
+        "description": "义纵询问李卫虎的发落，汉武帝决定释放他。"
+      },
+      "start": 146,
+      "end": 149,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "李卫虎", "汉武帝"],
+        "description": "郭解和李卫虎跪谢皇上，承诺效忠朝廷并出击匈奴。"
+      },
+      "start": 150,
+      "end": 165,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝"],
+        "description": "汉武帝心理活动，痛苦于金吾子之死。"
+      },
+      "start": 166,
+      "end": 172,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "杨得意", "东方朔", "卫青"],
+        "description": "汉武帝召东方朔和卫青到上林院散心，避免面对太后和皇后。"
+      },
+      "start": 173,
+      "end": 181,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "卫青"],
+        "description": "讨论郭解的任用，决定封为游击将军。"
+      },
+      "start": 182,
+      "end": 201,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "卫青", "杨得意", "霍去病", "霍光"],
+        "description": "在上林院，听到霍去病和霍光争论关于金吾子行刑和读书导善。"
+      },
+      "start": 202,
+      "end": 236,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "霍去病", "霍光", "东方朔"],
+        "description": "汉武帝赞赏霍光的智慧，询问汲黯和东方朔的区别。"
+      },
+      "start": 237,
+      "end": 263,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

@@ -1,0 +1,258 @@
+{
+  "story": {
+    "background": "时间：汉代汉武帝时期；地点：长安宫廷及平阳公主府；世界观：汉代宫廷政治，权力斗争，文化习俗",
+    "plot": "东方朔设计救赵绾和王臧，让他们假装自杀以避免死罪，但武帝相信他们已死。太皇太后厚葬赵绾和王臧，并安排新官员。汉武帝召见司马相如和卓文君，在平阳公主府设宴。宴会中提及汉武帝如何借助皇后母亲的力量成为太子的往事。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "谋士/官员",
+        "characteristic": "足智多谋",
+        "description": "足智多谋的汉代官员"
+      },
+      "plot_related_info": {
+        "motivations": "拯救赵绾和王臧的生命，同时保护自己",
+        "relationships": {
+          "杨得意": "同事",
+          "司马相如": "同事",
+          "卓文君": "相识"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "直率",
+        "description": "直率的汉代官员"
+      },
+      "plot_related_info": {
+        "motivations": "对东方朔的计划感到不满，但被迫参与",
+        "relationships": {
+          "东方朔": "同事",
+          "司马相如": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "司马相如",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "侍郎/文学家",
+        "characteristic": "有才华",
+        "description": "有才华的文学家和官员"
+      },
+      "plot_related_info": {
+        "motivations": "追求名利和爱情",
+        "relationships": {
+          "卓文君": "夫妻",
+          "东方朔": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卓文君",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "司马相如的妻子",
+        "characteristic": "聪明美丽",
+        "description": "聪明美丽的女子"
+      },
+      "plot_related_info": {
+        "motivations": "支持丈夫，展现自己的才智",
+        "relationships": {
+          "司马相如": "夫妻",
+          "东方朔": "相识"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "赵绾",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "感激",
+        "description": "被救的汉代官员"
+      },
+      "plot_related_info": {
+        "motivations": "保住生命和家族",
+        "relationships": {
+          "东方朔": "恩人",
+          "王臧": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "王臧",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "高兴",
+        "description": "被救的汉代官员"
+      },
+      "plot_related_info": {
+        "motivations": "保住生命，希望东山再起",
+        "relationships": {
+          "东方朔": "恩人",
+          "赵绾": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "伤心但无奈",
+        "description": "汉代皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权，但受制于太皇太后和皇后",
+        "relationships": {
+          "皇后陈阿娇": "夫妻",
+          "平阳公主": "姐弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "皇后陈阿娇",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "皇后",
+        "characteristic": "端庄架子大",
+        "description": "架子大的皇后"
+      },
+      "plot_related_info": {
+        "motivations": "保持皇后尊严和权力",
+        "relationships": {
+          "汉武帝刘彻": "夫妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "平阳公主",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "公主",
+        "characteristic": "老实巴交",
+        "description": "老实巴交的公主"
+      },
+      "plot_related_info": {
+        "motivations": "接待弟弟皇帝，准备宴会",
+        "relationships": {
+          "汉武帝刘彻": "姐弟",
+          "曹寿": "夫妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "曹寿",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "驸马",
+        "characteristic": "老实",
+        "description": "老实的驸马"
+      },
+      "plot_related_info": {
+        "motivations": "帮助公主准备宴会",
+        "relationships": {
+          "平阳公主": "夫妻"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "杨得意", "司马相如", "卓文君", "赵绾", "王臧"],
+        "description": "东方朔与杨得意、司马相如、卓文君、赵绾、王臧商量救人之计，东方朔设计让赵绾和王臧假装自杀以避免死罪，并推卸责任给其他人。"
+      },
+      "start": 0,
+      "end": 28,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "太皇太后"],
+        "description": "汉武帝听说赵绾和王臧吊死霸陵而伤心，太皇太后厚葬他们并安排新官员。汉武帝决定在平阳公主府召见司马相如和卓文君。"
+      },
+      "start": 29,
+      "end": 43,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": [],
+        "description": "叙述者描述平阳公主府的位置、环境和历史，它是汉景帝赏赐给平阳公主的府邸。"
+      },
+      "start": 44,
+      "end": 59,
+      "confidence": {
+        "character_assignment": 0.7,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["平阳公主", "曹寿"],
+        "description": "平阳公主和曹寿接旨后准备宴会，叫来卫青和卫子夫表演歌舞。"
+      },
+      "start": 60,
+      "end": 85,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["平阳公主", "曹寿", "司马相如", "卓文君", "东方朔", "杨得意"],
+        "description": "司马相如和卓文君到达平阳公主府，与公主夫妇见面，东方朔和杨得意随后到达，大家交谈。"
+      },
+      "start": 86,
+      "end": 110,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "皇后陈阿娇", "平阳公主", "曹寿", "司马相如", "卓文君", "东方朔", "杨得意"],
+        "description": "皇上和皇后驾到平阳公主府，大家迎接并进入府内，交谈中回溯汉武帝如何借助皇后母亲的力量成为太子的往事。"
+      },
+      "start": 111,
+      "end": 178,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.8
+      }
+    }
+  ],
+  "coverage_check": true
+}

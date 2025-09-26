@@ -1,0 +1,173 @@
+{
+  "story": {
+    "background": "时间：古代中国西汉时期；地点：临邛县邛山半山腰的乐乐亭及卓王孙家附近；世界观：古代中国社会，涉及才子佳人、县令财主，以琴声传情、风俗人情为特色。",
+    "plot": "司马相如与县令王级互相利用，打赌能否引出卓文君；司马相如在乐乐亭弹奏《凤求凰》琴曲，成功打动卓文君；卓文君现身并与司马相如牵手，但遭卓王孙反对后私奔；东方朔和杨得意作为观察者见证整个过程，最终事件引发当地轰动。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "朝廷官员",
+        "characteristic": "聪明",
+        "description": "聪明的朝廷官员"
+      },
+      "plot_related_info": {
+        "motivations": "观察事件发展，可能受皇命或好奇驱使",
+        "relationships": {
+          "杨得意": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "训犬师/司马相如学生",
+        "characteristic": "忠诚",
+        "description": "忠诚的训犬师"
+      },
+      "plot_related_info": {
+        "motivations": "帮助老师司马相如，并执行任务",
+        "relationships": {
+          "司马相如": "师徒",
+          "东方朔": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "司马相如",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "辞赋家/才子",
+        "characteristic": "风流倜傥",
+        "description": "风流倜傥的穷困才子"
+      },
+      "plot_related_info": {
+        "motivations": "追求卓文君，并利用王级达到目的",
+        "relationships": {
+          "王级": "互相利用",
+          "卓文君": "恋人",
+          "杨得意": "师徒"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "王级",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "临邛县令",
+        "characteristic": "狡猾",
+        "description": "狡猾好色的县令"
+      },
+      "plot_related_info": {
+        "motivations": "利用司马相如得到卓文君，以提升名声",
+        "relationships": {
+          "司马相如": "互相利用"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卓文君",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "卓王孙女儿/才女",
+        "characteristic": "美丽",
+        "description": "美丽感性的才女"
+      },
+      "plot_related_info": {
+        "motivations": "寻找知音和幸福，被琴声打动",
+        "relationships": {
+          "司马相如": "恋人",
+          "卓王孙": "父女"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "杨得意"],
+        "description": "在邛山半山腰乐乐亭旁，东方朔和杨得意选择位置坐下，等待事件发生，并点菜准备观察。"
+      },
+      "start": 0,
+      "end": 36,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["司马相如", "王级", "东方朔", "杨得意"],
+        "description": "司马相如和王级到达乐乐亭坐下，司马相如开始弹琴，东方朔和杨得意继续观察，琴声响起。"
+      },
+      "start": 2,
+      "end": 41,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["司马相如", "王级", "东方朔", "杨得意", "卓文君"],
+        "description": "司马相如弹奏《凤求凰》，卓文君被琴声吸引从卓家后门出现，走到司马相如身边，两人互动。"
+      },
+      "start": 42,
+      "end": 128,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["王级", "司马相如", "卓文君", "东方朔", "杨得意"],
+        "description": "王级愤怒离开乐乐亭，东方朔和杨得意也随之离开，司马相如和卓文君继续对视。"
+      },
+      "start": 128,
+      "end": 152,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["司马相如", "卓文君"],
+        "description": "卓文君抽手离开，返回卓家，司马相如目送她离开，陷入沉思。"
+      },
+      "start": 153,
+      "end": 162,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "杨得意"],
+        "description": "东方朔和杨得意回到店中，讨论司马相如和卓文君私奔事件，当地传闻四起。"
+      },
+      "start": 163,
+      "end": 179,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

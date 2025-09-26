@@ -1,0 +1,146 @@
+{
+    "story": {
+        "background": "时间：古代中国汉武帝时期；地点：长安宫廷和东方朔家中；世界观：历史宫廷背景，带有喜剧和权力 dynamics。",
+        "plot": "汉武帝命人接东方朔妻子齐鲁女到长安，想戏弄东方朔。汉武帝不让东方朔回家，安排美女测试齐鲁女的反应。齐鲁女与阿秀聊天，透露家庭背景和东方朔的怕老婆特性。汉武帝到来举行宴会，展示美女，齐鲁女机智应对，展现家庭智慧。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "幽默权威",
+                "description": "幽默权威的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "娱乐和测试东方朔夫妇，以戏弄的方式维护权威",
+                "relationships": {
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "近四十",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明怕老婆",
+                "description": "聪明怕老婆的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "避免麻烦，顺从皇帝，维护家庭和谐",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "齐鲁女": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "年近四十",
+                "gender": "女",
+                "identity": "东方朔的妻子",
+                "characteristic": "直率精明",
+                "description": "直率精明的家庭主妇"
+            },
+            "plot_related_info": {
+                "motivations": "维护家庭，应对皇帝考验，保护丈夫",
+                "relationships": {
+                    "东方朔": "夫妻",
+                    "阿秀": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "阿秀",
+                "age": "不到二十",
+                "gender": "女",
+                "identity": "侍女",
+                "characteristic": "年轻小心",
+                "description": "年轻小心的侍女"
+            },
+            "plot_related_info": {
+                "motivations": "伺候夫人，讨好东方朔，寻求安定",
+                "relationships": {
+                    "东方朔": "主仆",
+                    "齐鲁女": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "仆人",
+                "characteristic": "忙碌",
+                "description": "忙碌的仆人"
+            },
+            "plot_related_info": {
+                "motivations": "执行命令，服务东方朔家庭",
+                "relationships": {
+                    "东方朔": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "汉武帝在宫中与东方朔对话，告知接来齐鲁女并不让东方朔回家，意图戏弄。"
+            },
+            "start": 0,
+            "end": 31,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["齐鲁女", "阿秀", "蒲柳", "辛苦子"],
+                "description": "齐鲁女在东方朔家中与阿秀聊天，谈论家庭背景和东方朔的怕老婆往事，儿子们偶尔参与。"
+            },
+            "start": 32,
+            "end": 112,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["齐鲁女", "阿秀", "杨得道"],
+                "description": "杨得道报告汉武帝到来，齐鲁女准备接驾，对话紧张而匆忙。"
+            },
+            "start": 113,
+            "end": 128,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "齐鲁女", "阿秀"],
+                "description": "汉武帝到来东方朔家，举行宴会，展示美女测试齐鲁女，齐鲁女机智应对。"
+            },
+            "start": 129,
+            "end": 184,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,264 @@
+{
+    "story": {
+        "background": "汉代汉武帝时期，长安皇宫内。世界观涉及历史事件、宫廷斗争、军事外交和神话元素（如太岁星、长生不老）。",
+        "plot": "张汤为赶走东方朔，请术士李少翁欺骗汉武帝，称东方朔是太岁星，会赶走神仙。汉武帝追求长生不老，被迷惑，计划派东方朔出使匈奴。狄山博士因教学问题被汉武帝冷落，但后来在匈奴威胁下自请去边关作战。任厂和苏建从匈奴返回，报告匈奴只愿和亲不愿称臣，汉武帝愤怒，决定派东方朔和狄山分别带兵对抗匈奴。东方朔提出军事策略，狄山决心为儒者正名，引发儒家与道家的冲突。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "权威的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生不老，维护国家利益，巩固皇权",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "张汤": "君臣",
+                    "狄山": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "臣子/谋士",
+                "characteristic": "机智",
+                "description": "机智的汉朝臣子"
+            },
+            "plot_related_info": {
+                "motivations": "为皇帝出谋划策，证明自己的能力，应对宫廷斗争",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "敌对",
+                    "狄山": "竞争"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "臣子",
+                "characteristic": "狡猾",
+                "description": "狡猾的汉朝臣子"
+            },
+            "plot_related_info": {
+                "motivations": "赶走东方朔，巩固自己的地位，获取皇帝信任",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对",
+                    "李少翁": "同谋"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少翁",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "术士",
+                "characteristic": "欺骗",
+                "description": "欺骗性的术士"
+            },
+            "plot_related_info": {
+                "motivations": "与张汤合谋，欺骗皇帝以获取利益",
+                "relationships": {
+                    "张汤": "同谋",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "博士/儒者",
+                "characteristic": "固执",
+                "description": "固执的汉朝博士"
+            },
+            "plot_related_info": {
+                "motivations": "证明儒者的价值，恢复教职，为儒家正名",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "竞争"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "顺从的皇宫太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝，传递信息，执行命令",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "任厂",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "出使匈奴的使臣",
+                "characteristic": "勇敢",
+                "description": "勇敢的汉朝使臣"
+            },
+            "plot_related_info": {
+                "motivations": "完成出使任务，报告匈奴情况，维护汉朝利益",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏建",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "出使匈奴的使臣",
+                "characteristic": "果断",
+                "description": "果断的汉朝使臣"
+            },
+            "plot_related_info": {
+                "motivations": "协助任厂报告匈奴情况，提供军事信息",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "李少翁"],
+                "description": "在皇宫内，张汤和李少翁与汉武帝密谋，李少翁声称东方朔是太岁星，汉武帝计划派东方朔出使匈奴以避免冲突。"
+            },
+            "start": 0,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "杨得意", "东方朔", "张汤", "李少翁"],
+                "description": "东方朔在杨得意引领下觐见汉武帝，看见张汤和李少翁离开，东方朔怀疑李少翁身份，汉武帝掩饰。"
+            },
+            "start": 25,
+            "end": 44,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "杨得意", "小太监"],
+                "description": "小太监向杨得意报告狄山求见，汉武帝得知狄山已跪三天。"
+            },
+            "start": 45,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "狄山", "杨得意"],
+                "description": "狄山觐见汉武帝，请求恢复教职，汉武帝批评狄山能力，东方朔为狄山说话。"
+            },
+            "start": 49,
+            "end": 64,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "狄山", "任厂", "苏建", "杨得意"],
+                "description": "任厂和苏建返回报告匈奴情况，匈奴只愿和亲不愿称臣，并加强边防，汉武帝愤怒。"
+            },
+            "start": 65,
+            "end": 91,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "狄山", "东方朔"],
+                "description": "汉武帝指责狄山和亲政策误国，狄山反驳，汉武帝决定派狄山去边关对抗匈奴。"
+            },
+            "start": 92,
+            "end": 126,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "狄山"],
+                "description": "东方朔提出军事策略，建议派小股人马迷惑匈奴，汉武帝同意并派东方朔和狄山各带兵出征。"
+            },
+            "start": 127,
+            "end": 160,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "狄山", "东方朔"],
+                "description": "狄山选择对抗匈奴太子，表达决心为儒者正名，汉武帝赞赏其勇气。"
+            },
+            "start": 161,
+            "end": 186,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "狄山"],
+                "description": "东方朔和汉武帝继续对话，狄山请求带卫律了解匈奴内情，汉武帝同意，最终决定出兵。"
+            },
+            "start": 187,
+            "end": 210,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,100 @@
+{
+    "story": {
+        "background": "汉朝时期，宫廷政治背景，儒家学说与权力斗争交织。时间约为汉武帝时代，地点包括丞相府、官员家中和书房。",
+        "plot": "公孙弘为保相位，利用主父衍调查董仲舒。主父衍发现董仲舒研究阴阳五行，计划借天灾劝皇帝清除卫青和东方朔。主父衍意识到阴谋类似历史上的清君侧，可能带来朝局动荡。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "67",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "老奸巨猾",
+                "description": "老谋深算的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "保住丞相职位",
+                "relationships": {
+                    "董仲舒": "师生",
+                    "主父衍": "同乡"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "聪明野心",
+                "description": "野心勃勃的年轻官员"
+            },
+            "plot_related_info": {
+                "motivations": "晋升权力",
+                "relationships": {
+                    "公孙弘": "同乡",
+                    "董仲舒": "调查对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董仲舒",
+                "age": "74",
+                "gender": "男",
+                "identity": "儒家学者",
+                "characteristic": "执着",
+                "description": "执着于儒家学说的老学者"
+            },
+            "plot_related_info": {
+                "motivations": "推行儒家学说，影响皇帝",
+                "relationships": {
+                    "公孙弘": "师生"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": [],
+                "description": "旁白叙述故事背景，公孙弘想保住相位，担心董仲舒和主父衍威胁。"
+            },
+            "start": 0,
+            "end": 6,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "主父衍"],
+                "description": "公孙弘来到主父衍家中，两人对话，公孙弘说服主父衍去调查董仲舒，并达成协议。"
+            },
+            "start": 7,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍"],
+                "description": "主父衍多次拜访董仲舒，第五次在书房等待时发现竹简，内容显示董仲舒计划借天灾清除卫青和东方朔。"
+            },
+            "start": 104,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

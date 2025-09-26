@@ -1,0 +1,288 @@
+{
+    "story": {
+        "background": "汉代汉武帝时期，皇宫金殿上，处理淮南王造反事件的后续。",
+        "plot": "丞相公孙弘指责淮南王造反是因缺乏儒者，但被东方朔驳斥。辛苦子报告淮南王自裁和刘钦被杀，张汤处决大量叛贼。义纵押送叛贼上殿，武帝处决刘陵但赦免乳母梁氏。东方朔为张四公和讹旦求情成功。张汤与东方朔就雷贝和庄祝的处罚争论不休，留下悬念。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "中年男性皇帝，威严且决策果断"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权和法律，处理叛乱",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "张汤": "君臣",
+                    "梁氏": "乳母"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "机智男性大臣，善辩且仁慈"
+            },
+            "plot_related_info": {
+                "motivations": "维护正义和情理，拯救无辜",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "迂腐",
+                "description": "老年男性丞相，迂腐且推卸责任"
+            },
+            "plot_related_info": {
+                "motivations": "推卸责任，维护儒家观念",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "辛苦子",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "信使",
+                "characteristic": "忠诚",
+                "description": "忠诚男性信使，报告前线战况"
+            },
+            "plot_related_info": {
+                "motivations": "传递信息，服从命令",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "严厉",
+                "description": "严厉男性官员，执法无情"
+            },
+            "plot_related_info": {
+                "motivations": "严格执行法律，惩处叛贼",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "冷酷",
+                "description": "冷酷男性廷尉，坚持依法办事"
+            },
+            "plot_related_info": {
+                "motivations": "维护法律权威，严惩叛贼",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘陵",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "淮南郡主",
+                "characteristic": "狡诈",
+                "description": "狡诈女性淮南郡主，参与叛乱"
+            },
+            "plot_related_info": {
+                "motivations": "执行叛乱计划，求生",
+                "relationships": {
+                    "刘钦": "兄妹",
+                    "汉武帝": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "梁氏",
+                "age": "老年",
+                "gender": "女",
+                "identity": "武帝乳母",
+                "characteristic": "无知",
+                "description": "老年女性武帝乳母，无知被利用"
+            },
+            "plot_related_info": {
+                "motivations": "求生，感恩武帝",
+                "relationships": {
+                    "汉武帝": "乳母"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雷贝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "淮南王侍卫",
+                "characteristic": "孝义",
+                "description": "孝义男性侍卫，为父母报仇"
+            },
+            "plot_related_info": {
+                "motivations": "为父母报仇，尽孝尽忠",
+                "relationships": {
+                    "刘钦": "仇敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "庄祝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将领",
+                "characteristic": "犹豫",
+                "description": "犹豫男性将领，被卷入叛乱"
+            },
+            "plot_related_info": {
+                "motivations": "求生，将功赎罪",
+                "relationships": {
+                    "刘钦": "主从"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张四公",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将领",
+                "characteristic": "勇猛",
+                "description": "勇猛男性将领，立过战功"
+            },
+            "plot_related_info": {
+                "motivations": "求生，继续效忠",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "讹旦",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将领",
+                "characteristic": "忠诚",
+                "description": "忠诚男性将领，守业尽责"
+            },
+            "plot_related_info": {
+                "motivations": "求生，继续效忠",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "公孙弘", "东方朔"],
+                "description": "金殿上，公孙弘指责淮南王造反是因缺乏儒者，被东方朔驳斥，武帝令公孙弘回家。"
+            },
+            "start": 0,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "辛苦子"],
+                "description": "辛苦子进入金殿，报告淮南王自裁和刘钦被杀，张汤处决大量叛贼。"
+            },
+            "start": 25,
+            "end": 41,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "义纵", "田游", "刘陵", "梁氏", "张四公", "讹旦", "庄祝"],
+                "description": "义纵押送叛贼上殿，武帝处决田游，并开始审判刘陵等人。"
+            },
+            "start": 42,
+            "end": 61,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "义纵", "刘陵", "梁氏"],
+                "description": "武帝处决刘陵，东方朔巧妙救下梁氏，武帝最终赦免梁氏。"
+            },
+            "start": 62,
+            "end": 119,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "张四公", "讹旦"],
+                "description": "东方朔为张四公和讹旦求情，武帝赦免他们，允许他们将功赎罪。"
+            },
+            "start": 120,
+            "end": 144,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "张汤", "雷贝", "庄祝"],
+                "description": "张汤进入金殿，与东方朔就雷贝和庄祝的处罚争论不休，武帝犹豫不决，留下悬念。"
+            },
+            "start": 145,
+            "end": 228,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

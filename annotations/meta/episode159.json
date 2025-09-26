@@ -1,0 +1,276 @@
+{
+    "story": {
+        "background": "时间：古代汉武帝时期，具体战斗发生在鄂比河旁；地点：战场、匈奴草原、汉军大营、长安皇宫；世界观：汉朝与匈奴的战争背景，涉及军事冲突、人文反思和宫廷政治。",
+        "plot": "霍去病追击匈奴单于伊稚斜至鄂比河，双方激战近乎同归于尽。匈奴小男孩金秘帝发现并救活霍去病，对话中揭示战争带来的痛苦与反思。东方朔和霍光救援霍去病回营，霍去病表达厌战情绪。消息传回长安，汉武帝与东方朔讨论战争意义，反思胜利的本质。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻成人",
+                "gender": "男",
+                "identity": "汉朝大将军",
+                "characteristic": "英勇反思",
+                "description": "年轻英勇的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "追击匈奴单于，但战后反思战争伤害，希望和平",
+                "relationships": {
+                    "东方朔": "干爹",
+                    "霍光": "兄弟",
+                    "卫青": "舅舅",
+                    "卫长公主": "恋人"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "伊稚斜",
+                "age": "成人",
+                "gender": "男",
+                "identity": "匈奴单于",
+                "characteristic": "顽强",
+                "description": "顽强的匈奴单于"
+            },
+            "plot_related_info": {
+                "motivations": "抵抗汉军，保全匈奴",
+                "relationships": {
+                    "霍去病": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金秘帝",
+                "age": "小男孩",
+                "gender": "男",
+                "identity": "匈奴牧羊人",
+                "characteristic": "善良",
+                "description": "善良的匈奴牧羊男孩"
+            },
+            "plot_related_info": {
+                "motivations": "救死扶伤，厌恶战争，珍惜生命",
+                "relationships": {
+                    "霍去病": "救助对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉朝智臣",
+                "characteristic": "智慧",
+                "description": "智慧的汉朝智臣"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐汉武帝，但战后反思战争和统治哲学",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "霍去病": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "汉朝将领",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝将领"
+            },
+            "plot_related_info": {
+                "motivations": "救援哥哥霍去病，支持汉军",
+                "relationships": {
+                    "霍去病": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉朝大将军",
+                "characteristic": "稳重",
+                "description": "稳重的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "指挥汉军，关心霍去病伤势",
+                "relationships": {
+                    "霍去病": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "汉朝皇帝",
+                "characteristic": "雄心急躁",
+                "description": "雄心勃勃的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "扩张汉朝疆土，追求千古一帝",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "卫长公主": "父女",
+                    "霍去病": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫长公主",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "担忧",
+                "description": "担忧霍去病的公主"
+            },
+            "plot_related_info": {
+                "motivations": "担心霍去病安全，希望他归来",
+                "relationships": {
+                    "汉武帝": "父女",
+                    "霍去病": "恋人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["霍去病", "伊稚斜"],
+                "description": "在鄂比河旁，霍去病与伊稚斜激烈战斗，双方两败俱伤，霍去病晕倒。"
+            },
+            "start": 0,
+            "end": 17,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["金秘帝", "霍去病", "伊稚斜"],
+                "description": "次日，金秘帝在战场发现霍去病，救活他并带回帐篷。"
+            },
+            "start": 18,
+            "end": 35,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "金秘帝"],
+                "description": "在帐篷中，霍去病与金秘帝对话，反思战争伤害，霍去病请求金秘帝杀他。"
+            },
+            "start": 36,
+            "end": 74,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "金秘帝"],
+                "description": "霍去病再次苏醒，拒绝喝奶，金秘帝劝说其珍惜生命。"
+            },
+            "start": 75,
+            "end": 96,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "霍光", "霍去病", "金秘帝"],
+                "description": "东方朔和霍光找到霍去病，将其救回卫青大营。"
+            },
+            "start": 97,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "军医官", "东方朔", "霍去病"],
+                "description": "在大营中，军医治疗霍去病，霍去病表达厌战情绪，希望有一个家。"
+            },
+            "start": 109,
+            "end": 124,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫长公主", "公孙敖", "公孙贺"],
+                "description": "在长安皇宫，消息传开，卫长公主昏倒，汉武帝安慰她。"
+            },
+            "start": 125,
+            "end": 138,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "东方朔返回长安，汉武帝在建章宫接见他，讨论战争结果。"
+            },
+            "start": 139,
+            "end": 145,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "东方朔与汉武帝深入讨论战争意义和胜利本质，反思圣君之道。"
+            },
+            "start": 146,
+            "end": 183,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "汉武帝与东方朔继续对话，东方朔引用屈原诗句，引发对追求和人生的思考。"
+            },
+            "start": 184,
+            "end": 245,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

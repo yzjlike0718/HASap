@@ -1,0 +1,220 @@
+{
+    "story": {
+        "background": "汉朝时期，汉武帝当政，地点包括长安的东方朔家和未央宫大殿，世界观是古代中国宫廷政治斗争。",
+        "plot": "东方朔和汲黯讨论国家大事，汲黯质疑东方朔的妥协策略。东方朔安排杨得道处理白鹿为后续事件铺垫。在朝堂上，东方朔通过文章《答客难》暗示皇上用人不当。汉武帝提出再伐匈奴，引发朝臣辩论，汲黯反对张汤的货币政策并指责其祸国殃民，被汉武帝下令处死。东方朔介入，拿出白鹿币要赎汲黯的性命。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "执戟郎/文人",
+                "characteristic": "聪明机智",
+                "description": "机智的汉朝文人"
+            },
+            "plot_related_info": {
+                "motivations": "维护正义和平衡，保护忠臣",
+                "relationships": {
+                    "汲黯": "朋友",
+                    "汉武帝": "君臣",
+                    "张汤": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "直言敢谏",
+                "description": "正直的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "直言进谏，反对不公和奸臣",
+                "relationships": {
+                    "东方朔": "朋友",
+                    "张汤": "敌对",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "奸诈",
+                "description": "奸诈的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "推行新法，巩固个人权力",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "汲黯": "敌对",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "雄心勃勃",
+                "description": "雄心勃勃的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "扩张疆土，维护皇权",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "汲黯": "君臣",
+                    "张汤": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "仆人",
+                "characteristic": "忠诚",
+                "description": "忠诚的仆人"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔，执行任务",
+                "relationships": {
+                    "东方朔": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李蔡",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "犹豫不决",
+                "description": "犹豫的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "平衡朝堂势力，避免得罪权贵",
+                "relationships": {
+                    "张汤": "盟友",
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "汲黯"],
+                "description": "在东方朔家中，汲黯看望东方朔并争论国家大事，最终汲黯气愤离开。"
+            },
+            "start": 0,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得道"],
+                "description": "在东方朔家中，杨得道报告娶媳妇事宜，东方朔安排他去临淄处理白鹿并找桑弘羊商议。"
+            },
+            "start": 25,
+            "end": 46,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": [],
+                "description": "在未央宫大殿，武帝临朝前，东方朔改变站位观察官员。"
+            },
+            "start": 47,
+            "end": 52,
+            "confidence": {
+                "character_assignment": 0.5,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "汲黯"],
+                "description": "武帝进入大殿，偷听东方朔和汲黯对话，东方朔给汲黯文章《答客难》。"
+            },
+            "start": 53,
+            "end": 67,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "汲黯"],
+                "description": "武帝询问东方朔的文章，汲黯念《答客难》，武帝明白东方朔的暗示但东方朔表示不在乎。"
+            },
+            "start": 68,
+            "end": 115,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "李蔡", "张汤"],
+                "description": "武帝提出再伐匈奴，李蔡犹豫回应，张汤支持武帝。"
+            },
+            "start": 116,
+            "end": 143,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "汲黯", "张汤"],
+                "description": "汲黯反对张汤的货币政策，指责张汤祸国殃民，武帝愤怒要杀汲黯。"
+            },
+            "start": 144,
+            "end": 192,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "张汤", "汉武帝"],
+                "description": "东方朔阻止侍卫，提出用钱赎汲黯，并展示白鹿币，武帝质疑白鹿币来源。"
+            },
+            "start": 193,
+            "end": 210,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,281 @@
+{
+  "story": {
+    "background": "故事发生在汉朝汉武帝时期，主要地点包括执金吾义纵的大营、建章宫和东方朔的家。世界观融合了宫廷权力斗争和江湖侠义精神，展现了皇权与侠义之间的冲突。",
+    "plot": "大侠郭解为拯救三百六十六个孩子独自闯入义纵大营，最终自杀牺牲。孩子们获释后，东方朔为郭解收尸并与佞臣张汤等人发生冲突。汉武帝对郭解之死感到惋惜但坚持维护皇权，下令处理郭解家族。东方朔保护郭解家人，汉武帝亲自访问东方朔家，表达对郭解的敬意同时强调皇权至上。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "郭解",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大侠",
+        "characteristic": "侠义",
+        "description": "侠义的大侠"
+      },
+      "plot_related_info": {
+        "motivations": "拯救孩子和维护正义",
+        "relationships": {
+          "东方朔": "朋友",
+          "霍云儿": "夫妻",
+          "汉武帝": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "廷尉",
+        "characteristic": "奸诈",
+        "description": "奸诈的廷尉"
+      },
+      "plot_related_info": {
+        "motivations": "奉行皇命和保全自身",
+        "relationships": {
+          "义纵": "同事",
+          "主父衍": "同事",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "义纵",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "执金吾",
+        "characteristic": "阴险",
+        "description": "阴险的执金吾"
+      },
+      "plot_related_info": {
+        "motivations": "执行皇帝命令和陷害郭解",
+        "relationships": {
+          "张汤": "同事",
+          "主父衍": "同事",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "谄媚",
+        "description": "谄媚的官员"
+      },
+      "plot_related_info": {
+        "motivations": "讨好皇帝和推卸责任",
+        "relationships": {
+          "张汤": "同事",
+          "义纵": "同事",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "机智",
+        "description": "机智的官员"
+      },
+      "plot_related_info": {
+        "motivations": "保护郭解家人和维护正义",
+        "relationships": {
+          "郭解": "朋友",
+          "汉武帝": "君臣",
+          "霍云儿": "保护对象"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "矛盾",
+        "description": "矛盾的皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权和爱惜人才",
+        "relationships": {
+          "郭解": "敌对又敬仰",
+          "东方朔": "君臣",
+          "张汤": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍云儿",
+        "age": "N/A",
+        "gender": "女",
+        "identity": "郭解之妻",
+        "characteristic": "悲伤",
+        "description": "悲伤的郭解之妻"
+      },
+      "plot_related_info": {
+        "motivations": "保护孩子和怀念丈夫",
+        "relationships": {
+          "郭解": "夫妻",
+          "霍光": "姐弟",
+          "东方朔": "被保护者"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "直率",
+        "description": "直率的将军"
+      },
+      "plot_related_info": {
+        "motivations": "支持郭解和质疑皇帝",
+        "relationships": {
+          "汉武帝": "君臣",
+          "卫青": "亲戚",
+          "霍光": "亲戚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "稳重",
+        "description": "稳重的将军"
+      },
+      "plot_related_info": {
+        "motivations": "维护稳定和同情郭解",
+        "relationships": {
+          "汉武帝": "君臣",
+          "霍去病": "亲戚",
+          "东方朔": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "司马迁",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太史公",
+        "characteristic": "正直",
+        "description": "正直的太史公"
+      },
+      "plot_related_info": {
+        "motivations": "记录历史和敬仰郭解",
+        "relationships": {
+          "郭解": "敬仰",
+          "东方朔": "朋友"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["郭解", "张汤", "义纵", "主父衍"],
+        "description": "在义纵的大营，郭解为救孩子与佞臣对峙，最终自杀身亡。"
+      },
+      "start": 0,
+      "end": 38,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "张汤", "义纵", "主父衍"],
+        "description": "东方朔到达大营，与张汤等人冲突后带走郭解的尸体。"
+      },
+      "start": 39,
+      "end": 83,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "张汤", "义纵", "主父衍"],
+        "description": "东方朔埋葬郭解，佞臣前往建章宫向汉武帝报告。"
+      },
+      "start": 84,
+      "end": 100,
+      "confidence": {
+        "character_assignment": 0.85,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张汤", "义纵", "主父衍"],
+        "description": "在建章宫，汉武帝与佞臣讨论郭解之死，下令处理郭解家族。"
+      },
+      "start": 101,
+      "end": 140,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "霍云儿", "卫青", "霍去病", "司马迁", "齐鲁女"],
+        "description": "在东方朔家，众人悼念郭解，杨得意报告汉武帝到来。"
+      },
+      "start": 141,
+      "end": 175,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.85,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "霍云儿", "卫青", "霍去病", "司马迁", "齐鲁女"],
+        "description": "汉武帝访问东方朔家，表达对郭解的敬意并强调皇权至上。"
+      },
+      "start": 176,
+      "end": 210,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "霍去病", "卫青", "司马迁"],
+        "description": "在东方朔家正屋，汉武帝祭拜郭解的大刀，与众人讨论皇权与侠义。"
+      },
+      "start": 211,
+      "end": 253,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

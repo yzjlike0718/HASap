@@ -1,0 +1,162 @@
+{
+    "story": {
+        "background": "故事发生在西汉汉武帝时期，主要地点包括长安宫廷和齐国宫廷。世界观围绕宫廷政治和诸侯国之间的权力斗争，涉及太后、皇帝、诸侯王及使臣的复杂关系。",
+        "plot": "主父衍和许甲策划计谋，通过王太后影响汉武帝，派遣主父衍调查燕王刘定国，许甲为齐王次昌赐婚。主父衍意图让女儿嫁给齐王作妾以图控制齐国。在齐国，纪太后对赐婚表示不满，警告许甲，凸显了王室内部的矛盾和控制与反控制的斗争。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "监察御史",
+                "characteristic": "谋略家",
+                "description": "谋略的监察御史"
+            },
+            "plot_related_info": {
+                "motivations": "报复田鼢，提升自己的地位，并通过女儿控制齐国",
+                "relationships": {
+                    "许甲": "朋友/同谋",
+                    "田鼢": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "许甲",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监/使者",
+                "characteristic": "圆滑",
+                "description": "圆滑的太监使者"
+            },
+            "plot_related_info": {
+                "motivations": "执行王太后命令，帮助主父衍实现计划",
+                "relationships": {
+                    "主父衍": "朋友/同谋",
+                    "王太后": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "精明",
+                "description": "精明的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "削弱诸侯王势力，巩固皇权",
+                "relationships": {
+                    "王太后": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "权威",
+                "description": "权威的皇太后"
+            },
+            "plot_related_info": {
+                "motivations": "维护家族利益，干预朝政和诸侯国事务",
+                "relationships": {
+                    "汉武帝": "母子",
+                    "修成君": "母女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "纪太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "齐王太后",
+                "characteristic": "强势",
+                "description": "强势的齐王太后"
+            },
+            "plot_related_info": {
+                "motivations": "保持对齐王次昌的控制，维护王室血脉",
+                "relationships": {
+                    "齐王次昌": "养母"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐王次昌",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐王",
+                "characteristic": "懦弱",
+                "description": "懦弱的齐王"
+            },
+            "plot_related_info": {
+                "motivations": "摆脱纪太后的控制，享受王权",
+                "relationships": {
+                    "纪太后": "养母"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["王太后", "汉武帝"],
+                "description": "在长安宫廷，王太后命令汉武帝派遣主父衍和许甲出使燕国和齐国，汉武帝内心虽惊但同意派遣。"
+            },
+            "start": 0,
+            "end": 18,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "许甲"],
+                "description": "在坝桥，主父衍和许甲对话，讨论计划，主父衍请求许甲将女儿嫁给齐王作妾。"
+            },
+            "start": 19,
+            "end": 46,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.95
+            }
+        },
+        {
+            "scene": {
+                "characters": ["叙述者"],
+                "description": "叙述者介绍齐国的历史、经济状况以及齐王次昌的身世和继承问题。"
+            },
+            "start": 47,
+            "end": 80,
+            "confidence": {
+                "character_assignment": 0.7,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["许甲", "齐王次昌", "纪太后"],
+                "description": "在齐国宫廷，许甲宣布赐婚，齐王次昌高兴，但纪太后出现表达不满，引用孟子故事警告许甲和齐王。"
+            },
+            "start": 81,
+            "end": 189,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

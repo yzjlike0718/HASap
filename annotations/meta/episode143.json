@@ -1,0 +1,152 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：汉朝金殿；世界观：汉匈战争背景下，匈奴主动求和，汉朝处于强盛时期，朝廷氛围威严。",
+        "plot": "匈奴派使者卫律来汉朝求和，汉武帝怀疑匈奴的诚意，认为这是缓兵之计。朝臣中，东方朔指出匈奴并非真心求和，主张继续备战；狄山则主张和亲以换取和平。汉武帝最终倾向东方朔的观点，考虑派使者回访以争取时间，为战争做准备。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "威严的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护汉朝权威，扩张领土，确保国家利益",
+                "relationships": {
+                    "卫律": "敌对",
+                    "东方朔": "信任",
+                    "狄山": "不满"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫律",
+                "age": "40开外",
+                "gender": "男",
+                "identity": "匈奴使者",
+                "characteristic": "老练",
+                "description": "老练的匈奴使者"
+            },
+            "plot_related_info": {
+                "motivations": "完成匈奴单于的求和任务，保全自身地位",
+                "relationships": {
+                    "汉武帝": "敌对",
+                    "于禅太子": "师生"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "朝臣",
+                "characteristic": "聪明",
+                "description": "聪明的汉朝朝臣"
+            },
+            "plot_related_info": {
+                "motivations": "为国家利益，反对和亲，主张备战",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "狄山": "对立"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "狄山",
+                "age": "成年",
+                "gender": "男",
+                "identity": "儒家博士",
+                "characteristic": "迂腐",
+                "description": "迂腐的儒家博士"
+            },
+            "plot_related_info": {
+                "motivations": "推行儒家思想，主张和亲以换取和平",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "对立"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李蔡",
+                "age": "成年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "谨慎",
+                "description": "谨慎的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "保持地位，避免冲突，迎合皇帝",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "李广": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "成年",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "顺从的汉朝太监"
+            },
+            "plot_related_info": {
+                "motivations": "执行皇帝旨意，服务朝廷",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "文武百官"],
+                "description": "汉武帝在金殿上准备接见匈奴使者，文武百官肃立，背景介绍汉匈关系和朝廷氛围。"
+            },
+            "start": 0,
+            "end": 23,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫律", "杨得意"],
+                "description": "匈奴使者卫律上殿与汉武帝对话，献上国书并讲述自己的汉人背景，汉武帝未立即决定，让卫律退下。"
+            },
+            "start": 24,
+            "end": 88,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "狄山", "李蔡", "文武百官"],
+                "description": "汉武帝询问群臣关于和战意见，李蔡谨慎回应，东方朔主张匈奴是缓兵之计，狄山主张和亲，引发朝堂辩论。"
+            },
+            "start": 89,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

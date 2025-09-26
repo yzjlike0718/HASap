@@ -1,0 +1,233 @@
+{
+    "story": {
+        "background": "时间：西汉汉武帝时期；地点：长安城皇宫及监狱；世界观：基于真实历史改编的宫廷权斗故事，展现汉武帝初期的政治斗争和君臣关系",
+        "plot": "魏其侯窦婴被田鼢和张汤诬陷私造先帝遗诏，遭皇太后下旨满门抄斩。东方朔得知惨案后，冒死闯入皇宫面见汉武帝。汉武帝正沉溺于韩嫣、董衍等弄臣的娱乐中，对窦婴之死感到悲痛却无可奈何。东方朔与汉武帝进行深入交谈，提出'忠'的理念，帮助汉武帝重新振作。汉武帝决心整肃朝纲，诛杀田鼢等奸臣，但碍于皇太后的关系陷入两难境地。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "青年",
+                "gender": "男",
+                "identity": "大汉皇帝",
+                "characteristic": "矛盾",
+                "description": "年轻的大汉皇帝，内心充满仁孝与权力的矛盾"
+            },
+            "plot_related_info": {
+                "motivations": "希望在尽孝母亲与治理国家之间找到平衡，振兴汉室江山",
+                "relationships": {
+                    "皇太后": "母子",
+                    "田鼢": "舅舅",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "伴驾大夫",
+                "characteristic": "忠诚",
+                "description": "忠诚机智的朝廷大臣，敢于直谏"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐汉武帝重整朝纲，为窦婴申冤，清除奸臣",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "窦婴": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "老年",
+                "gender": "男",
+                "identity": "魏其侯",
+                "characteristic": "忠烈",
+                "description": "忠贞的老臣，遭奸臣陷害而惨死"
+            },
+            "plot_related_info": {
+                "motivations": "维护汉室江山，辅佐汉武帝成为明君",
+                "relationships": {
+                    "田鼢": "政敌",
+                    "张汤": "政敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "奸诈",
+                "description": "陷害忠良的奸臣"
+            },
+            "plot_related_info": {
+                "motivations": "依附田鼢，铲除政敌，巩固权力",
+                "relationships": {
+                    "田鼢": "同党",
+                    "窦婴": "政敌"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "中年",
+                "gender": "男",
+                "identity": "国舅",
+                "characteristic": "权奸",
+                "description": "皇太后的弟弟，弄权误国的奸臣"
+            },
+            "plot_related_info": {
+                "motivations": "铲除异己，掌控朝政大权",
+                "relationships": {
+                    "皇太后": "姐弟",
+                    "汉武帝": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "韩嫣",
+                "age": "青年",
+                "gender": "男",
+                "identity": "弄臣",
+                "characteristic": "谄媚",
+                "description": "讨好皇帝的弄臣"
+            },
+            "plot_related_info": {
+                "motivations": "取悦皇帝，获得宠幸和权力",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董衍",
+                "age": "青年",
+                "gender": "男",
+                "identity": "弄臣",
+                "characteristic": "谄媚",
+                "description": "讨好皇帝的弄臣"
+            },
+            "plot_related_info": {
+                "motivations": "取悦皇帝，获得宠幸和权力",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["窦婴", "张汤"],
+                "description": "在监狱中，张汤嘲讽窦婴并告知他皇太后已下旨满门抄斩，窦婴悲愤交加"
+            },
+            "start": 0,
+            "end": 29,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "叙述窦婴被满门抄斩的惨状，东方朔回到长安看到城门上悬挂的人头"
+            },
+            "start": 30,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.85
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "武士"],
+                "description": "东方朔身穿孝服欲进宫面圣，被武士阻拦后强行闯入"
+            },
+            "start": 34,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.95,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "韩嫣", "董衍"],
+                "description": "建章宫内，汉武帝正与弄臣娱乐，东方朔持戟闯入请求死罪，告知窦婴死讯"
+            },
+            "start": 51,
+            "end": 73,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "汉武帝情绪崩溃，与东方朔以兄弟相称倾诉内心痛苦，讨论仁孝两难的问题"
+            },
+            "start": 74,
+            "end": 109,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "东方朔请求汉武帝在剑上写下'东方朔不死'的保证后，开始阐述忠君爱国的道理"
+            },
+            "start": 110,
+            "end": 135,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "东方朔提出'忠'的理念，阐述君主应对祖宗社稷尽忠，汉武帝深受启发"
+            },
+            "start": 136,
+            "end": 195,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "汉武帝决心整肃朝纲，想要诛杀田鼢等奸臣但碍于皇太后的关系，东方朔建议厚葬窦婴并逐步收回大权"
+            },
+            "start": 196,
+            "end": 222,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

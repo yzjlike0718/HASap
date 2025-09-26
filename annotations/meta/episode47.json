@@ -1,0 +1,427 @@
+{
+    "story": {
+        "background": "汉朝汉武帝时期，皇宫内廷（如未央宫、建章宫、昭阳宫）和廷尉府，世界观为古代中国宫廷权力斗争，涉及皇权、外戚与大臣之间的冲突，法律与权力交织。",
+        "plot": "田鼢和张汤诬陷窦婴毒死灌夫，并将罪名加于窦婴。皇太后向汉武帝施压，偏袒田鼢，指责窦婴不忠。汉武帝犹豫不决，命张汤审理窦婴案，但田鼢、张汤和吴培龙偷烧先帝赐予窦婴的铁券丹书，导致窦婴失去免死保障。所忠因守护诏书不力而自杀，皇太后支开东方朔，窦婴最终被定罪处死，展现了宫廷斗争的残酷。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大汉皇帝",
+                "characteristic": "孝顺",
+                "description": "孝顺的大汉皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "维护皇权，但尊重母亲，试图平衡正义与孝道",
+                "relationships": {
+                    "皇太后": "母子",
+                    "窦婴": "君臣",
+                    "田鼢": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "皇太后",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "专横",
+                "description": "专横的皇太后"
+            },
+            "plot_related_info": {
+                "motivations": "保护家族利益，偏袒兄弟田鼢",
+                "relationships": {
+                    "汉武帝刘彻": "母子",
+                    "田鼢": "姐妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "魏其侯",
+                "characteristic": "正直",
+                "description": "正直的魏其侯"
+            },
+            "plot_related_info": {
+                "motivations": "证明清白，维护正义",
+                "relationships": {
+                    "田鼢": "敌对",
+                    "张汤": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "狡猾",
+                "description": "狡猾的丞相"
+            },
+            "plot_related_info": {
+                "motivations": "铲除异己，巩固权力",
+                "relationships": {
+                    "皇太后": "姐妹",
+                    "窦婴": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "心计",
+                "description": "心计的廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "讨好田鼢和皇太后，维护自身地位",
+                "relationships": {
+                    "田鼢": "同谋",
+                    "窦婴": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明",
+                "description": "聪明的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "保护窦婴，维护正义",
+                "relationships": {
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的将军"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐汉武帝，维护朝廷稳定",
+                "relationships": {
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的大太监"
+            },
+            "plot_related_info": {
+                "motivations": "守护职守，忠于皇室",
+                "relationships": {
+                    "汉武帝刘彻": "主仆",
+                    "皇太后": "旧主"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "吴培龙",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉府小吏",
+                "characteristic": "狡猾",
+                "description": "狡猾的廷尉府小吏"
+            },
+            "plot_related_info": {
+                "motivations": "获取利益，讨好田鼢",
+                "relationships": {
+                    "田鼢": "下属",
+                    "张汤": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇室，传达消息",
+                "relationships": {
+                    "汉武帝刘彻": "主仆",
+                    "皇太后": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["皇太后", "汉武帝刘彻"],
+                "description": "皇宫内，皇太后责备汉武帝不辨亲疏，偏袒窦婴，汉武帝内心矛盾但沉默以对。"
+            },
+            "start": 0,
+            "end": 13,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "汉武帝刘彻"],
+                "description": "皇太后继续强调田鼢亲近，汉武帝气愤但克制，皇太后离开并交给武帝孙女。"
+            },
+            "start": 14,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "杨得意"],
+                "description": "汉武帝命令召见东方朔、卫青和张汤，准备处理窦婴案。"
+            },
+            "start": 34,
+            "end": 40,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "东方朔", "卫青"],
+                "description": "东方朔和卫青请求汉武帝赦免窦婴，汉武帝提及铁券丹书可免死。"
+            },
+            "start": 41,
+            "end": 61,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "张汤"],
+                "description": "张汤报告窦婴毒死灌夫的事，但言辞含糊，汉武帝疑虑。"
+            },
+            "start": 62,
+            "end": 73,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "东方朔", "卫青"],
+                "description": "汉武帝命张汤审理窦婴案，然后去狩猎，东方朔和卫青陪同。"
+            },
+            "start": 74,
+            "end": 86,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["所忠"],
+                "description": "所忠在未央宫守夜，独自一人。"
+            },
+            "start": 87,
+            "end": 90,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢", "张汤", "吴培龙", "所忠"],
+                "description": "田鼢、张汤和吴培龙要求所忠拿出铁券副本，所忠拒绝并坚持职守。"
+            },
+            "start": 91,
+            "end": 113,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢", "张汤", "吴培龙", "所忠"],
+                "description": "张汤假意劝阻田鼢，所忠仍坚持不动，田鼢威胁所忠。"
+            },
+            "start": 114,
+            "end": 125,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢", "张汤", "吴培龙", "所忠"],
+                "description": "吴培龙找到铁券丹书，田鼢烧毁诏书，所忠试图阻止但被绊倒。"
+            },
+            "start": 126,
+            "end": 138,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["所忠"],
+                "description": "所忠因铁券被烧而自责，上吊自杀。"
+            },
+            "start": 139,
+            "end": 151,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "汉武帝刘彻"],
+                "description": "杨得意发现所忠尸体，禀报汉武帝，汉武帝流泪。"
+            },
+            "start": 152,
+            "end": 156,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["皇太后", "杨得意"],
+                "description": "皇太后命令杨得意传旨，支开东方朔，让他陪修成君夫妇下乡。"
+            },
+            "start": 157,
+            "end": 159,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["杨得意", "东方朔", "杨得道"],
+                "description": "杨得意到东方朔家传达旨意，提及所忠死讯，东方朔察觉异常。"
+            },
+            "start": 160,
+            "end": 172,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔明白皇太后意图，感叹大汉将难，窦婴危矣。"
+            },
+            "start": 173,
+            "end": 186,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔送修成君夫妇回乡，然后返回长安。"
+            },
+            "start": 187,
+            "end": 190,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔回长安，看到城头挂满人头，窦婴已被抓。"
+            },
+            "start": 191,
+            "end": 194,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "吴培龙", "窦婴"],
+                "description": "张汤和吴培龙审讯窦婴，指控他毒死灌夫，窦婴反驳。"
+            },
+            "start": 195,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["窦婴", "张汤"],
+                "description": "窦婴得知铁券被烧，愤怒并要求见皇上，张汤嘲讽。"
+            },
+            "start": 205,
+            "end": 222,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

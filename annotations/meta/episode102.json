@@ -1,0 +1,230 @@
+{
+    "story": {
+        "background": "故事发生在汉朝时期，主要地点包括建章宫、王太后宫中等宫廷环境。世界观围绕宫廷斗争、历史事件和人物关系展开，涉及汉武帝、王太后、诸侯王等角色。",
+        "plot": "主父衍（原名王臧）在建章宫遇到旧识许甲，两人回忆过去偷金子的往事。许甲透露齐王和燕王的秘密，并提议利用修成君的女儿金娥的婚姻来达到政治目的。主父衍和许甲合谋，王太后介入决定将金娥嫁给齐王，并派主父衍调查燕王。故事展现了宫廷阴谋和人物命运的交织。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "谨慎",
+                "description": "中年男性官员，谨慎狡猾"
+            },
+            "plot_related_info": {
+                "motivations": "追求权力和复仇，利用许甲的计划提升自己的地位",
+                "relationships": {
+                    "许甲": "旧识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "许甲",
+                "age": "四十开外",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "狡猾",
+                "description": "中年男性太监，狡猾善辩"
+            },
+            "plot_related_info": {
+                "motivations": "报复齐王，寻求机会在宫廷中立足",
+                "relationships": {
+                    "主父衍": "旧识",
+                    "齐王": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "王太后",
+                "age": "老年",
+                "gender": "女",
+                "identity": "皇太后",
+                "characteristic": "权威",
+                "description": "老年女性皇太后，权威果断"
+            },
+            "plot_related_info": {
+                "motivations": "维护家族利益，关心子孙婚姻和诸侯国事务",
+                "relationships": {
+                    "汉武帝": "母子",
+                    "修成君": "母女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "果断",
+                "description": "中年男性皇帝，果断治国"
+            },
+            "plot_related_info": {
+                "motivations": "处理国事，平衡母亲和朝臣的影响",
+                "relationships": {
+                    "王太后": "母子",
+                    "修成君": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "修成君",
+                "age": "中年",
+                "gender": "女",
+                "identity": "皇太后之女",
+                "characteristic": "悲伤",
+                "description": "中年女性皇太后之女，悲伤命运"
+            },
+            "plot_related_info": {
+                "motivations": "保护女儿金娥，怀念儿子金吾子",
+                "relationships": {
+                    "王太后": "母女",
+                    "汉武帝": "姐弟",
+                    "金娥": "母女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "金娥",
+                "age": "18岁",
+                "gender": "女",
+                "identity": "修成君之女",
+                "characteristic": "活泼",
+                "description": "年轻女性修成君之女，活泼外向"
+            },
+            "plot_related_info": {
+                "motivations": "追求自由恋爱，与东方蒲柳相好",
+                "relationships": {
+                    "修成君": "母女",
+                    "东方蒲柳": "恋人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["主父衍", "许甲"],
+                "description": "在建章宫门口，主父衍遇到许甲，两人相认并回忆过去偷金子的事。"
+            },
+            "start": 0,
+            "end": 16,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "许甲"],
+                "description": "两人详细讨论许甲被阉的经过和齐王的秘密，许甲解释如何来到长安。"
+            },
+            "start": 17,
+            "end": 78,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "许甲"],
+                "description": "主父衍提议合作，许甲出谋划策，两人计划利用金娥的婚姻。"
+            },
+            "start": 79,
+            "end": 96,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "许甲", "东方蒲柳", "金娥"],
+                "description": "两人躲到树后，观察东方蒲柳和金娥对话，得知他们的关系。"
+            },
+            "start": 97,
+            "end": 108,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "许甲"],
+                "description": "主父衍和许甲讨论金娥和蒲柳，许甲提出详细计策，两人击掌为誓。"
+            },
+            "start": 109,
+            "end": 130,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["王太后", "许甲"],
+                "description": "在王太后宫中，许甲报告皇上要求，王太后关心子孙婚姻。"
+            },
+            "start": 131,
+            "end": 142,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["王太后", "修成君", "汉武帝"],
+                "description": "王太后和修成君对话，汉武帝进来，讨论金吾子的事和家庭关系。"
+            },
+            "start": 143,
+            "end": 180,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["王太后", "修成君", "汉武帝", "许甲"],
+                "description": "王太后决定将金娥嫁给齐王，汉武帝同意，许甲受命前往齐国。"
+            },
+            "start": 181,
+            "end": 210,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["王太后", "汉武帝", "许甲"],
+                "description": "王太后讨论燕国的事，要求汉武帝调查燕王，并派主父衍前往。"
+            },
+            "start": 211,
+            "end": 234,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

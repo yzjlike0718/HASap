@@ -1,0 +1,161 @@
+{
+  "story": {
+    "background": "时间：汉代汉武帝时期；地点：未央宫；世界观：历史宫廷背景，涉及朝廷事务、君臣关系。",
+    "plot": "东方朔被贬后返回京城，汉武帝任命他为低职位的执戟郎。东方朔接受职位并站岗，同时汉武帝与郭舍人猜谜取乐。汉武帝叫东方朔与郭舍人对决猜谜，东方朔凭借智慧赢了郭舍人，展现其聪明才智。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "任性",
+        "description": "中年男性皇帝，任性"
+      },
+      "plot_related_info": {
+        "motivations": "寻求娱乐和智慧较量，维护皇权",
+        "relationships": {
+          "东方朔": "君臣",
+          "郭舍人": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "执戟郎/前大臣",
+        "characteristic": "聪明",
+        "description": "中年男性执戟郎，聪明"
+      },
+      "plot_related_info": {
+        "motivations": "忠诚于皇帝，希望辅助治理天下",
+        "relationships": {
+          "汉武帝": "君臣",
+          "齐鲁女": "夫妻"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "郭舍人",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "舍人/太监",
+        "characteristic": "巧嘴",
+        "description": "年轻男性舍人，巧嘴"
+      },
+      "plot_related_info": {
+        "motivations": "讨皇帝欢心，获取赏赐",
+        "relationships": {
+          "汉武帝": "主仆",
+          "张汤": "恩仇"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "狡猾",
+        "description": "男性官员，狡猾"
+      },
+      "plot_related_info": {
+        "motivations": "为皇帝找乐子，巩固地位",
+        "relationships": {
+          "汉武帝": "君臣",
+          "郭舍人": "控制"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "忠诚",
+        "description": "男性太监，忠诚"
+      },
+      "plot_related_info": {
+        "motivations": "服务皇帝，厌恶郭舍人",
+        "relationships": {
+          "汉武帝": "主仆",
+          "郭舍人": "敌对"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔"],
+        "description": "在未央宫，汉武帝召见东方朔，任命他为执戟郎，讨论骑驴上朝。"
+      },
+      "start": 0,
+      "end": 38,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔"],
+        "description": "在未央宫站岗，东方朔回忆与妻子齐鲁女的对话，思考职位问题。"
+      },
+      "start": 39,
+      "end": 72,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "郭舍人"],
+        "description": "在宫内，汉武帝与郭舍人猜谜取乐，东方朔在外听到声音。"
+      },
+      "start": 73,
+      "end": 97,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "郭舍人", "杨得意"],
+        "description": "汉武帝与郭舍人继续猜谜，汉武帝叫杨得意传东方朔进来。"
+      },
+      "start": 98,
+      "end": 148,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "郭舍人"],
+        "description": "东方朔与郭舍人猜谜对决，东方朔赢了郭舍人，获得赏赐。"
+      },
+      "start": 149,
+      "end": 202,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

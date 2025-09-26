@@ -1,0 +1,247 @@
+{
+    "story": {
+        "background": "汉武帝时期，汉朝宫廷，世界观为古代中国君主制，涉及儒家思想、政治斗争与人才荐举。",
+        "plot": "东方朔在金殿上唱歌谣暗示公孙弘欺师灭祖，引发汉武帝询问。主父衍直接指责公孙弘，东方朔回忆董仲舒因江都王事件被贬的往事，揭示公孙弘未上报董仲舒在长安的真相。武帝最终讨论人才荐举的重要性，命令制定荐举法，并私下与东方朔交谈儒术与朝政。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "臣子",
+                "characteristic": "机智",
+                "description": "机智的汉朝臣子"
+            },
+            "plot_related_info": {
+                "motivations": "维护正义，揭露真相，辅佐武帝",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "雄心",
+                "description": "雄才大略的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "巩固皇权，选拔人才，实现千古一帝的理想",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "公孙弘": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "直率",
+                "description": "直率的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "指责不公，推动剧情发展",
+                "relationships": {
+                    "公孙弘": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "儒雅",
+                "description": "儒雅的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "维护儒家地位，平衡师恩与忠君",
+                "relationships": {
+                    "董仲舒": "师生",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "董仲舒",
+                "age": "老年",
+                "gender": "男",
+                "identity": "大儒",
+                "characteristic": "博学",
+                "description": "博学的汉朝大儒"
+            },
+            "plot_related_info": {
+                "motivations": "传播儒家思想，改善朝政",
+                "relationships": {
+                    "公孙弘": "师生",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "成年",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "谨慎",
+                "description": "谨慎的汉朝太监"
+            },
+            "plot_related_info": {
+                "motivations": "侍奉武帝，传递信息",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "严厉",
+                "description": "严厉的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "执行武帝命令，制定法律",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "赵羽",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "未知",
+                "description": "汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "辅助张汤执行命令",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "成年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "执行武帝任务，接东方朔家人",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "主父衍", "公孙弘", "文武百官"],
+                "description": "在金殿上，东方朔唱歌谣暗示公孙弘欺师灭祖，主父衍直接指责公孙弘，汉武帝询问详情。"
+            },
+            "start": 0,
+            "end": 14,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "文武百官"],
+                "description": "东方朔回忆董仲舒因江都王事件被贬的往事，包括武帝的愤怒和董仲舒的贬黜。"
+            },
+            "start": 15,
+            "end": 104,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "公孙弘", "文武百官"],
+                "description": "东方朔提及董仲舒在长安，公孙弘回应安置老师但未上报，武帝表态并讨论儒术。"
+            },
+            "start": 105,
+            "end": 144,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "文武百官"],
+                "description": "武帝谈论荐举人才的重要性，强调忠孝廉洁，并命令郡国推举贤良。"
+            },
+            "start": 145,
+            "end": 171,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "张汤", "赵羽", "杨得意", "公孙敖", "文武百官"],
+                "description": "武帝命令张汤和赵羽制定荐举法，杨得意低声报告，公孙敖出现，暗示任务完成。"
+            },
+            "start": 172,
+            "end": 185,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "文武百官"],
+                "description": "武帝精神振奋，忘记训斥大臣，命令文武百官退朝，只留下东方朔。"
+            },
+            "start": 186,
+            "end": 192,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔"],
+                "description": "武帝私下与东方朔交谈，质问其出难题，讨论儒术与朝政，并提及妓院事件。"
+            },
+            "start": 193,
+            "end": 213,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

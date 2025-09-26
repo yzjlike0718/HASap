@@ -1,0 +1,168 @@
+{
+    "story": {
+        "background": "古代中国汉朝时期，地点在南阳郡，涉及官场斗争、酷吏执法和贪腐现象。",
+        "plot": "义纵奉皇命到南阳郡惩治老廷尉宁城。宁城试图用夜明珠和歌姬雕姬贿赂义纵，但义纵拒绝并逮捕宁城。义纵屠杀宁城全家，并受雕姬蛊惑，采用残忍的杀人方法取乐。故事展现了义纵从只爱杀人到开始贪图享受的内心矛盾。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "南阳郡太守",
+                "characteristic": "残忍",
+                "description": "残忍的南阳郡太守"
+            },
+            "plot_related_info": {
+                "motivations": "奉皇命惩治贪官，但享受杀人乐趣和权力",
+                "relationships": {
+                    "宁城": "敌对",
+                    "江冲": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "宁城",
+                "age": "70开外",
+                "gender": "男",
+                "identity": "老廷尉",
+                "characteristic": "贪婪",
+                "description": "贪婪的老廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "保护自己的财产和家族，避免被惩治",
+                "relationships": {
+                    "义纵": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "江冲",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "义纵的手下",
+                "characteristic": "忠诚",
+                "description": "义纵忠诚的手下"
+            },
+            "plot_related_info": {
+                "motivations": "服务义纵，获得信任",
+                "relationships": {
+                    "义纵": "下属"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雕姬",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "歌姬",
+                "characteristic": "残忍",
+                "description": "残忍的歌姬"
+            },
+            "plot_related_info": {
+                "motivations": "讨好义纵，出残忍主意以保命或得宠",
+                "relationships": {
+                    "宁城": "原主人",
+                    "义纵": "新主人"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["义纵", "江冲"],
+                "description": "介绍义纵和江冲的背景，义纵带着人马到南阳上任。"
+            },
+            "start": 0,
+            "end": 11,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "江冲", "宁城"],
+                "description": "江冲报告宁城求见，义纵升堂准备审问宁城。"
+            },
+            "start": 12,
+            "end": 19,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "宁城", "利杰"],
+                "description": "义纵与宁城在大堂上对话，宁城质疑算民告民政策，义纵回应。"
+            },
+            "start": 20,
+            "end": 100,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "宁城", "雕姬"],
+                "description": "宁城献上夜明珠和歌姬雕姬贿赂义纵，义纵 initially 表现兴趣。"
+            },
+            "start": 101,
+            "end": 129,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "宁城"],
+                "description": "义纵翻脸逮捕宁城，宁城求饶，义纵下令屠杀宁城全家。"
+            },
+            "start": 130,
+            "end": 165,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵"],
+                "description": "义纵拿着夜明珠反思宁城的话，内心开始贪图享受。"
+            },
+            "start": 166,
+            "end": 175,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["义纵", "江冲", "雕姬"],
+                "description": "江冲带来雕姬，雕姬出残忍主意取乐，义纵采纳。"
+            },
+            "start": 176,
+            "end": 216,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

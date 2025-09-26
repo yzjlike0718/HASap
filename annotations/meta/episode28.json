@@ -1,0 +1,187 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：皇宫朝堂（如成明殿）及后宫（如昭阳宫）；世界观：古代中国宫廷政治，涉及文学谏言、权力斗争和皇室家庭生活。",
+        "plot": "东方朔批评司马相如的《上林赋》助长奢侈之风，引发朝堂争论。汉武帝 initially 喜欢该赋并欲扩建上林苑，但汲黯直言谏阻被斥。东方朔以滑稽的《裤裆狮子赋》讽谏，使汉武帝改变主意，妥协后派遣司马相如出使巴蜀，并命东方朔监造上林苑但限制铺张。退朝后，汉武帝与皇太后为小公主办满月，而皇后阿娇因嫉妒而愤怒。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "聪明滑稽",
+                "description": "机智幽默的朝廷官员"
+            },
+            "plot_related_info": {
+                "motivations": "劝谏汉武帝避免奢侈，维护国家利益",
+                "relationships": {
+                    "司马相如": "敌对",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马相如",
+                "age": "成年",
+                "gender": "男",
+                "identity": "文人/官员",
+                "characteristic": "才华但虚荣",
+                "description": "才华横溢但好逢迎的文人"
+            },
+            "plot_related_info": {
+                "motivations": "通过文辞取悦汉武帝，获得恩宠",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严但易怒",
+                "description": "汉朝皇帝，喜欢文辞但易受劝谏影响"
+            },
+            "plot_related_info": {
+                "motivations": "展示权威，享受荣华，但也被理性劝谏所动",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "司马相如": "君臣",
+                    "汲黯": "君臣",
+                    "卫子夫": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汲黯",
+                "age": "成年",
+                "gender": "男",
+                "identity": "吏部候补员外郎",
+                "characteristic": "直言敢谏",
+                "description": "正直敢言的官员"
+            },
+            "plot_related_info": {
+                "motivations": "劝阻汉武帝奢侈行为，保护国库和民生",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "许昌",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "调和",
+                "description": "老成持重的丞相"
+            },
+            "plot_related_info": {
+                "motivations": "维护朝廷稳定，调和矛盾",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "司马相如"],
+                "description": "在朝堂上，东方朔快速阅读司马相如的《上林赋》并批评其比例失调，司马相如感到羞辱并挑战东方朔作赋。"
+            },
+            "start": 0,
+            "end": 15,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "司马相如", "所忠", "东方朔"],
+                "description": "汉武帝上朝，司马相如献上《上林赋》，汉武帝欣喜并计划扩建上林苑，东方朔在一旁观察。"
+            },
+            "start": 16,
+            "end": 40,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "汲黯", "吾丘寿"],
+                "description": "汲黯直言谏阻扩建上林苑，认为耗费国库，汉武帝怒斥汲黯并下令将其逐出朝廷。"
+            },
+            "start": 41,
+            "end": 73,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "汉武帝", "汲黯", "司马相如", "文武官员"],
+                "description": "东方朔出面阻止，并当庭念诵滑稽的《裤裆狮子赋》讽谏司马相如和汉武帝，引起朝堂大笑和反思。"
+            },
+            "start": 74,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "司马相如", "东方朔", "许昌"],
+                "description": "汉武帝做出决策，加封东方朔并派遣司马相如出使巴蜀，同时让东方朔监造上林苑，但限制铺张。"
+            },
+            "start": 104,
+            "end": 144,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "皇太后", "卫子夫"],
+                "description": "退朝后，汉武帝前往昭阳宫与皇太后商议为小公主办满月，展示皇室家庭生活。"
+            },
+            "start": 145,
+            "end": 180,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["阿娇", "韩嫣"],
+                "description": "在中翠宫，皇后阿娇因嫉妒卫子夫而生怒，斥责后宫协调式韩嫣。"
+            },
+            "start": 181,
+            "end": 182,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

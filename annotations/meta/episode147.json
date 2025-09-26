@@ -1,0 +1,183 @@
+{
+    "story": {
+        "background": "古代汉朝汉武帝时期，皇宫内外，涉及宫廷阴谋、长生不老的追求和军事行动。",
+        "plot": "李少翁和张汤劝说李延年净身当太监以获取皇上信任和权力；他们密谋对付东方朔，利用武帝追求长生不老的心理进行欺骗；李少翁通过讲述李家历史获取武帝信任；武帝在担心战场情况的同时沉迷于长生不老。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "李延年",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "歌手/太监",
+                "characteristic": "犹豫",
+                "description": "被劝当太监的歌手"
+            },
+            "plot_related_info": {
+                "motivations": "获取权力和财富",
+                "relationships": {
+                    "李少翁": "干爹",
+                    "冯子都": "同事",
+                    "张汤": "上司"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少翁",
+                "age": "老年",
+                "gender": "男",
+                "identity": "方士/骗子",
+                "characteristic": "狡猾",
+                "description": "自称神仙的方士"
+            },
+            "plot_related_info": {
+                "motivations": "欺骗武帝获取利益",
+                "relationships": {
+                    "李延年": "干儿子",
+                    "张汤": "同谋",
+                    "武帝": "欺骗对象"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "冯子都",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "顺从",
+                "description": "已当太监的官员"
+            },
+            "plot_related_info": {
+                "motivations": "报复东方朔",
+                "relationships": {
+                    "李延年": "同事",
+                    "张汤": "上司"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "阴谋家",
+                "description": "密谋的官员"
+            },
+            "plot_related_info": {
+                "motivations": "控制朝廷权力",
+                "relationships": {
+                    "李少翁": "同谋",
+                    "武帝": "臣子",
+                    "李蔡": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "迷信",
+                "description": "追求长生不老的皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "长生不老",
+                "relationships": {
+                    "李少翁": "信任",
+                    "东方朔": "臣子",
+                    "李蔡": "臣子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李蔡",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "糊涂",
+                "description": "糊涂的丞相"
+            },
+            "plot_related_info": {
+                "motivations": "保持职位",
+                "relationships": {
+                    "李少翁": "太师爷",
+                    "武帝": "臣子",
+                    "张汤": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["李延年", "李少翁", "冯子都", "张汤"],
+                "description": "在密谋室，李少翁和张汤劝说李延年净身当太监，以获取皇上信任和权力，冯子都从旁支持。"
+            },
+            "start": 0,
+            "end": 28,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["李延年", "李少翁", "冯子都", "张汤"],
+                "description": "继续密谋，讨论东方朔用母马打仗的怪事，并计划趁东方朔不在时行动。"
+            },
+            "start": 29,
+            "end": 54,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "李蔡", "武帝", "李少翁"],
+                "description": "在建章宫，张汤和李蔡向武帝报告战场情况，李少翁突然出现，开始欺骗武帝。"
+            },
+            "start": 55,
+            "end": 94,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "李少翁", "张汤", "李蔡"],
+                "description": "武帝被李少翁的长生不老谎言欺骗，李少翁通过讲述李家历史获取信任，武帝服药。"
+            },
+            "start": 95,
+            "end": 192,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["武帝", "李延年", "李少翁", "张汤", "李蔡"],
+                "description": "武帝与众人娱乐，李延年唱歌，并透露自己已被阉割。"
+            },
+            "start": 193,
+            "end": 198,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,207 @@
+{
+  "story": {
+    "background": "时间：古代汉朝汉武帝时期；地点：长安城，包括东方朔的家、马市、宫廷；世界观：宫廷斗争与市井生活结合的历史背景。",
+    "plot": "卫青因妹妹卫子夫进宫而闲居东方朔家，想贩马赚钱养活姐姐；在马市被窦太主家将陷害盗取御马，被捕并判处死刑；东方朔和公孙敖计划营救，东方朔在朝堂上巧妙揭露真相，自称盗马贼以引起皇帝注意。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "卫子夫之兄/未来将军",
+        "characteristic": "勇敢",
+        "description": "年轻的未来将军，勇敢正直"
+      },
+      "plot_related_info": {
+        "motivations": "养活姐姐和寻找好马，实现抱负",
+        "relationships": {
+          "东方朔": "朋友",
+          "卫子夫": "兄妹"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "官员/谋士",
+        "characteristic": "机智",
+        "description": "中年官员谋士，机智多谋"
+      },
+      "plot_related_info": {
+        "motivations": "帮助朋友卫青，揭露阴谋",
+        "relationships": {
+          "卫青": "朋友",
+          "杨得道": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得道",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "仆人",
+        "characteristic": "老实",
+        "description": "老实忠厚的仆人"
+      },
+      "plot_related_info": {
+        "motivations": "陪同卫青，听从东方朔吩咐",
+        "relationships": {
+          "东方朔": "主仆",
+          "卫青": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "曹怀仁",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "窦太主家将",
+        "characteristic": "邪恶",
+        "description": "窦太主家将，邪恶狡猾"
+      },
+      "plot_related_info": {
+        "motivations": "陷害卫青，替窦太主出气",
+        "relationships": {
+          "曹怀义": "兄弟",
+          "窦太主": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "曹怀义",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "窦太主家将",
+        "characteristic": "邪恶",
+        "description": "窦太主家将，邪恶狡猾"
+      },
+      "plot_related_info": {
+        "motivations": "陷害卫青，替窦太主出气",
+        "relationships": {
+          "曹怀仁": "兄弟",
+          "窦太主": "主仆"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "聪明",
+        "description": "聪明果断的皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "处理朝政，查明真相",
+        "relationships": {}
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙敖",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "忠诚",
+        "description": "忠诚的将军"
+      },
+      "plot_related_info": {
+        "motivations": "营救卫青，帮助朋友",
+        "relationships": {
+          "卫青": "朋友",
+          "东方朔": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "庄青翟",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太尉",
+        "characteristic": "保守",
+        "description": "保守的太尉"
+      },
+      "plot_related_info": {
+        "motivations": "维护窦家利益，掩盖真相",
+        "relationships": {}
+      }
+    },
+    {
+      "basic_info": {
+        "name": "许昌",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "丞相",
+        "characteristic": "附和",
+        "description": "附和的丞相"
+      },
+      "plot_related_info": {
+        "motivations": "讨好皇帝，避免麻烦",
+        "relationships": {}
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["卫青", "东方朔"],
+        "description": "在东方朔家中，卫青表达闲得难受，想贩马赚钱，东方朔劝酒并借钱给卫青。"
+      },
+      "start": 0,
+      "end": 34,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["卫青", "杨得道", "曹怀仁", "曹怀义"],
+        "description": "在马市，卫青和杨得道寻找好马，被曹家兄弟陷害盗取御马，卫青被捕。"
+      },
+      "start": 34,
+      "end": 118,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "杨得道", "公孙敖"],
+        "description": "在东方朔家中，东方朔得知卫青被捕，与公孙敖计划营救，分工行动。"
+      },
+      "start": 119,
+      "end": 142,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝刘彻", "庄青翟", "许昌"],
+        "description": "在朝堂上，东方朔与官员对峙，揭露御马被盗真相，并自称盗马贼以引起皇帝注意。"
+      },
+      "start": 142,
+      "end": 196,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

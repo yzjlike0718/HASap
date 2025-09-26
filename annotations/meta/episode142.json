@@ -1,0 +1,150 @@
+{
+    "story": {
+        "background": "中国古代汉武帝时期，皇宫金殿为主要地点，世界观为历史宫廷剧，涉及政治、货币改革和人物冲突。",
+        "plot": "东方朔用白鹿币赎回汲黯的命，并揭露白鹿币来自民间养殖，羞辱张汤。汉武帝废除白鹿币，并引入桑弘羊管理财税，桑弘羊提出盐铁专卖、酒类重税和平准均输等政策。汉武帝部署军事行动 against 匈奴，并高度认可东方朔的贡献。故事以霍去病与卫长公主的告别结束，暗示未来战事。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "权威",
+                "description": "中年男性皇帝，权威"
+            },
+            "plot_related_info": {
+                "motivations": "维护统治和财富，追求强国",
+                "relationships": {
+                    "东方朔": "君臣",
+                    "张汤": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "中大夫",
+                "characteristic": "聪明",
+                "description": "中年男性中大夫，聪明"
+            },
+            "plot_related_info": {
+                "motivations": "正义和幽默，保护忠臣，揭露腐败",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张汤": "敌对",
+                    "霍去病": "干父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "成年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "奸诈",
+                "description": "成年男性官员，奸诈"
+            },
+            "plot_related_info": {
+                "motivations": "权力和自保，维护个人利益",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "桑弘羊",
+                "age": "20出头",
+                "gender": "男",
+                "identity": "理财专家",
+                "characteristic": "智慧",
+                "description": "20出头男性理财专家，智慧"
+            },
+            "plot_related_info": {
+                "motivations": "改革财税，实现民富国强",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "东方朔": "举荐"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "大司马/将军",
+                "characteristic": "英勇",
+                "description": "年轻男性大司马/将军，英勇"
+            },
+            "plot_related_info": {
+                "motivations": "军事行动，保卫国家",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫长公主": "恋人",
+                    "东方朔": "干父子"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "张汤"],
+                "description": "金殿内，东方朔提出用白鹿币购买汲黯的性命，汉武帝和张汤质疑白鹿币的来源。"
+            },
+            "start": 0,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "张汤", "文武百官"],
+                "description": "殿外，东方朔展示一车白鹿币和白鹿皮，揭露白鹿来自民间养殖，张汤惊慌失措，汉武帝后悔。"
+            },
+            "start": 34,
+            "end": 119,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.85,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "张汤", "桑弘羊", "霍去病", "卫青", "文武百官"],
+                "description": "金殿内，汉武帝废除白鹿币，桑弘羊提出财税政策并被封官，汉武帝部署军事行动，东方朔请战得到认可。"
+            },
+            "start": 120,
+            "end": 207,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["霍去病", "卫长公主"],
+                "description": "退朝后，霍去病与卫长公主告别，承诺归来后娶她。"
+            },
+            "start": 208,
+            "end": 213,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

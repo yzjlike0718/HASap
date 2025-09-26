@@ -1,0 +1,233 @@
+{
+  "story": {
+    "background": "汉朝时期，汉军与匈奴在边境地区交战，主要地点包括居炎泽湖、明泽等。世界观为历史虚构，结合真实人物如霍去病、张骞和虚构事件如修图王、昆邪王的战斗。",
+    "plot": "霍去病带领汉军击败匈奴修图王，抄其老家，但担心修图王反击，分兵留守大营。霍去病亲自带兵支援公孙敖和张骞对抗昆邪王，最终昆邪王投降。同时，修图王进攻汉军大营，霍光和庄祝指挥防御，面临内部纪律和信任问题。故事核心是汉军的战略部署和战斗转折。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "汉军将领",
+        "characteristic": "勇敢",
+        "description": "年轻的汉军统帅，勇敢善战"
+      },
+      "plot_related_info": {
+        "motivations": "击败匈奴，保卫汉朝",
+        "relationships": {
+          "霍光": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍光",
+        "age": "18岁",
+        "gender": "男",
+        "identity": "文弱书手",
+        "characteristic": "聪明",
+        "description": "年轻的文官，霍去病的弟弟"
+      },
+      "plot_related_info": {
+        "motivations": "辅助霍去病，保卫大营",
+        "relationships": {
+          "霍去病": "兄弟"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛苦子",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "霍去病部将",
+        "characteristic": "忠诚",
+        "description": "霍去病的忠诚部将"
+      },
+      "plot_related_info": {
+        "motivations": "执行霍去病的命令",
+        "relationships": {
+          "霍去病": "上级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "堂邑父",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "霍去病部将",
+        "characteristic": "可靠",
+        "description": "可靠的汉军将领"
+      },
+      "plot_related_info": {
+        "motivations": "执行霍去病的命令",
+        "relationships": {
+          "霍去病": "上级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "庄祝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "淮南八骏之一/汉军侍卫",
+        "characteristic": "武艺高强",
+        "description": "武艺高强的侠客，但内心矛盾"
+      },
+      "plot_related_info": {
+        "motivations": "最初可能想刺杀皇上，但后来忠诚于汉军，指挥防御",
+        "relationships": {
+          "淮南太子刘钦": "主从"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙敖",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "汉军将领",
+        "characteristic": "焦急",
+        "description": "汉军将领，与张骞配合"
+      },
+      "plot_related_info": {
+        "motivations": "击败匈奴昆邪王",
+        "relationships": {
+          "张骞": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张骞",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "汉军将领",
+        "characteristic": "明智",
+        "description": "汉军将领，曾出使西域"
+      },
+      "plot_related_info": {
+        "motivations": "击败匈奴，接受昆邪王投降",
+        "relationships": {
+          "公孙敖": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "修图王",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "匈奴王",
+        "characteristic": "狡猾",
+        "description": "匈奴的修图王，伊稚斜的小舅子"
+      },
+      "plot_related_info": {
+        "motivations": "夺回大营，击败汉军",
+        "relationships": {
+          "昆邪王": "盟友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "昆邪王",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "匈奴王",
+        "characteristic": "聪明",
+        "description": "匈奴的昆邪王，后来投降汉军"
+      },
+      "plot_related_info": {
+        "motivations": "最初拖住汉军，后来投降以保全实力",
+        "relationships": {
+          "修图王": "盟友"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["张汤", "皇上", "文物百官"],
+        "description": "汉朝朝堂上，张汤奏禀东方朔筹粮的消息，同时东方辛苦回报前方战情。"
+      },
+      "start": 0,
+      "end": 2,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "辛苦子", "堂邑父", "霍光", "庄祝"],
+        "description": "霍去病在居炎泽湖旁扎营，讨论军情，得知军队纪律问题，并分兵行动：霍去病和辛苦子带兵夹击昆邪王，堂邑父、霍光和庄祝留守大营。"
+      },
+      "start": 3,
+      "end": 40,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["公孙敖", "张骞", "昆邪王"],
+        "description": "公孙敖和张骞在明泽与昆邪王周旋，昆邪王采用拖延战术，汉军一筹莫展。"
+      },
+      "start": 41,
+      "end": 50,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "辛苦子", "公孙敖", "张骞", "昆邪王"],
+        "description": "霍去病带兵从背后攻击昆邪王，汉军两路夹击，昆邪王投降，归顺汉军。"
+      },
+      "start": 51,
+      "end": 84,
+      "confidence": {
+        "character_assignment": 0.95,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍去病", "辛苦子", "公孙敖", "张骞"],
+        "description": "霍去病担心修图王袭击大营，命令汉军饱餐战饭，并安排向导和路标，迅速返回居原泽。"
+      },
+      "start": 85,
+      "end": 96,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["修图王", "霍光", "庄祝", "堂邑父", "冯子都"],
+        "description": "修图王进攻汉军大营，霍光和庄祝指挥防御，庄祝接手兵符，率军迎战，修图王 initially 撤退但重新进攻，汉军奋力抵抗。"
+      },
+      "start": 97,
+      "end": 212,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.95,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

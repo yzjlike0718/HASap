@@ -1,0 +1,309 @@
+{
+  "story": {
+    "background": "时间：西汉汉武帝时期；地点：长安未央宫，特别是成明殿和主殿；世界观：古代中国宫廷政治，涉及儒家与道家的思想冲突，汉武帝试图改革但受制于太皇太后的黄老思想。",
+    "plot": "汉武帝召见大儒董仲舒，董仲舒提议“罢黜百家，独尊儒术”，引发朝廷辩论。武将贯夫和太皇太后宠臣许昌等人强烈反对，而董仲舒的学生公孙弘支持。宰相窦婴保持中立。汉武帝内心矛盾，既想统一思想，又担心太皇太后的反对，最终未立即决定。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "汉武帝刘彻",
+        "age": "16岁",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "年轻有抱负",
+        "description": "年轻的汉朝皇帝，有志改革但受制于祖母太皇太后"
+      },
+      "plot_related_info": {
+        "motivations": "统一思想，加强皇权，摆脱太皇太后的控制",
+        "relationships": {
+          "董仲舒": "赏识但犹豫",
+          "窦婴": "尊重",
+          "田鼢": "不满"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "董仲舒",
+        "age": "老年",
+        "gender": "男",
+        "identity": "广川大儒",
+        "characteristic": "自信",
+        "description": "自信的儒家学者，倡导独尊儒术"
+      },
+      "plot_related_info": {
+        "motivations": "推广儒家思想，获得皇帝重用",
+        "relationships": {
+          "公孙弘": "师生",
+          "汉武帝刘彻": "希望被重用"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "公孙弘",
+        "age": "中年",
+        "gender": "男",
+        "identity": "博士",
+        "characteristic": "殷勤",
+        "description": "殷勤的官员，董仲舒的学生，支持儒家"
+      },
+      "plot_related_info": {
+        "motivations": "帮助老师董仲舒获得重用，提升自身地位",
+        "relationships": {
+          "董仲舒": "师生",
+          "贯夫": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "窦婴",
+        "age": "中年",
+        "gender": "男",
+        "identity": "宰相",
+        "characteristic": "开阔",
+        "description": "心胸开阔的宰相，试图缓和朝廷矛盾"
+      },
+      "plot_related_info": {
+        "motivations": "维持朝廷稳定，平衡各方势力",
+        "relationships": {
+          "汉武帝刘彻": "辅佐",
+          "董仲舒": "礼貌但中立"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "贯夫",
+        "age": "中年",
+        "gender": "男",
+        "identity": "武将",
+        "characteristic": "暴躁",
+        "description": "暴躁的武将，功臣，反对儒家"
+      },
+      "plot_related_info": {
+        "motivations": "维护道家思想，保护自身利益",
+        "relationships": {
+          "董仲舒": "敌对",
+          "窦婴": "求助"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "许昌",
+        "age": "老年",
+        "gender": "男",
+        "identity": "太皇太后宠臣",
+        "characteristic": "保守",
+        "description": "保守的老臣，代表太皇太后利益"
+      },
+      "plot_related_info": {
+        "motivations": "维护太皇太后的权威，反对儒家",
+        "relationships": {
+          "董仲舒": "敌对",
+          "庄青翟": "同僚"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "庄青翟",
+        "age": "老年",
+        "gender": "男",
+        "identity": "太皇太后宠臣",
+        "characteristic": "保守",
+        "description": "保守的老臣，与许昌共同反对儒家"
+      },
+      "plot_related_info": {
+        "motivations": "支持道家思想，维护现状",
+        "relationships": {
+          "许昌": "同僚",
+          "董仲舒": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "司马谈",
+        "age": "老年",
+        "gender": "男",
+        "identity": "太史",
+        "characteristic": "博学",
+        "description": "博学的史官，支持道家思想"
+      },
+      "plot_related_info": {
+        "motivations": "维护历史传统，反对儒家改革",
+        "relationships": {
+          "汉武帝刘彻": "进谏"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "所忠",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大太监",
+        "characteristic": "谨慎",
+        "description": "谨慎的大太监，侍奉汉武帝"
+      },
+      "plot_related_info": {
+        "motivations": "协助皇帝处理朝政",
+        "relationships": {
+          "汉武帝刘彻": "侍从"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "田鼢",
+        "age": "中年",
+        "gender": "男",
+        "identity": "太尉",
+        "characteristic": "退缩",
+        "description": "退缩的太尉，汉武帝的舅舅"
+      },
+      "plot_related_info": {
+        "motivations": "平衡权力，避免冲突",
+        "relationships": {
+          "汉武帝刘彻": "舅舅"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["旁白"],
+        "description": "介绍未央宫的成明殿的用途和背景。"
+      },
+      "start": 0,
+      "end": 4,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 1.0,
+        "event_accuracy": 1.0
+      }
+    },
+    {
+      "scene": {
+        "characters": ["董仲舒", "公孙弘", "窦婴", "文武官员"],
+        "description": "天刚亮，董仲舒和公孙弘在成明殿等待见汉武帝，文武官员陆续到来，窦婴缓和气氛。"
+      },
+      "start": 5,
+      "end": 40,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "所忠", "窦婴", "文武官员"],
+        "description": "汉武帝上朝，差点忘记召见董仲舒，窦婴提醒。"
+      },
+      "start": 41,
+      "end": 49,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻"],
+        "description": "汉武帝内心矛盾，思考如何应对董仲舒和太皇太后的压力。"
+      },
+      "start": 50,
+      "end": 73,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "董仲舒", "所忠"],
+        "description": "董仲舒上殿行礼，汉武帝不耐烦，董仲舒开始陈述。"
+      },
+      "start": 74,
+      "end": 96,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝刘彻", "董仲舒"],
+        "description": "汉武帝心不在焉但被董仲舒的话吸引，董仲舒继续阐述。"
+      },
+      "start": 97,
+      "end": 122,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["董仲舒", "汉武帝刘彻", "文武官员"],
+        "description": "董仲舒提出“罢黜百家，独尊儒术”，引发朝臣震动。"
+      },
+      "start": 123,
+      "end": 126,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["司马谈", "汉武帝刘彻", "董仲舒"],
+        "description": "太史司马谈反对董仲舒的观点，支持道家思想。"
+      },
+      "start": 127,
+      "end": 133,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["董仲舒", "贯夫", "公孙弘", "汉武帝刘彻", "窦婴"],
+        "description": "贯夫和公孙弘激烈辩论，董仲舒介入，贯夫愤怒但克制。"
+      },
+      "start": 134,
+      "end": 158,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["许昌", "汉武帝刘彻", "董仲舒", "文武官员"],
+        "description": "许昌反对董仲舒，汉武帝不悦，故事暂停。"
+      },
+      "start": 159,
+      "end": 168,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

@@ -1,0 +1,170 @@
+{
+    "story": {
+        "background": "时间：古代中国汉武帝时期；地点：皇宫、炼仙堂、未央宫、上林院等；世界观：历史奇幻，涉及成仙秘籍和道家修炼。",
+        "plot": "汉武帝急于成仙，李少君欺骗他说淮南王刘安有枕中秘籍，意图报复淮南王。东方朔揭露李少君的谎言，警告他伴君如伴虎。淮南王进京献书，汉武帝试探其忠诚，刘陵请求与东方朔比剑和内功。雷贝出现，见证刘陵的行为，故事围绕权力、欺骗和修炼展开。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "急于求成",
+                "description": "中年男性皇帝，急于成仙"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生不老，巩固皇权",
+                "relationships": {
+                    "淮南王": "叔侄"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "约50岁",
+                "gender": "男",
+                "identity": "方士",
+                "characteristic": "欺骗性",
+                "description": "约50岁男性方士，欺骗性"
+            },
+            "plot_related_info": {
+                "motivations": "报复淮南王，获取皇帝信任",
+                "relationships": {
+                    "淮南王": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "男性大臣，机智"
+            },
+            "plot_related_info": {
+                "motivations": "揭露谎言，维护正义",
+                "relationships": {}
+            }
+        },
+        {
+            "basic_info": {
+                "name": "淮南王",
+                "age": "60开外",
+                "gender": "男",
+                "identity": "皇叔",
+                "characteristic": "谨慎",
+                "description": "60开外男性皇叔，谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "避免皇帝猜疑，保全自身",
+                "relationships": {
+                    "汉武帝": "叔侄"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘陵",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "郡主",
+                "characteristic": "好强",
+                "description": "年轻女性郡主，好强"
+            },
+            "plot_related_info": {
+                "motivations": "学习剑术和内功，可能有意接近东方朔",
+                "relationships": {
+                    "淮南王": "父女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雷贝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "武士",
+                "characteristic": "武艺高强",
+                "description": "中年男性武士，武艺高强"
+            },
+            "plot_related_info": {
+                "motivations": "服务淮南王，渴望与郭解比试",
+                "relationships": {
+                    "淮南王": "主仆"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "李少君"],
+                "description": "在炼仙堂，汉武帝询问李少君成仙捷径，李少君建议找淮南王的枕中秘籍，汉武帝决定召淮南王进京。"
+            },
+            "start": 0,
+            "end": 32,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "李少君"],
+                "description": "在炼仙堂，东方朔揭露李少君的谎言，李少君承认报复淮南王，东方朔警告他伴君如伴虎。"
+            },
+            "start": 33,
+            "end": 71,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "一个月后，淮南王刘安奉旨进京，汉武帝想得到枕中秘籍。"
+            },
+            "start": 72,
+            "end": 74,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王", "刘陵", "雷贝", "东方朔", "杨得意"],
+                "description": "在未央宫朝堂，汉武帝接见淮南王，淮南王献书，刘陵请求与东方朔比剑，汉武帝准许。"
+            },
+            "start": 75,
+            "end": 174,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "刘陵", "雷贝"],
+                "description": "在上林院，刘陵与东方朔比剑和内功，刘陵试图获取仙气，雷贝出现并目睹情景。"
+            },
+            "start": 175,
+            "end": 210,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

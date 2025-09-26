@@ -1,0 +1,307 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：田鼢府中（喜宴）、建章宫（皇宫）；世界观：古代中国宫廷，涉及政治斗争、军事失败、孝道文化，皇太后干预朝政，汉武帝受制于母亲。",
+        "plot": "故事开始于田鼢的喜宴，灌夫因不满田鼢在战争中的懦弱行为而闹事，推翻酒案并被逮捕。东方朔在宴会上煽风点火，事后被汉武帝召见，讨论事件和推荐人才。汉武帝表达了对田鼢的不满和对军事失败的痛心，但受制于皇太后。最终，东方朔推荐了朱买臣给汉武帝。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士/官员",
+                "characteristic": "机智",
+                "description": "机智的汉朝谋士"
+            },
+            "plot_related_info": {
+                "motivations": "推动剧情，挑拨离间以测试他人，维护正义",
+                "relationships": {
+                    "卫青": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "沉稳",
+                "description": "沉稳的汉朝大将军"
+            },
+            "plot_related_info": {
+                "motivations": "忠诚于汉武帝，关心军事",
+                "relationships": {
+                    "东方朔": "朋友",
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "灌夫",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "武将",
+                "characteristic": "暴躁",
+                "description": "暴躁的汉朝武将"
+            },
+            "plot_related_info": {
+                "motivations": "表达对田鼢的不满，抗议军事失败",
+                "relationships": {
+                    "田鼢": "敌对",
+                    "窦婴": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "田鼢",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "傲慢",
+                "description": "傲慢的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "维护自己的权势，打击反对者",
+                "relationships": {
+                    "灌夫": "敌对",
+                    "皇太后": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "记性好",
+                "description": "记性好的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "效忠田鼢，展示能力",
+                "relationships": {
+                    "田鼢": "下属",
+                    "东方朔": "旧识"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "孝子",
+                "description": "孝子的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "富国强兵，但受制于皇太后",
+                "relationships": {
+                    "皇太后": "母子",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的汉朝大太监"
+            },
+            "plot_related_info": {
+                "motivations": "关心国家，担忧朝政",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "皇太后": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "窦婴",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "调解",
+                "description": "调解的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "平息冲突，避免事态扩大",
+                "relationships": {
+                    "灌夫": "朋友",
+                    "田鼢": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "林汝侯",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "侯爷",
+                "characteristic": "谨慎",
+                "description": "谨慎的汉朝侯爷"
+            },
+            "plot_related_info": {
+                "motivations": "避免惹事，保持低调",
+                "relationships": {
+                    "灌夫": "被指责"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "朱买臣",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "罪臣",
+                "characteristic": "怕老婆",
+                "description": "怕老婆的汉朝罪臣"
+            },
+            "plot_related_info": {
+                "motivations": "寻求 redemption，被推荐给汉武帝",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "灌夫", "张汤"],
+                "description": "在田鼢府中的喜宴上，东方朔、卫青和灌夫坐着对话，张汤过来敬酒并回忆往事。"
+            },
+            "start": 0,
+            "end": 22,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["灌夫", "张汤", "东方朔", "卫青"],
+                "description": "张汤忽略灌夫，灌夫生气并骂人，东方朔煽风点火。"
+            },
+            "start": 23,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["灌夫", "林汝侯", "东方朔"],
+                "description": "灌夫与林汝侯冲突，东方朔挑拨，灌夫酒劲上来开始骂人。"
+            },
+            "start": 31,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["灌夫", "田鼢", "东方朔", "卫青", "林汝侯"],
+                "description": "灌夫闹事，推翻酒案，田鼢气愤，宴会大乱。"
+            },
+            "start": 49,
+            "end": 70,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["田鼢", "灌夫", "张汤", "窦婴"],
+                "description": "田鼢逮捕灌夫，张汤执行，窦婴试图调解但失败，宾客散去。"
+            },
+            "start": 71,
+            "end": 88,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "汲黯"],
+                "description": "东方朔和卫青离开宴会，与汲黯对话，东方朔脚伤好转。"
+            },
+            "start": 89,
+            "end": 93,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["所忠", "东方朔"],
+                "description": "第二天早晨，所忠传旨让东方朔进宫见汉武帝。"
+            },
+            "start": 94,
+            "end": 97,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "所忠"],
+                "description": "东方朔与所忠对话，所忠表达对朝政的担忧，东方朔烦恼。"
+            },
+            "start": 98,
+            "end": 140,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "卫青", "所忠"],
+                "description": "东方朔在建章宫见汉武帝，讨论喜宴事件和军事失败，汉武帝表达不满。"
+            },
+            "start": 141,
+            "end": 185,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "朱买臣", "东方朔", "卫青", "杨得意"],
+                "description": "朱买臣进见汉武帝，东方朔推荐他，汉武帝惊讶。"
+            },
+            "start": 186,
+            "end": 190,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

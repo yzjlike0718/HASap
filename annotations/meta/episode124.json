@@ -1,0 +1,194 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：皇宫朝廷；世界观：古代中国宫廷政治与权力斗争",
+        "plot": "张汤指控东方朔与淮南王勾结并欺君，导致东方朔被贬至武陵郡。汉武帝处理了相关事务，处死雷贝和庄祝，并调整行政区划。随后，国家面临衡山王动荡、匈奴建造赵信城和国库空虚等多重问题。丞相公孙弘病重，临终前安排家族后事并表达对东方朔的怨恨。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "狡诈",
+                "description": "狡诈的汉朝官员"
+            },
+            "plot_related_info": {
+                "motivations": "打击东方朔，维护自己的权力和地位",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "机智",
+                "description": "机智的汉朝谋士"
+            },
+            "plot_related_info": {
+                "motivations": "为自己辩解，维护清白和声誉",
+                "relationships": {
+                    "张汤": "敌对",
+                    "武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "犹豫",
+                "description": "犹豫的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "处理朝政，维护权威和国家稳定",
+                "relationships": {
+                    "张汤": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "中年",
+                "gender": "男",
+                "identity": "执法官",
+                "characteristic": "机会主义",
+                "description": "机会主义的汉朝执法官"
+            },
+            "plot_related_info": {
+                "motivations": "报复东方朔，提升自身地位",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "张汤": "同僚"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙弘",
+                "age": "老年",
+                "gender": "男",
+                "identity": "丞相",
+                "characteristic": "深思",
+                "description": "深思的汉朝丞相"
+            },
+            "plot_related_info": {
+                "motivations": "安排后事，报复东方朔，振兴家族",
+                "relationships": {
+                    "东方朔": "敌对",
+                    "公孙杜": "父子",
+                    "公孙清": "叔侄"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙杜",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "公孙弘之子",
+                "characteristic": "老实",
+                "description": "老实的丞相之子"
+            },
+            "plot_related_info": {
+                "motivations": "照顾父亲，听从安排",
+                "relationships": {
+                    "公孙弘": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙清",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "公孙弘之侄",
+                "characteristic": "聪明",
+                "description": "聪明的丞相之侄"
+            },
+            "plot_related_info": {
+                "motivations": "听从伯父安排，学道以求仕途",
+                "relationships": {
+                    "公孙弘": "叔侄"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["张汤", "东方朔", "武帝", "义纵"],
+                "description": "在皇宫朝廷上，张汤指控东方朔与淮南王勾结和欺君，义纵加入指控，武帝最终下令处死雷贝和庄祝，贬东方朔到武陵郡。"
+            },
+            "start": 0,
+            "end": 71,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔乐滋滋地回家，似乎不受被贬影响。"
+            },
+            "start": 72,
+            "end": 72,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "义纵"],
+                "description": "张汤和义纵议论东方朔的倒霉，认为他再无好日子。"
+            },
+            "start": 73,
+            "end": 73,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": [],
+                "description": "叙述衡山王的不平静、匈奴建造赵信城、国库空虚等事件，显示国家面临多重挑战。"
+            },
+            "start": 74,
+            "end": 85,
+            "confidence": {
+                "character_assignment": 0.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["公孙弘", "公孙杜", "公孙清"],
+                "description": "公孙弘病重，在病榻上与儿子公孙杜和侄子公孙清对话，安排后事并表达对东方朔的怨恨，指示他们未来行动。"
+            },
+            "start": 86,
+            "end": 224,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

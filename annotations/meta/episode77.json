@@ -1,0 +1,142 @@
+{
+  "story": {
+    "background": "古代中国，汉武帝时期，宫廷环境，涉及官员之间的权术和欺骗。",
+    "plot": "主父衍设计欺骗东方朔，通过假意联姻让东方朔承诺在皇上面前让他三次献计。东方朔发现主父衍女儿相貌丑陋但已击掌为誓。东方朔对张汤的卖官鬻爵政策不满，试图辞官以表达抗议，但被张汤识破其真实意图。故事展现了宫廷中的狡诈和政治斗争。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太中大夫",
+        "characteristic": "聪明善良",
+        "description": "聪明的太中大夫，善良易受骗"
+      },
+      "plot_related_info": {
+        "motivations": "维护正义，反对卖官鬻爵",
+        "relationships": {
+          "主父衍": "敌对",
+          "张汤": "政敌"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "狡猾欺骗",
+        "description": "狡猾的官员，善于欺骗"
+      },
+      "plot_related_info": {
+        "motivations": "获取权力和利益，通过欺骗手段达到目的",
+        "relationships": {
+          "东方朔": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "权术",
+        "description": "权术的官员，推行卖官政策"
+      },
+      "plot_related_info": {
+        "motivations": "巩固权力，推行政策以讨好皇上",
+        "relationships": {
+          "东方朔": "政敌"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "权威",
+        "description": "权威的皇帝，关心国库和官吏"
+      },
+      "plot_related_info": {
+        "motivations": "治理国家，充盈国库",
+        "relationships": {}
+      }
+    },
+    {
+      "basic_info": {
+        "name": "杨得意",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "太监",
+        "characteristic": "谨慎",
+        "description": "谨慎的太监，伺候皇上"
+      },
+      "plot_related_info": {
+        "motivations": "服务皇上，避免得罪权臣",
+        "relationships": {
+          "张汤": "紧张"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "主父衍"],
+        "description": "在主父衍家中，主父衍欺骗东方朔，通过假意联姻让东方朔承诺在皇上面前让他三次献计，东方朔发现女儿丑陋但已击掌为誓。"
+      },
+      "start": 0,
+      "end": 64,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔"],
+        "description": "东方朔回家后，生气并想到被贬的忠臣汲黯，计划如何让皇上重用汲黯。"
+      },
+      "start": 65,
+      "end": 80,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.85
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张汤", "杨得意"],
+        "description": "在建章宫，汉武帝与张汤讨论卖官鬻爵的成果，张汤提出官吏管理策略，杨得意在一旁伺候。"
+      },
+      "start": 81,
+      "end": 154,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "汉武帝", "张汤", "杨得意"],
+        "description": "在建章宫内，东方朔穿着布衣求见，提出辞官以抗议卖官政策，张汤识破其意图，双方争论。"
+      },
+      "start": 155,
+      "end": 207,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

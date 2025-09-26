@@ -1,0 +1,143 @@
+{
+    "story": {
+        "background": "时间：古代汉朝时期；地点：齐国临淄，包括孔锦的花园、相府和齐王宫；世界观：古代中国王朝，涉及宫廷政治、家庭关系和社会阶层。",
+        "plot": "东方朔与儿子蒲柳子在临淄团聚，讨论留在齐国和饲养白鹿的计划。主父衍作为齐国宰相，报复过去欺负他的人，用金子收买泼皮无赖以巩固权力。主父衍逼迫齐王次昌接受金娥公主和他的女儿，威胁揭露齐王的秘密。故事展现了权力斗争与家庭温情的对比，主父衍的残酷手段与东方朔的智慧形成矛盾。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣/父亲",
+                "characteristic": "聪明",
+                "description": "聪明的大臣父亲"
+            },
+            "plot_related_info": {
+                "motivations": "寻找儿子并帮助他解决问题，确保家庭幸福",
+                "relationships": {
+                    "蒲柳子": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "蒲柳子",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "东方朔的儿子",
+                "characteristic": "热情",
+                "description": "热情的儿子"
+            },
+            "plot_related_info": {
+                "motivations": "想留在齐国与金娥在一起，享受自由生活",
+                "relationships": {
+                    "东方朔": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "仆人",
+                "characteristic": "活泼",
+                "description": "活泼的仆人"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔，协助日常事务",
+                "relationships": {
+                    "东方朔": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐国宰相",
+                "characteristic": "狰狞",
+                "description": "狰狞的齐国宰相"
+            },
+            "plot_related_info": {
+                "motivations": "报复过去欺负他的人，巩固权力，逼迫齐王接受他的女儿",
+                "relationships": {
+                    "齐王次昌": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐王次昌",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐王",
+                "characteristic": "软弱",
+                "description": "软弱的齐王"
+            },
+            "plot_related_info": {
+                "motivations": "避免与主父衍冲突，保护自己的王位和生命",
+                "relationships": {
+                    "主父衍": "君臣"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["东方朔", "蒲柳子", "杨得道"],
+                "description": "在孔锦的花园中，东方朔找到儿子蒲柳子，讨论金娥和白鹿，东方朔给儿子出主意。"
+            },
+            "start": 0,
+            "end": 36,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "蒲柳子"],
+                "description": "在屋内，东方朔询问蒲柳子关于主父衍的坏事。"
+            },
+            "start": 37,
+            "end": 40,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "泼皮无赖", "士兵"],
+                "description": "在相府门前，叙述者引入主父衍的故事，主父衍处理泼皮无赖，用金子收买他们并威胁保持沉默。"
+            },
+            "start": 41,
+            "end": 145,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "齐王次昌"],
+                "description": "在齐王宫中，主父衍威胁齐王次昌接受金娥公主和他的女儿，否则揭露秘密，导致冲突升级。"
+            },
+            "start": 146,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

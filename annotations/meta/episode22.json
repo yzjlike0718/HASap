@@ -1,0 +1,163 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期；地点：皇宫、上林院（猎场）、槐里村；世界观：古代中国历史背景，宫廷生活与打猎活动。",
+        "plot": "东方朔向汉武帝进谏粮食分配不公的问题，指出勇士饥饿而侏儒饱食，汉武帝调整俸禄。随后汉武帝前往上林院打猎，遇到壮士张骞，东方朔建议派张骞出使西域以断匈奴后路，汉武帝任命张骞。最后在槐里村，汉武帝发现一名农家妇女长得像母亲，揭示皇太后的过去。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "年轻",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "有爱心",
+                "description": "年轻的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "振兴大汉，雪耻",
+                "relationships": {
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明机智",
+                "description": "机智忠诚的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "为国家尽忠，确保皇帝明智",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "所忠",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "忠诚",
+                "description": "忠诚的太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务汉武帝",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "勇猛",
+                "description": "勇猛的将军"
+            },
+            "plot_related_info": {
+                "motivations": "保卫国家，服务皇帝",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "张骞": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "N/A",
+                "description": "将军"
+            },
+            "plot_related_info": {
+                "motivations": "陪同打猎",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "太监",
+                "characteristic": "尽责",
+                "description": "负责打猎的太监"
+            },
+            "plot_related_info": {
+                "motivations": "服务皇帝",
+                "relationships": {
+                    "汉武帝": "主仆"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张骞",
+                "age": "20多岁",
+                "gender": "男",
+                "identity": "壮士",
+                "characteristic": "飞毛腿",
+                "description": "年轻健壮的飞毛腿壮士"
+            },
+            "plot_related_info": {
+                "motivations": "寻找朋友卫青",
+                "relationships": {
+                    "卫青": "朋友"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "所忠", "侏儒"],
+                "description": "在皇宫中，东方朔向汉武帝进谏粮食分配问题，指出勇士饥饿而侏儒饱食，汉武帝下旨调整俸禄，然后决定起驾去打猎。"
+            },
+            "start": 0,
+            "end": 71,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "卫青", "公孙敖", "杨得意", "张骞"],
+                "description": "在上林院打猎时，汉武帝和众人射猎野兔、黑鸟和野猪，追袍子时遇到壮士张骞，东方朔建议派张骞出使西域，汉武帝任命张骞为护家侍郎。"
+            },
+            "start": 72,
+            "end": 157,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "卫青", "公孙敖", "杨得意", "农家妇女"],
+                "description": "天黑了，汉武帝等人进入槐里村寻找食物，一名农家妇女开门，汉武帝惊讶地发现她长得像母亲。"
+            },
+            "start": 158,
+            "end": 181,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.8
+            }
+        }
+    ],
+    "coverage_check": true
+}

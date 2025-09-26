@@ -1,0 +1,121 @@
+{
+    "story": {
+        "background": "古代中国汉朝时期，宫廷背景。主父衍在家中养病，世界观涉及官场斗争、人性善恶与报恩心理。",
+        "plot": "主父衍因东方朔的活命之恩而心生愧疚和嫉妒，担心东方朔挡其仕途。他设计装病引东方朔前来，通过情感操纵让东方朔答应在皇上面前不反对他的计策。东方朔出于善良答应了请求，但主父衍计划利用东方朔的善良实现自己的野心。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "谋士",
+                "characteristic": "狡猾",
+                "description": "狡猾的谋士"
+            },
+            "plot_related_info": {
+                "motivations": "渴望得到皇上信任和权力，报答东方朔但更想超越他",
+                "relationships": {
+                    "东方朔": "恩人兼对手"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "善良",
+                "description": "善良的官员"
+            },
+            "plot_related_info": {
+                "motivations": "帮助他人，忠于皇上",
+                "relationships": {
+                    "主父衍": "被救者兼朋友"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["主父衍"],
+                "description": "主父衍在家中独自思考，因东方朔的恩情而心生心病，计划装病引东方朔前来。"
+            },
+            "start": 0,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "张汤"],
+                "description": "张汤来访主父衍家，主父衍假装病重，提及需要东方朔治病，张汤离开。"
+            },
+            "start": 31,
+            "end": 63,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍"],
+                "description": "主父衍继续思考，下定决心做小人，计划蒙骗东方朔，并开始吃饭喝酒。"
+            },
+            "start": 64,
+            "end": 94,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "夫人", "家人"],
+                "description": "夫人伺候主父衍吃饭，家人通报东方朔来访，主父衍重新装病。"
+            },
+            "start": 95,
+            "end": 116,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "主父衍", "家人"],
+                "description": "东方朔进入主父衍卧室，查看竹简，发现主父衍的心病。"
+            },
+            "start": 117,
+            "end": 135,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "东方朔"],
+                "description": "主父衍跪拜东方朔，请求东方朔在皇上面前不反对他的计策，东方朔答应请求。"
+            },
+            "start": 136,
+            "end": 204,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

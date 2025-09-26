@@ -1,0 +1,176 @@
+{
+    "story": {
+        "background": "时间：中国古代汉朝汉武帝时期。地点：上林院（上林苑）、皇宫、新建府邸。世界观：历史宫廷背景，涉及军事训练、宫廷生活和人物关系。",
+        "plot": "卫青在上林院操练人马，霍去病跟随学习但爱逞强；汉武帝和平阳公主来访，东方朔在钓鱼时误骂汉武帝；汉武帝参观新建府邸，平阳公主和卫青在卧室相遇，导致尴尬局面；汉武帝趁机撮合平阳公主和卫青的婚事。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "壮年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "谨慎",
+                "description": "忠诚的汉朝将军"
+            },
+            "plot_related_info": {
+                "motivations": "训练军队，效忠汉武帝，教育霍去病",
+                "relationships": {
+                    "霍去病": "舅舅",
+                    "汉武帝": "君臣",
+                    "平阳公主": "主仆（当前）"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "14岁",
+                "gender": "男",
+                "identity": "少年武将",
+                "characteristic": "逞强",
+                "description": "勇猛的年轻武将"
+            },
+            "plot_related_info": {
+                "motivations": "学习武艺和兵书，想当英雄",
+                "relationships": {
+                    "卫青": "外甥"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "成年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "机智",
+                "description": "英明的汉朝皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "管理国家，关心家族事务，撮合婚事",
+                "relationships": {
+                    "平阳公主": "姐弟",
+                    "卫子夫": "夫妻",
+                    "卫青": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "平阳公主",
+                "age": "成年",
+                "gender": "女",
+                "identity": "公主",
+                "characteristic": "善良",
+                "description": "汉武帝的姐姐寡妇"
+            },
+            "plot_related_info": {
+                "motivations": "照顾小公主，寻找幸福",
+                "relationships": {
+                    "汉武帝": "姐弟",
+                    "卫子夫": "朋友",
+                    "卫青": "主仆（当前）"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "幽默",
+                "description": "机智的汉朝大臣"
+            },
+            "plot_related_info": {
+                "motivations": "服务汉武帝，调解局面",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "卫青": "朋友"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["卫青", "霍去病"],
+                "description": "在上林院，卫青操练人马，霍去病学习武艺和兵书，但卫青发现霍去病爱逞强的缺点。"
+            },
+            "start": 0,
+            "end": 17,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫子夫", "平阳公主"],
+                "description": "在皇宫，汉武帝与卫子夫逗弄小公主，平阳公主来访，汉武帝决定带平阳公主去上林院。"
+            },
+            "start": 18,
+            "end": 48,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "平阳公主"],
+                "description": "在上林院的池边，东方朔钓鱼，汉武帝戏弄他，东方朔误骂汉武帝，后机智化解尴尬。"
+            },
+            "start": 49,
+            "end": 88,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "平阳公主", "东方朔"],
+                "description": "东方朔更衣后，陪同汉武帝和平阳公主参观新建府邸，武帝对府邸满意。"
+            },
+            "start": 89,
+            "end": 104,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "平阳公主", "卫青", "东方朔"],
+                "description": "在卧室，平阳公主为睡觉的卫青盖被子，卫青惊醒导致尴尬，汉武帝和东方朔观察。"
+            },
+            "start": 105,
+            "end": 146,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "平阳公主", "卫青", "东方朔"],
+                "description": "汉武帝趁机撮合平阳公主和卫青的婚事，卫青犹豫，平阳公主让汉武帝做主。"
+            },
+            "start": 147,
+            "end": 205,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

@@ -1,0 +1,394 @@
+{
+  "story": {
+    "background": "时间：古代中国汉朝时期；地点：临晋关、长安、淮南等地；世界观：武侠历史风格，涉及江湖侠客、朝廷追捕和权力斗争。",
+    "plot": "郭解逃到临晋关，守将籍少翁帮助他并让儿子拜师，但被江冲告密导致籍少翁自杀；张汤和义纵受汉武帝命捉拿郭解，抓孩子逼郭解现身；东方朔关注事态发展；郭解前往淮南，发现当地动荡。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "郭解",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "大侠",
+        "characteristic": "正义",
+        "description": "正义的大侠"
+      },
+      "plot_related_info": {
+        "motivations": "逃避追捕，保护家人和徒弟，维护声誉",
+        "relationships": {
+          "籍少翁": "朋友",
+          "籍安氏": "师徒",
+          "霍云儿": "夫妻",
+          "郭佳": "父子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "籍少翁",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "临晋关守将",
+        "characteristic": "忠诚",
+        "description": "忠诚的临晋关守将"
+      },
+      "plot_related_info": {
+        "motivations": "帮助郭解，完成儿子心愿，对得起亡妻",
+        "relationships": {
+          "籍安氏": "父子",
+          "郭解": "朋友",
+          "江冲": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "籍安氏",
+        "age": "12-13岁",
+        "gender": "男",
+        "identity": "籍少翁儿子",
+        "characteristic": "崇拜",
+        "description": "崇拜郭解的青少年"
+      },
+      "plot_related_info": {
+        "motivations": "向郭解学习武艺，为民做事",
+        "relationships": {
+          "籍少翁": "父子",
+          "郭解": "师徒"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "江冲",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "告密者",
+        "characteristic": "背叛",
+        "description": "背叛的告密者"
+      },
+      "plot_related_info": {
+        "motivations": "告密求荣",
+        "relationships": {
+          "籍少翁": "敌对",
+          "张汤": "下属",
+          "义纵": "下属"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "廷尉",
+        "characteristic": "狡猾",
+        "description": "狡猾的廷尉"
+      },
+      "plot_related_info": {
+        "motivations": "捉拿郭解，讨好汉武帝",
+        "relationships": {
+          "义纵": "同事",
+          "汉武帝": "君臣",
+          "主父衍": "同事",
+          "吴培龙": "上下级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "义纵",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "长安执金吾",
+        "characteristic": "狠辣",
+        "description": "狠辣的长安执金吾"
+      },
+      "plot_related_info": {
+        "motivations": "捉拿郭解，执行皇命",
+        "relationships": {
+          "张汤": "同事",
+          "汉武帝": "君臣",
+          "江冲": "上下级"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "威严",
+        "description": "威严的皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权，捉拿郭解",
+        "relationships": {
+          "张汤": "君臣",
+          "义纵": "君臣",
+          "霍去病": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "谋士",
+        "characteristic": "智慧",
+        "description": "智慧的谋士"
+      },
+      "plot_related_info": {
+        "motivations": "保护郭解，劝阻暴行",
+        "relationships": {
+          "蒲柳": "父子",
+          "辛苦子": "父子",
+          "郭解": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "主父衍",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "奸诈",
+        "description": "奸诈的官员"
+      },
+      "plot_related_info": {
+        "motivations": "协助张汤捉拿郭解",
+        "relationships": {
+          "张汤": "同事",
+          "吴培龙": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "吴培龙",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "张汤心腹",
+        "characteristic": "狡猾",
+        "description": "狡猾的张汤心腹"
+      },
+      "plot_related_info": {
+        "motivations": "出主意捉拿郭解，讨好张汤",
+        "relationships": {
+          "张汤": "上下级",
+          "主父衍": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "蒲柳",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "东方朔儿子",
+        "characteristic": "担忧",
+        "description": "担忧的东方朔儿子"
+      },
+      "plot_related_info": {
+        "motivations": "关心郭解和孩子们的安全",
+        "relationships": {
+          "东方朔": "父子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "辛苦子",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "东方朔儿子",
+        "characteristic": "急切",
+        "description": "急切的东方朔儿子"
+      },
+      "plot_related_info": {
+        "motivations": "报告郭解消息，帮助父亲",
+        "relationships": {
+          "东方朔": "父子"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "雷贝",
+        "age": "N/A",
+        "gender": "男",
+        "identity": "八骏之一",
+        "characteristic": "担忧",
+        "description": "担忧的八骏侠客"
+      },
+      "plot_related_info": {
+        "motivations": "担忧淮南局势，关注郭解",
+        "relationships": {
+          "郭解": "朋友"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["郭解", "籍少翁", "籍安氏", "江冲"],
+        "description": "在临晋关籍少翁家中，籍少翁让儿子籍安氏拜郭解为师，郭解收徒后离开，江冲暗中观察。"
+      },
+      "start": 0,
+      "end": 29,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["江冲", "义纵"],
+        "description": "江冲目睹一切后，骑马到长安向义纵告密。"
+      },
+      "start": 30,
+      "end": 36,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "义纵", "籍少翁", "江冲"],
+        "description": "在临晋关，张汤和义纵质问籍少翁放走郭解，江冲出证，籍少翁自杀。"
+      },
+      "start": 37,
+      "end": 76,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "义纵"],
+        "description": "张汤和义纵离开临晋关，回长安。"
+      },
+      "start": 77,
+      "end": 79,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "张汤", "义纵"],
+        "description": "在长安皇宫，汉武帝怒斥张汤没抓到郭解，张汤请求明诏，汉武帝下旨“必杀郭解”。"
+      },
+      "start": 80,
+      "end": 112,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "义纵", "主父衍", "吴培龙"],
+        "description": "张汤和义纵出宫后，与主父衍和吴培龙交谈，担心捉不到郭解。"
+      },
+      "start": 113,
+      "end": 128,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "主父衍", "吴培龙"],
+        "description": "吴培龙出主意抓十二三岁男孩逼郭解出来，张汤采纳。"
+      },
+      "start": 129,
+      "end": 144,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "义纵"],
+        "description": "张汤派兵抓了三百多个孩子，关在义纵大营，百姓悲痛。"
+      },
+      "start": 145,
+      "end": 147,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "蒲柳"],
+        "description": "在东方朔家，蒲柳告知张汤抓孩子的事，东方朔分析局势。"
+      },
+      "start": 148,
+      "end": 184,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "辛苦子", "齐鲁女"],
+        "description": "辛苦子报告郭解自首，东方朔不顾禁足令前往义纵大营。"
+      },
+      "start": 185,
+      "end": 194,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "籍安氏"],
+        "description": "郭解安置籍安氏后，返回临晋关看到抓孩子，决定去淮南。"
+      },
+      "start": 195,
+      "end": 203,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["郭解", "雷贝"],
+        "description": "在淮南，郭解发现淮南王儿子刘钦招兵买马，雷贝担忧局势。"
+      },
+      "start": 204,
+      "end": 225,
+      "confidence": {
+        "character_assignment": 0.8,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.8
+      }
+    }
+  ],
+  "coverage_check": true
+}

@@ -1,0 +1,251 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期。地点：长安建章宫、淮南、匈奴边境河套地区。世界观：中国古代历史背景，融合宫廷权谋、战争军事和玄幻修仙元素。",
+        "plot": "汉武帝在建章宫宴会上向淮南王索要枕中秘籍，淮南王推脱并计划返回淮南查询，但其女刘陵想留在长安获取李少君的仙气。张汤介入阻止雷贝离开，汉武帝安排雷贝护送淮南王。东方朔与刘陵、李少君互动，可能设计圈套。同时，匈奴内部发生权力斗争，丞相伊稚斜与太子于禅争夺王位。大将军卫青率军出击匈奴，分析局势后决定避开太子于禅，直接攻击右贤王以收复河套地区。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "中年的男性皇帝，威严"
+            },
+            "plot_related_info": {
+                "motivations": "追求长生秘籍和扩张疆土，巩固皇权",
+                "relationships": {
+                    "淮南王": "叔侄",
+                    "卫青": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "淮南王",
+                "age": "中年",
+                "gender": "男",
+                "identity": "诸侯王",
+                "characteristic": "谨慎",
+                "description": "中年的男性诸侯王，谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "保全自身地位，避免直接冲突",
+                "relationships": {
+                    "汉武帝": "叔侄",
+                    "刘陵": "父女"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "刘陵",
+                "age": "年轻",
+                "gender": "女",
+                "identity": "郡主",
+                "characteristic": "野心",
+                "description": "年轻的女性郡主，野心"
+            },
+            "plot_related_info": {
+                "motivations": "追求成仙和权力，利用李少君的仙气",
+                "relationships": {
+                    "淮南王": "父女",
+                    "李少君": "利用关系"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "中年的男性大臣，机智"
+            },
+            "plot_related_info": {
+                "motivations": "维护朝廷利益，设计对付妖道",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "李少君": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "李少君",
+                "age": "中年",
+                "gender": "男",
+                "identity": "道士",
+                "characteristic": "狡猾",
+                "description": "中年的男性道士，狡猾"
+            },
+            "plot_related_info": {
+                "motivations": "获取利益和地位，可能被刘陵吸引",
+                "relationships": {
+                    "刘陵": "利用关系",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "严厉",
+                "description": "中年的男性大臣，严厉"
+            },
+            "plot_related_info": {
+                "motivations": "执行法律和皇帝命令，维护秩序",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大将军",
+                "characteristic": "沉稳",
+                "description": "中年的男性大将军，沉稳"
+            },
+            "plot_related_info": {
+                "motivations": "收复河套，击败匈奴，为汉朝建功",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙贺",
+                "age": "中年",
+                "gender": "男",
+                "identity": "步骑将军",
+                "characteristic": "谨慎",
+                "description": "中年的男性步骑将军，谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "辅助卫青，提供军事建议",
+                "relationships": {
+                    "卫青": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "苏建",
+                "age": "中年",
+                "gender": "男",
+                "identity": "车骑将军",
+                "characteristic": "深思",
+                "description": "中年的男性车骑将军，深思"
+            },
+            "plot_related_info": {
+                "motivations": "辅助卫青，分析战局",
+                "relationships": {
+                    "卫青": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "淮南王", "张汤", "东方朔", "刘陵", "李少君", "雷贝", "杨得意"],
+                "description": "在建章宫宴会上，汉武帝向淮南王索要枕中秘籍，淮南王推脱；张汤阻止雷贝离开，汉武帝安排雷贝护送淮南王；刘陵想留下获取仙气。"
+            },
+            "start": 0,
+            "end": 28,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "刘陵", "李少君"],
+                "description": "宴会后，东方朔与刘陵、李少君交谈，东方朔可能设计圈套，李少君察觉但被刘陵吸引。"
+            },
+            "start": 29,
+            "end": 43,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "过渡场景，提到卫青的捷报送到京城，汉武帝高兴。"
+            },
+            "start": 44,
+            "end": 45,
+            "confidence": {
+                "character_assignment": 0.7,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["旁白"],
+                "description": "历史回溯，讲述匈奴从秦始皇到汉武帝时期的发展，包括单于茂笃夺位、汉高祖被围、陈平计策等。"
+            },
+            "start": 46,
+            "end": 92,
+            "confidence": {
+                "character_assignment": 0.7,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "张汤"],
+                "description": "汉武帝准备战争，派卫青出击匈奴，提供粮草支持，希望扭转被动格局。"
+            },
+            "start": 93,
+            "end": 111,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.8,
+                "event_accuracy": 0.8
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "郭解", "苏建", "李举", "公孙贺"],
+                "description": "卫青率军从长安起兵，到达河套地区，安营扎寨，派出斥候侦查敌情。"
+            },
+            "start": 112,
+            "end": 120,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "公孙贺", "苏建", "李举"],
+                "description": "卫青在中军大帐与将军们讨论军情，分析匈奴内部矛盾，决定攻击右贤王以收复河套。"
+            },
+            "start": 121,
+            "end": 194,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

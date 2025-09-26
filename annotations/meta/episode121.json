@@ -1,0 +1,247 @@
+{
+  "story": {
+    "background": "时间设定在汉朝汉武帝时期，地点包括长安、钟南山和上林苑。世界观为历史武侠风格，融合宫廷政治和民间侠义元素。",
+    "plot": "东方朔回家后得知霍云儿因齐鲁女的失言而去钟南山为郭解守墓，夫妻前往钟南山劝说但未果。回长安后，东方朔参加狩猎活动，霍去病误杀李敢，汉武帝袒护霍去病，张汤献白鹿转移注意力以讨好武帝。"
+  },
+  "characters": [
+    {
+      "basic_info": {
+        "name": "东方朔",
+        "age": "中年",
+        "gender": "男",
+        "identity": "官员/智者",
+        "characteristic": "智慧",
+        "description": "智慧的汉朝官员"
+      },
+      "plot_related_info": {
+        "motivations": "维护正义和处理家庭朝廷事务",
+        "relationships": {
+          "齐鲁女": "夫妻",
+          "霍云儿": "朋友之妻",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "齐鲁女",
+        "age": "中年",
+        "gender": "女",
+        "identity": "东方朔之妻",
+        "characteristic": "直率",
+        "description": "直率的家庭主妇"
+      },
+      "plot_related_info": {
+        "motivations": "好心办坏事，希望家庭和谐",
+        "relationships": {
+          "东方朔": "夫妻",
+          "霍云儿": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍云儿",
+        "age": "年轻",
+        "gender": "女",
+        "identity": "郭解之妻/守墓人",
+        "characteristic": "坚强",
+        "description": "坚强的守墓人"
+      },
+      "plot_related_info": {
+        "motivations": "为亡夫守墓，追求内心平静",
+        "relationships": {
+          "郭解": "夫妻",
+          "霍光": "姐弟",
+          "东方朔": "朋友"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍光",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "霍云儿之弟/未来官员",
+        "characteristic": "有志",
+        "description": "有志向的年轻人"
+      },
+      "plot_related_info": {
+        "motivations": "学习成长，成就大事",
+        "relationships": {
+          "霍云儿": "姐弟",
+          "东方朔": "师徒"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "汉武帝",
+        "age": "中年",
+        "gender": "男",
+        "identity": "皇帝",
+        "characteristic": "权谋",
+        "description": "权谋的汉朝皇帝"
+      },
+      "plot_related_info": {
+        "motivations": "维护皇权和国家稳定",
+        "relationships": {
+          "东方朔": "君臣",
+          "霍去病": "君臣",
+          "卫青": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "霍去病",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "冲动",
+        "description": "冲动的年轻将军"
+      },
+      "plot_related_info": {
+        "motivations": "捍卫家族荣誉和成就军功",
+        "relationships": {
+          "卫青": "甥舅",
+          "汉武帝": "君臣",
+          "李敢": "敌对"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "李敢",
+        "age": "年轻",
+        "gender": "男",
+        "identity": "将军",
+        "characteristic": "正直",
+        "description": "正直的将军"
+      },
+      "plot_related_info": {
+        "motivations": "为国立功和修复关系",
+        "relationships": {
+          "卫青": "同事",
+          "汉武帝": "君臣"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "卫青",
+        "age": "中年",
+        "gender": "男",
+        "identity": "大将军",
+        "characteristic": "正直",
+        "description": "正直的大将军"
+      },
+      "plot_related_info": {
+        "motivations": "维护军纪和国家利益",
+        "relationships": {
+          "霍去病": "甥舅",
+          "汉武帝": "君臣",
+          "李敢": "同事"
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "name": "张汤",
+        "age": "中年",
+        "gender": "男",
+        "identity": "官员",
+        "characteristic": "狡诈",
+        "description": "狡诈的官员"
+      },
+      "plot_related_info": {
+        "motivations": "重获皇帝信任和权力",
+        "relationships": {
+          "汉武帝": "君臣",
+          "蒲式": "利用关系"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "scene": {
+        "characters": ["东方朔", "齐鲁女"],
+        "description": "在东方朔家中，齐鲁女告知霍云儿因误会而去钟南山守墓，东方朔生气并决定前往寻找。"
+      },
+      "start": 0,
+      "end": 33,
+      "confidence": {
+        "character_assignment": 1.0,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["霍云儿", "霍光", "东方朔", "齐鲁女"],
+        "description": "在钟南山墓地，霍云儿与霍光对话表达守墓决心，东方朔偷听后放弃劝说。"
+      },
+      "start": 34,
+      "end": 86,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["东方朔", "齐鲁女", "辛苦子"],
+        "description": "东方朔回家后，辛苦子通知汉武帝邀请狩猎的事。"
+      },
+      "start": 87,
+      "end": 93,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["汉武帝", "东方朔", "霍去病", "李敢", "卫青", "辛苦子", "公孙敖", "雷贝"],
+        "description": "在上林苑狩猎中，霍去病误杀李敢，汉武帝袒护霍去病，引发东方朔和卫青的争议。"
+      },
+      "start": 94,
+      "end": 165,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.9
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "蒲式"],
+        "description": "在上林苑某处，张汤与老羊官蒲式对话，发现白鹿并计划献宝。"
+      },
+      "start": 166,
+      "end": 208,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.9,
+        "event_accuracy": 0.8
+      }
+    },
+    {
+      "scene": {
+        "characters": ["张汤", "汉武帝", "东方朔", "卫青", "霍去病"],
+        "description": "在上林苑狩猎地，张汤献白鹿给汉武帝，转移对霍去病事件的注意力。"
+      },
+      "start": 209,
+      "end": 232,
+      "confidence": {
+        "character_assignment": 0.9,
+        "scene_segmentation": 0.8,
+        "event_accuracy": 0.9
+      }
+    }
+  ],
+  "coverage_check": true
+}

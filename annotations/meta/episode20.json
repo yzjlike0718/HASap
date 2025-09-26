@@ -1,0 +1,282 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期。地点：主要集中在宫廷，如金殿、法场、建章宫等。世界观：古代中国宫廷政治，涉及皇帝、大臣、后宫争斗、军事事务等。",
+        "plot": "东方朔自称盗马贼，向汉武帝解释盗马是为了救卫青，揭露宫廷斗争。汉武帝意识到卫青是卫子夫的哥哥，下令停止处决卫青，并在法场上演劫法场事件。汉武帝在朝堂上审讯庄青翟和宁成，罢免庄青翟太尉之职，立卫子夫为夫人，提拔卫青和公孙敖。卫青开始学习兵法和礼法，成长为国家栋梁。汉武帝为卫子夫的姐姐卫少儿安排婚事，东方朔家庭经济困难但支持卫青和霍去病。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝刘彻",
+                "age": "成年",
+                "gender": "男",
+                "identity": "大汉天子",
+                "characteristic": "果断",
+                "description": "年轻果决的大汉皇帝"
+            },
+            "plot_related_info": {
+                "motivations": "巩固皇权，打击外戚势力，提拔人才",
+                "relationships": {
+                    "卫子夫": "恋人",
+                    "窦太主": "敌对",
+                    "陈阿娇": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "成年",
+                "gender": "男",
+                "identity": "伴驾侍郎",
+                "characteristic": "聪明",
+                "description": "机智慷慨的宫廷官员"
+            },
+            "plot_related_info": {
+                "motivations": "救助忠良，维护正义，培养人才",
+                "relationships": {
+                    "卫青": "朋友",
+                    "公孙敖": "朋友",
+                    "汉武帝刘彻": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "成年",
+                "gender": "男",
+                "identity": "建章宫都尉",
+                "characteristic": "沉默寡言",
+                "description": "老成持重的未来将军"
+            },
+            "plot_related_info": {
+                "motivations": "凭借自身努力获得成就，不依赖妹妹的地位",
+                "relationships": {
+                    "卫子夫": "兄妹",
+                    "东方朔": "朋友",
+                    "公孙敖": "兄弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "成年",
+                "gender": "男",
+                "identity": "建章宫都尉",
+                "characteristic": "勇敢",
+                "description": "忠诚勇敢的宫廷将领"
+            },
+            "plot_related_info": {
+                "motivations": "救助兄弟卫青，忠诚于汉武帝",
+                "relationships": {
+                    "卫青": "兄弟",
+                    "东方朔": "朋友",
+                    "公孙贺": "堂兄"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "庄青翟",
+                "age": "老年",
+                "gender": "男",
+                "identity": "太尉",
+                "characteristic": "胆小",
+                "description": "懦弱推卸责任的朝廷高官"
+            },
+            "plot_related_info": {
+                "motivations": "自保，推卸责任给太皇太后",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "窦太主": "依附"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "宁成",
+                "age": "成年",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "推卸",
+                "description": "推卸责任的司法官员"
+            },
+            "plot_related_info": {
+                "motivations": "避免罪责，讨好窦太主",
+                "relationships": {
+                    "汉武帝刘彻": "君臣",
+                    "窦太主": "依附"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫子夫",
+                "age": "成年",
+                "gender": "女",
+                "identity": "夫人",
+                "characteristic": "贤淑",
+                "description": "贤淑顺从的皇妃"
+            },
+            "plot_related_info": {
+                "motivations": "顺应武帝，维护家庭和谐",
+                "relationships": {
+                    "汉武帝刘彻": "恋人",
+                    "卫青": "兄妹",
+                    "卫少儿": "姐妹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "曹怀义",
+                "age": "成年",
+                "gender": "男",
+                "identity": "窦太主手下",
+                "characteristic": "屈从",
+                "description": "屈从命令的窦太主亲信"
+            },
+            "plot_related_info": {
+                "motivations": "执行窦太主命令，但最终求饶",
+                "relationships": {
+                    "窦太主": "下属",
+                    "陈阿娇": "下属"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "东方朔"],
+                "description": "在金殿上，东方朔向汉武帝解释自己盗取御马的原因是为了救卫青，并透露卫青是卫子夫的哥哥。"
+            },
+            "start": 0,
+            "end": 23,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["所忠", "公孙敖", "曹怀义", "卫青", "监长官", "刽子手"],
+                "description": "在法场上，曹怀义要求提前处决卫青，公孙敖劫法场救卫青，所忠传旨刀下留人。"
+            },
+            "start": 24,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "庄青翟", "宁成", "东方朔"],
+                "description": "在金殿上，汉武帝审讯庄青翟和宁成关于盗马和法场事件，庄青翟推卸责任给太皇太后。"
+            },
+            "start": 51,
+            "end": 84,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "东方朔", "公孙敖", "卫青"],
+                "description": "汉武帝承认劫法场行为，提拔卫青和公孙敖为建章宫都尉，并处罚宁成。"
+            },
+            "start": 85,
+            "end": 112,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "曹怀义", "文武大臣"],
+                "description": "汉武帝处决曹怀义，曹怀义喊冤指认陈皇后和窦太主，汉武帝立卫子夫为夫人并警告干预后宫者。"
+            },
+            "start": 113,
+            "end": 124,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["卫青", "东方朔", "公孙敖"],
+                "description": "卫青开始沉默寡言，学习兵法和礼法，与东方朔和公孙敖共同练武读书，成长迅速。"
+            },
+            "start": 125,
+            "end": 133,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "皇太后"],
+                "description": "汉武帝向皇太后解释罢免庄青翟和立卫子夫为夫人的原因，皇太后表示满意。"
+            },
+            "start": 134,
+            "end": 146,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "卫子夫"],
+                "description": "汉武帝与卫子夫对话，讨论安排卫青和卫少儿的事宜，卫子夫表现出贤淑和顺从。"
+            },
+            "start": 147,
+            "end": 166,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝刘彻", "公孙贺", "卫少儿"],
+                "description": "汉武帝做媒将卫少儿嫁给公孙贺，两人在宫中成亲，公孙贺谢恩。"
+            },
+            "start": 167,
+            "end": 170,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "卫青", "霍去病", "公孙敖"],
+                "description": "东方朔家庭经济困难，但支持卫青和霍去病，霍去病住在东方朔家学习武艺，卫青心里不踏实。"
+            },
+            "start": 171,
+            "end": 189,
+            "confidence": {
+                "character_assignment": 1.0,
+                "scene_segmentation": 1.0,
+                "event_accuracy": 1.0
+            }
+        }
+    ],
+    "coverage_check": true
+}

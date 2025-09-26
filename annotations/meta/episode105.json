@@ -1,0 +1,245 @@
+{
+    "story": {
+        "background": "时间：中国古代汉武帝时期。地点：齐国的首都临淄和长安。世界观：古代中国宫廷政治，涉及婚姻政治、权力斗争和阴谋。",
+        "plot": "主父衍奉汉武帝之命护送金娥公主嫁到齐国，同时将自己的女儿嫁给齐王次昌。齐王次昌因后宫烦恼且害怕主父衍的权势，在婚礼上被主父衍的女儿吓跑，拒绝婚事。金娥公主因此得救，在宫中与蒲柳通信。东方朔在长安调查蒲式献羊的真相，发现主父衍和张汤的阴谋，并获取白鹿。东方朔得知齐国情况后，前往临淄处理蒲柳和金娥的事情。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐国宰相",
+                "characteristic": "心狠手辣",
+                "description": "心狠手辣的齐国宰相"
+            },
+            "plot_related_info": {
+                "motivations": "扩大自己的权势，控制齐王",
+                "relationships": {
+                    "齐王次昌": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐王次昌",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "齐国国王",
+                "characteristic": "忐忑不安",
+                "description": "忐忑不安的齐国国王"
+            },
+            "plot_related_info": {
+                "motivations": "避免被主父衍控制，处理后宫烦恼",
+                "relationships": {
+                    "主父衍": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "聪明",
+                "description": "聪明的大臣"
+            },
+            "plot_related_info": {
+                "motivations": "保护家人，揭露真相",
+                "relationships": {
+                    "齐鲁女": "夫妻",
+                    "蒲柳": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "齐鲁女",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "东方朔的妻子",
+                "characteristic": "急躁",
+                "description": "急躁的东方朔之妻"
+            },
+            "plot_related_info": {
+                "motivations": "担心儿子蒲柳",
+                "relationships": {
+                    "东方朔": "夫妻",
+                    "蒲柳": "母子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "蒲式",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "牧羊人",
+                "characteristic": "诚实",
+                "description": "诚实的牧羊人"
+            },
+            "plot_related_info": {
+                "motivations": "当官，讨好主父衍和张汤",
+                "relationships": {
+                    "主父衍": "利用关系",
+                    "张汤": "利用关系"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得道",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "仆人",
+                "characteristic": "忠诚",
+                "description": "忠诚的仆人"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔家族",
+                "relationships": {
+                    "东方朔": "主仆",
+                    "阿都": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "阿都",
+                "age": "50多岁",
+                "gender": "男",
+                "identity": "仆人",
+                "characteristic": "勤快",
+                "description": "勤快的仆人"
+            },
+            "plot_related_info": {
+                "motivations": "服务东方朔",
+                "relationships": {
+                    "东方朔": "主仆",
+                    "杨得道": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["主父衍", "齐王次昌"],
+                "description": "在齐国宫殿，主父衍护送金娥公主和自己的女儿到达，齐王次昌迎接但内心忐忑不安。"
+            },
+            "start": 0,
+            "end": 24,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "齐王次昌"],
+                "description": "主父衍与齐王对话，逼齐王接受自己的女儿为妾，齐王无奈答应。"
+            },
+            "start": 25,
+            "end": 50,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["主父衍", "齐王次昌", "主父衍女儿"],
+                "description": "齐王揭开主父衍女儿的盖头被吓跑，拒绝婚事，主父衍追赶。"
+            },
+            "start": 51,
+            "end": 58,
+            "confidence": {
+                "character_assignment": 0.8,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女"],
+                "description": "在长安家中，东方朔和齐鲁女等待鸽子信，讨论蒲柳的情况。"
+            },
+            "start": 59,
+            "end": 76,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔"],
+                "description": "东方朔外出到上林院，享受自由。"
+            },
+            "start": 77,
+            "end": 78,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "蒲式"],
+                "description": "在上林院，东方朔与蒲式对话关于牧羊之道和献羊的真相。"
+            },
+            "start": 79,
+            "end": 136,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "蒲式"],
+                "description": "东方朔与蒲式讨论白鹿，东方朔获取一对白鹿。"
+            },
+            "start": 137,
+            "end": 153,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "齐鲁女", "阿都"],
+                "description": "东方朔回家后收到鸽子信，得知齐国情况，准备前往临淄。"
+            },
+            "start": 154,
+            "end": 171,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["东方朔", "杨得道", "阿都"],
+                "description": "在临淄的庭院，东方朔与杨得道对话关于蒲柳和金娥公主的会面。"
+            },
+            "start": 172,
+            "end": 190,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

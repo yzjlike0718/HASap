@@ -1,0 +1,254 @@
+{
+    "story": {
+        "background": "时间：汉朝汉武帝时期的一个下午至傍晚。地点：长安城外的上林院及杜县附近。世界观：古代中国宫廷与民间交织的世界，有皇帝、大臣、将军、年轻才俊和地方官员。",
+        "plot": "汉武帝带着东方朔、卫青等人出猎，途中东方朔引荐了年轻的司马迁和霍去病。打猎中霍去病展示高超骑射技艺，赢得汉武帝赞赏。天黑后汉武帝坚持继续打猎，误入杜县地界，被县令张风良和法曹张汤误认为骚扰者，发生冲突。霍去病独自应对兵丁，展现武艺，最终京畿大侠郭解出现，留下悬念。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "汉武帝",
+                "age": "中年",
+                "gender": "男",
+                "identity": "皇帝",
+                "characteristic": "威严",
+                "description": "中年的男性皇帝，威严"
+            },
+            "plot_related_info": {
+                "motivations": "寻求打猎乐趣和考察人才",
+                "relationships": {
+                    "霍去病": "赞赏",
+                    "卫青": "君臣",
+                    "东方朔": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "东方朔",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大臣",
+                "characteristic": "机智",
+                "description": "中年的男性大臣，机智"
+            },
+            "plot_related_info": {
+                "motivations": "辅佐皇帝和培养年轻人",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "霍去病": "干爹",
+                    "司马迁": "导师"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "卫青",
+                "age": "中年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "谨慎",
+                "description": "中年的男性将军，谨慎"
+            },
+            "plot_related_info": {
+                "motivations": "保护皇帝安全和维护军纪",
+                "relationships": {
+                    "汉武帝": "君臣",
+                    "霍去病": "舅舅"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "公孙敖",
+                "age": "中年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "服从",
+                "description": "中年的男性将军，服从"
+            },
+            "plot_related_info": {
+                "motivations": "陪同皇帝和执行命令",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "杨得意",
+                "age": "成年",
+                "gender": "男",
+                "identity": "侍卫",
+                "characteristic": "忠诚",
+                "description": "成年的男性侍卫，忠诚"
+            },
+            "plot_related_info": {
+                "motivations": "伺候皇帝和管理猎犬",
+                "relationships": {
+                    "汉武帝": "君臣"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "少年",
+                "gender": "男",
+                "identity": "年轻武将",
+                "characteristic": "勇猛",
+                "description": "少年的男性年轻武将，勇猛"
+            },
+            "plot_related_info": {
+                "motivations": "证明自己的武艺和赢得认可",
+                "relationships": {
+                    "汉武帝": "赞赏",
+                    "卫青": "舅舅",
+                    "东方朔": "干爹"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马迁",
+                "age": "青年",
+                "gender": "男",
+                "identity": "太史公儿子",
+                "characteristic": "文秀",
+                "description": "青年的男性太史公儿子，文秀"
+            },
+            "plot_related_info": {
+                "motivations": "学习知识和见世面",
+                "relationships": {
+                    "东方朔": "学生"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张风良",
+                "age": "中年",
+                "gender": "男",
+                "identity": "杜县县令",
+                "characteristic": "严厉",
+                "description": "中年的男性杜县县令，严厉"
+            },
+            "plot_related_info": {
+                "motivations": "维护地方治安和展示政绩",
+                "relationships": {
+                    "张汤": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "青年",
+                "gender": "男",
+                "identity": "法曹",
+                "characteristic": "精明",
+                "description": "青年的男性法曹，精明"
+            },
+            "plot_related_info": {
+                "motivations": "执法严明和提升声誉",
+                "relationships": {
+                    "张风良": "父子"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "成年",
+                "gender": "男",
+                "identity": "京畿大侠",
+                "characteristic": "侠义",
+                "description": "成年的男性京畿大侠，侠义"
+            },
+            "plot_related_info": {
+                "motivations": "行侠仗义和维护地盘",
+                "relationships": {}
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "卫青", "公孙敖", "杨得意", "霍去病", "司马迁"],
+                "description": "下午，汉武帝在上林院准备出猎，东方朔引荐司马迁和霍去病，汉武帝同意他们陪同。"
+            },
+            "start": 0,
+            "end": 43,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "公孙敖", "杨得意", "霍去病", "司马迁", "东方朔"],
+                "description": "打猎过程中，霍去病展示骑射技艺，汉武帝赞赏他，卫青谨慎建议回宫，但汉武帝坚持继续打猎。"
+            },
+            "start": 44,
+            "end": 97,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "卫青", "公孙敖", "东方朔", "霍去病", "司马迁", "杨得意"],
+                "description": "天色已黑，汉武帝带队前往远处，卫青和公孙敖调整兵勇，其他人跟随汉武帝。"
+            },
+            "start": 98,
+            "end": 103,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "东方朔", "霍去病", "司马迁", "杨得意", "张风良", "张汤"],
+                "description": "在杜县地界，汉武帝等人被张风良和张汤带领的兵丁包围，双方对峙，汉武帝隐瞒身份。"
+            },
+            "start": 104,
+            "end": 129,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "霍去病", "张汤", "兵丁"],
+                "description": "霍去病与张汤的兵丁交手，轻松击败多人，张汤气急败坏，汉武帝观看并赞赏霍去病。"
+            },
+            "start": 130,
+            "end": 172,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["汉武帝", "霍去病", "张汤", "张风良", "郭解"],
+                "description": "京畿大侠郭解突然出现，询问情况，张汤求助，汉武帝惊讶于郭解的胆识，故事暂停。"
+            },
+            "start": 173,
+            "end": 192,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

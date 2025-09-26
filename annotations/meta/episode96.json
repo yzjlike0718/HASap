@@ -1,0 +1,165 @@
+{
+    "story": {
+        "background": "汉武帝时期，大侠郭解被命令迁居茂陵，故事发生在杜县郭解家中、长安廷尉府以及郭解迁居途中。朝廷与民间侠客之间存在冲突，佞臣密谋陷害郭解。",
+        "plot": "司马迁劝说郭解顺从皇命迁居茂陵；郭解最终同意并准备搬迁；佞臣张汤、主父衍和义纵得知消息后密谋陷害郭解；郭解在搬迁途中受到各地官员迎接，但被小人监视，为后续冲突埋下伏笔。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "正直",
+                "description": "正直的民间大侠"
+            },
+            "plot_related_info": {
+                "motivations": "保护家庭和声誉，避免触怒皇上，同时维护百姓利益",
+                "relationships": {
+                    "霍云儿": "夫妻",
+                    "司马迁": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "司马迁",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "史官/官员",
+                "characteristic": "劝说",
+                "description": "劝说的史官"
+            },
+            "plot_related_info": {
+                "motivations": "完成皇命，劝说郭解迁居，维护朝廷稳定",
+                "relationships": {
+                    "郭解": "朋友",
+                    "东方朔": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "N/A",
+                "gender": "女",
+                "identity": "郭解夫人",
+                "characteristic": "支持",
+                "description": "支持丈夫的夫人"
+            },
+            "plot_related_info": {
+                "motivations": "支持丈夫决定，维护家庭稳定",
+                "relationships": {
+                    "郭解": "夫妻"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "阴狠",
+                "description": "阴狠的廷尉"
+            },
+            "plot_related_info": {
+                "motivations": "维护自身权力，讨好皇上，铲除异己",
+                "relationships": {
+                    "主父衍": "同事",
+                    "义纵": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "狡猾",
+                "description": "狡猾的官员"
+            },
+            "plot_related_info": {
+                "motivations": "升官发财，排除竞争对手，讨好皇上",
+                "relationships": {
+                    "张汤": "同事",
+                    "义纵": "同事",
+                    "东方朔": "敌对"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "执金吾",
+                "characteristic": "狠毒",
+                "description": "狠毒的执金吾"
+            },
+            "plot_related_info": {
+                "motivations": "巩固权力，控制茂陵，铲除郭解",
+                "relationships": {
+                    "张汤": "同事",
+                    "主父衍": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["郭解", "司马迁", "霍云儿"],
+                "description": "在杜县郭解家中，司马迁劝说郭解迁居茂陵，郭解最终同意，司马迁告辞。"
+            },
+            "start": 0,
+            "end": 28,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍云儿", "管家"],
+                "description": "郭解让管家到茂陵置办田产，家人收拾东西准备搬迁。"
+            },
+            "start": 29,
+            "end": 33,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["张汤", "主父衍", "义纵"],
+                "description": "在长安廷尉府，三个佞臣得知郭解搬迁消息，密谋对付郭解，主父衍和义纵先后离开。"
+            },
+            "start": 34,
+            "end": 145,
+            "confidence": {
+                "character_assignment": 0.95,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍云儿", "管家", "县令", "太守"],
+                "description": "郭解动身迁居茂陵，途中受到杜县县令、奉明县县令和福丰太守迎接，但拒绝礼物，小人监视。"
+            },
+            "start": 146,
+            "end": 193,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}

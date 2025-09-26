@@ -1,0 +1,255 @@
+{
+    "story": {
+        "background": "时间：古代汉朝汉武帝时期。地点：淮南、长安、上林苑、义纵大营。世界观：江湖侠客与朝廷官员的斗争，侠义精神与法律冲突，涉及绑架、营救和自首情节。",
+        "plot": "大侠郭解为拯救被张汤、义纵绑架的三百多个孩子，前往淮南托付籍安氏给雷贝，随后返回长安与家人团聚。郭解最终决定自首以换回孩子，在义纵大营与反派对峙，迫使对方释放孩子。主要矛盾是郭解与朝廷官员的对抗，关键转折是郭解的自首决定。"
+    },
+    "characters": [
+        {
+            "basic_info": {
+                "name": "郭解",
+                "age": "中年",
+                "gender": "男",
+                "identity": "大侠",
+                "characteristic": "正义勇敢",
+                "description": "正义勇敢的江湖大侠"
+            },
+            "plot_related_info": {
+                "motivations": "拯救孩子、维护声誉",
+                "relationships": {
+                    "霍云儿": "夫妻",
+                    "籍少翁": "恩人",
+                    "雷贝": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "籍安氏",
+                "age": "少年",
+                "gender": "男",
+                "identity": "被救孩子",
+                "characteristic": "无辜",
+                "description": "无辜的被救少年"
+            },
+            "plot_related_info": {
+                "motivations": "生存",
+                "relationships": {
+                    "籍少翁": "父子",
+                    "郭解": "保护者"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "雷贝",
+                "age": "N/A",
+                "gender": "男",
+                "identity": "淮南大侠",
+                "characteristic": "谨慎",
+                "description": "谨慎的淮南大侠"
+            },
+            "plot_related_info": {
+                "motivations": "帮助郭解",
+                "relationships": {
+                    "郭解": "朋友"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍云儿",
+                "age": "青年",
+                "gender": "女",
+                "identity": "郭解夫人",
+                "characteristic": "担忧",
+                "description": "担忧的郭解夫人"
+            },
+            "plot_related_info": {
+                "motivations": "保护家庭",
+                "relationships": {
+                    "郭解": "夫妻",
+                    "霍去病": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍去病",
+                "age": "青年",
+                "gender": "男",
+                "identity": "将军",
+                "characteristic": "保护性",
+                "description": "保护性的将军"
+            },
+            "plot_related_info": {
+                "motivations": "保护姐姐和侄子",
+                "relationships": {
+                    "霍云儿": "姐弟",
+                    "郭解": "姐夫"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "霍光",
+                "age": "青年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "谨慎",
+                "description": "谨慎的官员"
+            },
+            "plot_related_info": {
+                "motivations": "帮助家庭",
+                "relationships": {
+                    "霍去病": "兄弟",
+                    "霍云儿": "姐弟"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "张汤",
+                "age": "中年",
+                "gender": "男",
+                "identity": "廷尉",
+                "characteristic": "邪恶",
+                "description": "邪恶的廷尉官员"
+            },
+            "plot_related_info": {
+                "motivations": "捉拿郭解、维护权力",
+                "relationships": {
+                    "义纵": "同事",
+                    "主父衍": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "义纵",
+                "age": "中年",
+                "gender": "男",
+                "identity": "执金吾",
+                "characteristic": "狡猾",
+                "description": "狡猾的执金吾官员"
+            },
+            "plot_related_info": {
+                "motivations": "捉拿郭解",
+                "relationships": {
+                    "张汤": "同事",
+                    "主父衍": "同事"
+                }
+            }
+        },
+        {
+            "basic_info": {
+                "name": "主父衍",
+                "age": "中年",
+                "gender": "男",
+                "identity": "官员",
+                "characteristic": "懦弱",
+                "description": "懦弱的官员"
+            },
+            "plot_related_info": {
+                "motivations": "捉拿郭解",
+                "relationships": {
+                    "张汤": "同事",
+                    "义纵": "同事"
+                }
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "scene": {
+                "characters": ["郭解", "雷贝"],
+                "description": "在淮南雷贝家中，郭解将籍安氏托付给雷贝，并说明自己为救孩子而冒险。"
+            },
+            "start": 0,
+            "end": 30,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["雷贝", "籍安氏"],
+                "description": "在雷贝家中，雷贝面对籍安氏，无奈接受托付。"
+            },
+            "start": 31,
+            "end": 32,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍去病", "霍光", "霍云儿"],
+                "description": "在长安上林苑帐篷外，郭解偷听霍去病、霍光和霍云儿的对话，了解家人安全情况。"
+            },
+            "start": 33,
+            "end": 56,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "霍云儿"],
+                "description": "在帐篷内，郭解与夫人霍云儿团聚，交代后事并留下血书。"
+            },
+            "start": 57,
+            "end": 89,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "张汤", "义纵", "主父衍", "百姓"],
+                "description": "在义纵大营外，郭解观察孩子被关押情况，听到张汤等人讨论，决定现身。"
+            },
+            "start": 90,
+            "end": 131,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "百姓"],
+                "description": "在大营外，百姓认出郭解，跪求他离开，但郭解坚持要救孩子。"
+            },
+            "start": 132,
+            "end": 158,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        },
+        {
+            "scene": {
+                "characters": ["郭解", "张汤", "义纵", "主父衍", "百姓"],
+                "description": "在大营前，郭解与张汤、义纵、主父衍对峙，以自首换回孩子释放。"
+            },
+            "start": 159,
+            "end": 232,
+            "confidence": {
+                "character_assignment": 0.9,
+                "scene_segmentation": 0.9,
+                "event_accuracy": 0.9
+            }
+        }
+    ],
+    "coverage_check": true
+}
