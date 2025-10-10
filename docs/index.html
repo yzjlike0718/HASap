@@ -25,8 +25,7 @@
 
 <div class="container pt-5 mt-5 shadow-lg p-5 mb-5 bg-white rounded">
 	<div class="text-center">
-	<h2>HASap:</h2>
-	<h3>Hierarchical Acoustic-Semantic Annotation Pipeline for Scripted Speech Data</h3>
+	<h3>HASap: Hierarchical Acoustic-Semantic Annotation Pipeline for Scripted Speech Data</h3>
 	</div>
 	<p><b>Abstract.</b> Scripted speech (e.g., audiobooks, dramas) is a rich source for expressive text-to-speech (TTS) synthesis as it tightly couples narrative semantics with acoustic delivery. However, conventional data annotation pipelines either process utterances in isolation or rely solely on text cues, resulting in supervision that is inconsistent across utterances and only weakly grounded in acoustics. To overcome these limitations, we propose <strong>HASap</strong>, a novel <strong>h</strong>ierarchical <strong>a</strong>coustic–<strong>s</strong>emantic <strong>a</strong>nnotation <strong>p</strong>ipeline that integrates three levels of supervision: (i) global narrative semantics inferred by LLM, (ii) utterance-level delivery style reconciled with scene and role context, and (iii) local prosodic emphasis derived from acoustic cues. In addition, the pipeline performs context-aware resegmentation to produce role-consistent and semantically coherent speech segments, making them suitable for controllable and expressive TTS training. Tested on the StoryTTS dataset with CosyVoice&nbsp;2, HASap significantly outperforms both text-only and unannotated baselines on objective and subjective metrics. Ablation studies confirm that hierarchical annotations provide effective control over both overall expressiveness and fine-grained prosody.
 	</p>
@@ -46,7 +45,7 @@
 
 
 <div class="container pt-5 mt-5 shadow-lg p-5 mb-5 bg-white rounded">		
-	<h2 id="model-overview" style="text-align: center;">System Overview</h2>
+	<h3 id="model-overview" style="text-align: center;">System Overview</h3>
 
 	<p style="text-align: center;">
 		<img src="assets/pics/pipeline.png" height="400" width="800">
@@ -59,7 +58,7 @@
 
 
 <div class="container pt-5 mt-5 shadow-lg p-5 mb-5 bg-white rounded">
-    <h2 id="Annotation_Systems_Comparison" style="text-align: center;">Annotation Systems Comparison</h2>
+    <h3 id="Annotation_Systems_Comparison" style="text-align: center;">Annotation Systems Comparison</h3>
     
     <p>
         <strong>Compared systems:</strong> We compare three systems trained on StoryTTS with a CosyVoice 2 backbone:
@@ -158,7 +157,7 @@
 
 
 <div class="container pt-5 mt-5 shadow-lg p-5 mb-5 bg-white rounded">
-	<h2 id="audiobook_samples" style="text-align: center;">Audiobook Synthesis</h2>
+	<h3 id="audiobook_samples" style="text-align: center;">Audiobook Synthesis</h3>
 	<br>
 		<!-- <div class="table-responsive pt-3">
 			<table class="table table-hover pt-2">
