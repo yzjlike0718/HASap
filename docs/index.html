@@ -30,7 +30,10 @@
 	<p><b>Abstract.</b> Scripted speech (e.g., audiobooks, dramas) is a rich source for expressive text-to-speech (TTS) synthesis as it tightly couples narrative semantics with acoustic delivery. However, conventional data annotation pipelines either process utterances in isolation or rely solely on text cues, resulting in supervision that is inconsistent across utterances and only weakly grounded in acoustics. To overcome these limitations, we propose <strong>HASap</strong>, a novel <strong>h</strong>ierarchical <strong>a</strong>coustic–<strong>s</strong>emantic <strong>a</strong>nnotation <strong>p</strong>ipeline that integrates three levels of supervision: (i) global narrative semantics inferred by LLM, (ii) utterance-level delivery style reconciled with scene and role context, and (iii) local prosodic emphasis derived from acoustic cues. In addition, the pipeline performs context-aware resegmentation to produce role-consistent and semantically coherent speech segments, making them suitable for controllable and expressive TTS training. Tested on the StoryTTS dataset with CosyVoice&nbsp;2, HASap significantly outperforms both text-only and unannotated baselines on objective and subjective metrics. Ablation studies confirm that hierarchical annotations provide effective control over both overall expressiveness and fine-grained prosody.
 	</p>
 
-	<p>
+	<p style="text-align: center;">
+		<a href="https://github.com/yzjlike0718/HASap" target="_blank" rel="noopener">GitHub</a>
+	</p>
+
 	<b>Contents</b>
       <ul>
         <li><a href="#model-overview">System Overview</a></li>
