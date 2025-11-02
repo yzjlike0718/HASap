@@ -1,4 +1,0 @@
-PROMPT_EMOTION = "Identify and classify the emotions conveyed through spoken language. The answer could be anger, disgust, sadness, joy, neutral, surprise, or fear."
-PROMPT_TONE = "Analyze the tone of the spoken language and classify it into one of the following categories: formal, casual, enthusiastic, sarcastic, confident, firm, hesitant, aggressive, playful, sympathetic, or neutral."
-PROMPT_ACOUSTICS = "Identify the speed, volume, and pitch of the speech and classify them into one of the following categories: low, normal, or high"
-PROMPT_SPEAKER = "Identify the gender and age of the speaker. The answer to gender could be male, or female. The answer to age could be child, teenager, youngster, mid-aged, or elderly."
